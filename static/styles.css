@@ -182,3 +182,24 @@ html, body {
     font-family: Arial;
     color: white;
 }
+
+.links {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+a.custom_link:link {
+    color: red;
+    text-decoration: none;
+}
+
+a.custom_link:visited {
+    color: red;
+    text-decoration: none;
+}
+
+a.custom_link:hover {
+    color: red;
+    text-decoration: none;
+}
