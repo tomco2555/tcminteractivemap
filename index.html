@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="lib/leaflet/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rbush"></script>
+    <script src="lib/leaflet-markers-canvas.js"></script>
+    <script src="static/script.js"></script>
+</head>
+<body>
+    <div id="main-container">
+        <div id="map"></div>
+
+        <div id="left_sidebar">
+            <div id="filters_sidebar">
+                <div id="logo">
+                    <img src="img/tcm_logo.png" id="logo_img">
+                    <p class="web_logo">THE CREW MOTORFEST INTERACTIVE MAP</p>
+                    <p style="margin-bottom: 5px">created by Tomco</p>
+                </div>
+                <div id="events">
+                    <div class="event_header">
+                        <button class="header">Playlists</button>
+                    </div>
+                    <div id="event_filters">
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('mij')" id="mij_playlist">
+                            <span>Made in Japan</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('hst')" id="hst_playlist">
+                            <span>Hawaii Scenic Tour</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('am')" id="am_playlist">
+                            <span>American Muscle</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('porsche')" id="porsche_playlist">
+                            <span>911 Legacy</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('dm')" id="dm_playlist">
+                            <span>Rule the Streets</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('oa')" id="oa_playlist">
+                            <span>Off-roading Addict</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('vg')" id="vg_playlist">
+                            <span>Vintage Garage</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('al')" id="al_playlist">
+                            <span>Automobili Lamborghini</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('motorsports')" id="motorsports_playlist">
+                            <span>Motorsports</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('eo')" id="eo_playlist">
+                            <span>Electric Odyssey</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('dc')" id="dc_playlist">
+                            <span>Dream Cars</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('bl')" id="bl_playlist">
+                            <span>Bike Lovers</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('lbwk')" id="lbwk_playlist">
+                            <span>Liberty Walk</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('de')" id="de_playlist">
+                            <span>Drift Experience</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('ons')" id="ons_playlist">
+                            <span>Ocean'N Sky</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('gym')" id="gym_playlist">
+                            <span>Gymkhana Grid Masters</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('de2')" id="de2_playlist">
+                            <span>Drift Experience Vol.2</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('ha')" id="ha_playlist">
+                            <span>Hollywood Action!</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('dvl')" id="dvl_playlist">
+                            <span>Donk vs Lowrider</span>
+                        </div>
+                        <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('oa2')" id="oa2_playlist">
+                            <span>Off-roading Addict Vol.2</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="events">
+                    <div class="event_header">
+                        <button class="header">Activities</button>
+                    </div>
+                    <div id="event_filters">
+                        <div class="filter_option activity_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="events_checkbox" onchange="activitiesCheckbox()">
+                            <span>Events</span>
+                        </div>
+                        <div class="filter_option activity_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="collectibles_checkbox" onchange="activitiesCheckbox()">
+                            <span>Collectibles</span>
+                        </div>
+                        <div class="filter_option activity_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="photo_ops_checkbox" onchange="activitiesCheckbox()">
+                            <span>Photo Ops</span>
+                        </div>
+                        <div class="filter_option activity_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="feats_checkbox" onchange="activitiesCheckbox()">
+                            <span>Feats</span>
+                        </div>
+                        <div class="filter_option activity_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="container_checkbox" onchange="activitiesCheckbox()">
+                            <span>Container</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="events">
+                    <div class="event_header">
+                        <button class="header">Misc</button>
+                    </div>
+                    <div id="event_filters">
+                        <div class="filter_option misc_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="grand_race_checkbox" onchange="GrandRaceCheckbox()">
+                            <span>Grand Race</span>
+                        </div>
+                        <div class="filter_option misc_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="demo_royale_checkbox" onchange="DemoRoyaleCheckbox()">
+                            <span>Demo Royale</span>
+                        </div>
+                        <div class="filter_option misc_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="mf_grounds_checkbox" onchange="MFGroundsCheckbox()">
+                            <span>Motorfest Grounds</span>
+                        </div>
+                        <div class="filter_option misc_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="treasure_checkbox" onchange="TreasureCheckbox()">
+                            <span>Treasure Locations</span>
+                        </div>
+                        <div class="filter_option misc_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="achievements_checkbox" onchange="AchievementsCheckbox()">
+                            <span>Achievements</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="close">
+                <button id="close_btn"><</button> 
+            </div>
+        </div>
+    </div>
+
+    <script src="static/map.js"></script>
+    <script src="static/feats_markers.js"></script>
+    <script src="static/misc.js"></script>
+    <script src="static/hst.js"></script>
+    <script src="static/mij.js"></script>
+    <script src="static/donut_media.js"></script>
+    <script src="static/off_add.js"></script>
+    <script src="static/vin_gar.js"></script>
+    <script src="static/ons.js"></script>
+    <script src="static/american_muscle.js"></script>
+    <script src="static/porsche.js"></script>
+    <script src="static/auto_lambo.js"></script>
+    <script src="static/motorsports.js"></script>
+    <script src="static/ele_ody.js"></script>
+    <script src="static/dream_cars.js"></script>
+    <script src="static/bike_lovers.js"></script>
+    <script src="static/lbwk.js"></script>
+    <script src="static/drift.js"></script>
+    <script src="static/gymkhana.js"></script>
+    <script src="static/drift2.js"></script>
+    <script src="static/hollywood.js"></script>
+    <script src="static/dvl.js"></script>
+    <script src="static/off_add2.js"></script>
+
+    <script>
+        var counter = 0;
+        map.eachLayer((layer)=>{
+            if(layer instanceof L.Marker){
+                counter++;
+            }
+        });
+        console.log(counter)
+    </script>
+</body>
+</html>
