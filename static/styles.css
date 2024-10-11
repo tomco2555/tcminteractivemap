@@ -184,9 +184,12 @@ html, body {
 }
 
 .links {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(70, 70, 70);
+    width: 100%;
 }
 
 a.custom_link:link {
