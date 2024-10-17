@@ -1,6 +1,7 @@
 //Animation for closing filters sidebar
 document.addEventListener("DOMContentLoaded", function() {
     const filters_sidebar = document.getElementById("filters_sidebar")
+    const left_sidebar = document.getElementById("left_sidebar");
     const close_btn = document.getElementById("close_btn")
     const close_div = document.getElementById("close")
 
@@ -10,9 +11,16 @@ document.addEventListener("DOMContentLoaded", function() {
         
         if (close_div.classList.contains("move_button")) {
             close_btn.textContent = ">";
+            setTimeout(function() {
+                left_sidebar.style.width = '0';
+                map.invalidateSize();
+                filters_sidebar.style.outline = 'none';
+            }, 500);
         }
         else {
             close_btn.textContent = "<";
+            left_sidebar.style.width = '25%';
+            filters_sidebar.style.outline = '1px solid white';
         }
     })
 });
