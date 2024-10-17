@@ -12,11 +12,11 @@ var am_event_icon = L.icon({
     popupAnchor: [0,-35],
 });
 
-var am_container_group = [];
-var am_events_group = [];
-var am_photo_ops_group = [];
-var am_feats_group = [];
-var am_collectibles_group = [];
+am_container_group = [];
+am_events_group = [];
+am_photo_ops_group = [];
+am_feats_group = [];
+am_collectibles_group = [];
 
 //CONTAINER
 am_container_marker = L.marker([796.268069, 2303], {icon:am_container_icon});
@@ -24,8 +24,6 @@ am_container_marker.bindPopup('<b>American Muscle</b><br>\
                                <i>Container</i>', {
     className: "hstPopup"
 })
-
-am_container_group.push(am_container_marker);
 
 //EVENTS
 //Event 01
@@ -163,6 +161,228 @@ am_event09_marker.bindPopup("<b style=\"font-size:20px\">Detroit Finisher</b><br
     className: "hstPopup"
 });
 
-for(var i = 1; i < 10; i++) {
-    am_events_group.push(window["am_event0" + i + "_marker"]);
+//FEATS
+var AMfeatsArr = [[784.695041, 1833.6875, "escape", "Makakilo River", "Escape", "690 m", "2,880", "5,400"],  //Feat 01
+                  [1289.316933, 2183.28243, "slalom", "Kunia", "Slalom", "5,510 PTS", "2,880", "5,400"],  //Feat 02
+                  [1477.328411, 2097.278713, "speedtrap", "Schofield", "Speedtrap", "250.0 km/h", "960", "1,800"],  //Feat 03
+                  [1879.845217, 1814.612777, "escape", "Peacock Flats", "Escape", "440 m", "1,440", "2,700"],  //Feat 04
+                  [2483.991633, 2322.5, "speedtrap", "Turtle Bay Resort", "Speedtrap", "200.0 km/h", "960", "1,800"],  //Feat 05
+                  [2116.130379, 2602.5, "slalom", "Cultural Center", "Slalom", "5,660 PTS", "2,880", "5,400"],  //Feat 06
+                  [1548.893948, 2785.875, "escape", "Waiahole Forest", "Escape", "960 m", "2,880", "5,400"],  //Feat 07
+                 ]
+
+function createAMFeatsMarkers(featsArr) {
+    for(var i = 0; i < featsArr.length; i++) {
+        window["am_feat" + i + "_marker"] = L.marker([featsArr[i][0], featsArr[i][1]], {icon:window[featsArr[i][2] +"_icon"]});
+        window["am_feat" + i + "_marker"].bindPopup("<b style=\"font-size:20px\">American Feats - " + featsArr[i][3] + "</b><br>\
+                                     <i>Feat - " + featsArr[i][4] + "</i><br>\
+                                     <span><b>American Muscle</b></span><br>\
+                                     <hr style=\"background-color:white;height:0.5px\">\
+                                     <span><b>Objective:</b> " + featsArr[i][5] + "</span><br>\
+                                     <span style=\"display:inline-block;\"><img src=\"img/Misc/green_xp.png\" style=\"vertical-align:middle; width:25%; height:25%\"> <span style=\"vertical-align:middle;\">" + featsArr[i][6] + "</span></span><br>\
+                                     <span style=\"display:inline-block;\"><img src=\"img/Misc/bucks.png\" style=\"vertical-align:middle; width:25%; height:25%\"> <span style=\"vertical-align:middle;\">" + featsArr[i][7] + "</span></span><br>", {
+            className: "hstPopup"
+        });
+    }
 }
+
+createAMFeatsMarkers(AMfeatsArr);
+
+//PHOTO OPS
+//Photo Ops 1 American Views - Bunkers
+am_photo_ops01_marker = L.marker([634.536982, 2153.25], {icon:photo_op_icon});
+am_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">American Views - Bunkers</b><br>\
+                              <i>Photo Ops</i><br>\
+                              <span><b>American Muscle</b></span><br>\
+                              <hr style=\"background-color:white;height:0.5px\">\
+                              <span><b>Requirements</b></span><br>\
+                              <span>- Ford Mustang Shelby GT500 Tribute Edition</span><br>\
+                              <span>- Ewa military camp</span><br>\
+                              <span>- Bunkers</span><br>\
+                              <span>- Hawaiian flag</span><br>", {
+    className: "hstPopup"
+});
+
+//Photo Ops 2 American Views - American Flag
+am_photo_ops02_marker = L.marker([1669.926708, 2268.125], {icon:photo_op_icon});
+am_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">American Views - American Flag</b><br>\
+                              <i>Photo Ops</i><br>\
+                              <span><b>American Muscle</b></span><br>\
+                              <hr style=\"background-color:white;height:0.5px\">\
+                              <span><b>Requirements</b></span><br>\
+                              <span>- Ford</span><br>\
+                              <span>- American flag</span><br>\
+                              <span>- Afternoon</span><br>\
+                              <span>- Wahiawa police station</span><br>", {
+    className: "hstPopup"
+});
+
+//Photo Ops 3 American Views - Waimea Arch
+am_photo_ops03_marker = L.marker([2416.191082, 2184.25], {icon:photo_op_icon});
+am_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">American Views - Waimea Arch</b><br>\
+                              <i>Photo Ops</i><br>\
+                              <span><b>American Muscle</b></span><br>\
+                              <hr style=\"background-color:white;height:0.5px\">\
+                              <span><b>Requirements</b></span><br>\
+                              <span>- Street Tier 2</span><br>\
+                              <span>- Top of natural arch</span><br>\
+                              <span>- Waimea Bay</span><br>\
+                              <span>- Sunrise</span><br>", {
+    className: "hstPopup"
+});
+
+//Photo Ops 4 American Views - Airtime
+am_photo_ops04_marker = L.marker([1709.664365, 1835], {icon:photo_op_icon});
+am_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">American Views - Airtime</b><br>\
+                              <i>Photo Ops</i><br>\
+                              <span><b>American Muscle</b></span><br>\
+                              <hr style=\"background-color:white;height:0.5px\">\
+                              <span><b>Requirements</b></span><br>\
+                              <span>- Street Tier 2</span><br>\
+                              <span>- Jump over the hillock</span><br>\
+                              <span>- Peacock Flats belvedere</span><br>", {
+    className: "hstPopup"
+});
+
+//Photo Ops 5 American Views - Battleship
+am_photo_ops05_marker = L.marker([625.698683, 2257.858359], {icon:photo_op_icon});
+am_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">American Views - Battleship</b><br>\
+                              <i>Photo Ops</i><br>\
+                              <span><b>American Muscle</b></span><br>\
+                              <hr style=\"background-color:white;height:0.5px\">\
+                              <span><b>Requirements</b></span><br>\
+                              <span>- Ford</span><br>\
+                              <span>- Donut</span><br>\
+                              <span>- USS Ship Museum</span><br>\
+                              <span>- in Pearl Harbor</span><br>", {
+    className: "hstPopup"
+});
+
+//COLLECTIBLES
+//American Stars
+//Collectible 1 American Stars
+am_collectible01_marker = L.marker([801.011337, 2303.0625], {icon:collectible_icon});
+am_collectible01_marker.bindPopup("<b style=\"font-size:20px\">American Muscle</b><br>\
+                              <i>Collectible</i><br>\
+                              <span><b>Challenge:</b> American Stars</span><br>", {
+    className: "hstPopup"
+});
+
+//Collectible 2 American Stars
+am_collectible02_marker = L.marker([637.998602, 2167.282284], {icon:collectible_icon});
+am_collectible02_marker.bindPopup("<b style=\"font-size:20px\">American Muscle</b><br>\
+                              <i>Collectible</i><br>\
+                              <span><b>Challenge:</b> American Stars</span><br>", {
+    className: "hstPopup"
+});
+
+//Collectible 3 American Stars
+am_collectible03_marker = L.marker([498.26494, 2360.5], {icon:collectible_icon});
+am_collectible03_marker.bindPopup("<b style=\"font-size:20px\">American Muscle</b><br>\
+                              <i>Collectible</i><br>\
+                              <span><b>Challenge:</b> American Stars</span><br>", {
+    className: "hstPopup"
+});
+
+//Collectible 4 American Stars
+am_collectible04_marker = L.marker([574.318722, 1801.125], {icon:collectible_icon});
+am_collectible04_marker.bindPopup("<b style=\"font-size:20px\">American Muscle</b><br>\
+                              <i>Collectible</i><br>\
+                              <span><b>Challenge:</b> American Stars</span><br>", {
+    className: "hstPopup"
+});
+
+//Collectible 5 American Stars
+am_collectible05_marker = L.marker([915.320304, 2649.125], {icon:collectible_icon});
+am_collectible05_marker.bindPopup("<b style=\"font-size:20px\">American Muscle</b><br>\
+                              <i>Collectible</i><br>\
+                              <span><b>Challenge:</b> American Stars</span><br>", {
+    className: "hstPopup"
+});
+
+//Collectible 6 American Stars
+am_collectible06_marker = L.marker([2057.853284, 1548.387074], {icon:collectible_icon});
+am_collectible06_marker.bindPopup("<b style=\"font-size:20px\">American Muscle</b><br>\
+                              <i>Collectible</i><br>\
+                              <span><b>Challenge:</b> American Stars</span><br>", {
+    className: "hstPopup"
+});
+
+//Collectible 7 American Stars
+am_collectible07_marker = L.marker([1210.871239, 3223.0625], {icon:collectible_icon});
+am_collectible07_marker.bindPopup("<b style=\"font-size:20px\">American Muscle</b><br>\
+                              <i>Collectible</i><br>\
+                              <span><b>Challenge:</b> American Stars</span><br>", {
+    className: "hstPopup"
+});
+
+//Collectible 8 American Stars
+am_collectible08_marker = L.marker([2144.630238, 2528.8125], {icon:collectible_icon});
+am_collectible08_marker.bindPopup("<b style=\"font-size:20px\">American Muscle</b><br>\
+                              <i>Collectible</i><br>\
+                              <span><b>Challenge:</b> American Stars</span><br>", {
+    className: "hstPopup"
+});
+
+//Collectible 9 American Stars
+am_collectible09_marker = L.marker([1961.568388, 2152], {icon:collectible_icon});
+am_collectible09_marker.bindPopup("<b style=\"font-size:20px\">American Muscle</b><br>\
+                              <i>Collectible</i><br>\
+                              <span><b>Challenge:</b> American Stars</span><br>", {
+    className: "hstPopup"
+});
+
+//Collectible 10 American Stars
+am_collectible10_marker = L.marker([1542.515468, 2083.1875], {icon:collectible_icon});
+am_collectible10_marker.bindPopup("<b style=\"font-size:20px\">American Muscle</b><br>\
+                              <i>Collectible</i><br>\
+                              <span><b>Challenge:</b> American Stars</span><br>", {
+    className: "hstPopup"
+});
+
+//Collectible 11 American Stars
+am_collectible11_marker = L.marker([346.919048, 3239.375], {icon:collectible_icon});
+am_collectible11_marker.bindPopup("<b style=\"font-size:20px\">American Muscle</b><br>\
+                              <i>Collectible</i><br>\
+                              <span><b>Challenge:</b> American Stars</span><br>", {
+    className: "hstPopup"
+});
+
+am_container_group.push(am_container_marker);
+
+for(var i = 1; i <= 9; i++) {
+    if(i < 10) {
+        am_events_group.push(window["am_event0" + i + "_marker"]);
+    }
+    else {
+        am_events_group.push(window["am_event" + i + "_marker"]);
+    }
+}
+
+for(var i = 0; i <= 6; i++) {
+    am_feats_group.push(window["am_feat" + i + "_marker"]);
+}
+
+for(var i = 1; i <= 5; i++) {
+    if(i < 10) {
+        am_photo_ops_group.push(window["am_photo_ops0" + i + "_marker"]);
+    }
+    else {
+        am_photo_ops_group.push(window["am_photo_ops" + i + "_marker"]);
+    }
+}
+
+for(var i = 1; i <= 11; i++) {
+    if(i < 10) {
+        am_collectibles_group.push(window["am_collectible0" + i + "_marker"]);
+    }
+    else {
+        am_collectibles_group.push(window["am_collectible" + i + "_marker"]);
+    }
+}
+
+markers_canvas.addMarkers(am_container_group);
+markers_canvas.addMarkers(am_events_group);
+markers_canvas.addMarkers(am_collectibles_group);
+markers_canvas.addMarkers(am_photo_ops_group);
+markers_canvas.addMarkers(am_feats_group);

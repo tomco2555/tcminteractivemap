@@ -295,3 +295,77 @@ function TreasureCheckbox() {
         treasure_group.remove();
     }
 }
+
+//For canvas: Performance mode
+function watchCanvasCheckbox(playlist_name) {
+
+    var playlist_checkbox_status = document.getElementById(playlist_name + "_playlist").checked;
+    var events_checkbox_status = document.getElementById("events_checkbox").checked;
+    var container_checkbox_status = document.getElementById("container_checkbox").checked;
+    var collectibles_checkbox_status = document.getElementById("collectibles_checkbox").checked;
+    var photo_ops_checkbox_status = document.getElementById("photo_ops_checkbox").checked;
+    var feats_checkbox_status = document.getElementById("feats_checkbox").checked
+
+    if(!(playlist_checkbox_status)) {
+        
+        markers_canvas.removeMarkers(window[playlist_name + "_container_group"]);
+        markers_canvas.removeMarkers(window[playlist_name + "_events_group"]);
+        markers_canvas.removeMarkers(window[playlist_name + "_photo_ops_group"]);
+        markers_canvas.removeMarkers(window[playlist_name + "_collectibles_group"]);
+        markers_canvas.removeMarkers(window[playlist_name + "_feats_group"]);
+    }
+
+    else if(playlist_checkbox_status) {
+
+        markers_canvas.removeMarkers(window[playlist_name + "_container_group"]);
+        markers_canvas.removeMarkers(window[playlist_name + "_events_group"]);
+        markers_canvas.removeMarkers(window[playlist_name + "_collectibles_group"]);
+        markers_canvas.removeMarkers(window[playlist_name + "_photo_ops_group"]);
+        markers_canvas.removeMarkers(window[playlist_name + "_feats_group"]);
+
+        //Container
+        if(container_checkbox_status) {
+            markers_canvas.addMarkers(window[playlist_name + "_container_group"]);
+        }
+
+        else if(!(container_checkbox_status)) {
+            markers_canvas.removeMarkers(window[playlist_name + "_container_group"]);
+        }
+
+        //Events
+        if(events_checkbox_status) {
+            markers_canvas.addMarkers(window[playlist_name + "_events_group"]);
+        }
+
+        else if(!(events_checkbox_status)) {
+            markers_canvas.removeMarkers(window[playlist_name + "_events_group"]);
+        }
+
+        //Collectibles
+        if(collectibles_checkbox_status) {
+            markers_canvas.addMarkers(window[playlist_name + "_collectibles_group"]);
+        }
+
+        else if(!(collectibles_checkbox_status)) {
+            markers_canvas.removeMarkers(window[playlist_name + "_collectibles_group"]);
+        }
+
+        //Photo Ops
+        if(photo_ops_checkbox_status) {
+            markers_canvas.addMarkers(window[playlist_name + "_photo_ops_group"]);
+        }
+
+        else if(!(photo_ops_checkbox_status)) {
+            markers_canvas.removeMarkers(window[playlist_name + "_photo_ops_group"]);
+        }
+
+        //Feats
+        if(feats_checkbox_status) {
+            markers_canvas.addMarkers(window[playlist_name + "_feats_group"]);
+        }
+
+        else if(!(feats_checkbox_status)) {
+            markers_canvas.removeMarkers(window[playlist_name + "_feats_group"]);
+        }
+    }
+}

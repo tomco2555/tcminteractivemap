@@ -24,21 +24,5 @@ function onMapClick(e) {
 
 map.on('click', onMapClick);
 
-var test_group = new L.MarkersCanvas();
-test_group.addTo(map);
-
-function testCheckbox(playlist_name) {
-
-    var playlist_checkbox_status = document.getElementById(playlist_name + "_playlist").checked;
-
-    if(!(playlist_checkbox_status)) {
-        
-        test_group.removeMarkers(window[playlist_name + "_container_group"]);
-        test_group.removeMarkers(window[playlist_name + "_events_group"]);
-    }
-
-    else if(playlist_checkbox_status) {
-        test_group.addMarkers(window[playlist_name + "_container_group"])
-        test_group.addMarkers(window[playlist_name + "_events_group"]);
-    }
-}
+var markers_canvas = new L.MarkersCanvas();
+markers_canvas.addTo(map);
