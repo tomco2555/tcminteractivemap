@@ -5,6 +5,18 @@ document.addEventListener("DOMContentLoaded", function() {
     const close_btn = document.getElementById("close_btn")
     const close_div = document.getElementById("close")
 
+    // Function to get the width based on screen size
+    function getLeftSidebarWidth() {
+        const width = window.innerWidth;
+        if (width <= 500) {
+            return '75%'; // For screens 500px or less
+        } else if (width > 500 && width <= 900) {
+            return '45%'; // For screens between 501px and 900px
+        } else {
+            return '25%'; // For screens greater than 900px
+        }
+    }
+
     close_btn.addEventListener("click", function() {
         filters_sidebar.classList.toggle("close_filters")
         close_div.classList.toggle("move_button")
@@ -19,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         else {
             close_btn.textContent = "<";
-            left_sidebar.style.width = '25%';
+            left_sidebar.style.width = getLeftSidebarWidth();
             filters_sidebar.style.outline = '1px solid white';
         }
     })
