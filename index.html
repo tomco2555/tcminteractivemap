@@ -21,6 +21,13 @@
                     <p class="web_logo">THE CREW MOTORFEST INTERACTIVE MAP</p>
                     <p style="margin-bottom: 5px">created by Tomco</p>
                 </div>
+                <div id="map_settings">
+                    <span class="map_settings_text">Performance mode</span>
+                    <label class="switch">
+                        <input type="checkbox" id="toggle_switch" onchange="switchMode()">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
                 <div id="events">
                     <div class="event_header">
                         <button class="header">Playlists</button>
@@ -141,23 +148,23 @@
                     </div>
                     <div id="event_filters">
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="grand_race_checkbox" onchange="GrandRaceCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="grand_race_checkbox" onchange="GrandRaceCanvasCheckbox()">
                             <span>Grand Race</span>
                         </div>
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="demo_royale_checkbox" onchange="DemoRoyaleCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="demo_royale_checkbox" onchange="DemoRoyaleCanvasCheckbox()">
                             <span>Demo Royale</span>
                         </div>
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="mf_grounds_checkbox" onchange="MFGroundsCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="mf_grounds_checkbox" onchange="MFGroundsCanvasCheckbox()">
                             <span>Motorfest Grounds</span>
                         </div>
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="treasure_checkbox" onchange="TreasureCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="treasure_checkbox" onchange="TreasureCanvasCheckbox()">
                             <span>Treasure Locations</span>
                         </div>
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="achievements_checkbox" onchange="AchievementsCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="achievements_checkbox" onchange="AchievementsCanvasCheckbox()">
                             <span>Achievements</span>
                         </div>
                     </div>
@@ -175,27 +182,27 @@
 
     <script src="static/map.js"></script>
     <script src="static/feats_markers.js"></script>
-    <script src="static/misc.js"></script>
-    <script src="static/hst_canvas.js"></script>
-    <script src="static/mij_canvas.js"></script>
-    <script src="static/donut_media_canvas.js"></script>
-    <script src="static/off_add_canvas.js"></script>
-    <script src="static/vin_gar_canvas.js"></script>
-    <script src="static/ons_canvas.js"></script>
-    <script src="static/american_muscle_canvas.js"></script>
-    <script src="static/porsche_canvas.js"></script>
-    <script src="static/auto_lambo_canvas.js"></script>
-    <script src="static/motorsports_canvas.js"></script>
-    <script src="static/ele_ody_canvas.js"></script>
-    <script src="static/dream_cars_canvas.js"></script>
-    <script src="static/bike_lovers_canvas.js"></script>
-    <script src="static/lbwk_canvas.js"></script>
-    <script src="static/drift_canvas.js"></script>
-    <script src="static/gymkhana_canvas.js"></script>
-    <script src="static/drift2_canvas.js"></script>
-    <script src="static/hollywood_canvas.js"></script>
-    <script src="static/dvl_canvas.js"></script>
-    <script src="static/off_add2_canvas.js"></script>
+    <script id="misc_script" src="static/misc_canvas.js"></script>
+    <script class="playlist_script" src="static/mij_canvas.js"></script>
+    <script class="playlist_script" src="static/hst_canvas.js"></script>
+    <script class="playlist_script" src="static/american_muscle_canvas.js"></script>
+    <script class="playlist_script" src="static/porsche_canvas.js"></script>
+    <script class="playlist_script" src="static/donut_media_canvas.js"></script>
+    <script class="playlist_script" src="static/off_add_canvas.js"></script>
+    <script class="playlist_script" src="static/vin_gar_canvas.js"></script>
+    <script class="playlist_script" src="static/auto_lambo_canvas.js"></script>
+    <script class="playlist_script" src="static/motorsports_canvas.js"></script>
+    <script class="playlist_script" src="static/ele_ody_canvas.js"></script>
+    <script class="playlist_script" src="static/dream_cars_canvas.js"></script>
+    <script class="playlist_script" src="static/bike_lovers_canvas.js"></script>
+    <script class="playlist_script" src="static/lbwk_canvas.js"></script>
+    <script class="playlist_script" src="static/drift_canvas.js"></script>
+    <script class="playlist_script" src="static/ons_canvas.js"></script>
+    <script class="playlist_script" src="static/gymkhana_canvas.js"></script>
+    <script class="playlist_script" src="static/drift2_canvas.js"></script>
+    <script class="playlist_script" src="static/hollywood_canvas.js"></script>
+    <script class="playlist_script" src="static/dvl_canvas.js"></script>
+    <script class="playlist_script" src="static/off_add2_canvas.js"></script>
 
     <script>
         var counter = 0;
