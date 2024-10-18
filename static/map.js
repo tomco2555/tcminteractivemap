@@ -23,3 +23,6 @@ function onMapClick(e) {
 }
 
 map.on('click', onMapClick);
+
+var markers_canvas = new L.MarkersCanvas();
+markers_canvas.addTo(map);
