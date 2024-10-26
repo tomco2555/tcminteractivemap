@@ -274,32 +274,32 @@ bl_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><b
 });
 
 //Collectible 5 Rider Helmets
-bl_collectible5_marker = L.marker([1988.504675, 2842], {icon:collectible_icon}).addTo(bl_collectibles_group);
-bl_collectible5_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
+bl_collectible05_marker = L.marker([1988.504675, 2842], {icon:collectible_icon}).addTo(bl_collectibles_group);
+bl_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Rider Helmets</span><br>", {
     className: "hstPopup"
 });
 
 //Collectible 6 Rider Helmets
-bl_collectible6_marker = L.marker([468.083655, 3414.144558], {icon:collectible_icon}).addTo(bl_collectibles_group);
-bl_collectible6_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
+bl_collectible06_marker = L.marker([468.083655, 3414.144558], {icon:collectible_icon}).addTo(bl_collectibles_group);
+bl_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Rider Helmets</span><br>", {
     className: "hstPopup"
 });
 
 //Collectible 7 Rider Helmets
-bl_collectible7_marker = L.marker([520.438844, 2696.993652], {icon:collectible_icon}).addTo(bl_collectibles_group);
-bl_collectible7_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
+bl_collectible07_marker = L.marker([520.438844, 2696.993652], {icon:collectible_icon}).addTo(bl_collectibles_group);
+bl_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Rider Helmets</span><br>", {
     className: "hstPopup"
 });
 
 //Collectible 8 Rider Helmets
-bl_collectible8_marker = L.marker([544.128909, 2585.005615], {icon:collectible_icon}).addTo(bl_collectibles_group);
-bl_collectible8_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
+bl_collectible08_marker = L.marker([544.128909, 2585.005615], {icon:collectible_icon}).addTo(bl_collectibles_group);
+bl_collectible08_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Rider Helmets</span><br>", {
     className: "hstPopup"
