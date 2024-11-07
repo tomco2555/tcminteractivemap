@@ -267,6 +267,7 @@ achievement_06_marker.bindPopup('<b>Oahu Mindfulness</b><br>\
 });
 
 //TREASURES
+//OAHU
 //Treasure 01 Hanauma Racetrack
 treasure_01_marker = L.marker([1111.971133, 3529.700275], {icon:treasure_icon});
 treasure_01_marker.bindPopup('<b>Treasure Crate</b><br>', {
@@ -525,6 +526,185 @@ treasure_43_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
+//MAUI
+//Treasure 44 Iao
+treasure_44_marker = L.marker([1696.878357, 5060.75], {icon:treasure_icon});
+treasure_44_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 45 Kula Fields
+treasure_45_marker = L.marker([1206.325384, 5384.625], {icon:treasure_icon});
+treasure_45_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 46 Kealaloloa Fields
+treasure_46_marker = L.marker([1292.022358, 5258.5], {icon:treasure_icon});
+treasure_46_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 47 Queen Ka'ahumanu Center (Kahului)
+treasure_47_marker = L.marker([1648.527592, 5354.389324], {icon:treasure_icon});
+treasure_47_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 48 Kahului Harbor
+treasure_48_marker = L.marker([1550.865826, 5442.33573], {icon:treasure_icon});
+treasure_48_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 49 Unnamed small island north of Kahului
+treasure_49_marker = L.marker([1885.468361, 5254.75], {icon:treasure_icon});
+treasure_49_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 50 Under Napili highway bridge
+treasure_50_marker = L.marker([1747.212135, 4799.133724], {icon:treasure_icon});
+treasure_50_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 51 Kaonohua Falls
+treasure_51_marker = L.marker([1445.3368, 5056.167039], {icon:treasure_icon});
+treasure_51_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 52 Tunel south of Wailea
+treasure_52_marker = L.marker([425.798851, 5044.542256], {icon:treasure_icon});
+treasure_52_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 53 Hana
+treasure_53_marker = L.marker([432.755777, 5999.270363], {icon:treasure_icon});
+treasure_53_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 54 Maui Arboretum
+treasure_54_marker = L.marker([1016.106504, 5882.774866], {icon:treasure_icon});
+treasure_54_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 55 Haipua'ena Falls
+treasure_55_marker = L.marker([1266.970892, 5912.25], {icon:treasure_icon});
+treasure_55_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 56 Jodo Mission
+treasure_56_marker = L.marker([1620.913261, 4679.1875], {icon:treasure_icon});
+treasure_56_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 57 Awalua Beach
+treasure_57_marker = L.marker([1306.175905, 4629.806275], {icon:treasure_icon});
+treasure_57_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 58 Tunel between Kanaio Reserve and Kahikinui Reserve
+treasure_58_marker = L.marker([569.47073, 5263.876644], {icon:treasure_icon});
+treasure_58_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 59 Ahihi-Kinau
+//Not confirmed yet
+treasure_59_marker = L.marker([197.197422, 5252.23901], {icon:treasure_icon});
+treasure_59_marker.bindPopup('<b>Treasure Crate</b><br>\
+                                <b>Not confirmed yet</b>', {
+                            className: "hstPopup"
+});
+
+//Treasure 60 First roundabout off the bridge from Oahu
+treasure_60_marker = L.marker([1051.38377, 4155.666553], {icon:treasure_icon});
+treasure_60_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 61 Haleakala Observatory
+//Not confirmed yet
+treasure_61_marker = L.marker([749.185973, 5281.29216], {icon:treasure_icon});
+treasure_61_marker.bindPopup('<b>Treasure Crate</b><br>\
+                                <b>Not confirmed yet</b>', {
+                            className: "hstPopup"
+});
+
+//Treasure 62 Makawao Reserve
+//Not confirmed yet
+treasure_62_marker = L.marker([814.283467, 5623.5], {icon:treasure_icon});
+treasure_62_marker.bindPopup('<b>Treasure Crate</b><br>\
+                                <b>Not confirmed yet</b>', {
+                            className: "hstPopup"
+});
+
+//Treasure 63 Kea'a Beach
+//Not confirmed yet
+treasure_63_marker = L.marker([701.95729, 6081.783323], {icon:treasure_icon});
+treasure_63_marker.bindPopup('<b>Treasure Crate</b><br>\
+                                <b>Not confirmed yet</b>', {
+                            className: "hstPopup"
+});
+
+//Treasure 64 Random ass house community between Pukalani and Haipua'ena
+treasure_64_marker = L.marker([1051.38377, 4155.666553], {icon:treasure_icon});
+treasure_64_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 65 Next to Ma'alaea Beach
+//Not confirmed yet
+treasure_65_marker = L.marker([1138.4275, 5193.876085], {icon:treasure_icon});
+treasure_65_marker.bindPopup('<b>Treasure Crate</b><br>\
+                                <b>Not confirmed yet</b>', {
+                            className: "hstPopup"
+});
+
+//Treasure 66 Next to Ma'alaea Beach
+//Not confirmed yet
+treasure_66_marker = L.marker([1955.038169, 5175.296988], {icon:treasure_icon});
+treasure_66_marker.bindPopup('<b>Treasure Crate</b><br>\
+                                <b>Not confirmed yet</b>', {
+                            className: "hstPopup"
+});
+
+//Treasure 67 under Honokohau on the hill next to the highway
+//Not confirmed yet
+treasure_67_marker = L.marker([1890.092992, 4909.363496], {icon:treasure_icon});
+treasure_67_marker.bindPopup('<b>Treasure Crate</b><br>\
+                                <b>Not confirmed yet</b>', {
+                            className: "hstPopup"
+});
+
+//Treasure 68 Mountain north of Iao Lake
+//Not confirmed yet
+treasure_68_marker = L.marker([1674.996132, 4924.709856], {icon:treasure_icon});
+treasure_68_marker.bindPopup('<b>Treasure Crate</b><br>\
+                                <b>Not confirmed yet</b>', {
+                            className: "hstPopup"
+});
+
+//Treasure 69 Lele
+treasure_69_marker = L.marker([1435.856353, 4627.748718], {icon:treasure_icon});
+treasure_69_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 70 Kamanawai Gulch
+treasure_70_marker = L.marker([1302.838154, 4830.069646], {icon:treasure_icon});
+treasure_70_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
 mf_grounds_group.push(mf_grounds_marker);
 
 for(var i = 1; i <= 4; i++) {
@@ -554,7 +734,7 @@ for(var i = 1; i <= 6; i++) {
     }
 }
 
-for(var i = 1; i <= 43; i++) {
+for(var i = 1; i <= 70; i++) {
     if(i < 10) {
         treasure_group.push(window["treasure_0" + i + "_marker"]);
     }
