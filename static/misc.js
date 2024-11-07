@@ -700,8 +700,10 @@ treasure_69_marker.bindPopup('<b>Treasure Crate</b><br>', {
 });
 
 //Treasure 70 Kamanawai Gulch
+//Not confirmed yet
 treasure_70_marker = L.marker([1302.838154, 4830.069646], {icon:treasure_icon}).addTo(treasure_group);
-treasure_70_marker.bindPopup('<b>Treasure Crate</b><br>', {
+treasure_70_marker.bindPopup('<b>Treasure Crate</b><br>\
+                                <b>Not confirmed yet</b>', {
                             className: "hstPopup"
 });
 
