@@ -19,7 +19,7 @@ bl_feats_group = [];
 bl_collectibles_group = [];
 
 //CONTAINER
-bl_container_marker = L.marker([1732.001828, 2199.5], {icon:bl_container_icon});
+bl_container_marker = L.marker([2498.001828, 2199.5], {icon:bl_container_icon});
 bl_container_marker.bindPopup('<b>Bike Lovers</b><br>\
                                <i>Container</i>', {
     className: "hstPopup"
@@ -27,7 +27,7 @@ bl_container_marker.bindPopup('<b>Bike Lovers</b><br>\
 
 //EVENTS
 //Event 01
-bl_event01_marker = L.marker([2086.877637, 2047], {icon:bl_event_icon});
+bl_event01_marker = L.marker([2852.877637, 2047], {icon:bl_event_icon});
 bl_event01_marker.bindPopup("<b style=\"font-size:20px\">GP Glory</b><br>\
                               <i>Event</i><br>\
                               <span><b>Bike Lovers(1/8)</b></span><br>\
@@ -42,7 +42,7 @@ bl_event01_marker.bindPopup("<b style=\"font-size:20px\">GP Glory</b><br>\
 });
 
 //Event 02
-bl_event02_marker = L.marker([1817.942175, 1523.8125], {icon:bl_event_icon});
+bl_event02_marker = L.marker([2583.942175, 1523.8125], {icon:bl_event_icon});
 bl_event02_marker.bindPopup("<b style=\"font-size:20px\">Riveround Rumble</b><br>\
                               <i>Event</i><br>\
                               <span><b>Bike Lovers(2/8)</b></span><br>\
@@ -57,7 +57,7 @@ bl_event02_marker.bindPopup("<b style=\"font-size:20px\">Riveround Rumble</b><br
 });
 
 //Event 03
-bl_event03_marker = L.marker([2198.130613, 2029.48485], {icon:bl_event_icon});
+bl_event03_marker = L.marker([2964.130613, 2029.48485], {icon:bl_event_icon});
 bl_event03_marker.bindPopup("<b style=\"font-size:20px\">Haleiwa Heyday</b><br>\
                               <i>Event</i><br>\
                               <span><b>Bike Lovers(3/8)</b></span><br>\
@@ -72,7 +72,7 @@ bl_event03_marker.bindPopup("<b style=\"font-size:20px\">Haleiwa Heyday</b><br>\
 });
 
 //Event 04
-bl_event04_marker = L.marker([1973.636777, 2836], {icon:bl_event_icon});
+bl_event04_marker = L.marker([2739.636777, 2836], {icon:bl_event_icon});
 bl_event04_marker.bindPopup("<b style=\"font-size:20px\">Beach Bonanza</b><br>\
                               <i>Event</i><br>\
                               <span><b>Bike Lovers(4/8)</b></span><br>\
@@ -87,7 +87,7 @@ bl_event04_marker.bindPopup("<b style=\"font-size:20px\">Beach Bonanza</b><br>\
 });
 
 //Event 05
-bl_event05_marker = L.marker([1784.483363, 3008.739354], {icon:bl_event_icon});
+bl_event05_marker = L.marker([2550.483363, 3008.739354], {icon:bl_event_icon});
 bl_event05_marker.bindPopup("<b style=\"font-size:20px\">Roadie Rumble</b><br>\
                               <i>Event</i><br>\
                               <span><b>Bike Lovers(5/8)</b></span><br>\
@@ -102,7 +102,7 @@ bl_event05_marker.bindPopup("<b style=\"font-size:20px\">Roadie Rumble</b><br>\
 });
 
 //Event 06
-bl_event06_marker = L.marker([472.46428, 3409.580511], {icon:bl_event_icon});
+bl_event06_marker = L.marker([1238.46428, 3409.580511], {icon:bl_event_icon});
 bl_event06_marker.bindPopup("<b style=\"font-size:20px\">Hectic Hanauma</b><br>\
                               <i>Event</i><br>\
                               <span><b>Bike Lovers(6/8)</b></span><br>\
@@ -117,7 +117,7 @@ bl_event06_marker.bindPopup("<b style=\"font-size:20px\">Hectic Hanauma</b><br>\
 });
 
 //Event 07
-bl_event07_marker = L.marker([535.727741, 2716.439088], {icon:bl_event_icon});
+bl_event07_marker = L.marker([1301.727741, 2716.439088], {icon:bl_event_icon});
 bl_event07_marker.bindPopup("<b style=\"font-size:20px\">Midnight Magic</b><br>\
                               <i>Event</i><br>\
                               <span><b>Bike Lovers(7/8)</b></span><br>\
@@ -132,7 +132,7 @@ bl_event07_marker.bindPopup("<b style=\"font-size:20px\">Midnight Magic</b><br>\
 });
 
 //Event 08
-bl_event08_marker = L.marker([529.717905, 2556.014237], {icon:bl_event_icon});
+bl_event08_marker = L.marker([1295.717905, 2556.014237], {icon:bl_event_icon});
 bl_event08_marker.bindPopup("<b style=\"font-size:20px\">Airtime Advantage</b><br>\
                               <i>Event</i><br>\
                               <span><b>Bike Lovers(8/8)</b></span><br>\
@@ -147,12 +147,12 @@ bl_event08_marker.bindPopup("<b style=\"font-size:20px\">Airtime Advantage</b><b
 });
 
 //FEATS
-var BLfeatsArr = [[918.026155, 3525, "slalom", "Waimanalo", "Slalom", "4,010 PTS", "2,880", "5,400"],  //Feat 01
-                  [1907.45594, 2656.95373, "slalom", "Hau'ula Forest", "Slalom", "5,250 PTS", "2,880", "5,400"],  //Feat 02
-                  [1914.776928, 2366.5, "speedtrap", "Wahiawa Forest", "Speedtrap", "160.0 km/h", "960", "1,800"],  //Feat 03
-                  [1899.647637, 2195.920109, "speedtrap", "Wahiawa Field", "Speedtrap", "210.0 km/h", "960", "1,800"],  //Feat 04
-                  [1944.559358, 1941.715221, "escape", "Hale'au'au Gulch", "Escape", "690 m", "2,880", "5,400"],  //Feat 05
-                  [1979.196156, 1898.935261, "slalom", "Peacock Road", "Slalom", "4,320 PTS", "2,880", "5,400"],  //Feat 06
+var BLfeatsArr = [[1684.026155, 3525, "slalom", "Waimanalo", "Slalom", "4,010 PTS", "2,880", "5,400"],  //Feat 01
+                  [2673.45594, 2656.95373, "slalom", "Hau'ula Forest", "Slalom", "5,250 PTS", "2,880", "5,400"],  //Feat 02
+                  [2680.776928, 2366.5, "speedtrap", "Wahiawa Forest", "Speedtrap", "160.0 km/h", "960", "1,800"],  //Feat 03
+                  [2665.647637, 2195.920109, "speedtrap", "Wahiawa Field", "Speedtrap", "210.0 km/h", "960", "1,800"],  //Feat 04
+                  [2710.559358, 1941.715221, "escape", "Hale'au'au Gulch", "Escape", "690 m", "2,880", "5,400"],  //Feat 05
+                  [2745.196156, 1898.935261, "slalom", "Peacock Road", "Slalom", "4,320 PTS", "2,880", "5,400"],  //Feat 06
                  ]
 
 function createBLFeatsMarkers(featsArr) {
@@ -174,7 +174,7 @@ createBLFeatsMarkers(BLfeatsArr);
 
 //PHOTO OPS
 //Photo Ops 1 Rider Views - Urbex Ride
-bl_photo_ops01_marker = L.marker([886.028412, 3668.823534], {icon:photo_op_icon});
+bl_photo_ops01_marker = L.marker([1652.028412, 3668.823534], {icon:photo_op_icon});
 bl_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Rider Views - Urbex Ride</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Bike Lovers</b></span><br>\
@@ -187,7 +187,7 @@ bl_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Rider Views - Urbex
 });
 
 //Photo Ops 2 Rider Views - Giant Tiki
-bl_photo_ops02_marker = L.marker([1964.162307, 2832.227824], {icon:photo_op_icon});
+bl_photo_ops02_marker = L.marker([2730.162307, 2832.227824], {icon:photo_op_icon});
 bl_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Rider Views - Giant Tiki</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Bike Lovers</b></span><br>\
@@ -200,7 +200,7 @@ bl_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Rider Views - Giant
 });
 
 //Photo Ops 3 Rider Views - Control Tower
-bl_photo_ops03_marker = L.marker([577.269359, 2379.106183], {icon:photo_op_icon});
+bl_photo_ops03_marker = L.marker([1343.269359, 2379.106183], {icon:photo_op_icon});
 bl_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Rider Views - Control Tower</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Bike Lovers</b></span><br>\
@@ -213,7 +213,7 @@ bl_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Rider Views - Contr
 });
 
 //Photo Ops 4 Rider Views - Gas Station
-bl_photo_ops04_marker = L.marker([1675.933422, 2223.3125], {icon:photo_op_icon});
+bl_photo_ops04_marker = L.marker([2441.933422, 2223.3125], {icon:photo_op_icon});
 bl_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Rider Views - Gas Station</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Bike Lovers</b></span><br>\
@@ -227,7 +227,7 @@ bl_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Rider Views - Gas S
 });
 
 //Photo Ops 5 Rider Views - Loops
-bl_photo_ops05_marker = L.marker([686.98536, 3362.646298], {icon:photo_op_icon});
+bl_photo_ops05_marker = L.marker([1452.98536, 3362.646298], {icon:photo_op_icon});
 bl_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Rider Views - Loops</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Bike Lovers</b></span><br>\
@@ -242,7 +242,7 @@ bl_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Rider Views - Loops
 //COLLECTIBLES
 //Rider Helmets
 //Collectible 1 Rider Helmets
-bl_collectible01_marker = L.marker([2058.630203, 2045.625], {icon:collectible_icon});
+bl_collectible01_marker = L.marker([2824.630203, 2045.625], {icon:collectible_icon});
 bl_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Rider Helmets</span><br>", {
@@ -250,7 +250,7 @@ bl_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><b
 });
 
 //Collectible 2 Rider Helmets
-bl_collectible02_marker = L.marker([2212.377496, 2015.625], {icon:collectible_icon});
+bl_collectible02_marker = L.marker([2978.377496, 2015.625], {icon:collectible_icon});
 bl_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Rider Helmets</span><br>", {
@@ -258,7 +258,7 @@ bl_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><b
 });
 
 //Collectible 3 Rider Helmets
-bl_collectible03_marker = L.marker([1814.010476, 1541.125], {icon:collectible_icon});
+bl_collectible03_marker = L.marker([2580.010476, 1541.125], {icon:collectible_icon});
 bl_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Rider Helmets</span><br>", {
@@ -266,7 +266,7 @@ bl_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><b
 });
 
 //Collectible 4 Rider Helmets
-bl_collectible04_marker = L.marker([1807.896882, 3008.099397], {icon:collectible_icon});
+bl_collectible04_marker = L.marker([2573.896882, 3008.099397], {icon:collectible_icon});
 bl_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Rider Helmets</span><br>", {
@@ -274,7 +274,7 @@ bl_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><b
 });
 
 //Collectible 5 Rider Helmets
-bl_collectible05_marker = L.marker([1988.504675, 2842], {icon:collectible_icon});
+bl_collectible05_marker = L.marker([2754.504675, 2842], {icon:collectible_icon});
 bl_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Rider Helmets</span><br>", {
@@ -282,7 +282,7 @@ bl_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><b
 });
 
 //Collectible 6 Rider Helmets
-bl_collectible06_marker = L.marker([468.083655, 3414.144558], {icon:collectible_icon});
+bl_collectible06_marker = L.marker([1234.083655, 3414.144558], {icon:collectible_icon});
 bl_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Rider Helmets</span><br>", {
@@ -290,7 +290,7 @@ bl_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><b
 });
 
 //Collectible 7 Rider Helmets
-bl_collectible07_marker = L.marker([520.438844, 2696.993652], {icon:collectible_icon});
+bl_collectible07_marker = L.marker([1286.438844, 2696.993652], {icon:collectible_icon});
 bl_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Rider Helmets</span><br>", {
@@ -298,7 +298,7 @@ bl_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><b
 });
 
 //Collectible 8 Rider Helmets
-bl_collectible08_marker = L.marker([544.128909, 2585.005615], {icon:collectible_icon});
+bl_collectible08_marker = L.marker([1310.128909, 2585.005615], {icon:collectible_icon});
 bl_collectible08_marker.bindPopup("<b style=\"font-size:20px\">Bike Lovers</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Rider Helmets</span><br>", {

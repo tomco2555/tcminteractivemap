@@ -19,7 +19,7 @@ de2_feats_group = [];
 de2_collectibles_group = [];
 
 //CONTAINER
-de2_container_marker = L.marker([2044.380379, 1631.125], {icon:de2_container_icon});
+de2_container_marker = L.marker([2810.380379, 1631.125], {icon:de2_container_icon});
 de2_container_marker.bindPopup('<b>Drift Experience Vol.2</b><br>\
                                <i>Container</i>', {
     className: "hstPopup"
@@ -27,7 +27,7 @@ de2_container_marker.bindPopup('<b>Drift Experience Vol.2</b><br>\
 
 //EVENTS
 //Event 01
-de2_event01_marker = L.marker([2280.326482, 2039.561122], {icon:de2_event_icon});
+de2_event01_marker = L.marker([3046.326482, 2039.561122], {icon:de2_event_icon});
 de2_event01_marker.bindPopup("<b style=\"font-size:20px\">Speed Of Light</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience Vol.2(1/7)</b></span><br>\
@@ -42,7 +42,7 @@ de2_event01_marker.bindPopup("<b style=\"font-size:20px\">Speed Of Light</b><br>
 });
 
 //Event 02
-de2_event02_marker = L.marker([1704.936762, 2960.625], {icon:de2_event_icon});
+de2_event02_marker = L.marker([2470.936762, 2960.625], {icon:de2_event_icon});
 de2_event02_marker.bindPopup("<b style=\"font-size:20px\">Arch-Drifter</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience Vol.2(2/7)</b></span><br>\
@@ -57,7 +57,7 @@ de2_event02_marker.bindPopup("<b style=\"font-size:20px\">Arch-Drifter</b><br>\
 });
 
 //Event 03
-de2_event03_marker = L.marker([903.138921, 2764.1875], {icon:de2_event_icon});
+de2_event03_marker = L.marker([1669.138921, 2764.1875], {icon:de2_event_icon});
 de2_event03_marker.bindPopup("<b style=\"font-size:20px\">Nature vs Nurture</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience Vol.2(3/7)</b></span><br>\
@@ -72,7 +72,7 @@ de2_event03_marker.bindPopup("<b style=\"font-size:20px\">Nature vs Nurture</b><
 });
 
 //Event 04
-de2_event04_marker = L.marker([696.536314, 2682.625], {icon:de2_event_icon});
+de2_event04_marker = L.marker([1462.536314, 2682.625], {icon:de2_event_icon});
 de2_event04_marker.bindPopup("<b style=\"font-size:20px\">Night Glider</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience Vol.2(4/7)</b></span><br>\
@@ -87,7 +87,7 @@ de2_event04_marker.bindPopup("<b style=\"font-size:20px\">Night Glider</b><br>\
 });
 
 //Event 05
-de2_event05_marker = L.marker([656.082819, 2346.6875], {icon:de2_event_icon});
+de2_event05_marker = L.marker([1422.082819, 2346.6875], {icon:de2_event_icon});
 de2_event05_marker.bindPopup("<b style=\"font-size:20px\">The Hard Yards</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience Vol.2(5/7)</b></span><br>\
@@ -102,7 +102,7 @@ de2_event05_marker.bindPopup("<b style=\"font-size:20px\">The Hard Yards</b><br>
 });
 
 //Event 06
-de2_event06_marker = L.marker([651.796506, 1615.827383], {icon:de2_event_icon});
+de2_event06_marker = L.marker([1417.796506, 1615.827383], {icon:de2_event_icon});
 de2_event06_marker.bindPopup("<b style=\"font-size:20px\">No Rest For The Drifter</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience Vol.2(6/7)</b></span><br>\
@@ -117,7 +117,7 @@ de2_event06_marker.bindPopup("<b style=\"font-size:20px\">No Rest For The Drifte
 });
 
 //Event 07
-de2_event07_marker = L.marker([1234.642319, 1485.969078], {icon:de2_event_icon});
+de2_event07_marker = L.marker([2000.642319, 1485.969078], {icon:de2_event_icon});
 de2_event07_marker.bindPopup("<b style=\"font-size:20px\">Smoke In The Eye</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience Vol.2(7/7)</b></span><br>\
@@ -132,12 +132,12 @@ de2_event07_marker.bindPopup("<b style=\"font-size:20px\">Smoke In The Eye</b><b
 });
 
 //FEATS
-var DE2featsArr = [[1130.230377, 1417.660708, "speedtrap", "Kapolei", "Speedtrap", "250.0 km/h", "960", "1,800"],  //Feat 01
-                   [475.271807, 1962.221318, "slalom", "Barber Point Waters", "Slalom", "5,320 PTS", "3,840", "7,200"],  //Feat 02
-                   [653.022459, 2460.024492, "slalom", "Chinatown", "Slalom", "8,210 PTS", "2,880", "5,400"],  //Feat 03
-                   [827.153221, 2921.76522, "speedtrap", "Manoa", "Speedtrap", "220.0 km/h", "960", "1,800"],  //Feat 04
-                   [1213.260089, 3087.25, "escape", "Kaneohe Bay", "Escape", "760 m", "2,880", "5,400"],  //Feat 05
-                   [1902.386109, 2560.625, "slalom", "Kualoa Racetrack", "Slalom", "8,290 PTS", "3,840", "7,200"],  //Feat 06
+var DE2featsArr = [[1896.230377, 1417.660708, "speedtrap", "Kapolei", "Speedtrap", "250.0 km/h", "960", "1,800"],  //Feat 01
+                   [1241.271807, 1962.221318, "slalom", "Barber Point Waters", "Slalom", "5,320 PTS", "3,840", "7,200"],  //Feat 02
+                   [1419.022459, 2460.024492, "slalom", "Chinatown", "Slalom", "8,210 PTS", "2,880", "5,400"],  //Feat 03
+                   [1593.153221, 2921.76522, "speedtrap", "Manoa", "Speedtrap", "220.0 km/h", "960", "1,800"],  //Feat 04
+                   [1979.260089, 3087.25, "escape", "Kaneohe Bay", "Escape", "760 m", "2,880", "5,400"],  //Feat 05
+                   [2668.386109, 2560.625, "slalom", "Kualoa Racetrack", "Slalom", "8,290 PTS", "3,840", "7,200"],  //Feat 06
                   ]
 
 function createDE2FeatsMarkers(featsArr) {
@@ -159,7 +159,7 @@ createDE2FeatsMarkers(DE2featsArr);
 
 //PHOTO OPS
 //Photo Ops 1 Blazing Views - Turtle Bay Resort
-de2_photo_ops01_marker = L.marker([2512.959756, 2283.723613], {icon:photo_op_icon});
+de2_photo_ops01_marker = L.marker([3278.959756, 2283.723613], {icon:photo_op_icon});
 de2_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Turtle Bay Resort</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience Vol.2</b></span><br>\
@@ -173,7 +173,7 @@ de2_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Tu
 });
 
 //Photo Ops 2 Blazing Views - Kaneohe
-de2_photo_ops02_marker = L.marker([1383.37975, 3041.843149], {icon:photo_op_icon});
+de2_photo_ops02_marker = L.marker([2149.37975, 3041.843149], {icon:photo_op_icon});
 de2_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Kaneohe</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience Vol.2</b></span><br>\
@@ -186,7 +186,7 @@ de2_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Ka
 });
 
 //Photo Ops 3 Blazing Views - Polynesian Cultural Center
-de2_photo_ops03_marker = L.marker([2124.851983, 2557.796671], {icon:photo_op_icon});
+de2_photo_ops03_marker = L.marker([2890.851983, 2557.796671], {icon:photo_op_icon});
 de2_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Polynesian Cultural Center</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience Vol.2</b></span><br>\
@@ -200,7 +200,7 @@ de2_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Po
 });
 
 //Photo Ops 4 Blazing Views - Hanauma Racetrack
-de2_photo_ops04_marker = L.marker([573.958977, 3607.459783], {icon:photo_op_icon});
+de2_photo_ops04_marker = L.marker([1339.958977, 3607.459783], {icon:photo_op_icon});
 de2_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Hanauma Racetrack</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience Vol.2</b></span><br>\
@@ -213,7 +213,7 @@ de2_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Ha
 });
 
 //Photo Ops 5 Blazing Views - Convention Center
-de2_photo_ops05_marker = L.marker([621.219884, 2856.772792], {icon:photo_op_icon});
+de2_photo_ops05_marker = L.marker([1387.219884, 2856.772792], {icon:photo_op_icon});
 de2_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Convention Center</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience Vol.2</b></span><br>\
@@ -227,7 +227,7 @@ de2_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Co
 });
 
 //Photo Ops 6 Blazing Views - Moana Center
-de2_photo_ops06_marker = L.marker([554.035451, 2658.621156], {icon:photo_op_icon});
+de2_photo_ops06_marker = L.marker([1320.035451, 2658.621156], {icon:photo_op_icon});
 de2_photo_ops06_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Moana Center</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience Vol.2</b></span><br>\
@@ -241,7 +241,7 @@ de2_photo_ops06_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Mo
 });
 
 //Photo Ops 7 Blazing Views - Oahu Airport
-de2_photo_ops07_marker = L.marker([574.243695, 2440.253], {icon:photo_op_icon});
+de2_photo_ops07_marker = L.marker([1340.243695, 2440.253], {icon:photo_op_icon});
 de2_photo_ops07_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Oahu Airport</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience Vol.2</b></span><br>\
@@ -255,7 +255,7 @@ de2_photo_ops07_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Oa
 });
 
 //Photo Ops 8 Blazing Views - Schofield Barracks
-de2_photo_ops08_marker = L.marker([1532.207887, 2213.029141], {icon:photo_op_icon});
+de2_photo_ops08_marker = L.marker([2298.207887, 2213.029141], {icon:photo_op_icon});
 de2_photo_ops08_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Schofield Barracks</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience Vol.2</b></span><br>\
@@ -270,7 +270,7 @@ de2_photo_ops08_marker.bindPopup("<b style=\"font-size:20px\">Blazing Views - Sc
 //COLLECTIBLES
 //Blazing Rubber
 //Collectible 1 Blazing Rubber
-de2_collectible01_marker = L.marker([540.19766, 2787.125], {icon:collectible_icon});
+de2_collectible01_marker = L.marker([1306.19766, 2787.125], {icon:collectible_icon});
 de2_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience Vol.2</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Blazing Rubber</span><br>", {
@@ -278,7 +278,7 @@ de2_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience
 });
 
 //Collectible 2 Blazing Rubber
-de2_collectible02_marker = L.marker([695.072692, 2768.323048], {icon:collectible_icon});
+de2_collectible02_marker = L.marker([1461.072692, 2768.323048], {icon:collectible_icon});
 de2_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience Vol.2</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Blazing Rubber</span><br>", {
@@ -286,7 +286,7 @@ de2_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience
 });
 
 //Collectible 3 Blazing Rubber
-de2_collectible03_marker = L.marker([641.503761, 2554.9375], {icon:collectible_icon});
+de2_collectible03_marker = L.marker([1407.503761, 2554.9375], {icon:collectible_icon});
 de2_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience Vol.2</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Blazing Rubber</span><br>", {
@@ -294,7 +294,7 @@ de2_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience
 });
 
 //Collectible 4 Blazing Rubber
-de2_collectible04_marker = L.marker([608.208373, 2424.315599], {icon:collectible_icon});
+de2_collectible04_marker = L.marker([1374.208373, 2424.315599], {icon:collectible_icon});
 de2_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience Vol.2</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Blazing Rubber</span><br>", {
@@ -302,7 +302,7 @@ de2_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience
 });
 
 //Collectible 5 Blazing Rubber
-de2_collectible05_marker = L.marker([457.139554, 2920.25], {icon:collectible_icon});
+de2_collectible05_marker = L.marker([1223.139554, 2920.25], {icon:collectible_icon});
 de2_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience Vol.2</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Blazing Rubber</span><br>", {

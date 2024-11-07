@@ -19,7 +19,7 @@ de_feats_group = L.featureGroup();
 de_collectibles_group = L.featureGroup();
 
 //CONTAINER
-de_container_marker = L.marker([847.32165, 2627.255819], {icon:de_container_icon}).addTo(de_container_group);
+de_container_marker = L.marker([1613.32165, 2627.255819], {icon:de_container_icon}).addTo(de_container_group);
 de_container_marker.bindPopup('<b>Drift Experience</b><br>\
                                <i>Container</i>', {
     className: "hstPopup"
@@ -27,7 +27,7 @@ de_container_marker.bindPopup('<b>Drift Experience</b><br>\
 
 //EVENTS
 //Event 01
-de_event01_marker = L.marker([583.55225, 3377.672317], {icon:de_event_icon}).addTo(de_events_group);
+de_event01_marker = L.marker([1349.55225, 3377.672317], {icon:de_event_icon}).addTo(de_events_group);
 de_event01_marker.bindPopup("<b style=\"font-size:20px\">Initial Drill</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience(1/8)</b></span><br>\
@@ -42,7 +42,7 @@ de_event01_marker.bindPopup("<b style=\"font-size:20px\">Initial Drill</b><br>\
 });
 
 //Event 02
-de_event02_marker = L.marker([1016.497856, 2362.25], {icon:de_event_icon}).addTo(de_events_group);
+de_event02_marker = L.marker([1782.497856, 2362.25], {icon:de_event_icon}).addTo(de_events_group);
 de_event02_marker.bindPopup("<b style=\"font-size:20px\">Wind Slider</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience(2/8)</b></span><br>\
@@ -57,7 +57,7 @@ de_event02_marker.bindPopup("<b style=\"font-size:20px\">Wind Slider</b><br>\
 });
 
 //Event 03
-de_event03_marker = L.marker([984.124613, 1456.625], {icon:de_event_icon}).addTo(de_events_group);
+de_event03_marker = L.marker([1750.124613, 1456.625], {icon:de_event_icon}).addTo(de_events_group);
 de_event03_marker.bindPopup("<b style=\"font-size:20px\">Dream Spiral</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience(3/8)</b></span><br>\
@@ -72,7 +72,7 @@ de_event03_marker.bindPopup("<b style=\"font-size:20px\">Dream Spiral</b><br>\
 });
 
 //Event 04
-de_event04_marker = L.marker([1884.859392, 1825.375], {icon:de_event_icon}).addTo(de_events_group);
+de_event04_marker = L.marker([2650.859392, 1825.375], {icon:de_event_icon}).addTo(de_events_group);
 de_event04_marker.bindPopup("<b style=\"font-size:20px\">Silver Shadow</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience(4/8)</b></span><br>\
@@ -87,7 +87,7 @@ de_event04_marker.bindPopup("<b style=\"font-size:20px\">Silver Shadow</b><br>\
 });
 
 //Event 05
-de_event05_marker = L.marker([1584.133578, 1535.5], {icon:de_event_icon}).addTo(de_events_group);
+de_event05_marker = L.marker([2350.133578, 1535.5], {icon:de_event_icon}).addTo(de_events_group);
 de_event05_marker.bindPopup("<b style=\"font-size:20px\">Hawai'i Red Sun</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience(5/8)</b></span><br>\
@@ -102,7 +102,7 @@ de_event05_marker.bindPopup("<b style=\"font-size:20px\">Hawai'i Red Sun</b><br>
 });
 
 //Event 06
-de_event06_marker = L.marker([632.016607, 1673.544974], {icon:de_event_icon}).addTo(de_events_group);
+de_event06_marker = L.marker([1398.016607, 1673.544974], {icon:de_event_icon}).addTo(de_events_group);
 de_event06_marker.bindPopup("<b style=\"font-size:20px\">Diffracted Blue</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience(6/8)</b></span><br>\
@@ -117,7 +117,7 @@ de_event06_marker.bindPopup("<b style=\"font-size:20px\">Diffracted Blue</b><br>
 });
 
 //Event 07
-de_event07_marker = L.marker([1384.000703, 2676.75], {icon:de_event_icon}).addTo(de_events_group);
+de_event07_marker = L.marker([2150.000703, 2676.75], {icon:de_event_icon}).addTo(de_events_group);
 de_event07_marker.bindPopup("<b style=\"font-size:20px\">Skyline Juku</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience(7/8)</b></span><br>\
@@ -132,7 +132,7 @@ de_event07_marker.bindPopup("<b style=\"font-size:20px\">Skyline Juku</b><br>\
 });
 
 //Event 08
-de_event08_marker = L.marker([2075.523695, 2175.060459], {icon:de_event_icon}).addTo(de_events_group);
+de_event08_marker = L.marker([2841.523695, 2175.060459], {icon:de_event_icon}).addTo(de_events_group);
 de_event08_marker.bindPopup("<b style=\"font-size:20px\">Drift Emperor</b><br>\
                               <i>Event</i><br>\
                               <span><b>Drift Experience(8/8)</b></span><br>\
@@ -147,15 +147,15 @@ de_event08_marker.bindPopup("<b style=\"font-size:20px\">Drift Emperor</b><br>\
 });
 
 //FEATS
-var DEfeatsArr = [[1946.665913, 2273.525078, "bullseye", "Koolauloa", "Bullseye", "7,740 PTS", "3,840", "7,200"],  //Feat 01
-                  [1824.010019, 1435.5, "bullseye", "Kuaokala", "Bullseye", "6,850 PTS", "3,840", "7,200"],  //Feat 02
-                  [1681.695047, 1536.896589, "slalom", "Mauna Pele North Road", "Slalom", "6,490 PTS", "2,880", "5,400"],  //Feat 03
-                  [1313.176896, 1276.690982, "escape", "Kaimu Black Beach", "Escape", "550 m", "2,880", "5,400"],  //Feat 04
-                  [1137.124549, 1316.632827, "buoy_smashing", "Kaimu Waters", "Buoy Smashing", "19,820 PTS", "5,760", "10,800"],  //Feat 05
-                  [644.258349, 1767.125, "slalom", "Kalaeloa Fields", "Slalom", "8,250 PTS", "2,880", "5,400"],  //Feat 06
-                  [1227.554474, 2423.078162, "escape", "Mililani Heritage", "Escape", "720 m", "2,880", "5,400"],  //Feat 07
-                  [759.543362, 2666.202352, "escape", "Nuuanu Punchbowl", "Escape", "600 m", "2,880", "5,400"],  //Feat 08
-                  [615.809175, 3120.904167, "slalom", "Kaimuki", "Slalom", "7,710 PTS", "3,840", "7,200"],  //Feat 09
+var DEfeatsArr = [[2712.665913, 2273.525078, "bullseye", "Koolauloa", "Bullseye", "7,740 PTS", "3,840", "7,200"],  //Feat 01
+                  [2590.010019, 1435.5, "bullseye", "Kuaokala", "Bullseye", "6,850 PTS", "3,840", "7,200"],  //Feat 02
+                  [2447.695047, 1536.896589, "slalom", "Mauna Pele North Road", "Slalom", "6,490 PTS", "2,880", "5,400"],  //Feat 03
+                  [2079.176896, 1276.690982, "escape", "Kaimu Black Beach", "Escape", "550 m", "2,880", "5,400"],  //Feat 04
+                  [1903.124549, 1316.632827, "buoy_smashing", "Kaimu Waters", "Buoy Smashing", "19,820 PTS", "5,760", "10,800"],  //Feat 05
+                  [1410.258349, 1767.125, "slalom", "Kalaeloa Fields", "Slalom", "8,250 PTS", "2,880", "5,400"],  //Feat 06
+                  [1993.554474, 2423.078162, "escape", "Mililani Heritage", "Escape", "720 m", "2,880", "5,400"],  //Feat 07
+                  [1525.543362, 2666.202352, "escape", "Nuuanu Punchbowl", "Escape", "600 m", "2,880", "5,400"],  //Feat 08
+                  [1381.809175, 3120.904167, "slalom", "Kaimuki", "Slalom", "7,710 PTS", "3,840", "7,200"],  //Feat 09
                  ]
 
 function createDEFeatsMarkers(featsArr) {
@@ -177,7 +177,7 @@ createDEFeatsMarkers(DEfeatsArr);
 
 //PHOTO OPS
 //Photo Ops 1 Burning Views - HNL Mountain Roads
-de_photo_ops01_marker = L.marker([849.004851, 2863.25], {icon:photo_op_icon}).addTo(de_photo_ops_group);
+de_photo_ops01_marker = L.marker([1615.004851, 2863.25], {icon:photo_op_icon}).addTo(de_photo_ops_group);
 de_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - HNL Mountain Roads</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience</b></span><br>\
@@ -189,7 +189,7 @@ de_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - HNL
 });
 
 //Photo Ops 2 Burning Views - Ewa Shopping Mall
-de_photo_ops02_marker = L.marker([649.281933, 2103.712607], {icon:photo_op_icon}).addTo(de_photo_ops_group);
+de_photo_ops02_marker = L.marker([1415.281933, 2103.712607], {icon:photo_op_icon}).addTo(de_photo_ops_group);
 de_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - Ewa Shopping Mall</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience</b></span><br>\
@@ -202,7 +202,7 @@ de_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - Ewa
 });
 
 //Photo Ops 3 Burning Views - Central Industrial Zone
-de_photo_ops03_marker = L.marker([982.276925, 2109.058818], {icon:photo_op_icon}).addTo(de_photo_ops_group);
+de_photo_ops03_marker = L.marker([1748.276925, 2109.058818], {icon:photo_op_icon}).addTo(de_photo_ops_group);
 de_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - Central Industrial Zone</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience</b></span><br>\
@@ -215,7 +215,7 @@ de_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - Cen
 });
 
 //Photo Ops 4 Burning Views - Southern Volcano Roads
-de_photo_ops04_marker = L.marker([1089.0412, 1427.5], {icon:photo_op_icon}).addTo(de_photo_ops_group);
+de_photo_ops04_marker = L.marker([1855.0412, 1427.5], {icon:photo_op_icon}).addTo(de_photo_ops_group);
 de_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - Southern Volcano Roads</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience</b></span><br>\
@@ -227,7 +227,7 @@ de_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - Sou
 });
 
 //Photo Ops 5 Burning Views - Northern Volcano Roads
-de_photo_ops05_marker = L.marker([1747.416305, 1287.287895], {icon:photo_op_icon}).addTo(de_photo_ops_group);
+de_photo_ops05_marker = L.marker([2513.416305, 1287.287895], {icon:photo_op_icon}).addTo(de_photo_ops_group);
 de_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - Northern Volcano Roads</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience</b></span><br>\
@@ -239,7 +239,7 @@ de_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - Nor
 });
 
 //Photo Ops 6 Burning Views - Wahiawa Shopping Mall
-de_photo_ops06_marker = L.marker([1644.385511, 2326], {icon:photo_op_icon}).addTo(de_photo_ops_group);
+de_photo_ops06_marker = L.marker([2410.385511, 2326], {icon:photo_op_icon}).addTo(de_photo_ops_group);
 de_photo_ops06_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - Wahiawa Shopping Mall</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience</b></span><br>\
@@ -252,7 +252,7 @@ de_photo_ops06_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - Wah
 });
 
 //Photo Ops 7 Burning Views - Honouliuli 7 Days Market
-de_photo_ops07_marker = L.marker([1163.544153, 2302.75], {icon:photo_op_icon}).addTo(de_photo_ops_group);
+de_photo_ops07_marker = L.marker([1929.544153, 2302.75], {icon:photo_op_icon}).addTo(de_photo_ops_group);
 de_photo_ops07_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - Honouliuli 7 Days Market</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Drift Experience</b></span><br>\
@@ -267,7 +267,7 @@ de_photo_ops07_marker.bindPopup("<b style=\"font-size:20px\">Burning Views - Hon
 //COLLECTIBLES
 //Burning Rubber
 //Collectible 1 Burning Rubber
-de_collectible01_marker = L.marker([560.64219, 1598], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible01_marker = L.marker([1326.64219, 1598], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {
@@ -275,7 +275,7 @@ de_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience<
 });
 
 //Collectible 2 Burning Rubber
-de_collectible02_marker = L.marker([807.139132, 2403.125], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible02_marker = L.marker([1573.139132, 2403.125], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {
@@ -283,7 +283,7 @@ de_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience<
 });
 
 //Collectible 3 Burning Rubber
-de_collectible03_marker = L.marker([520.014976, 2825.375], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible03_marker = L.marker([1286.014976, 2825.375], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {
@@ -291,7 +291,7 @@ de_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience<
 });
 
 //Collectible 4 Burning Rubber
-de_collectible04_marker = L.marker([524.135898, 2808.875], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible04_marker = L.marker([1290.135898, 2808.875], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {
@@ -299,7 +299,7 @@ de_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience<
 });
 
 //Collectible 5 Burning Rubber
-de_collectible05_marker = L.marker([420.26821, 3173.375], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible05_marker = L.marker([1186.26821, 3173.375], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {
@@ -307,7 +307,7 @@ de_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience<
 });
 
 //Collectible 6 Burning Rubber
-de_collectible06_marker = L.marker([459.514659, 3340.75], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible06_marker = L.marker([1225.514659, 3340.75], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {
@@ -315,7 +315,7 @@ de_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience<
 });
 
 //Collectible 7 Burning Rubber
-de_collectible07_marker = L.marker([709.439996, 3338.6875], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible07_marker = L.marker([1475.439996, 3338.6875], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {
@@ -323,7 +323,7 @@ de_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience<
 });
 
 //Collectible 8 Burning Rubber
-de_collectible08_marker = L.marker([2144.618075, 2524.25], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible08_marker = L.marker([2910.618075, 2524.25], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible08_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {
@@ -331,7 +331,7 @@ de_collectible08_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience<
 });
 
 //Collectible 9 Burning Rubber
-de_collectible09_marker = L.marker([2204.625018, 2559.0625], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible09_marker = L.marker([2970.625018, 2559.0625], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible09_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {
@@ -339,7 +339,7 @@ de_collectible09_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience<
 });
 
 //Collectible 10 Burning Rubber
-de_collectible10_marker = L.marker([2518.268585, 2287.225272], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible10_marker = L.marker([3284.268585, 2287.225272], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible10_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {
@@ -347,7 +347,7 @@ de_collectible10_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience<
 });
 
 //Collectible 11 Burning Rubber
-de_collectible11_marker = L.marker([2062.274256, 2029.125], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible11_marker = L.marker([2828.274256, 2029.125], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible11_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {
@@ -355,7 +355,7 @@ de_collectible11_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience<
 });
 
 //Collectible 12 Burning Rubber
-de_collectible12_marker = L.marker([2176.041406, 1800.117088], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible12_marker = L.marker([2942.041406, 1800.117088], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible12_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {
@@ -363,7 +363,7 @@ de_collectible12_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience<
 });
 
 //Collectible 13 Burning Rubber
-de_collectible13_marker = L.marker([671.771115, 1597.402457], {icon:collectible_icon}).addTo(de_collectibles_group);
+de_collectible13_marker = L.marker([1437.771115, 1597.402457], {icon:collectible_icon}).addTo(de_collectibles_group);
 de_collectible13_marker.bindPopup("<b style=\"font-size:20px\">Drift Experience</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Burning Rubber</span><br>", {

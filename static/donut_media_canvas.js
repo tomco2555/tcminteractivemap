@@ -19,7 +19,7 @@ dm_feats_group = [];
 dm_collectibles_group = [];
 
 //CONTAINER
-dm_container_marker = L.marker([639.025416, 2956.375], {icon:dm_container_icon});
+dm_container_marker = L.marker([1405.025416, 2956.375], {icon:dm_container_icon});
 dm_container_marker.bindPopup('<b>Rule the Streets</b><br>\
                                <i>Container</i>', {
     className: "hstPopup"
@@ -27,7 +27,7 @@ dm_container_marker.bindPopup('<b>Rule the Streets</b><br>\
 
 //EVENTS
 //Event 01
-dm_event01_marker = L.marker([689.767718, 2920.875], {icon:dm_event_icon});
+dm_event01_marker = L.marker([1455.767718, 2920.875], {icon:dm_event_icon});
 dm_event01_marker.bindPopup("<b style=\"font-size:20px\">Legendary x Rivalry</b><br>\
                               <i>Event</i><br>\
                               <span><b>Rule the Streets(1/7)</b></span><br>\
@@ -42,7 +42,7 @@ dm_event01_marker.bindPopup("<b style=\"font-size:20px\">Legendary x Rivalry</b>
 });
 
 //Event 02
-dm_event02_marker = L.marker([636.353388, 3062.965193], {icon:dm_event_icon});
+dm_event02_marker = L.marker([1402.353388, 3062.965193], {icon:dm_event_icon});
 dm_event02_marker.bindPopup("<b style=\"font-size:20px\">American x Wrestle</b><br>\
                               <i>Event</i><br>\
                               <span><b>Rule the Streets(2/7)</b></span><br>\
@@ -57,7 +57,7 @@ dm_event02_marker.bindPopup("<b style=\"font-size:20px\">American x Wrestle</b><
 });
 
 //Event 03
-dm_event03_marker = L.marker([582.383156, 2679.4375], {icon:dm_event_icon});
+dm_event03_marker = L.marker([1348.383156, 2679.4375], {icon:dm_event_icon});
 dm_event03_marker.bindPopup("<b style=\"font-size:20px\">Hi x Low</b><br>\
                               <i>Event</i><br>\
                               <span><b>Rule the Streets(3/7)</b></span><br>\
@@ -72,7 +72,7 @@ dm_event03_marker.bindPopup("<b style=\"font-size:20px\">Hi x Low</b><br>\
 });
 
 //Event 04
-dm_event04_marker = L.marker([682.98755, 2481.237695], {icon:dm_event_icon});
+dm_event04_marker = L.marker([1448.98755, 2481.237695], {icon:dm_event_icon});
 dm_event04_marker.bindPopup("<b style=\"font-size:20px\">Mo x Powa</b><br>\
                               <i>Event</i><br>\
                               <span><b>Rule the Streets(4/7)</b></span><br>\
@@ -87,7 +87,7 @@ dm_event04_marker.bindPopup("<b style=\"font-size:20px\">Mo x Powa</b><br>\
 });
 
 //Event 05
-dm_event05_marker = L.marker([419.508033, 3184.875], {icon:dm_event_icon});
+dm_event05_marker = L.marker([1185.508033, 3184.875], {icon:dm_event_icon});
 dm_event05_marker.bindPopup("<b style=\"font-size:20px\">Screw x Drifter</b><br>\
                               <i>Event</i><br>\
                               <span><b>Rule the Streets(5/7)</b></span><br>\
@@ -102,7 +102,7 @@ dm_event05_marker.bindPopup("<b style=\"font-size:20px\">Screw x Drifter</b><br>
 });
 
 //Event 06
-dm_event06_marker = L.marker([558.972186, 2452.953424], {icon:dm_event_icon});
+dm_event06_marker = L.marker([1324.972186, 2452.953424], {icon:dm_event_icon});
 dm_event06_marker.bindPopup("<b style=\"font-size:20px\">Raptor x Delicacy</b><br>\
                               <i>Event</i><br>\
                               <span><b>Rule the Streets(6/7)</b></span><br>\
@@ -117,7 +117,7 @@ dm_event06_marker.bindPopup("<b style=\"font-size:20px\">Raptor x Delicacy</b><b
 });
 
 //Event 07
-dm_event07_marker = L.marker([694.190084, 2826.4375], {icon:dm_event_icon});
+dm_event07_marker = L.marker([1460.190084, 2826.4375], {icon:dm_event_icon});
 dm_event07_marker.bindPopup("<b style=\"font-size:20px\">German x Qualität</b><br>\
                               <i>Event</i><br>\
                               <span><b>Rule the Streets(7/7)</b></span><br>\
@@ -132,10 +132,10 @@ dm_event07_marker.bindPopup("<b style=\"font-size:20px\">German x Qualität</b><
 });
 
 //FEATS
-var DMfeatsArr = [[639.798946, 2959.416231, "speedtrap", "Moiliili Heights", "Speedtrap", "210.0 km/h", "960", "1,800"],  //Feat 01
-                [339.534267, 3231.373033, "speedtrap", "Diamond Head", "Speedtrap", "120.0 km/h", "960", "1,800"],  //Feat 02
-                [604.299809, 2507.9375, "slalom", "Chinatown", "Slalom", "5,130 PTS", "2,880", "5,400"],  //Feat 03
-                [637.24939, 2851.718662, "bullseye", "Convention Center", "Bullseye", "5,870 PTS", "4,800", "9,000"],  //Feat 04
+var DMfeatsArr = [[1405.798946, 2959.416231, "speedtrap", "Moiliili Heights", "Speedtrap", "210.0 km/h", "960", "1,800"],  //Feat 01
+                [1105.534267, 3231.373033, "speedtrap", "Diamond Head", "Speedtrap", "120.0 km/h", "960", "1,800"],  //Feat 02
+                [1370.299809, 2507.9375, "slalom", "Chinatown", "Slalom", "5,130 PTS", "2,880", "5,400"],  //Feat 03
+                [1403.24939, 2851.718662, "bullseye", "Convention Center", "Bullseye", "5,870 PTS", "4,800", "9,000"],  //Feat 04
                ]
 
 function createDMFeatsMarkers(featsArr) {
@@ -157,7 +157,7 @@ createDMFeatsMarkers(DMfeatsArr);
 
 //PHOTO OPS
 //Photo Ops 1 Donut x Views - Swimming Pool
-dm_photo_ops01_marker = L.marker([618.696373, 2886.205668], {icon:photo_op_icon});
+dm_photo_ops01_marker = L.marker([1384.696373, 2886.205668], {icon:photo_op_icon});
 dm_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Donut x Views - Swimming Pool</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Rule the Streets</b></span><br>\
@@ -170,7 +170,7 @@ dm_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Donut x Views - Swi
 });
 
 //Photo Ops 2 Donut x Views - Roadworks
-dm_photo_ops02_marker = L.marker([572.322456, 2611.256955], {icon:photo_op_icon});
+dm_photo_ops02_marker = L.marker([1338.322456, 2611.256955], {icon:photo_op_icon});
 dm_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Donut x Views - Roadworks</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Rule the Streets</b></span><br>\
@@ -183,7 +183,7 @@ dm_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Donut x Views - Roa
 });
 
 //Photo Ops 3 Donut x Views - Football field
-dm_photo_ops03_marker = L.marker([619.130642, 2901.8125], {icon:photo_op_icon});
+dm_photo_ops03_marker = L.marker([1385.130642, 2901.8125], {icon:photo_op_icon});
 dm_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Donut x Views - Football Field</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Rule the Streets</b></span><br>\
@@ -197,7 +197,7 @@ dm_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Donut x Views - Foo
 });
 
 //Photo Ops 4 Donut x Views - Artsy Shopping Mall
-dm_photo_ops04_marker = L.marker([565.083361, 2708.395749], {icon:photo_op_icon});
+dm_photo_ops04_marker = L.marker([1331.083361, 2708.395749], {icon:photo_op_icon});
 dm_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Donut x Views - Artsy Shopping Mall</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Rule the Streets</b></span><br>\
@@ -210,7 +210,7 @@ dm_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Donut x Views - Art
 });
 
 //Photo Ops 5 Donut x Views - Street Art
-dm_photo_ops05_marker = L.marker([413.317024, 3128.765337], {icon:photo_op_icon});
+dm_photo_ops05_marker = L.marker([1179.317024, 3128.765337], {icon:photo_op_icon});
 dm_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Donut x Views - Street Art</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Rule the Streets</b></span><br>\
@@ -225,7 +225,7 @@ dm_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Donut x Views - Str
 //COLLECTIBLES
 //Donut x Lifeguard
 //Collectible 1 Donut x Lifeguard
-dm_collectible01_marker = L.marker([442.525404, 2903.615322], {icon:collectible_icon});
+dm_collectible01_marker = L.marker([1208.525404, 2903.615322], {icon:collectible_icon});
 dm_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -233,7 +233,7 @@ dm_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 2 Donut x Lifeguard
-dm_collectible02_marker = L.marker([471.116803, 2684.707671], {icon:collectible_icon});
+dm_collectible02_marker = L.marker([1237.116803, 2684.707671], {icon:collectible_icon});
 dm_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -241,7 +241,7 @@ dm_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 3 Donut x Lifeguard
-dm_collectible03_marker = L.marker([529.365619, 2246.036302], {icon:collectible_icon});
+dm_collectible03_marker = L.marker([1295.365619, 2246.036302], {icon:collectible_icon});
 dm_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -249,7 +249,7 @@ dm_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 4 Donut x Lifeguard
-dm_collectible04_marker = L.marker([630.466226, 1541.152905], {icon:collectible_icon});
+dm_collectible04_marker = L.marker([1396.466226, 1541.152905], {icon:collectible_icon});
 dm_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -257,7 +257,7 @@ dm_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 5 Donut x Lifeguard
-dm_collectible05_marker = L.marker([536.632803, 1572.959035], {icon:collectible_icon});
+dm_collectible05_marker = L.marker([1302.632803, 1572.959035], {icon:collectible_icon});
 dm_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -265,7 +265,7 @@ dm_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 6 Donut x Lifeguard
-dm_collectible06_marker = L.marker([1616.943142, 1334.125], {icon:collectible_icon});
+dm_collectible06_marker = L.marker([2382.943142, 1334.125], {icon:collectible_icon});
 dm_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -273,7 +273,7 @@ dm_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 7 Donut x Lifeguard
-dm_collectible07_marker = L.marker([2152.445058, 1795.125], {icon:collectible_icon});
+dm_collectible07_marker = L.marker([2918.445058, 1795.125], {icon:collectible_icon});
 dm_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -281,7 +281,7 @@ dm_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 8 Donut x Lifeguard
-dm_collectible08_marker = L.marker([2199.185183, 1853.857204], {icon:collectible_icon});
+dm_collectible08_marker = L.marker([2965.185183, 1853.857204], {icon:collectible_icon});
 dm_collectible08_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -289,7 +289,7 @@ dm_collectible08_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 9 Donut x Lifeguard
-dm_collectible09_marker = L.marker([2184.194074, 2001], {icon:collectible_icon});
+dm_collectible09_marker = L.marker([2950.194074, 2001], {icon:collectible_icon});
 dm_collectible09_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -297,7 +297,7 @@ dm_collectible09_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 10 Donut x Lifeguard
-dm_collectible10_marker = L.marker([2368.247293, 2109.5], {icon:collectible_icon});
+dm_collectible10_marker = L.marker([3134.247293, 2109.5], {icon:collectible_icon});
 dm_collectible10_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -305,7 +305,7 @@ dm_collectible10_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 11 Donut x Lifeguard
-dm_collectible11_marker = L.marker([2467.535873, 2228.648459], {icon:collectible_icon});
+dm_collectible11_marker = L.marker([3233.535873, 2228.648459], {icon:collectible_icon});
 dm_collectible11_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -313,7 +313,7 @@ dm_collectible11_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 12 Donut x Lifeguard
-dm_collectible12_marker = L.marker([2566.124824, 2260.4375], {icon:collectible_icon});
+dm_collectible12_marker = L.marker([3332.124824, 2260.4375], {icon:collectible_icon});
 dm_collectible12_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -321,7 +321,7 @@ dm_collectible12_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 13 Donut x Lifeguard
-dm_collectible13_marker = L.marker([2172.029972, 2601.313061], {icon:collectible_icon});
+dm_collectible13_marker = L.marker([2938.029972, 2601.313061], {icon:collectible_icon});
 dm_collectible13_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -329,7 +329,7 @@ dm_collectible13_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 14 Donut x Lifeguard
-dm_collectible14_marker = L.marker([1755.012005, 2992.25], {icon:collectible_icon});
+dm_collectible14_marker = L.marker([2521.012005, 2992.25], {icon:collectible_icon});
 dm_collectible14_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -337,7 +337,7 @@ dm_collectible14_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 15 Donut x Lifeguard
-dm_collectible15_marker = L.marker([1513.81932, 3050.375], {icon:collectible_icon});
+dm_collectible15_marker = L.marker([2279.81932, 3050.375], {icon:collectible_icon});
 dm_collectible15_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -345,7 +345,7 @@ dm_collectible15_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 16 Donut x Lifeguard
-dm_collectible16_marker = L.marker([1307.93161, 3184.790061], {icon:collectible_icon});
+dm_collectible16_marker = L.marker([2073.93161, 3184.790061], {icon:collectible_icon});
 dm_collectible16_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -353,7 +353,7 @@ dm_collectible16_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 17 Donut x Lifeguard
-dm_collectible17_marker = L.marker([1272.067685, 3358.875], {icon:collectible_icon});
+dm_collectible17_marker = L.marker([2038.067685, 3358.875], {icon:collectible_icon});
 dm_collectible17_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -361,7 +361,7 @@ dm_collectible17_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 18 Donut x Lifeguard
-dm_collectible18_marker = L.marker([1047.023202, 3479.25], {icon:collectible_icon});
+dm_collectible18_marker = L.marker([1813.023202, 3479.25], {icon:collectible_icon});
 dm_collectible18_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Lifeguard</span><br>", {
@@ -370,7 +370,7 @@ dm_collectible18_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 
 //Donut x Drone
 //Collectible 1 Donut x Drone
-dm_collectible19_marker = L.marker([632.641768, 2956.0625], {icon:collectible_icon});
+dm_collectible19_marker = L.marker([1398.641768, 2956.0625], {icon:collectible_icon});
 dm_collectible19_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Drone</span><br>", {
@@ -378,7 +378,7 @@ dm_collectible19_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 2 Donut x Drone
-dm_collectible20_marker = L.marker([518.206407, 2873.421692], {icon:collectible_icon});
+dm_collectible20_marker = L.marker([1284.206407, 2873.421692], {icon:collectible_icon});
 dm_collectible20_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Drone</span><br>\
@@ -388,7 +388,7 @@ dm_collectible20_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 3 Donut x Drone
-dm_collectible21_marker = L.marker([516.269089, 2767], {icon:collectible_icon});
+dm_collectible21_marker = L.marker([1282.269089, 2767], {icon:collectible_icon});
 dm_collectible21_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Drone</span><br>\
@@ -398,7 +398,7 @@ dm_collectible21_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 4 Donut x Drone
-dm_collectible22_marker = L.marker([561.383331, 2698.0625], {icon:collectible_icon});
+dm_collectible22_marker = L.marker([1327.383331, 2698.0625], {icon:collectible_icon});
 dm_collectible22_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Drone</span><br>\
@@ -408,7 +408,7 @@ dm_collectible22_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 5 Donut x Drone
-dm_collectible23_marker = L.marker([635.715395, 2594.37478], {icon:collectible_icon});
+dm_collectible23_marker = L.marker([1401.715395, 2594.37478], {icon:collectible_icon});
 dm_collectible23_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Drone</span><br>\
@@ -419,7 +419,7 @@ dm_collectible23_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 
 //Donut x Jasper Wong
 //Collectible 1 Donut x Jasper Wong
-dm_collectible24_marker = L.marker([544.126424, 2928.747899], {icon:collectible_icon});
+dm_collectible24_marker = L.marker([1310.126424, 2928.747899], {icon:collectible_icon});
 dm_collectible24_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -427,7 +427,7 @@ dm_collectible24_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 2 Donut x Jasper Wong
-dm_collectible25_marker = L.marker([693.62224, 2752.4375], {icon:collectible_icon});
+dm_collectible25_marker = L.marker([1459.62224, 2752.4375], {icon:collectible_icon});
 dm_collectible25_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -435,7 +435,7 @@ dm_collectible25_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 3 Donut x Jasper Wong
-dm_collectible26_marker = L.marker([709.147394, 2658.191167], {icon:collectible_icon});
+dm_collectible26_marker = L.marker([1475.147394, 2658.191167], {icon:collectible_icon});
 dm_collectible26_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>\
@@ -445,7 +445,7 @@ dm_collectible26_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 4 Donut x Jasper Wong
-dm_collectible27_marker = L.marker([646.654471, 2692.574234], {icon:collectible_icon});
+dm_collectible27_marker = L.marker([1412.654471, 2692.574234], {icon:collectible_icon});
 dm_collectible27_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -453,7 +453,7 @@ dm_collectible27_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 5 Donut x Jasper Wong
-dm_collectible28_marker = L.marker([562.44722, 2712.3125], {icon:collectible_icon});
+dm_collectible28_marker = L.marker([1328.44722, 2712.3125], {icon:collectible_icon});
 dm_collectible28_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -461,7 +461,7 @@ dm_collectible28_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 6 Donut x Jasper Wong
-dm_collectible29_marker = L.marker([622.065576, 2069.5625], {icon:collectible_icon});
+dm_collectible29_marker = L.marker([1388.065576, 2069.5625], {icon:collectible_icon});
 dm_collectible29_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -469,7 +469,7 @@ dm_collectible29_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 7 Donut x Jasper Wong
-dm_collectible30_marker = L.marker([752.868479, 2163.375], {icon:collectible_icon});
+dm_collectible30_marker = L.marker([1518.868479, 2163.375], {icon:collectible_icon});
 dm_collectible30_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -477,7 +477,7 @@ dm_collectible30_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 8 Donut x Jasper Wong
-dm_collectible31_marker = L.marker([854.716192, 2228.623798], {icon:collectible_icon});
+dm_collectible31_marker = L.marker([1620.716192, 2228.623798], {icon:collectible_icon});
 dm_collectible31_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -485,7 +485,7 @@ dm_collectible31_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 9 Donut x Jasper Wong
-dm_collectible32_marker = L.marker([835.993572, 2541.341772], {icon:collectible_icon});
+dm_collectible32_marker = L.marker([1601.993572, 2541.341772], {icon:collectible_icon});
 dm_collectible32_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -493,7 +493,7 @@ dm_collectible32_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 10 Donut x Jasper Wong
-dm_collectible33_marker = L.marker([989.857948, 2792.629844], {icon:collectible_icon});
+dm_collectible33_marker = L.marker([1755.857948, 2792.629844], {icon:collectible_icon});
 dm_collectible33_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -501,7 +501,7 @@ dm_collectible33_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 11 Donut x Jasper Wong
-dm_collectible34_marker = L.marker([468.819162, 1702.25], {icon:collectible_icon});
+dm_collectible34_marker = L.marker([1234.819162, 1702.25], {icon:collectible_icon});
 dm_collectible34_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -509,7 +509,7 @@ dm_collectible34_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 12 Donut x Jasper Wong
-dm_collectible35_marker = L.marker([519.199393, 1735.063264], {icon:collectible_icon});
+dm_collectible35_marker = L.marker([1285.199393, 1735.063264], {icon:collectible_icon});
 dm_collectible35_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -517,7 +517,7 @@ dm_collectible35_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 13 Donut x Jasper Wong
-dm_collectible36_marker = L.marker([544.36472, 1768.128004], {icon:collectible_icon});
+dm_collectible36_marker = L.marker([1310.36472, 1768.128004], {icon:collectible_icon});
 dm_collectible36_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -525,7 +525,7 @@ dm_collectible36_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 14 Donut x Jasper Wong
-dm_collectible37_marker = L.marker([538.890222, 1771.375], {icon:collectible_icon});
+dm_collectible37_marker = L.marker([1304.890222, 1771.375], {icon:collectible_icon});
 dm_collectible37_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -533,7 +533,7 @@ dm_collectible37_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 15 Donut x Jasper Wong
-dm_collectible38_marker = L.marker([533.506468, 1774.5], {icon:collectible_icon});
+dm_collectible38_marker = L.marker([1299.506468, 1774.5], {icon:collectible_icon});
 dm_collectible38_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -541,7 +541,7 @@ dm_collectible38_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 16 Donut x Jasper Wong
-dm_collectible39_marker = L.marker([466.708299, 1809.1327], {icon:collectible_icon});
+dm_collectible39_marker = L.marker([1232.708299, 1809.1327], {icon:collectible_icon});
 dm_collectible39_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>\
@@ -551,7 +551,7 @@ dm_collectible39_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 17 Donut x Jasper Wong
-dm_collectible40_marker = L.marker([593.771163, 3243.625], {icon:collectible_icon});
+dm_collectible40_marker = L.marker([1359.771163, 3243.625], {icon:collectible_icon});
 dm_collectible40_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -559,7 +559,7 @@ dm_collectible40_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 18 Donut x Jasper Wong
-dm_collectible41_marker = L.marker([1724.466084, 2143.682596], {icon:collectible_icon});
+dm_collectible41_marker = L.marker([2490.466084, 2143.682596], {icon:collectible_icon});
 dm_collectible41_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>\
@@ -569,7 +569,7 @@ dm_collectible41_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 19 Donut x Jasper Wong
-dm_collectible42_marker = L.marker([1219.267788, 2121.375], {icon:collectible_icon});
+dm_collectible42_marker = L.marker([1985.267788, 2121.375], {icon:collectible_icon});
 dm_collectible42_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -577,7 +577,7 @@ dm_collectible42_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 20 Donut x Jasper Wong
-dm_collectible43_marker = L.marker([2065.933282, 1582.1875], {icon:collectible_icon});
+dm_collectible43_marker = L.marker([2831.933282, 1582.1875], {icon:collectible_icon});
 dm_collectible43_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -585,7 +585,7 @@ dm_collectible43_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 21 Donut x Jasper Wong
-dm_collectible44_marker = L.marker([1477.528194, 2186.875], {icon:collectible_icon});
+dm_collectible44_marker = L.marker([2243.528194, 2186.875], {icon:collectible_icon});
 dm_collectible44_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -593,7 +593,7 @@ dm_collectible44_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 22 Donut x Jasper Wong
-dm_collectible45_marker = L.marker([1159.8183, 2319], {icon:collectible_icon});
+dm_collectible45_marker = L.marker([1925.8183, 2319], {icon:collectible_icon});
 dm_collectible45_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -601,7 +601,7 @@ dm_collectible45_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 23 Donut x Jasper Wong
-dm_collectible46_marker = L.marker([1628.719827, 2269.017272], {icon:collectible_icon});
+dm_collectible46_marker = L.marker([2394.719827, 2269.017272], {icon:collectible_icon});
 dm_collectible46_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -609,7 +609,7 @@ dm_collectible46_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 24 Donut x Jasper Wong
-dm_collectible47_marker = L.marker([1500.195181, 2347.9375], {icon:collectible_icon});
+dm_collectible47_marker = L.marker([2266.195181, 2347.9375], {icon:collectible_icon});
 dm_collectible47_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -617,7 +617,7 @@ dm_collectible47_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 25 Donut x Jasper Wong
-dm_collectible48_marker = L.marker([1609.686621, 2108.5], {icon:collectible_icon});
+dm_collectible48_marker = L.marker([2375.686621, 2108.5], {icon:collectible_icon});
 dm_collectible48_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -625,7 +625,7 @@ dm_collectible48_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 26 Donut x Jasper Wong
-dm_collectible49_marker = L.marker([1921.630836, 2425.3125], {icon:collectible_icon});
+dm_collectible49_marker = L.marker([2687.630836, 2425.3125], {icon:collectible_icon});
 dm_collectible49_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -633,7 +633,7 @@ dm_collectible49_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 27 Donut x Jasper Wong
-dm_collectible50_marker = L.marker([2110.187377, 2014.1875], {icon:collectible_icon});
+dm_collectible50_marker = L.marker([2876.187377, 2014.1875], {icon:collectible_icon});
 dm_collectible50_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -641,7 +641,7 @@ dm_collectible50_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 28 Donut x Jasper Wong
-dm_collectible51_marker = L.marker([2014.644457, 2133.959877], {icon:collectible_icon});
+dm_collectible51_marker = L.marker([2780.644457, 2133.959877], {icon:collectible_icon});
 dm_collectible51_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -649,7 +649,7 @@ dm_collectible51_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 29 Donut x Jasper Wong
-dm_collectible52_marker = L.marker([1921.944003, 1163.5], {icon:collectible_icon});
+dm_collectible52_marker = L.marker([2687.944003, 1163.5], {icon:collectible_icon});
 dm_collectible52_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -657,7 +657,7 @@ dm_collectible52_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 30 Donut x Jasper Wong
-dm_collectible53_marker = L.marker([1938.367122, 1117.236], {icon:collectible_icon});
+dm_collectible53_marker = L.marker([2704.367122, 1117.236], {icon:collectible_icon});
 dm_collectible53_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -665,7 +665,7 @@ dm_collectible53_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 31 Donut x Jasper Wong
-dm_collectible54_marker = L.marker([1882.770111, 1072.769375], {icon:collectible_icon});
+dm_collectible54_marker = L.marker([2648.770111, 1072.769375], {icon:collectible_icon});
 dm_collectible54_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -673,7 +673,7 @@ dm_collectible54_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 32 Donut x Jasper Wong
-dm_collectible55_marker = L.marker([1629.135968, 1347], {icon:collectible_icon});
+dm_collectible55_marker = L.marker([2395.135968, 1347], {icon:collectible_icon});
 dm_collectible55_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -681,7 +681,7 @@ dm_collectible55_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 33 Donut x Jasper Wong
-dm_collectible56_marker = L.marker([988.186897, 3762.073241], {icon:collectible_icon});
+dm_collectible56_marker = L.marker([1754.186897, 3762.073241], {icon:collectible_icon});
 dm_collectible56_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -689,7 +689,7 @@ dm_collectible56_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 34 Donut x Jasper Wong
-dm_collectible57_marker = L.marker([981.134597, 3763.25], {icon:collectible_icon});
+dm_collectible57_marker = L.marker([1747.134597, 3763.25], {icon:collectible_icon});
 dm_collectible57_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -697,7 +697,7 @@ dm_collectible57_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 35 Donut x Jasper Wong
-dm_collectible58_marker = L.marker([999.755203, 3697.75], {icon:collectible_icon});
+dm_collectible58_marker = L.marker([1765.755203, 3697.75], {icon:collectible_icon});
 dm_collectible58_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -705,7 +705,7 @@ dm_collectible58_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 36 Donut x Jasper Wong
-dm_collectible59_marker = L.marker([996.683016, 3700.996893], {icon:collectible_icon});
+dm_collectible59_marker = L.marker([1762.683016, 3700.996893], {icon:collectible_icon});
 dm_collectible59_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -713,7 +713,7 @@ dm_collectible59_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 37 Donut x Jasper Wong
-dm_collectible60_marker = L.marker([883.363164, 3679.606913], {icon:collectible_icon});
+dm_collectible60_marker = L.marker([1649.363164, 3679.606913], {icon:collectible_icon});
 dm_collectible60_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>\
@@ -723,7 +723,7 @@ dm_collectible60_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 38 Donut x Jasper Wong
-dm_collectible61_marker = L.marker([886.271795, 3660.25], {icon:collectible_icon});
+dm_collectible61_marker = L.marker([1652.271795, 3660.25], {icon:collectible_icon});
 dm_collectible61_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -731,7 +731,7 @@ dm_collectible61_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 39 Donut x Jasper Wong
-dm_collectible62_marker = L.marker([912.115016, 3642.625], {icon:collectible_icon});
+dm_collectible62_marker = L.marker([1678.115016, 3642.625], {icon:collectible_icon});
 dm_collectible62_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -739,7 +739,7 @@ dm_collectible62_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 40 Donut x Jasper Wong
-dm_collectible63_marker = L.marker([899.289895, 3679.076583], {icon:collectible_icon});
+dm_collectible63_marker = L.marker([1665.289895, 3679.076583], {icon:collectible_icon});
 dm_collectible63_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -747,7 +747,7 @@ dm_collectible63_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 41 Donut x Jasper Wong
-dm_collectible64_marker = L.marker([1586.246906, 2829.75], {icon:collectible_icon});
+dm_collectible64_marker = L.marker([2352.246906, 2829.75], {icon:collectible_icon});
 dm_collectible64_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -755,7 +755,7 @@ dm_collectible64_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 42 Donut x Jasper Wong
-dm_collectible65_marker = L.marker([985.581581, 3429.114335], {icon:collectible_icon});
+dm_collectible65_marker = L.marker([1751.581581, 3429.114335], {icon:collectible_icon});
 dm_collectible65_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -763,7 +763,7 @@ dm_collectible65_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 43 Donut x Jasper Wong
-dm_collectible66_marker = L.marker([1171.324919, 3452.006917], {icon:collectible_icon});
+dm_collectible66_marker = L.marker([1937.324919, 3452.006917], {icon:collectible_icon});
 dm_collectible66_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -771,7 +771,7 @@ dm_collectible66_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 44 Donut x Jasper Wong
-dm_collectible67_marker = L.marker([1159.070269, 3308.9375], {icon:collectible_icon});
+dm_collectible67_marker = L.marker([1925.070269, 3308.9375], {icon:collectible_icon});
 dm_collectible67_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -779,7 +779,7 @@ dm_collectible67_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 45 Donut x Jasper Wong
-dm_collectible68_marker = L.marker([1106.364927, 3129.566225], {icon:collectible_icon});
+dm_collectible68_marker = L.marker([1872.364927, 3129.566225], {icon:collectible_icon});
 dm_collectible68_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -787,7 +787,7 @@ dm_collectible68_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 46 Donut x Jasper Wong
-dm_collectible69_marker = L.marker([1105.380572, 2944.375], {icon:collectible_icon});
+dm_collectible69_marker = L.marker([1871.380572, 2944.375], {icon:collectible_icon});
 dm_collectible69_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -795,7 +795,7 @@ dm_collectible69_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 47 Donut x Jasper Wong
-dm_collectible70_marker = L.marker([1199.820058, 3126.625], {icon:collectible_icon});
+dm_collectible70_marker = L.marker([1965.820058, 3126.625], {icon:collectible_icon});
 dm_collectible70_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -803,7 +803,7 @@ dm_collectible70_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 48 Donut x Jasper Wong
-dm_collectible71_marker = L.marker([1232.563115, 3117.3125], {icon:collectible_icon});
+dm_collectible71_marker = L.marker([1998.563115, 3117.3125], {icon:collectible_icon});
 dm_collectible71_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -811,7 +811,7 @@ dm_collectible71_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 49 Donut x Jasper Wong
-dm_collectible72_marker = L.marker([961.590804, 3198.597525], {icon:collectible_icon});
+dm_collectible72_marker = L.marker([1727.590804, 3198.597525], {icon:collectible_icon});
 dm_collectible72_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -819,7 +819,7 @@ dm_collectible72_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 50 Donut x Jasper Wong
-dm_collectible73_marker = L.marker([1007.519194, 3049.25], {icon:collectible_icon});
+dm_collectible73_marker = L.marker([1773.519194, 3049.25], {icon:collectible_icon});
 dm_collectible73_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -827,7 +827,7 @@ dm_collectible73_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 51 Donut x Jasper Wong
-dm_collectible74_marker = L.marker([1510.659697, 2842.375], {icon:collectible_icon});
+dm_collectible74_marker = L.marker([2276.659697, 2842.375], {icon:collectible_icon});
 dm_collectible74_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -835,7 +835,7 @@ dm_collectible74_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 52 Donut x Jasper Wong
-dm_collectible75_marker = L.marker([2452.122996, 2440.25], {icon:collectible_icon});
+dm_collectible75_marker = L.marker([3218.122996, 2440.25], {icon:collectible_icon});
 dm_collectible75_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {
@@ -843,7 +843,7 @@ dm_collectible75_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets<
 });
 
 //Collectible 53 Donut x Jasper Wong
-dm_collectible76_marker = L.marker([757.940928, 1783.6875], {icon:collectible_icon});
+dm_collectible76_marker = L.marker([1523.940928, 1783.6875], {icon:collectible_icon});
 dm_collectible76_marker.bindPopup("<b style=\"font-size:20px\">Rule the Streets</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Donut x Jasper Wong</span><br>", {

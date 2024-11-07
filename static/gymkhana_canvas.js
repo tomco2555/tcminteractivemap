@@ -19,7 +19,7 @@ gym_feats_group = [];
 gym_collectibles_group = [];
 
 //CONTAINER
-gym_container_marker = L.marker([441.772941, 1589.310879], {icon:gym_container_icon});
+gym_container_marker = L.marker([1207.772941, 1589.310879], {icon:gym_container_icon});
 gym_container_marker.bindPopup('<b>Gymkhana Grid Masters</b><br>\
                                <i>Container</i>', {
     className: "hstPopup"
@@ -27,7 +27,7 @@ gym_container_marker.bindPopup('<b>Gymkhana Grid Masters</b><br>\
 
 //EVENTS
 //Event 01
-gym_event01_marker = L.marker([423.062477, 1526.997094], {icon:gym_event_icon});
+gym_event01_marker = L.marker([1189.062477, 1526.997094], {icon:gym_event_icon});
 gym_event01_marker.bindPopup("<b style=\"font-size:20px\">Grid Paradise</b><br>\
                               <i>Event</i><br>\
                               <span><b>Gymkhana Grid Masters(1/10)</b></span><br>\
@@ -42,7 +42,7 @@ gym_event01_marker.bindPopup("<b style=\"font-size:20px\">Grid Paradise</b><br>\
 });
 
 //Event 02
-gym_event02_marker = L.marker([386.282553, 1646.5], {icon:gym_event_icon});
+gym_event02_marker = L.marker([1152.282553, 1646.5], {icon:gym_event_icon});
 gym_event02_marker.bindPopup("<b style=\"font-size:20px\">Rocket Science</b><br>\
                               <i>Event</i><br>\
                               <span><b>Gymkhana Grid Masters(2/10)</b></span><br>\
@@ -57,7 +57,7 @@ gym_event02_marker.bindPopup("<b style=\"font-size:20px\">Rocket Science</b><br>
 });
 
 //Event 03
-gym_event03_marker = L.marker([697.30853, 1616.28112], {icon:gym_event_icon});
+gym_event03_marker = L.marker([1463.30853, 1616.28112], {icon:gym_event_icon});
 gym_event03_marker.bindPopup("<b style=\"font-size:20px\">Scotto vs Scotto</b><br>\
                               <i>Event</i><br>\
                               <span><b>Gymkhana Grid Masters(3/10)</b></span><br>\
@@ -72,7 +72,7 @@ gym_event03_marker.bindPopup("<b style=\"font-size:20px\">Scotto vs Scotto</b><b
 });
 
 //Event 04
-gym_event04_marker = L.marker([1658.574718, 1335.033637], {icon:gym_event_icon});
+gym_event04_marker = L.marker([2424.574718, 1335.033637], {icon:gym_event_icon});
 gym_event04_marker.bindPopup("<b style=\"font-size:20px\">Volkhana</b><br>\
                               <i>Event</i><br>\
                               <span><b>Gymkhana Grid Masters(4/10)</b></span><br>\
@@ -87,7 +87,7 @@ gym_event04_marker.bindPopup("<b style=\"font-size:20px\">Volkhana</b><br>\
 });
 
 //Event 05
-gym_event05_marker = L.marker([1570.071431, 1343.121799], {icon:gym_event_icon});
+gym_event05_marker = L.marker([2336.071431, 1343.121799], {icon:gym_event_icon});
 gym_event05_marker.bindPopup("<b style=\"font-size:20px\">Carbon Project</b><br>\
                               <i>Event</i><br>\
                               <span><b>Gymkhana Grid Masters(5/10)</b></span><br>\
@@ -102,7 +102,7 @@ gym_event05_marker.bindPopup("<b style=\"font-size:20px\">Carbon Project</b><br>
 });
 
 //Event 06
-gym_event06_marker = L.marker([342.502456, 1558.827551], {icon:gym_event_icon});
+gym_event06_marker = L.marker([1108.502456, 1558.827551], {icon:gym_event_icon});
 gym_event06_marker.bindPopup("<b style=\"font-size:20px\">Rocket Up</b><br>\
                               <i>Event</i><br>\
                               <span><b>Gymkhana Grid Masters(6/10)</b></span><br>\
@@ -117,7 +117,7 @@ gym_event06_marker.bindPopup("<b style=\"font-size:20px\">Rocket Up</b><br>\
 });
 
 //Event 07
-gym_event07_marker = L.marker([478.879509, 1692.018748], {icon:gym_event_icon});
+gym_event07_marker = L.marker([1244.879509, 1692.018748], {icon:gym_event_icon});
 gym_event07_marker.bindPopup("<b style=\"font-size:20px\">This vs That</b><br>\
                               <i>Event</i><br>\
                               <span><b>Gymkhana Grid Masters(7/10)</b></span><br>\
@@ -132,7 +132,7 @@ gym_event07_marker.bindPopup("<b style=\"font-size:20px\">This vs That</b><br>\
 });
 
 //Event 08
-gym_event08_marker = L.marker([586.337254, 1713.721778], {icon:gym_event_icon});
+gym_event08_marker = L.marker([1352.337254, 1713.721778], {icon:gym_event_icon});
 gym_event08_marker.bindPopup("<b style=\"font-size:20px\">Racekhana</b><br>\
                               <i>Event</i><br>\
                               <span><b>Gymkhana Grid Masters(8/10)</b></span><br>\
@@ -147,7 +147,7 @@ gym_event08_marker.bindPopup("<b style=\"font-size:20px\">Racekhana</b><br>\
 });
 
 //Event 09
-gym_event09_marker = L.marker([467.495927, 1587.294197], {icon:gym_event_icon});
+gym_event09_marker = L.marker([1233.495927, 1587.294197], {icon:gym_event_icon});
 gym_event09_marker.bindPopup("<b style=\"font-size:20px\">Hoonigan Burnyard</b><br>\
                               <i>Event</i><br>\
                               <span><b>Gymkhana Grid Masters(9/10)</b></span><br>\
@@ -162,7 +162,7 @@ gym_event09_marker.bindPopup("<b style=\"font-size:20px\">Hoonigan Burnyard</b><
 });
 
 //Event 10
-gym_event10_marker = L.marker([561.482627, 1853.545923], {icon:gym_event_icon});
+gym_event10_marker = L.marker([1327.482627, 1853.545923], {icon:gym_event_icon});
 gym_event10_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Motorfest</b><br>\
                               <i>Event</i><br>\
                               <span><b>Gymkhana Grid Masters(10/10)</b></span><br>\
@@ -177,12 +177,12 @@ gym_event10_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Motorfest</b>
 });
 
 //FEATS
-var GymfeatsArr = [[489.729495, 1805.930164, "slalom", "Barbers Point Harbor", "Slalom", "4,280 PTS", "2,880", "5,400"],  //Feat 01
-                   [566.812196, 1632.409742, "speedtrap", "Nai'a Lagoon Beach", "Speedtrap", "210.0 km/h", "960", "1,800"],  //Feat 02
-                   [336.509503, 1554.751035, "bullseye", "Gymkhana Grid Park", "Bullseye", "4,290 PTS", "2,880", "5,400"],  //Feat 03
-                   [910.265758, 1477.455002, "slalom", "Leeward Coast", "Slalom", "2,990 PTS", "2,880", "5,400"],  //Feat 04
-                   [1075.883226, 1537, "bullseye", "Observatory Road", "Bullseye", "4,180 PTS", "4,800", "9,000"],  //Feat 05
-                   [1558.451911, 1398.507567, "slalom", "Pokai Road", "Slalom", "4,120 PTS", "2,880", "5,400"],  //Feat 06
+var GymfeatsArr = [[1255.729495, 1805.930164, "slalom", "Barbers Point Harbor", "Slalom", "4,280 PTS", "2,880", "5,400"],  //Feat 01
+                   [1332.812196, 1632.409742, "speedtrap", "Nai'a Lagoon Beach", "Speedtrap", "210.0 km/h", "960", "1,800"],  //Feat 02
+                   [1102.509503, 1554.751035, "bullseye", "Gymkhana Grid Park", "Bullseye", "4,290 PTS", "2,880", "5,400"],  //Feat 03
+                   [1676.265758, 1477.455002, "slalom", "Leeward Coast", "Slalom", "2,990 PTS", "2,880", "5,400"],  //Feat 04
+                   [1841.883226, 1537, "bullseye", "Observatory Road", "Bullseye", "4,180 PTS", "4,800", "9,000"],  //Feat 05
+                   [2324.451911, 1398.507567, "slalom", "Pokai Road", "Slalom", "4,120 PTS", "2,880", "5,400"],  //Feat 06
                   ]
 
 function createGymFeatsMarkers(featsArr) {
@@ -204,7 +204,7 @@ createGymFeatsMarkers(GymfeatsArr);
 
 //PHOTO OPS
 //Photo Ops 1 Gymkhana Views - Hoonigan Hangar
-gym_photo_ops01_marker = L.marker([460.07793, 1575.787462], {icon:photo_op_icon});
+gym_photo_ops01_marker = L.marker([1226.07793, 1575.787462], {icon:photo_op_icon});
 gym_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Views - Hoonigan Hangar</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Gymkhana Grid Masters</b></span><br>\
@@ -217,7 +217,7 @@ gym_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Views - H
 });
 
 //Photo Ops 2 Gymkhana Views - Waianae Gas Station
-gym_photo_ops02_marker = L.marker([1615.5654, 1352.25], {icon:photo_op_icon});
+gym_photo_ops02_marker = L.marker([2381.5654, 1352.25], {icon:photo_op_icon});
 gym_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Views - Waianae Gas Station</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Gymkhana Grid Masters</b></span><br>\
@@ -230,7 +230,7 @@ gym_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Views - W
 });
 
 //Photo Ops 3 Gymkhana Views - Perched Boat
-gym_photo_ops03_marker = L.marker([356.665471, 1567.746254], {icon:photo_op_icon});
+gym_photo_ops03_marker = L.marker([1122.665471, 1567.746254], {icon:photo_op_icon});
 gym_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Views - Perched Boat</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Gymkhana Grid Masters</b></span><br>\
@@ -244,7 +244,7 @@ gym_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Views - P
 });
 
 //Photo Ops 4 Gymkhana Views - Barbers Point Harbor
-gym_photo_ops04_marker = L.marker([523.109733, 1790.05401], {icon:photo_op_icon});
+gym_photo_ops04_marker = L.marker([1289.109733, 1790.05401], {icon:photo_op_icon});
 gym_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Views - Barbers Point Harbor</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Gymkhana Grid Masters</b></span><br>\
@@ -257,7 +257,7 @@ gym_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Views - B
 });
 
 //Photo Ops 5 Gymkhana Views - Barbers Point Tunnels
-gym_photo_ops05_marker = L.marker([467.561376, 1756.737724], {icon:photo_op_icon});
+gym_photo_ops05_marker = L.marker([1233.561376, 1756.737724], {icon:photo_op_icon});
 gym_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Views - Barbers Point Tunnels</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Gymkhana Grid Masters</b></span><br>\
@@ -273,7 +273,7 @@ gym_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Views - B
 //COLLECTIBLES
 //Gymkhana Mark
 //Collectible 1 Gymkhana Mark
-gym_collectible01_marker = L.marker([358.131574, 1607.875], {icon:collectible_icon});
+gym_collectible01_marker = L.marker([1124.131574, 1607.875], {icon:collectible_icon});
 gym_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Masters</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Gymkhana Mark</span><br>", {
@@ -281,7 +281,7 @@ gym_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Ma
 });
 
 //Collectible 2 Gymkhana Mark
-gym_collectible02_marker = L.marker([380.567949, 1616.625], {icon:collectible_icon});
+gym_collectible02_marker = L.marker([1146.567949, 1616.625], {icon:collectible_icon});
 gym_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Masters</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Gymkhana Mark</span><br>", {
@@ -289,7 +289,7 @@ gym_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Ma
 });
 
 //Collectible 3 Gymkhana Mark
-gym_collectible03_marker = L.marker([370.361768, 1563.324705], {icon:collectible_icon});
+gym_collectible03_marker = L.marker([1136.361768, 1563.324705], {icon:collectible_icon});
 gym_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Masters</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Gymkhana Mark</span><br>", {
@@ -297,7 +297,7 @@ gym_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Ma
 });
 
 //Collectible 4 Gymkhana Mark
-gym_collectible04_marker = L.marker([370.136144, 1553.375], {icon:collectible_icon});
+gym_collectible04_marker = L.marker([1136.136144, 1553.375], {icon:collectible_icon});
 gym_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Masters</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Gymkhana Mark</span><br>", {
@@ -305,7 +305,7 @@ gym_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Ma
 });
 
 //Collectible 5 Gymkhana Mark
-gym_collectible05_marker = L.marker([387.194127, 1548.875], {icon:collectible_icon});
+gym_collectible05_marker = L.marker([1153.194127, 1548.875], {icon:collectible_icon});
 gym_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Masters</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Gymkhana Mark</span><br>", {
@@ -313,7 +313,7 @@ gym_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Ma
 });
 
 //Collectible 6 Gymkhana Mark
-gym_collectible06_marker = L.marker([403.641394, 1518.974262], {icon:collectible_icon});
+gym_collectible06_marker = L.marker([1169.641394, 1518.974262], {icon:collectible_icon});
 gym_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Masters</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Gymkhana Mark</span><br>", {
@@ -321,7 +321,7 @@ gym_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Ma
 });
 
 //Collectible 7 Gymkhana Mark
-gym_collectible07_marker = L.marker([472.006152, 1589.25], {icon:collectible_icon});
+gym_collectible07_marker = L.marker([1238.006152, 1589.25], {icon:collectible_icon});
 gym_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Gymkhana Grid Masters</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Gymkhana Mark</span><br>", {

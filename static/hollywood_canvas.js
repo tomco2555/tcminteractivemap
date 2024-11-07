@@ -19,7 +19,7 @@ ha_feats_group = [];
 ha_collectibles_group = [];
 
 //CONTAINER
-ha_container_marker = L.marker([1385.373031, 2998.375], {icon:ha_container_icon});
+ha_container_marker = L.marker([2151.373031, 2998.375], {icon:ha_container_icon});
 ha_container_marker.bindPopup('<b>Hollywood Action!</b><br>\
                                <i>Container</i>', {
     className: "hstPopup"
@@ -27,7 +27,7 @@ ha_container_marker.bindPopup('<b>Hollywood Action!</b><br>\
 
 //EVENTS
 //Event 01
-ha_event01_marker = L.marker([1275.533985, 3005.027043], {icon:ha_event_icon});
+ha_event01_marker = L.marker([2041.533985, 3005.027043], {icon:ha_event_icon});
 ha_event01_marker.bindPopup("<b style=\"font-size:20px\">Scene 1: The Driver</b><br>\
                               <i>Event</i><br>\
                               <span><b>Hollywood Action!(1/9)</b></span><br>\
@@ -42,7 +42,7 @@ ha_event01_marker.bindPopup("<b style=\"font-size:20px\">Scene 1: The Driver</b>
 });
 
 //Event 02
-ha_event02_marker = L.marker([850.83916, 2700.175632], {icon:ha_event_icon});
+ha_event02_marker = L.marker([1616.83916, 2700.175632], {icon:ha_event_icon});
 ha_event02_marker.bindPopup("<b style=\"font-size:20px\">Scene 2: The Test</b><br>\
                               <i>Event</i><br>\
                               <span><b>Hollywood Action!(2/9)</b></span><br>\
@@ -57,7 +57,7 @@ ha_event02_marker.bindPopup("<b style=\"font-size:20px\">Scene 2: The Test</b><b
 });
 
 //Event 03
-ha_event03_marker = L.marker([541.177338, 2540.59235], {icon:ha_event_icon});
+ha_event03_marker = L.marker([1307.177338, 2540.59235], {icon:ha_event_icon});
 ha_event03_marker.bindPopup("<b style=\"font-size:20px\">Scene 3: The First Job</b><br>\
                               <i>Event</i><br>\
                               <span><b>Hollywood Action!(3/9)</b></span><br>\
@@ -72,7 +72,7 @@ ha_event03_marker.bindPopup("<b style=\"font-size:20px\">Scene 3: The First Job<
 });
 
 //Event 04
-ha_event04_marker = L.marker([569.508402, 2101.625], {icon:ha_event_icon});
+ha_event04_marker = L.marker([1335.508402, 2101.625], {icon:ha_event_icon});
 ha_event04_marker.bindPopup("<b style=\"font-size:20px\">Scene 4: The Ascent</b><br>\
                               <i>Event</i><br>\
                               <span><b>Hollywood Action!(4/9)</b></span><br>\
@@ -87,7 +87,7 @@ ha_event04_marker.bindPopup("<b style=\"font-size:20px\">Scene 4: The Ascent</b>
 });
 
 //Event 05
-ha_event05_marker = L.marker([666.128972, 1969.5], {icon:ha_event_icon});
+ha_event05_marker = L.marker([1432.128972, 1969.5], {icon:ha_event_icon});
 ha_event05_marker.bindPopup("<b style=\"font-size:20px\">Scene 5: The Race</b><br>\
                               <i>Event</i><br>\
                               <span><b>Hollywood Action!(5/9)</b></span><br>\
@@ -102,7 +102,7 @@ ha_event05_marker.bindPopup("<b style=\"font-size:20px\">Scene 5: The Race</b><b
 });
 
 //Event 06
-ha_event06_marker = L.marker([599.884527, 1673.625], {icon:ha_event_icon});
+ha_event06_marker = L.marker([1365.884527, 1673.625], {icon:ha_event_icon});
 ha_event06_marker.bindPopup("<b style=\"font-size:20px\">Scene 6: The Heist</b><br>\
                               <i>Event</i><br>\
                               <span><b>Hollywood Action!(6/9)</b></span><br>\
@@ -117,7 +117,7 @@ ha_event06_marker.bindPopup("<b style=\"font-size:20px\">Scene 6: The Heist</b><
 });
 
 //Event 07
-ha_event07_marker = L.marker([1507.717298, 1933.406716], {icon:ha_event_icon});
+ha_event07_marker = L.marker([2273.717298, 1933.406716], {icon:ha_event_icon});
 ha_event07_marker.bindPopup("<b style=\"font-size:20px\">Scene 7: The Love Story</b><br>\
                               <i>Event</i><br>\
                               <span><b>Hollywood Action!(7/9)</b></span><br>\
@@ -132,7 +132,7 @@ ha_event07_marker.bindPopup("<b style=\"font-size:20px\">Scene 7: The Love Story
 });
 
 //Event 08
-ha_event08_marker = L.marker([779.934554, 2644.66775], {icon:ha_event_icon});
+ha_event08_marker = L.marker([1545.934554, 2644.66775], {icon:ha_event_icon});
 ha_event08_marker.bindPopup("<b style=\"font-size:20px\">Scene 8: The Getaway</b><br>\
                               <i>Event</i><br>\
                               <span><b>Hollywood Action!(8/9)</b></span><br>\
@@ -147,7 +147,7 @@ ha_event08_marker.bindPopup("<b style=\"font-size:20px\">Scene 8: The Getaway</b
 });
 
 //Event 09
-ha_event09_marker = L.marker([1244.106052, 2464.75], {icon:ha_event_icon});
+ha_event09_marker = L.marker([2010.106052, 2464.75], {icon:ha_event_icon});
 ha_event09_marker.bindPopup("<b style=\"font-size:20px\">The Premiere</b><br>\
                               <i>Event</i><br>\
                               <span><b>Hollywood Action!(9/9)</b></span><br>\
@@ -162,10 +162,10 @@ ha_event09_marker.bindPopup("<b style=\"font-size:20px\">The Premiere</b><br>\
 });
 
 //FEATS
-var HAfeatsArr = [[1342.551126, 3088.370878, "bullseye", "Kaneohe", "Bullseye", "6,320 PTS", "4,800", "9,000"],  //Feat 01
-                  [1334.859569, 3536.594566, "slalom", "Mokapu", "Slalom", "4,970 PTS", "2,880", "5,400"],  //Feat 02
-                  [608.20612, 3083.356931, "escape", "Makiki", "Escape", "1270 m", "1,440", "2,700"],  //Feat 03
-                  [721.784616, 2364.034746, "speedtrap", "Kaka'ako", "Speedtrap", "200.0 km/h", "960", "1,800"],  //Feat 04
+var HAfeatsArr = [[2108.551126, 3088.370878, "bullseye", "Kaneohe", "Bullseye", "6,320 PTS", "4,800", "9,000"],  //Feat 01
+                  [2100.859569, 3536.594566, "slalom", "Mokapu", "Slalom", "4,970 PTS", "2,880", "5,400"],  //Feat 02
+                  [1374.20612, 3083.356931, "escape", "Makiki", "Escape", "1270 m", "1,440", "2,700"],  //Feat 03
+                  [1487.784616, 2364.034746, "speedtrap", "Kaka'ako", "Speedtrap", "200.0 km/h", "960", "1,800"],  //Feat 04
                  ]
 
 function createHAFeatsMarkers(featsArr) {
@@ -187,7 +187,7 @@ createHAFeatsMarkers(HAfeatsArr);
 
 //PHOTO OPS
 //Photo Ops 1 Movie Award Views - Rooftop
-ha_photo_ops01_marker = L.marker([667.64205, 2765.75], {icon:photo_op_icon});
+ha_photo_ops01_marker = L.marker([1433.64205, 2765.75], {icon:photo_op_icon});
 ha_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Movie Award Views - Rooftop</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Hollywood Action!</b></span><br>\
@@ -199,7 +199,7 @@ ha_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Movie Award Views -
 });
 
 //Photo Ops 2 Movie Award Views - Canals
-ha_photo_ops02_marker = L.marker([1238.844021, 3053.463858], {icon:photo_op_icon});
+ha_photo_ops02_marker = L.marker([2004.844021, 3053.463858], {icon:photo_op_icon});
 ha_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Movie Award Views - Canals</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Hollywood Action!</b></span><br>\
@@ -211,7 +211,7 @@ ha_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Movie Award Views -
 });
 
 //Photo Ops 3 Movie Award Views - High Point
-ha_photo_ops03_marker = L.marker([825.516101, 1841], {icon:photo_op_icon});
+ha_photo_ops03_marker = L.marker([1591.516101, 1841], {icon:photo_op_icon});
 ha_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Movie Award Views - High Point</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Hollywood Action!</b></span><br>\
@@ -225,7 +225,7 @@ ha_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Movie Award Views -
 });
 
 //Photo Ops 4 Movie Award Views - Koko Crater
-ha_photo_ops04_marker = L.marker([649.396387, 3819.141294], {icon:photo_op_icon});
+ha_photo_ops04_marker = L.marker([1415.396387, 3819.141294], {icon:photo_op_icon});
 ha_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Movie Award Views - Koko Crater</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Hollywood Action!</b></span><br>\
@@ -239,7 +239,7 @@ ha_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Movie Award Views -
 });
 
 //Photo Ops 5 Movie Award Views - Waikiki Shell
-ha_photo_ops05_marker = L.marker([468.869905, 3010.329161], {icon:photo_op_icon});
+ha_photo_ops05_marker = L.marker([1234.869905, 3010.329161], {icon:photo_op_icon});
 ha_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Movie Award Views - Waikiki Shell</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Hollywood Action!</b></span><br>\
@@ -254,7 +254,7 @@ ha_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Movie Award Views -
 //COLLECTIBLES
 //Focus Puller Movie Award
 //Collectible 1 Focus Puller Movie Award
-ha_collectible01_marker = L.marker([1073.512339, 3000.5], {icon:collectible_icon});
+ha_collectible01_marker = L.marker([1839.512339, 3000.5], {icon:collectible_icon});
 ha_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Focus Puller Movie Award</span><br>", {
@@ -262,7 +262,7 @@ ha_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!
 });
 
 //Collectible 2 Focus Puller Movie Award
-ha_collectible02_marker = L.marker([891.00675, 3657], {icon:collectible_icon});
+ha_collectible02_marker = L.marker([1657.00675, 3657], {icon:collectible_icon});
 ha_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Focus Puller Movie Award</span><br>", {
@@ -270,7 +270,7 @@ ha_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!
 });
 
 //Collectible 3 Focus Puller Movie Award
-ha_collectible03_marker = L.marker([644.762409, 3002.625], {icon:collectible_icon});
+ha_collectible03_marker = L.marker([1410.762409, 3002.625], {icon:collectible_icon});
 ha_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Focus Puller Movie Award</span><br>", {
@@ -278,7 +278,7 @@ ha_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!
 });
 
 //Collectible 4 Focus Puller Movie Award
-ha_collectible04_marker = L.marker([571.701923, 1765.380468], {icon:collectible_icon});
+ha_collectible04_marker = L.marker([1337.701923, 1765.380468], {icon:collectible_icon});
 ha_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Focus Puller Movie Award</span><br>", {
@@ -286,7 +286,7 @@ ha_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!
 });
 
 //Collectible 5 Focus Puller Movie Award
-ha_collectible05_marker = L.marker([571.138499, 1623.625], {icon:collectible_icon});
+ha_collectible05_marker = L.marker([1337.138499, 1623.625], {icon:collectible_icon});
 ha_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Focus Puller Movie Award</span><br>", {
@@ -294,7 +294,7 @@ ha_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!
 });
 
 //Collectible 6 Focus Puller Movie Award
-ha_collectible06_marker = L.marker([667.261249, 1587.375], {icon:collectible_icon});
+ha_collectible06_marker = L.marker([1433.261249, 1587.375], {icon:collectible_icon});
 ha_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Focus Puller Movie Award</span><br>", {
@@ -302,7 +302,7 @@ ha_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!
 });
 
 //Collectible 7 Focus Puller Movie Award
-ha_collectible07_marker = L.marker([1136.145436, 1979.137941], {icon:collectible_icon});
+ha_collectible07_marker = L.marker([1902.145436, 1979.137941], {icon:collectible_icon});
 ha_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Focus Puller Movie Award</span><br>", {
@@ -310,7 +310,7 @@ ha_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!
 });
 
 //Collectible 8 Focus Puller Movie Award
-ha_collectible08_marker = L.marker([1625.501476, 2092.875], {icon:collectible_icon});
+ha_collectible08_marker = L.marker([2391.501476, 2092.875], {icon:collectible_icon});
 ha_collectible08_marker.bindPopup("<b style=\"font-size:20px\">Hollywood Action!</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Focus Puller Movie Award</span><br>", {

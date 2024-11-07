@@ -19,7 +19,7 @@ eo_feats_group = L.featureGroup();
 eo_collectibles_group = L.featureGroup();
 
 //CONTAINER
-eo_container_marker = L.marker([1583.010687, 2251.125], {icon:eo_container_icon}).addTo(eo_container_group);
+eo_container_marker = L.marker([2349.010687, 2251.125], {icon:eo_container_icon}).addTo(eo_container_group);
 eo_container_marker.bindPopup('<b>Electric Odyssey</b><br>\
                                <i>Container</i>', {
     className: "hstPopup"
@@ -27,7 +27,7 @@ eo_container_marker.bindPopup('<b>Electric Odyssey</b><br>\
 
 //EVENTS
 //Event 01
-eo_event01_marker = L.marker([1668.775235, 2328.856184], {icon:eo_event_icon}).addTo(eo_events_group);
+eo_event01_marker = L.marker([2434.775235, 2328.856184], {icon:eo_event_icon}).addTo(eo_events_group);
 eo_event01_marker.bindPopup("<b style=\"font-size:20px\">Porsche E-xpress</b><br>\
                               <i>Event</i><br>\
                               <span><b>Electric Odyssey(1/7)</b></span><br>\
@@ -42,7 +42,7 @@ eo_event01_marker.bindPopup("<b style=\"font-size:20px\">Porsche E-xpress</b><br
 });
 
 //Event 02
-eo_event02_marker = L.marker([1222.9548, 3115.512478], {icon:eo_event_icon}).addTo(eo_events_group);
+eo_event02_marker = L.marker([1988.9548, 3115.512478], {icon:eo_event_icon}).addTo(eo_events_group);
 eo_event02_marker.bindPopup("<b style=\"font-size:20px\">Piece Of E-story</b><br>\
                               <i>Event</i><br>\
                               <span><b>Electric Odyssey(2/7)</b></span><br>\
@@ -57,7 +57,7 @@ eo_event02_marker.bindPopup("<b style=\"font-size:20px\">Piece Of E-story</b><br
 });
 
 //Event 03
-eo_event03_marker = L.marker([1670.365778, 2332.303329], {icon:eo_event_icon}).addTo(eo_events_group);
+eo_event03_marker = L.marker([2436.365778, 2332.303329], {icon:eo_event_icon}).addTo(eo_events_group);
 eo_event03_marker.bindPopup("<b style=\"font-size:20px\">Lotus E-xpress</b><br>\
                               <i>Event</i><br>\
                               <span><b>Electric Odyssey(3/7)</b></span><br>\
@@ -72,7 +72,7 @@ eo_event03_marker.bindPopup("<b style=\"font-size:20px\">Lotus E-xpress</b><br>\
 });
 
 //Event 04
-eo_event04_marker = L.marker([824.25659, 2387.634435], {icon:eo_event_icon}).addTo(eo_events_group);
+eo_event04_marker = L.marker([1590.25659, 2387.634435], {icon:eo_event_icon}).addTo(eo_events_group);
 eo_event04_marker.bindPopup("<b style=\"font-size:20px\">Hyper E-volution</b><br>\
                               <i>Event</i><br>\
                               <span><b>Electric Odyssey(4/7)</b></span><br>\
@@ -87,7 +87,7 @@ eo_event04_marker.bindPopup("<b style=\"font-size:20px\">Hyper E-volution</b><br
 });
 
 //Event 05
-eo_event05_marker = L.marker([1665.505786, 2326.116145], {icon:eo_event_icon}).addTo(eo_events_group);
+eo_event05_marker = L.marker([2431.505786, 2326.116145], {icon:eo_event_icon}).addTo(eo_events_group);
 eo_event05_marker.bindPopup("<b style=\"font-size:20px\">Hummer E-xpress</b><br>\
                               <i>Event</i><br>\
                               <span><b>Electric Odyssey(5/7)</b></span><br>\
@@ -102,7 +102,7 @@ eo_event05_marker.bindPopup("<b style=\"font-size:20px\">Hummer E-xpress</b><br>
 });
 
 //Event 06
-eo_event06_marker = L.marker([1649.863758, 1637.128975], {icon:eo_event_icon}).addTo(eo_events_group);
+eo_event06_marker = L.marker([2415.863758, 1637.128975], {icon:eo_event_icon}).addTo(eo_events_group);
 eo_event06_marker.bindPopup("<b style=\"font-size:20px\">E-xplorers</b><br>\
                               <i>Event</i><br>\
                               <span><b>Electric Odyssey(6/7)</b></span><br>\
@@ -117,7 +117,7 @@ eo_event06_marker.bindPopup("<b style=\"font-size:20px\">E-xplorers</b><br>\
 });
 
 //Event 07
-eo_event07_marker = L.marker([1157.595696, 1808.248816], {icon:eo_event_icon}).addTo(eo_events_group);
+eo_event07_marker = L.marker([1923.595696, 1808.248816], {icon:eo_event_icon}).addTo(eo_events_group);
 eo_event07_marker.bindPopup("<b style=\"font-size:20px\">Final E-vent</b><br>\
                               <i>Event</i><br>\
                               <span><b>Electric Odyssey(7/7)</b></span><br>\
@@ -132,12 +132,12 @@ eo_event07_marker.bindPopup("<b style=\"font-size:20px\">Final E-vent</b><br>\
 });
 
 //FEATS
-var EOfeatsArr = [[1091.421251, 2270.196383, "escape", "Waipio Fields", "Escape", "1340 m", "2,880", "5,400"],  //Feat 01
-                  [1104.15753, 2077.037781, "slalom", "Kunia Farm", "Slalom", "6,480 PTS", "2,880", "5,400"],  //Feat 02
-                  [1092.636601, 1790.875, "escape", "Nanakuli Rivers", "Escape", "2100 m", "2,880", "5,400"],  //Feat 03
-                  [1618.384878, 2239.125, "speedtrap", "Wahiawa", "Speedtrap", "190.0 km/h", "960", "1,800"],  //Feat 04
-                  [1652.255537, 1615.8125, "escape", "Mauna Pele Red Hill", "Escape", "760 m", "2,880", "5,400"],  //Feat 05
-                  [2061.250527, 2053.0625, "slalom", "Haleiwa Fields", "Slalom", "8,940 PTS", "2,880", "5,400"],  //Feat 06
+var EOfeatsArr = [[1857.421251, 2270.196383, "escape", "Waipio Fields", "Escape", "1340 m", "2,880", "5,400"],  //Feat 01
+                  [1870.15753, 2077.037781, "slalom", "Kunia Farm", "Slalom", "6,480 PTS", "2,880", "5,400"],  //Feat 02
+                  [1858.636601, 1790.875, "escape", "Nanakuli Rivers", "Escape", "2100 m", "2,880", "5,400"],  //Feat 03
+                  [2384.384878, 2239.125, "speedtrap", "Wahiawa", "Speedtrap", "190.0 km/h", "960", "1,800"],  //Feat 04
+                  [2418.255537, 1615.8125, "escape", "Mauna Pele Red Hill", "Escape", "760 m", "2,880", "5,400"],  //Feat 05
+                  [2827.250527, 2053.0625, "slalom", "Haleiwa Fields", "Slalom", "8,940 PTS", "2,880", "5,400"],  //Feat 06
                  ]
 
 function createEOFeatsMarkers(featsArr) {
@@ -159,7 +159,7 @@ createEOFeatsMarkers(EOfeatsArr);
 
 //PHOTO OPS
 //Photo Ops 1 E-Views - Wind Turbines
-eo_photo_ops01_marker = L.marker([965.946343, 2207.233817], {icon:photo_op_icon}).addTo(eo_photo_ops_group);
+eo_photo_ops01_marker = L.marker([1731.946343, 2207.233817], {icon:photo_op_icon}).addTo(eo_photo_ops_group);
 eo_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">E-Views - Wind Turbines</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Electric Odyssey</b></span><br>\
@@ -172,7 +172,7 @@ eo_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">E-Views - Wind Turb
 });
 
 //Photo Ops 2 E-Views - Water Tank
-eo_photo_ops02_marker = L.marker([1286.838148, 1941.184891], {icon:photo_op_icon}).addTo(eo_photo_ops_group);
+eo_photo_ops02_marker = L.marker([2052.838148, 1941.184891], {icon:photo_op_icon}).addTo(eo_photo_ops_group);
 eo_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">E-Views - Water Tank</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Electric Odyssey</b></span><br>\
@@ -185,7 +185,7 @@ eo_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">E-Views - Water Tan
 });
 
 //Photo Ops 3 E-Views - Observatory
-eo_photo_ops03_marker = L.marker([1118.276717, 1566.25], {icon:photo_op_icon}).addTo(eo_photo_ops_group);
+eo_photo_ops03_marker = L.marker([1884.276717, 1566.25], {icon:photo_op_icon}).addTo(eo_photo_ops_group);
 eo_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">E-Views - Observatory</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Electric Odyssey</b></span><br>\
@@ -197,7 +197,7 @@ eo_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">E-Views - Observato
 });
 
 //Photo Ops 4 E-Views - Sulphur Chimneys
-eo_photo_ops04_marker = L.marker([1362.458026, 1682.75], {icon:photo_op_icon}).addTo(eo_photo_ops_group);
+eo_photo_ops04_marker = L.marker([2128.458026, 1682.75], {icon:photo_op_icon}).addTo(eo_photo_ops_group);
 eo_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">E-Views - Sulphur Chimneys</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Electric Odyssey</b></span><br>\
@@ -212,7 +212,7 @@ eo_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">E-Views - Sulphur C
 //COLLECTIBLES
 //E-nergy
 //Collectible 1 E-nergy
-eo_collectible01_marker = L.marker([2383.653131, 2416.360648], {icon:collectible_icon}).addTo(eo_collectibles_group);
+eo_collectible01_marker = L.marker([3149.653131, 2416.360648], {icon:collectible_icon}).addTo(eo_collectibles_group);
 eo_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> E-nergy</span><br>", {
@@ -220,7 +220,7 @@ eo_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey<
 });
 
 //Collectible 2 E-nergy
-eo_collectible02_marker = L.marker([2192.938502, 2083.6875], {icon:collectible_icon}).addTo(eo_collectibles_group);
+eo_collectible02_marker = L.marker([2958.938502, 2083.6875], {icon:collectible_icon}).addTo(eo_collectibles_group);
 eo_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> E-nergy</span><br>", {
@@ -228,7 +228,7 @@ eo_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey<
 });
 
 //Collectible 3 E-nergy
-eo_collectible03_marker = L.marker([1585.941174, 2265.0625], {icon:collectible_icon}).addTo(eo_collectibles_group);
+eo_collectible03_marker = L.marker([2351.941174, 2265.0625], {icon:collectible_icon}).addTo(eo_collectibles_group);
 eo_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> E-nergy</span><br>", {
@@ -236,7 +236,7 @@ eo_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey<
 });
 
 //Collectible 4 E-nergy
-eo_collectible04_marker = L.marker([1360.194285, 2369], {icon:collectible_icon}).addTo(eo_collectibles_group);
+eo_collectible04_marker = L.marker([2126.194285, 2369], {icon:collectible_icon}).addTo(eo_collectibles_group);
 eo_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> E-nergy</span><br>", {
@@ -244,7 +244,7 @@ eo_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey<
 });
 
 //Collectible 5 E-nergy
-eo_collectible05_marker = L.marker([1018.772499, 2317.5], {icon:collectible_icon}).addTo(eo_collectibles_group);
+eo_collectible05_marker = L.marker([1784.772499, 2317.5], {icon:collectible_icon}).addTo(eo_collectibles_group);
 eo_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> E-nergy</span><br>", {
@@ -252,7 +252,7 @@ eo_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey<
 });
 
 //Collectible 6 E-nergy
-eo_collectible06_marker = L.marker([962.75733, 2090.9375], {icon:collectible_icon}).addTo(eo_collectibles_group);
+eo_collectible06_marker = L.marker([1728.75733, 2090.9375], {icon:collectible_icon}).addTo(eo_collectibles_group);
 eo_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> E-nergy</span><br>", {
@@ -260,7 +260,7 @@ eo_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey<
 });
 
 //Collectible 7 E-nergy
-eo_collectible07_marker = L.marker([729.757154, 2406.5625], {icon:collectible_icon}).addTo(eo_collectibles_group);
+eo_collectible07_marker = L.marker([1495.757154, 2406.5625], {icon:collectible_icon}).addTo(eo_collectibles_group);
 eo_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> E-nergy</span><br>", {
@@ -268,7 +268,7 @@ eo_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey<
 });
 
 //Collectible 8 E-nergy
-eo_collectible08_marker = L.marker([547.580828, 1795.520894], {icon:collectible_icon}).addTo(eo_collectibles_group);
+eo_collectible08_marker = L.marker([1313.580828, 1795.520894], {icon:collectible_icon}).addTo(eo_collectibles_group);
 eo_collectible08_marker.bindPopup("<b style=\"font-size:20px\">Electric Odyssey</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> E-nergy</span><br>", {

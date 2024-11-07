@@ -19,7 +19,7 @@ dc_feats_group = [];
 dc_collectibles_group = [];
 
 //CONTAINER
-dc_container_marker = L.marker([583.381937, 2044.952811], {icon:dc_container_icon});
+dc_container_marker = L.marker([1349.381937, 2044.952811], {icon:dc_container_icon});
 dc_container_marker.bindPopup('<b>Dream Cars</b><br>\
                                <i>Container</i>', {
     className: "hstPopup"
@@ -27,7 +27,7 @@ dc_container_marker.bindPopup('<b>Dream Cars</b><br>\
 
 //EVENTS
 //Event 01
-dc_event01_marker = L.marker([615.110271, 1787.212389], {icon:dc_event_icon});
+dc_event01_marker = L.marker([1381.110271, 1787.212389], {icon:dc_event_icon});
 dc_event01_marker.bindPopup("<b style=\"font-size:20px\">Dream Bulls</b><br>\
                               <i>Event</i><br>\
                               <span><b>Dream Cars(1/7)</b></span><br>\
@@ -42,7 +42,7 @@ dc_event01_marker.bindPopup("<b style=\"font-size:20px\">Dream Bulls</b><br>\
 });
 
 //Event 02
-dc_event02_marker = L.marker([2135.045399, 2033.813092], {icon:dc_event_icon});
+dc_event02_marker = L.marker([2901.045399, 2033.813092], {icon:dc_event_icon});
 dc_event02_marker.bindPopup("<b style=\"font-size:20px\">Dream Duel: Egoista vs Terzo Millennio</b><br>\
                               <i>Event</i><br>\
                               <span><b>Dream Cars(2/7)</b></span><br>\
@@ -57,7 +57,7 @@ dc_event02_marker.bindPopup("<b style=\"font-size:20px\">Dream Duel: Egoista vs 
 });
 
 //Event 03
-dc_event03_marker = L.marker([1482.531242, 3039.630317], {icon:dc_event_icon});
+dc_event03_marker = L.marker([2248.531242, 3039.630317], {icon:dc_event_icon});
 dc_event03_marker.bindPopup("<b style=\"font-size:20px\">Dream Bugattis</b><br>\
                               <i>Event</i><br>\
                               <span><b>Dream Cars(3/7)</b></span><br>\
@@ -72,7 +72,7 @@ dc_event03_marker.bindPopup("<b style=\"font-size:20px\">Dream Bugattis</b><br>\
 });
 
 //Event 04
-dc_event04_marker = L.marker([1204.030236, 3417.855574], {icon:dc_event_icon});
+dc_event04_marker = L.marker([1970.030236, 3417.855574], {icon:dc_event_icon});
 dc_event04_marker.bindPopup("<b style=\"font-size:20px\">Dream Duel: Veyron vs Noire</b><br>\
                               <i>Event</i><br>\
                               <span><b>Dream Cars(4/7)</b></span><br>\
@@ -87,7 +87,7 @@ dc_event04_marker.bindPopup("<b style=\"font-size:20px\">Dream Duel: Veyron vs N
 });
 
 //Event 05
-dc_event05_marker = L.marker([462.979947, 3314.394555], {icon:dc_event_icon});
+dc_event05_marker = L.marker([1228.979947, 3314.394555], {icon:dc_event_icon});
 dc_event05_marker.bindPopup("<b style=\"font-size:20px\">French Dreams</b><br>\
                               <i>Event</i><br>\
                               <span><b>Dream Cars(5/7)</b></span><br>\
@@ -102,7 +102,7 @@ dc_event05_marker.bindPopup("<b style=\"font-size:20px\">French Dreams</b><br>\
 });
 
 //Event 06
-dc_event06_marker = L.marker([786.774971, 2367.438745], {icon:dc_event_icon});
+dc_event06_marker = L.marker([1552.774971, 2367.438745], {icon:dc_event_icon});
 dc_event06_marker.bindPopup("<b style=\"font-size:20px\">Dream Duel: Trezor vs Citroen GT</b><br>\
                               <i>Event</i><br>\
                               <span><b>Dream Cars(6/7)</b></span><br>\
@@ -117,7 +117,7 @@ dc_event06_marker.bindPopup("<b style=\"font-size:20px\">Dream Duel: Trezor vs C
 });
 
 //Event 07
-dc_event07_marker = L.marker([1835.687074, 1462.278799], {icon:dc_event_icon});
+dc_event07_marker = L.marker([2601.687074, 1462.278799], {icon:dc_event_icon});
 dc_event07_marker.bindPopup("<b style=\"font-size:20px\">Supercar Festival</b><br>\
                               <i>Event</i><br>\
                               <span><b>Dream Cars(7/7)</b></span><br>\
@@ -132,11 +132,11 @@ dc_event07_marker.bindPopup("<b style=\"font-size:20px\">Supercar Festival</b><b
 });
 
 //FEATS
-var DCfeatsArr = [[1666.662665, 1805.420389, "slalom", "Ka'ala", "Slalom", "5,480 PTS", "2,880", "5,400"],  //Feat 01
-                  [554.130067, 1851.470718, "speedtrap", "Barbers Point", "Speedtrap", "150.0 km/h", "960", "1,800"],  //Feat 02
-                  [1140.535787, 2174.25, "speedtrap", "Kunia", "Speedtrap", "200.0 km/h", "960", "1,800"],  //Feat 03
-                  [2158.094072, 2143.063877, "slalom", "East Haleiwa", "Slalom", "4,970 PTS", "2,880", "5,400"],  //Feat 04
-                  [739.38297, 3560.724585, "escape", "Kuapa River", "Escape", "1340 m", "2,880", "5,400"],  //Feat 05
+var DCfeatsArr = [[2432.662665, 1805.420389, "slalom", "Ka'ala", "Slalom", "5,480 PTS", "2,880", "5,400"],  //Feat 01
+                  [1320.130067, 1851.470718, "speedtrap", "Barbers Point", "Speedtrap", "150.0 km/h", "960", "1,800"],  //Feat 02
+                  [1906.535787, 2174.25, "speedtrap", "Kunia", "Speedtrap", "200.0 km/h", "960", "1,800"],  //Feat 03
+                  [2924.094072, 2143.063877, "slalom", "East Haleiwa", "Slalom", "4,970 PTS", "2,880", "5,400"],  //Feat 04
+                  [1505.38297, 3560.724585, "escape", "Kuapa River", "Escape", "1340 m", "2,880", "5,400"],  //Feat 05
                  ]
 
 function createDCFeatsMarkers(featsArr) {
@@ -158,7 +158,7 @@ createDCFeatsMarkers(DCfeatsArr);
 
 //PHOTO OPS
 //Photo Ops 1 Super Views - Sulphur Chimneys
-dc_photo_ops01_marker = L.marker([1369.320435, 1691.929751], {icon:photo_op_icon});
+dc_photo_ops01_marker = L.marker([2135.320435, 1691.929751], {icon:photo_op_icon});
 dc_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Super Views - Sulphur Chimneys</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Dream Cars</b></span><br>\
@@ -171,7 +171,7 @@ dc_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Super Views - Sulph
 });
 
 //Photo Ops 2 Super Views - Aulinaii Resort
-dc_photo_ops02_marker = L.marker([671.315506, 1595.75], {icon:photo_op_icon});
+dc_photo_ops02_marker = L.marker([1437.315506, 1595.75], {icon:photo_op_icon});
 dc_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Super Views - Aulinaii Resort</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Dream Cars</b></span><br>\
@@ -184,7 +184,7 @@ dc_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Super Views - Aulin
 });
 
 //Photo Ops 3 Super Views - Royal Luau
-dc_photo_ops03_marker = L.marker([525.514167, 2805.875], {icon:photo_op_icon});
+dc_photo_ops03_marker = L.marker([1291.514167, 2805.875], {icon:photo_op_icon});
 dc_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Super Views - Royal Luau</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Dream Cars</b></span><br>\
@@ -197,7 +197,7 @@ dc_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Super Views - Royal
 });
 
 //Photo Ops 4 Super Views - Fast Fashion
-dc_photo_ops04_marker = L.marker([559.857014, 2674.984953], {icon:photo_op_icon});
+dc_photo_ops04_marker = L.marker([1325.857014, 2674.984953], {icon:photo_op_icon});
 dc_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Super Views - Fast Fashion</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Dream Cars</b></span><br>\
@@ -210,7 +210,7 @@ dc_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Super Views - Fast 
 });
 
 //Photo Ops 5 Super Views - Fire Ball
-dc_photo_ops05_marker = L.marker([1768.472369, 1756.75], {icon:photo_op_icon});
+dc_photo_ops05_marker = L.marker([2534.472369, 1756.75], {icon:photo_op_icon});
 dc_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Super Views - Fire Ball</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Dream Cars</b></span><br>\
@@ -226,7 +226,7 @@ dc_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Super Views - Fire 
 //COLLECTIBLES
 //Super Shinny
 //Collectible 1 Super Shinny
-dc_collectible01_marker = L.marker([662.405643, 1576.848122], {icon:collectible_icon});
+dc_collectible01_marker = L.marker([1428.405643, 1576.848122], {icon:collectible_icon});
 dc_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Dream Cars</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Super Shinny</span><br>", {
@@ -234,7 +234,7 @@ dc_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Dream Cars</b><br
 });
 
 //Collectible 2 Super Shinny
-dc_collectible02_marker = L.marker([501.397991, 2812.875], {icon:collectible_icon});
+dc_collectible02_marker = L.marker([1267.397991, 2812.875], {icon:collectible_icon});
 dc_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Dream Cars</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Super Shinny</span><br>", {
@@ -242,7 +242,7 @@ dc_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Dream Cars</b><br
 });
 
 //Collectible 3 Super Shinny
-dc_collectible03_marker = L.marker([541.513745, 2879.875], {icon:collectible_icon});
+dc_collectible03_marker = L.marker([1307.513745, 2879.875], {icon:collectible_icon});
 dc_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Dream Cars</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Super Shinny</span><br>", {
@@ -250,7 +250,7 @@ dc_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Dream Cars</b><br
 });
 
 //Collectible 4 Super Shinny
-dc_collectible04_marker = L.marker([2537.501933, 2272.25], {icon:collectible_icon});
+dc_collectible04_marker = L.marker([3303.501933, 2272.25], {icon:collectible_icon});
 dc_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Dream Cars</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Super Shinny</span><br>", {
@@ -258,7 +258,7 @@ dc_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Dream Cars</b><br
 });
 
 //Collectible 5 Super Shinny
-dc_collectible05_marker = L.marker([2171.506539, 1777], {icon:collectible_icon});
+dc_collectible05_marker = L.marker([2937.506539, 1777], {icon:collectible_icon});
 dc_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Dream Cars</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Super Shinny</span><br>", {

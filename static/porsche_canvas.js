@@ -19,7 +19,7 @@ porsche_feats_group = [];
 porsche_collectibles_group = [];
 
 //CONTAINER
-porsche_container_marker = L.marker([671.003357, 2245.25], {icon:porsche_container_icon});
+porsche_container_marker = L.marker([1437.003357, 2245.25], {icon:porsche_container_icon});
 porsche_container_marker.bindPopup('<b>911 Legacy</b><br>\
                                <i>Container</i>', {
     className: "hstPopup"
@@ -27,7 +27,7 @@ porsche_container_marker.bindPopup('<b>911 Legacy</b><br>\
 
 //EVENTS
 //Event 01
-porsche_event01_marker = L.marker([506.477611, 1797.995768], {icon:porsche_event_icon});
+porsche_event01_marker = L.marker([1272.477611, 1797.995768], {icon:porsche_event_icon});
 porsche_event01_marker.bindPopup("<b style=\"font-size:20px\">911 Arrival</b><br>\
                               <i>Event</i><br>\
                               <span><b>911 Legacy(1/6)</b></span><br>\
@@ -42,7 +42,7 @@ porsche_event01_marker.bindPopup("<b style=\"font-size:20px\">911 Arrival</b><br
 });
 
 //Event 02
-porsche_event02_marker = L.marker([881.486228, 1889.566096], {icon:porsche_event_icon});
+porsche_event02_marker = L.marker([1647.486228, 1889.566096], {icon:porsche_event_icon});
 porsche_event02_marker.bindPopup("<b style=\"font-size:20px\">911 Rally</b><br>\
                               <i>Event</i><br>\
                               <span><b>911 Legacy(2/6)</b></span><br>\
@@ -57,7 +57,7 @@ porsche_event02_marker.bindPopup("<b style=\"font-size:20px\">911 Rally</b><br>\
 });
 
 //Event 03
-porsche_event03_marker = L.marker([1378.542128, 1691.5], {icon:porsche_event_icon});
+porsche_event03_marker = L.marker([2144.542128, 1691.5], {icon:porsche_event_icon});
 porsche_event03_marker.bindPopup("<b style=\"font-size:20px\">911 Legends</b><br>\
                               <i>Event</i><br>\
                               <span><b>911 Legacy(3/6)</b></span><br>\
@@ -72,7 +72,7 @@ porsche_event03_marker.bindPopup("<b style=\"font-size:20px\">911 Legends</b><br
 });
 
 //Event 04
-porsche_event04_marker = L.marker([828.814293, 2413.625], {icon:porsche_event_icon});
+porsche_event04_marker = L.marker([1594.814293, 2413.625], {icon:porsche_event_icon});
 porsche_event04_marker.bindPopup("<b style=\"font-size:20px\">911 Freeway</b><br>\
                               <i>Event</i><br>\
                               <span><b>911 Legacy(4/6)</b></span><br>\
@@ -87,7 +87,7 @@ porsche_event04_marker.bindPopup("<b style=\"font-size:20px\">911 Freeway</b><br
 });
 
 //Event 05
-porsche_event05_marker = L.marker([584.976705, 2850.08227], {icon:porsche_event_icon});
+porsche_event05_marker = L.marker([1350.976705, 2850.08227], {icon:porsche_event_icon});
 porsche_event05_marker.bindPopup("<b style=\"font-size:20px\">911 Grand Prix</b><br>\
                               <i>Event</i><br>\
                               <span><b>911 Legacy(5/6)</b></span><br>\
@@ -102,7 +102,7 @@ porsche_event05_marker.bindPopup("<b style=\"font-size:20px\">911 Grand Prix</b>
 });
 
 //Event 06
-porsche_event06_marker = L.marker([419.378902, 3202.75], {icon:porsche_event_icon});
+porsche_event06_marker = L.marker([1185.378902, 3202.75], {icon:porsche_event_icon});
 porsche_event06_marker.bindPopup("<b style=\"font-size:20px\">911 Challenge</b><br>\
                               <i>Event</i><br>\
                               <span><b>911 Legacy(6/6)</b></span><br>\
@@ -117,10 +117,10 @@ porsche_event06_marker.bindPopup("<b style=\"font-size:20px\">911 Challenge</b><
 });
 
 //FEATS
-var PorschefeatsArr = [[502.412791, 2943.066812, "speedtrap", "Waikiki", "Speedtrap", "170.0 km/h", "960", "1,800"],  //Feat 01
-                       [660.628058, 2144.5, "escape", "Ewa", "Escape", "1100 m", "2,880", "5,400"],  //Feat 02
-                       [674.502493, 1974.860852, "speedtrap", "Kapolei", "Speedtrap", "170.0 km/h", "960", "1,800"],  //Feat 03
-                       [1537.24711, 1440.730067, "escape", "Waianae", "Escape", "1380 m", "2,880", "5,400"],  //Feat 04
+var PorschefeatsArr = [[1268.412791, 2943.066812, "speedtrap", "Waikiki", "Speedtrap", "170.0 km/h", "960", "1,800"],  //Feat 01
+                       [1426.628058, 2144.5, "escape", "Ewa", "Escape", "1100 m", "2,880", "5,400"],  //Feat 02
+                       [1440.502493, 1974.860852, "speedtrap", "Kapolei", "Speedtrap", "170.0 km/h", "960", "1,800"],  //Feat 03
+                       [2303.24711, 1440.730067, "escape", "Waianae", "Escape", "1380 m", "2,880", "5,400"],  //Feat 04
                       ]
 
 function createPorscheFeatsMarkers(featsArr) {
@@ -142,7 +142,7 @@ createPorscheFeatsMarkers(PorschefeatsArr);
 
 //PHOTO OPS
 //Photo Ops 1 911 Views - Volcano
-porsche_photo_ops01_marker = L.marker([1509.704, 1578.615889], {icon:photo_op_icon});
+porsche_photo_ops01_marker = L.marker([2275.704, 1578.615889], {icon:photo_op_icon});
 porsche_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">911 Views - Volcano</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>911 Legacy</b></span><br>\
@@ -154,7 +154,7 @@ porsche_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">911 Views - Vo
 });
 
 //Photo Ops 2 911 Views - Rainbow Silo
-porsche_photo_ops02_marker = L.marker([466.405268, 1700.125], {icon:photo_op_icon});
+porsche_photo_ops02_marker = L.marker([1232.405268, 1700.125], {icon:photo_op_icon});
 porsche_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">911 Views - Rainbow Silo</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>911 Legacy</b></span><br>\
@@ -167,7 +167,7 @@ porsche_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">911 Views - Ra
 });
 
 //Photo Ops 3 911 Views - Waikiki Shell
-porsche_photo_ops03_marker = L.marker([456.398834, 3011.625], {icon:photo_op_icon});
+porsche_photo_ops03_marker = L.marker([1222.398834, 3011.625], {icon:photo_op_icon});
 porsche_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">911 Views - Waikiki Shell</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>911 Legacy</b></span><br>\
@@ -180,7 +180,7 @@ porsche_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">911 Views - Wa
 });
 
 //Photo Ops 4 911 Views - Close Shot
-porsche_photo_ops04_marker = L.marker([514.282185, 3281.152241], {icon:photo_op_icon});
+porsche_photo_ops04_marker = L.marker([1280.282185, 3281.152241], {icon:photo_op_icon});
 porsche_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">911 Views - Close Shot</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>911 Legacy</b></span><br>\
@@ -193,7 +193,7 @@ porsche_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">911 Views - Cl
 });
 
 //Photo Ops 5 911 Views - Carrera 4S
-porsche_photo_ops05_marker = L.marker([667.189609, 2244.375], {icon:photo_op_icon});
+porsche_photo_ops05_marker = L.marker([1433.189609, 2244.375], {icon:photo_op_icon});
 porsche_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">911 Views - Carrera 4S</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>911 Legacy</b></span><br>\
@@ -208,7 +208,7 @@ porsche_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">911 Views - Ca
 //COLLECTIBLES
 //911 Collection
 //Collectible 1 911 Collection
-porsche_collectible01_marker = L.marker([509.877426, 1744.875], {icon:collectible_icon});
+porsche_collectible01_marker = L.marker([1275.877426, 1744.875], {icon:collectible_icon});
 porsche_collectible01_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> 911 Collection</span><br>", {
@@ -216,7 +216,7 @@ porsche_collectible01_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</
 });
 
 //Collectible 2 911 Collection
-porsche_collectible02_marker = L.marker([688.013007, 2164.125], {icon:collectible_icon});
+porsche_collectible02_marker = L.marker([1454.013007, 2164.125], {icon:collectible_icon});
 porsche_collectible02_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> 911 Collection</span><br>", {
@@ -224,7 +224,7 @@ porsche_collectible02_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</
 });
 
 //Collectible 3 911 Collection
-porsche_collectible03_marker = L.marker([663.510001, 2244.5625], {icon:collectible_icon});
+porsche_collectible03_marker = L.marker([1429.510001, 2244.5625], {icon:collectible_icon});
 porsche_collectible03_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> 911 Collection</span><br>", {
@@ -232,7 +232,7 @@ porsche_collectible03_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</
 });
 
 //Collectible 4 911 Collection
-porsche_collectible04_marker = L.marker([611.133243, 2316.835369], {icon:collectible_icon});
+porsche_collectible04_marker = L.marker([1377.133243, 2316.835369], {icon:collectible_icon});
 porsche_collectible04_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> 911 Collection</span><br>", {
@@ -240,7 +240,7 @@ porsche_collectible04_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</
 });
 
 //Collectible 5 911 Collection
-porsche_collectible05_marker = L.marker([491.284758, 2750.291825], {icon:collectible_icon});
+porsche_collectible05_marker = L.marker([1257.284758, 2750.291825], {icon:collectible_icon});
 porsche_collectible05_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> 911 Collection</span><br>", {
@@ -248,7 +248,7 @@ porsche_collectible05_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</
 });
 
 //Collectible 6 911 Collection
-porsche_collectible06_marker = L.marker([369.147358, 3038.875], {icon:collectible_icon});
+porsche_collectible06_marker = L.marker([1135.147358, 3038.875], {icon:collectible_icon});
 porsche_collectible06_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> 911 Collection</span><br>", {
@@ -256,7 +256,7 @@ porsche_collectible06_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</
 });
 
 //Collectible 7 911 Collection
-porsche_collectible07_marker = L.marker([297.521303, 3541.25], {icon:collectible_icon});
+porsche_collectible07_marker = L.marker([1063.521303, 3541.25], {icon:collectible_icon});
 porsche_collectible07_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> 911 Collection</span><br>", {
@@ -264,7 +264,7 @@ porsche_collectible07_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</
 });
 
 //Collectible 8 911 Collection
-porsche_collectible08_marker = L.marker([1384.697969, 3046.216013], {icon:collectible_icon});
+porsche_collectible08_marker = L.marker([2150.697969, 3046.216013], {icon:collectible_icon});
 porsche_collectible08_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> 911 Collection</span><br>", {
@@ -272,7 +272,7 @@ porsche_collectible08_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</
 });
 
 //Collectible 9 911 Collection
-porsche_collectible09_marker = L.marker([2150.840113, 2009.243919], {icon:collectible_icon});
+porsche_collectible09_marker = L.marker([2916.840113, 2009.243919], {icon:collectible_icon});
 porsche_collectible09_marker.bindPopup("<b style=\"font-size:20px\">911 Legacy</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> 911 Collection</span><br>", {

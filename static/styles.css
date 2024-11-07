@@ -12,14 +12,14 @@
 
 #left_sidebar {
     height: 100%;
-    width: 25%;
+    width: 30%;
     position: absolute;
 }
 
 @media only screen and (max-width: 500px) {
     #left_sidebar {
         height: 100%;
-        width: 75%;
+        width: 85%;
         position: absolute;
     }
   }
@@ -27,7 +27,7 @@
   @media only screen and (min-width: 501px) and (max-width: 900px) {
     #left_sidebar {
         height: 100%;
-        width: 45%;
+        width: 60%;
         position: absolute;
     }
   }
@@ -145,6 +145,10 @@
     margin-right: 5px;
 }
 
+#event_filters .filter_option:nth-of-type(even) .filter_marker_count{
+    padding-right: 5px;
+}
+
 #close {
     position: absolute;
     left: 100%;
@@ -175,6 +179,17 @@
     display: flex;
     align-items: flex-start;
     padding-left: 10px;
+}
+
+.filter_marker_count {
+    margin-left: auto;
+    align-self: center;
+    font-size: 12px;
+    color: silver;
+}
+
+.filter_option span:nth-child(even){
+    flex: 1 1 0;
 }
 
 .hstPopup .leaflet-popup-content-wrapper,

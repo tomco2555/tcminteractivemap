@@ -19,7 +19,7 @@ al_feats_group = [];
 al_collectibles_group = [];
 
 //CONTAINER
-al_container_marker = L.marker([378.408662, 3047.541839], {icon:al_container_icon});
+al_container_marker = L.marker([1144.408662, 3047.541839], {icon:al_container_icon});
 al_container_marker.bindPopup('<b>Automobili Lamborghini</b><br>\
                                <i>Container</i>', {
     className: "hstPopup"
@@ -27,7 +27,7 @@ al_container_marker.bindPopup('<b>Automobili Lamborghini</b><br>\
 
 //EVENTS
 //Event 01
-al_event01_marker = L.marker([1299.127285, 3038.25], {icon:al_event_icon});
+al_event01_marker = L.marker([2065.127285, 3038.25], {icon:al_event_icon});
 al_event01_marker.bindPopup("<b style=\"font-size:20px\">Creating A Legend</b><br>\
                               <i>Event</i><br>\
                               <span><b>Automobili Lamborghini(1/9)</b></span><br>\
@@ -42,7 +42,7 @@ al_event01_marker.bindPopup("<b style=\"font-size:20px\">Creating A Legend</b><b
 });
 
 //Event 02
-al_event02_marker = L.marker([1746.18017, 2968.8125], {icon:al_event_icon});
+al_event02_marker = L.marker([2512.18017, 2968.8125], {icon:al_event_icon});
 al_event02_marker.bindPopup("<b style=\"font-size:20px\">Designing History</b><br>\
                               <i>Event</i><br>\
                               <span><b>Automobili Lamborghini(2/9)</b></span><br>\
@@ -57,7 +57,7 @@ al_event02_marker.bindPopup("<b style=\"font-size:20px\">Designing History</b><b
 });
 
 //Event 03
-al_event03_marker = L.marker([2131.72454, 1940.654561], {icon:al_event_icon});
+al_event03_marker = L.marker([2897.72454, 1940.654561], {icon:al_event_icon});
 al_event03_marker.bindPopup("<b style=\"font-size:20px\">Chasing The Future</b><br>\
                               <i>Event</i><br>\
                               <span><b>Automobili Lamborghini(3/9)</b></span><br>\
@@ -72,7 +72,7 @@ al_event03_marker.bindPopup("<b style=\"font-size:20px\">Chasing The Future</b><
 });
 
 //Event 04
-al_event04_marker = L.marker([2027.098986, 1450], {icon:al_event_icon});
+al_event04_marker = L.marker([2793.098986, 1450], {icon:al_event_icon});
 al_event04_marker.bindPopup("<b style=\"font-size:20px\">Trailblazing Forever</b><br>\
                               <i>Event</i><br>\
                               <span><b>Automobili Lamborghini(4/9)</b></span><br>\
@@ -87,7 +87,7 @@ al_event04_marker.bindPopup("<b style=\"font-size:20px\">Trailblazing Forever</b
 });
 
 //Event 05
-al_event05_marker = L.marker([626.121975, 2134.932149], {icon:al_event_icon});
+al_event05_marker = L.marker([1392.121975, 2134.932149], {icon:al_event_icon});
 al_event05_marker.bindPopup("<b style=\"font-size:20px\">Powering Through</b><br>\
                               <i>Event</i><br>\
                               <span><b>Automobili Lamborghini(5/9)</b></span><br>\
@@ -102,7 +102,7 @@ al_event05_marker.bindPopup("<b style=\"font-size:20px\">Powering Through</b><br
 });
 
 //Event 06
-al_event06_marker = L.marker([667.403908, 2153.228537], {icon:al_event_icon});
+al_event06_marker = L.marker([1433.403908, 2153.228537], {icon:al_event_icon});
 al_event06_marker.bindPopup("<b style=\"font-size:20px\">Achieving Immortality</b><br>\
                               <i>Event</i><br>\
                               <span><b>Automobili Lamborghini(6/9)</b></span><br>\
@@ -117,7 +117,7 @@ al_event06_marker.bindPopup("<b style=\"font-size:20px\">Achieving Immortality</
 });
 
 //Event 07
-al_event07_marker = L.marker([515.131068, 3719.293281], {icon:al_event_icon});
+al_event07_marker = L.marker([1281.131068, 3719.293281], {icon:al_event_icon});
 al_event07_marker.bindPopup("<b style=\"font-size:20px\">Owning The Racetracks</b><br>\
                               <i>Event</i><br>\
                               <span><b>Automobili Lamborghini(7/9)</b></span><br>\
@@ -132,7 +132,7 @@ al_event07_marker.bindPopup("<b style=\"font-size:20px\">Owning The Racetracks</
 });
 
 //Event 08
-al_event08_marker = L.marker([515.502285, 2987.375], {icon:al_event_icon});
+al_event08_marker = L.marker([1281.502285, 2987.375], {icon:al_event_icon});
 al_event08_marker.bindPopup("<b style=\"font-size:20px\">Defining Perfection</b><br>\
                               <i>Event</i><br>\
                               <span><b>Automobili Lamborghini(8/9)</b></span><br>\
@@ -147,7 +147,7 @@ al_event08_marker.bindPopup("<b style=\"font-size:20px\">Defining Perfection</b>
 });
 
 //Event 09
-al_event09_marker = L.marker([734.739524, 2572.875], {icon:al_event_icon});
+al_event09_marker = L.marker([1500.739524, 2572.875], {icon:al_event_icon});
 al_event09_marker.bindPopup("<b style=\"font-size:20px\">Going For More</b><br>\
                               <i>Event</i><br>\
                               <span><b>Automobili Lamborghini(9/9)</b></span><br>\
@@ -162,12 +162,12 @@ al_event09_marker.bindPopup("<b style=\"font-size:20px\">Going For More</b><br>\
 });
 
 //FEATS
-var ALfeatsArr = [[630.781217, 2831.25, "speedtrap", "Convention Center", "Speedtrap", "150.0 km/h", "960", "1,800"],  //Feat 01
-                  [577.033039, 2927.775628, "escape", "Ala Wai", "Escape", "450 m", "2,880", "5,400"],  //Feat 02
-                  [545.448545, 3214.242262, "slalom", "Kaimuki", "Slalom", "5,120 PTS", "1,920", "3,600"],  //Feat 03
-                  [1464.255695, 3033.25, "escape", "Kahaluu", "Escape", "710 m", "2,880", "5,400"],  //Feat 04
-                  [2076.002777, 1590.375, "slalom", "Mokuleia Beach", "Slalom", "5,100 PTS", "2,880", "5,400"],  //Feat 05
-                  [634.83176, 1515.506609, "bullseye", "Nanakuli", "Bullseye", "5,440 PTS", "3,840", "7,200"],  //Feat 06
+var ALfeatsArr = [[1396.781217, 2831.25, "speedtrap", "Convention Center", "Speedtrap", "150.0 km/h", "960", "1,800"],  //Feat 01
+                  [1343.033039, 2927.775628, "escape", "Ala Wai", "Escape", "450 m", "2,880", "5,400"],  //Feat 02
+                  [1311.448545, 3214.242262, "slalom", "Kaimuki", "Slalom", "5,120 PTS", "1,920", "3,600"],  //Feat 03
+                  [2230.255695, 3033.25, "escape", "Kahaluu", "Escape", "710 m", "2,880", "5,400"],  //Feat 04
+                  [2842.002777, 1590.375, "slalom", "Mokuleia Beach", "Slalom", "5,100 PTS", "2,880", "5,400"],  //Feat 05
+                  [1400.83176, 1515.506609, "bullseye", "Nanakuli", "Bullseye", "5,440 PTS", "3,840", "7,200"],  //Feat 06
                  ]
 
 function createALFeatsMarkers(featsArr) {
@@ -189,7 +189,7 @@ createALFeatsMarkers(ALfeatsArr);
 
 //PHOTO OPS
 //Photo Ops 1 A.L. Views - Street Art
-al_photo_ops01_marker = L.marker([2107.119762, 2019.125], {icon:photo_op_icon});
+al_photo_ops01_marker = L.marker([2873.119762, 2019.125], {icon:photo_op_icon});
 al_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Street Art</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Automobili Lamborghini</b></span><br>\
@@ -203,7 +203,7 @@ al_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Street
 });
 
 //Photo Ops 2 A.L. Views - Rainbow Containers
-al_photo_ops02_marker = L.marker([501.787063, 1800.735807], {icon:photo_op_icon});
+al_photo_ops02_marker = L.marker([1267.787063, 1800.735807], {icon:photo_op_icon});
 al_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Rainbow Containers</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Automobili Lamborghini</b></span><br>\
@@ -216,7 +216,7 @@ al_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Rainbo
 });
 
 //Photo Ops 3 A.L. Views - Artsy Racetrack
-al_photo_ops03_marker = L.marker([556.744059, 3602.25], {icon:photo_op_icon});
+al_photo_ops03_marker = L.marker([1322.744059, 3602.25], {icon:photo_op_icon});
 al_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Artsy Racetrack</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Automobili Lamborghini</b></span><br>\
@@ -230,7 +230,7 @@ al_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Artsy 
 });
 
 //Photo Ops 4 A.L. Views - Urban Marvels
-al_photo_ops04_marker = L.marker([725.488434, 2708.875], {icon:photo_op_icon});
+al_photo_ops04_marker = L.marker([1491.488434, 2708.875], {icon:photo_op_icon});
 al_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Urban Marvels</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Automobili Lamborghini</b></span><br>\
@@ -243,7 +243,7 @@ al_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Urban 
 });
 
 //Photo Ops 5 A.L. Views - Waikiki Wing Hotel
-al_photo_ops05_marker = L.marker([531.510827, 2772.625], {icon:photo_op_icon});
+al_photo_ops05_marker = L.marker([1297.510827, 2772.625], {icon:photo_op_icon});
 al_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Waikiki Wing Hotel</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Automobili Lamborghini</b></span><br>\
@@ -256,7 +256,7 @@ al_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Waikik
 });
 
 //Photo Ops 6 A.L. Views - Swimming Pool
-al_photo_ops06_marker = L.marker([2172.300917, 1782.625], {icon:photo_op_icon});
+al_photo_ops06_marker = L.marker([2938.300917, 1782.625], {icon:photo_op_icon});
 al_photo_ops06_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Swimming Pool</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Automobili Lamborghini</b></span><br>\
@@ -269,7 +269,7 @@ al_photo_ops06_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Swimmi
 });
 
 //Photo Ops 7 A.L. Views - Hole Rock
-al_photo_ops07_marker = L.marker([2179.108337, 2680.875], {icon:photo_op_icon});
+al_photo_ops07_marker = L.marker([2945.108337, 2680.875], {icon:photo_op_icon});
 al_photo_ops07_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Hole Rock</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Automobili Lamborghini</b></span><br>\
@@ -285,7 +285,7 @@ al_photo_ops07_marker.bindPopup("<b style=\"font-size:20px\">A.L. Views - Hole R
 //COLLECTIBLES
 //A.L. Wheels
 //Collectible 1 A.L. Wheels
-al_collectible01_marker = L.marker([2187.488272, 1794.052502], {icon:collectible_icon});
+al_collectible01_marker = L.marker([2953.488272, 1794.052502], {icon:collectible_icon});
 al_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lamborghini</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> A.L. Wheels</span><br>", {
@@ -293,7 +293,7 @@ al_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lambor
 });
 
 //Collectible 2 A.L. Wheels
-al_collectible02_marker = L.marker([1591.768069, 2299.75], {icon:collectible_icon});
+al_collectible02_marker = L.marker([2357.768069, 2299.75], {icon:collectible_icon});
 al_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lamborghini</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> A.L. Wheels</span><br>", {
@@ -301,7 +301,7 @@ al_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lambor
 });
 
 //Collectible 3 A.L. Wheels
-al_collectible03_marker = L.marker([1247.883648, 3166.125], {icon:collectible_icon});
+al_collectible03_marker = L.marker([2013.883648, 3166.125], {icon:collectible_icon});
 al_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lamborghini</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> A.L. Wheels</span><br>", {
@@ -309,7 +309,7 @@ al_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lambor
 });
 
 //Collectible 4 A.L. Wheels
-al_collectible04_marker = L.marker([546.258831, 2999.546966], {icon:collectible_icon});
+al_collectible04_marker = L.marker([1312.258831, 2999.546966], {icon:collectible_icon});
 al_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lamborghini</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> A.L. Wheels</span><br>", {
@@ -317,7 +317,7 @@ al_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lambor
 });
 
 //Collectible 5 A.L. Wheels
-al_collectible05_marker = L.marker([567.195782, 2146.687799], {icon:collectible_icon});
+al_collectible05_marker = L.marker([1333.195782, 2146.687799], {icon:collectible_icon});
 al_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lamborghini</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> A.L. Wheels</span><br>", {
@@ -325,7 +325,7 @@ al_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lambor
 });
 
 //Collectible 6 A.L. Wheels
-al_collectible06_marker = L.marker([643.832954, 2014.989161], {icon:collectible_icon});
+al_collectible06_marker = L.marker([1409.832954, 2014.989161], {icon:collectible_icon});
 al_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lamborghini</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> A.L. Wheels</span><br>", {
@@ -333,7 +333,7 @@ al_collectible06_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lambor
 });
 
 //Collectible 7 A.L. Wheels
-al_collectible07_marker = L.marker([575.683773, 1589.841209], {icon:collectible_icon});
+al_collectible07_marker = L.marker([1341.683773, 1589.841209], {icon:collectible_icon});
 al_collectible07_marker.bindPopup("<b style=\"font-size:20px\">Automobili Lamborghini</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> A.L. Wheels</span><br>", {

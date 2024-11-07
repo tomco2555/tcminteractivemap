@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", function() {
     function getLeftSidebarWidth() {
         const width = window.innerWidth;
         if (width <= 500) {
-            return '75%'; // For screens 500px or less
+            return '85%'; // For screens 500px or less
         } else if (width > 500 && width <= 900) {
-            return '45%'; // For screens between 501px and 900px
+            return '55%'; // For screens between 501px and 900px
         } else {
-            return '25%'; // For screens greater than 900px
+            return '30%'; // For screens greater than 900px
         }
     }
 

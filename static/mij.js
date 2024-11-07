@@ -19,7 +19,7 @@ mij_feats_group = L.featureGroup();
 mij_collectibles_group = L.featureGroup();
 
 //Container
-mij_container_marker = L.marker([1302.023957, 3166.9375], {icon:mij_container_icon}).addTo(mij_container_group);
+mij_container_marker = L.marker([2068.023957, 3166.9375], {icon:mij_container_icon}).addTo(mij_container_group);
 mij_container_marker.bindPopup('<b>Made in Japan</b><br>\
                                 <i>Container</i>', {
     className: "hstPopup"
@@ -27,7 +27,7 @@ mij_container_marker.bindPopup('<b>Made in Japan</b><br>\
 
 //Events
 //Event 01
-mij_event01_marker = L.marker([1261.499086, 2980.375], {icon:mij_event_icon}).addTo(mij_events_group);
+mij_event01_marker = L.marker([2027.499086, 2980.375], {icon:mij_event_icon}).addTo(mij_events_group);
 mij_event01_marker.bindPopup("<b style=\"font-size:20px\">Kyusha Spirit</b><br>\
                               <i>Event</i><br>\
                               <span><b>Made in Japan(1/7)</b></span><br>\
@@ -42,7 +42,7 @@ mij_event01_marker.bindPopup("<b style=\"font-size:20px\">Kyusha Spirit</b><br>\
 });
 
 //Event 02
-mij_event02_marker = L.marker([1178.360157, 3300.644348], {icon:mij_event_icon}).addTo(mij_events_group);
+mij_event02_marker = L.marker([1944.360157, 3300.644348], {icon:mij_event_icon}).addTo(mij_events_group);
 mij_event02_marker.bindPopup("<b style=\"font-size:20px\">Wangan Spirit</b><br>\
                               <i>Event</i><br>\
                               <span><b>Made in Japan(2/7)</b></span><br>\
@@ -57,7 +57,7 @@ mij_event02_marker.bindPopup("<b style=\"font-size:20px\">Wangan Spirit</b><br>\
 });
 
 //Event 03
-mij_event03_marker = L.marker([845.040678, 3395.880317], {icon:mij_event_icon}).addTo(mij_events_group);
+mij_event03_marker = L.marker([1611.040678, 3395.880317], {icon:mij_event_icon}).addTo(mij_events_group);
 mij_event03_marker.bindPopup("<b style=\"font-size:20px\">Touge Spirit</b><br>\
                               <i>Event</i><br>\
                               <span><b>Made in Japan(3/7)</b></span><br>\
@@ -72,7 +72,7 @@ mij_event03_marker.bindPopup("<b style=\"font-size:20px\">Touge Spirit</b><br>\
 });
 
 //Event 04
-mij_event04_marker = L.marker([604.337828, 2455.875], {icon:mij_event_icon}).addTo(mij_events_group);
+mij_event04_marker = L.marker([1370.337828, 2455.875], {icon:mij_event_icon}).addTo(mij_events_group);
 mij_event04_marker.bindPopup("<b style=\"font-size:20px\">Ebisu Style</b><br>\
                               <i>Event</i><br>\
                               <span><b>Made in Japan(4/7)</b></span><br>\
@@ -87,7 +87,7 @@ mij_event04_marker.bindPopup("<b style=\"font-size:20px\">Ebisu Style</b><br>\
 });
 
 //Event 05
-mij_event05_marker = L.marker([486.95271, 2435.010589], {icon:mij_event_icon}).addTo(mij_events_group);
+mij_event05_marker = L.marker([1252.95271, 2435.010589], {icon:mij_event_icon}).addTo(mij_events_group);
 mij_event05_marker.bindPopup("<b style=\"font-size:20px\">Zeroyon Style</b><br>\
                               <i>Event</i><br>\
                               <span><b>Made in Japan(5/7)</b></span><br>\
@@ -102,7 +102,7 @@ mij_event05_marker.bindPopup("<b style=\"font-size:20px\">Zeroyon Style</b><br>\
 });
 
 //Event 06
-mij_event06_marker = L.marker([569.321535, 2795.75], {icon:mij_event_icon}).addTo(mij_events_group);
+mij_event06_marker = L.marker([1335.321535, 2795.75], {icon:mij_event_icon}).addTo(mij_events_group);
 mij_event06_marker.bindPopup("<b style=\"font-size:20px\">Kanjo Style</b><br>\
                               <i>Event</i><br>\
                               <span><b>Made in Japan(6/7)</b></span><br>\
@@ -117,7 +117,7 @@ mij_event06_marker.bindPopup("<b style=\"font-size:20px\">Kanjo Style</b><br>\
 });
 
 //Event 07
-mij_event07_marker = L.marker([565.817808, 2828.25], {icon:mij_event_icon}).addTo(mij_events_group);
+mij_event07_marker = L.marker([1331.817808, 2828.25], {icon:mij_event_icon}).addTo(mij_events_group);
 mij_event07_marker.bindPopup("<b style=\"font-size:20px\">Shinjuku Style</b><br>\
                               <i>Event</i><br>\
                               <span><b>Made in Japan(7/7)</b></span><br>\
@@ -132,12 +132,12 @@ mij_event07_marker.bindPopup("<b style=\"font-size:20px\">Shinjuku Style</b><br>
 });
 
 //FEATS
-var MIJfeatsArr = [[512.404716, 2365.481603, "speedtrap", "Oahu Airport", "Speedtrap", "210.0 km/h", "960", "1,800"],  //Feat 01
-                [589.323626, 2685.3125, "speedtrap", "Moana Center", "Speedtrap", "210.0 km/h", "960", "1,800"],  //Feat 02
-                [795.628761, 2955, "slalom", "Manoa Laces", "Slalom", "4,040 PTS", "2,880", "5,400"],  //Feat 03
-                [507.885634, 3700.0625, "slalom", "Hanauma Bay", "Slalom", "5,640 PTS", "2,880", "5,400"],  //Feat 04
-                [1025.830564, 2923.444598, "escape", "Manoa Canyon", "Escape", "880 m", "2,880", "5,400"],  //Feat 05
-                [1233.438203, 3165.125, "speedtrap", "Kaneohe", "Speedtrap", "130.0 km/h", "960", "1,800"],  //Feat 06
+var MIJfeatsArr = [[1278.404716, 2365.481603, "speedtrap", "Oahu Airport", "Speedtrap", "210.0 km/h", "960", "1,800"],  //Feat 01
+                [1355.323626, 2685.3125, "speedtrap", "Moana Center", "Speedtrap", "210.0 km/h", "960", "1,800"],  //Feat 02
+                [1561.628761, 2955, "slalom", "Manoa Laces", "Slalom", "4,040 PTS", "2,880", "5,400"],  //Feat 03
+                [1273.885634, 3700.0625, "slalom", "Hanauma Bay", "Slalom", "5,640 PTS", "2,880", "5,400"],  //Feat 04
+                [1791.830564, 2923.444598, "escape", "Manoa Canyon", "Escape", "880 m", "2,880", "5,400"],  //Feat 05
+                [1999.438203, 3165.125, "speedtrap", "Kaneohe", "Speedtrap", "130.0 km/h", "960", "1,800"],  //Feat 06
                ]
 
 function createMIJFeatsMarkers(featsArr) {
@@ -159,7 +159,7 @@ createMIJFeatsMarkers(MIJfeatsArr);
 
 //Photo Ops
 //Photo Ops 1 Nihon No Views - Temple
-mij_photo_ops01_marker = L.marker([1229.670028, 2952.701142], {icon:photo_op_icon}).addTo(mij_photo_ops_group);
+mij_photo_ops01_marker = L.marker([1995.670028, 2952.701142], {icon:photo_op_icon}).addTo(mij_photo_ops_group);
 mij_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Nihon No Views - Temple</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Made in Japan</b></span><br>\
@@ -172,7 +172,7 @@ mij_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Nihon No Views - T
 });
 
 //Photo Ops 2 Nihon No Views - Street Art
-mij_photo_ops02_marker = L.marker([654.570814, 2413.5], {icon:photo_op_icon}).addTo(mij_photo_ops_group);
+mij_photo_ops02_marker = L.marker([1420.570814, 2413.5], {icon:photo_op_icon}).addTo(mij_photo_ops_group);
 mij_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Nihon No Views - Street Art</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Made in Japan</b></span><br>\
@@ -186,7 +186,7 @@ mij_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Nihon No Views - S
 });
 
 //Photo Ops 3 Nihon No Views - Waikiki Market
-mij_photo_ops03_marker = L.marker([550.00689, 2855.75], {icon:photo_op_icon}).addTo(mij_photo_ops_group);
+mij_photo_ops03_marker = L.marker([1316.00689, 2855.75], {icon:photo_op_icon}).addTo(mij_photo_ops_group);
 mij_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Nihon No Views - Waikiki Market</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Made in Japan</b></span><br>\
@@ -199,7 +199,7 @@ mij_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Nihon No Views - W
 });
 
 //Photo Ops 4 Nihon No Views - Ryūjin
-mij_photo_ops04_marker = L.marker([1411.393413, 1998.902482], {icon:photo_op_icon}).addTo(mij_photo_ops_group);
+mij_photo_ops04_marker = L.marker([2177.393413, 1998.902482], {icon:photo_op_icon}).addTo(mij_photo_ops_group);
 mij_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Nihon No Views - Ryūjin</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Made in Japan</b></span><br>\
@@ -212,7 +212,7 @@ mij_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Nihon No Views - R
 });
 
 //Photo Ops 5 Nihon No Views - Shrimp
-mij_photo_ops05_marker = L.marker([2085.806436, 2018.25], {icon:photo_op_icon}).addTo(mij_photo_ops_group);
+mij_photo_ops05_marker = L.marker([2851.806436, 2018.25], {icon:photo_op_icon}).addTo(mij_photo_ops_group);
 mij_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Nihon No Views - Shrimp</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Made in Japan</b></span><br>\
@@ -227,7 +227,7 @@ mij_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Nihon No Views - S
 //COLLECTIBLES
 //Nihon No Fire
 //Collectible 1 Nihon No Fire
-mij_collectible01_marker = L.marker([813.645407, 3218.1875], {icon:collectible_icon}).addTo(mij_collectibles_group);
+mij_collectible01_marker = L.marker([1579.645407, 3218.1875], {icon:collectible_icon}).addTo(mij_collectibles_group);
 mij_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Made in Japan</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Nihon No Fire</span><br>", {
@@ -235,7 +235,7 @@ mij_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Made in Japan</b
 });
 
 //Collectible 2 Nihon No Fire
-mij_collectible02_marker = L.marker([598.890222, 1761.4375], {icon:collectible_icon}).addTo(mij_collectibles_group);
+mij_collectible02_marker = L.marker([1364.890222, 1761.4375], {icon:collectible_icon}).addTo(mij_collectibles_group);
 mij_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Made in Japan</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Nihon No Fire</span><br>", {
@@ -243,7 +243,7 @@ mij_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Made in Japan</b
 });
 
 //Collectible 3 Nihon No Fire
-mij_collectible03_marker = L.marker([1213.37449, 2956.5625], {icon:collectible_icon}).addTo(mij_collectibles_group);
+mij_collectible03_marker = L.marker([1979.37449, 2956.5625], {icon:collectible_icon}).addTo(mij_collectibles_group);
 mij_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Made in Japan</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Nihon No Fire</span><br>", {
@@ -251,7 +251,7 @@ mij_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Made in Japan</b
 });
 
 //Collectible 4 Nihon No Fire
-mij_collectible04_marker = L.marker([1633.315649, 2256.112574], {icon:collectible_icon}).addTo(mij_collectibles_group);
+mij_collectible04_marker = L.marker([2399.315649, 2256.112574], {icon:collectible_icon}).addTo(mij_collectibles_group);
 mij_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Made in Japan</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Nihon No Fire</span><br>", {
@@ -259,7 +259,7 @@ mij_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Made in Japan</b
 });
 
 //Collectible 5 Nihon No Fire
-mij_collectible05_marker = L.marker([1414.443722, 2011.3125], {icon:collectible_icon}).addTo(mij_collectibles_group);
+mij_collectible05_marker = L.marker([2180.443722, 2011.3125], {icon:collectible_icon}).addTo(mij_collectibles_group);
 mij_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Made in Japan</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Nihon No Fire</span><br>", {

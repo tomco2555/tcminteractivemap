@@ -19,7 +19,7 @@ motorsports_feats_group = [];
 motorsports_collectibles_group = [];
 
 //CONTAINER
-motorsports_container_marker = L.marker([549.091931, 3628.872001], {icon:motorsports_container_icon});
+motorsports_container_marker = L.marker([1315.091931, 3628.872001], {icon:motorsports_container_icon});
 motorsports_container_marker.bindPopup('<b>Motorsports</b><br>\
                                <i>Container</i>', {
     className: "hstPopup"
@@ -27,7 +27,7 @@ motorsports_container_marker.bindPopup('<b>Motorsports</b><br>\
 
 //EVENTS
 //Event 01
-motorsports_event01_marker = L.marker([312.761741, 3541.125], {icon:motorsports_event_icon});
+motorsports_event01_marker = L.marker([1078.761741, 3541.125], {icon:motorsports_event_icon});
 motorsports_event01_marker.bindPopup("<b style=\"font-size:20px\">Opening Act: Alpha Debut</b><br>\
                               <i>Event</i><br>\
                               <span><b>Motorsports(1/8)</b></span><br>\
@@ -42,7 +42,7 @@ motorsports_event01_marker.bindPopup("<b style=\"font-size:20px\">Opening Act: A
 });
 
 //Event 02
-motorsports_event02_marker = L.marker([494.180072, 3592.721167], {icon:motorsports_event_icon});
+motorsports_event02_marker = L.marker([1260.180072, 3592.721167], {icon:motorsports_event_icon});
 motorsports_event02_marker.bindPopup("<b style=\"font-size:20px\">Act 2: Alpha Grand Prix</b><br>\
                               <i>Event</i><br>\
                               <span><b>Motorsports(2/8)</b></span><br>\
@@ -57,7 +57,7 @@ motorsports_event02_marker.bindPopup("<b style=\"font-size:20px\">Act 2: Alpha G
 });
 
 //Event 03
-motorsports_event03_marker = L.marker([497.626248, 3592.632779], {icon:motorsports_event_icon});
+motorsports_event03_marker = L.marker([1263.626248, 3592.632779], {icon:motorsports_event_icon});
 motorsports_event03_marker.bindPopup("<b style=\"font-size:20px\">Act 3: Grand Touring</b><br>\
                               <i>Event</i><br>\
                               <span><b>Motorsports(3/8)</b></span><br>\
@@ -72,7 +72,7 @@ motorsports_event03_marker.bindPopup("<b style=\"font-size:20px\">Act 3: Grand T
 });
 
 //Event 04
-motorsports_event04_marker = L.marker([526.609473, 3595.019264], {icon:motorsports_event_icon});
+motorsports_event04_marker = L.marker([1292.609473, 3595.019264], {icon:motorsports_event_icon});
 motorsports_event04_marker.bindPopup("<b style=\"font-size:20px\">Act 4: Alpha Gamble</b><br>\
                               <i>Event</i><br>\
                               <span><b>Motorsports(4/8)</b></span><br>\
@@ -87,7 +87,7 @@ motorsports_event04_marker.bindPopup("<b style=\"font-size:20px\">Act 4: Alpha G
 });
 
 //Event 05
-motorsports_event05_marker = L.marker([306.013361, 3501.416004], {icon:motorsports_event_icon});
+motorsports_event05_marker = L.marker([1072.013361, 3501.416004], {icon:motorsports_event_icon});
 motorsports_event05_marker.bindPopup("<b style=\"font-size:20px\">Act 5: Acura Derby</b><br>\
                               <i>Event</i><br>\
                               <span><b>Motorsports(5/8)</b></span><br>\
@@ -102,7 +102,7 @@ motorsports_event05_marker.bindPopup("<b style=\"font-size:20px\">Act 5: Acura D
 });
 
 //Event 06
-motorsports_event06_marker = L.marker([534.133743, 3595.107652], {icon:motorsports_event_icon});
+motorsports_event06_marker = L.marker([1300.133743, 3595.107652], {icon:motorsports_event_icon});
 motorsports_event06_marker.bindPopup("<b style=\"font-size:20px\">Act 6: Alpha Rising</b><br>\
                               <i>Event</i><br>\
                               <span><b>Motorsports(6/8)</b></span><br>\
@@ -117,7 +117,7 @@ motorsports_event06_marker.bindPopup("<b style=\"font-size:20px\">Act 6: Alpha R
 });
 
 //Event 07
-motorsports_event07_marker = L.marker([312.111038, 3535.975848], {icon:motorsports_event_icon});
+motorsports_event07_marker = L.marker([1078.111038, 3535.975848], {icon:motorsports_event_icon});
 motorsports_event07_marker.bindPopup("<b style=\"font-size:20px\">Act 7: 24h Of Hanauma</b><br>\
                               <i>Event</i><br>\
                               <span><b>Motorsports(7/8)</b></span><br>\
@@ -132,7 +132,7 @@ motorsports_event07_marker.bindPopup("<b style=\"font-size:20px\">Act 7: 24h Of 
 });
 
 //Event 08
-motorsports_event08_marker = L.marker([307.6045, 3506.365751], {icon:motorsports_event_icon});
+motorsports_event08_marker = L.marker([1073.6045, 3506.365751], {icon:motorsports_event_icon});
 motorsports_event08_marker.bindPopup("<b style=\"font-size:20px\">Alpha Grand Finale</b><br>\
                               <i>Event</i><br>\
                               <span><b>Motorsports(8/8)</b></span><br>\
@@ -147,11 +147,11 @@ motorsports_event08_marker.bindPopup("<b style=\"font-size:20px\">Alpha Grand Fi
 });
 
 //FEATS
-var MotorsportsfeatsArr = [[396.53593, 3657.333049, "bullseye", "Water Bridge", "Bullseye", "7,120 PTS", "4,800", "9,000"],  //Feat 01
-                           [462.015925, 3597.625, "speedtrap", "Paddocks", "Speedtrap", "170.0 km/h", "960", "1,800"],  //Feat 02
-                           [448.868245, 3491.339732, "speedtrap", "Forest Straight", "Speedtrap", "250.0 km/h", "960", "1,800"],  //Feat 03
-                           [313.989018, 3434.947966, "slalom", "Marina Straight", "Slalom", "6,790 PTS", "3,840", "7,200"],  //Feat 04
-                           [420.888077, 3567.625, "slalom", "Peak Chicane", "Slalom", "9,240 PTS", "3,840", "7,200"],  //Feat 05
+var MotorsportsfeatsArr = [[1162.53593, 3657.333049, "bullseye", "Water Bridge", "Bullseye", "7,120 PTS", "4,800", "9,000"],  //Feat 01
+                           [1228.015925, 3597.625, "speedtrap", "Paddocks", "Speedtrap", "170.0 km/h", "960", "1,800"],  //Feat 02
+                           [1214.868245, 3491.339732, "speedtrap", "Forest Straight", "Speedtrap", "250.0 km/h", "960", "1,800"],  //Feat 03
+                           [1079.989018, 3434.947966, "slalom", "Marina Straight", "Slalom", "6,790 PTS", "3,840", "7,200"],  //Feat 04
+                           [1186.888077, 3567.625, "slalom", "Peak Chicane", "Slalom", "9,240 PTS", "3,840", "7,200"],  //Feat 05
                           ]
 
 function createMotorsportsFeatsMarkers(featsArr) {
@@ -173,7 +173,7 @@ createMotorsportsFeatsMarkers(MotorsportsfeatsArr);
 
 //PHOTO OPS
 //Photo Ops 1 Alpha Views - Pit Stop
-motorsports_photo_ops01_marker = L.marker([514.51148, 3597.494138], {icon:photo_op_icon});
+motorsports_photo_ops01_marker = L.marker([1280.51148, 3597.494138], {icon:photo_op_icon});
 motorsports_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Alpha Views - Pit Stop</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Motorsports</b></span><br>\
@@ -186,7 +186,7 @@ motorsports_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Alpha View
 });
 
 //Photo Ops 2 Alpha Views - Starting Grid
-motorsports_photo_ops02_marker = L.marker([303.27797, 3520.773052], {icon:photo_op_icon});
+motorsports_photo_ops02_marker = L.marker([1069.27797, 3520.773052], {icon:photo_op_icon});
 motorsports_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Alpha Views - Starting Grid</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Motorsports</b></span><br>\
@@ -199,7 +199,7 @@ motorsports_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Alpha View
 });
 
 //Photo Ops 3 Alpha Views - High Speed
-motorsports_photo_ops03_marker = L.marker([323.027747, 3587.859808], {icon:photo_op_icon});
+motorsports_photo_ops03_marker = L.marker([1089.027747, 3587.859808], {icon:photo_op_icon});
 motorsports_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Alpha Views - High Speed</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Motorsports</b></span><br>\
@@ -211,7 +211,7 @@ motorsports_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Alpha View
 });
 
 //Photo Ops 4 Alpha Views - Water Bridge
-motorsports_photo_ops04_marker = L.marker([464.8808, 3694.375], {icon:photo_op_icon});
+motorsports_photo_ops04_marker = L.marker([1230.8808, 3694.375], {icon:photo_op_icon});
 motorsports_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Alpha Views - Water Bridge</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Motorsports</b></span><br>\
@@ -224,7 +224,7 @@ motorsports_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Alpha View
 });
 
 //Photo Ops 5 Alpha Views - Podium
-motorsports_photo_ops05_marker = L.marker([290.68671, 3506.719305], {icon:photo_op_icon});
+motorsports_photo_ops05_marker = L.marker([1056.68671, 3506.719305], {icon:photo_op_icon});
 motorsports_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Alpha Views - Water Bridge</b><br>\
                               <i>Photo Ops</i><br>\
                               <span><b>Motorsports</b></span><br>\
@@ -238,7 +238,7 @@ motorsports_photo_ops05_marker.bindPopup("<b style=\"font-size:20px\">Alpha View
 //COLLECTIBLES
 //Alpha Trophy
 //Collectible 1 Alpha Trophy
-motorsports_collectible01_marker = L.marker([424.256703, 3653.095606], {icon:collectible_icon});
+motorsports_collectible01_marker = L.marker([1190.256703, 3653.095606], {icon:collectible_icon});
 motorsports_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Motorsports</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Alpha Trophy</span><br>", {
@@ -246,7 +246,7 @@ motorsports_collectible01_marker.bindPopup("<b style=\"font-size:20px\">Motorspo
 });
 
 //Collectible 2 Alpha Trophy
-motorsports_collectible02_marker = L.marker([364.965455, 3600.410953], {icon:collectible_icon});
+motorsports_collectible02_marker = L.marker([1130.965455, 3600.410953], {icon:collectible_icon});
 motorsports_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Motorsports</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Alpha Trophy</span><br>", {
@@ -254,7 +254,7 @@ motorsports_collectible02_marker.bindPopup("<b style=\"font-size:20px\">Motorspo
 });
 
 //Collectible 3 Alpha Trophy
-motorsports_collectible03_marker = L.marker([435.270952, 3618.875], {icon:collectible_icon});
+motorsports_collectible03_marker = L.marker([1201.270952, 3618.875], {icon:collectible_icon});
 motorsports_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Motorsports</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Alpha Trophy</span><br>", {
@@ -262,7 +262,7 @@ motorsports_collectible03_marker.bindPopup("<b style=\"font-size:20px\">Motorspo
 });
 
 //Collectible 4 Alpha Trophy
-motorsports_collectible04_marker = L.marker([568.249557, 3605.095536], {icon:collectible_icon});
+motorsports_collectible04_marker = L.marker([1334.249557, 3605.095536], {icon:collectible_icon});
 motorsports_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Motorsports</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Alpha Trophy</span><br>", {
@@ -270,7 +270,7 @@ motorsports_collectible04_marker.bindPopup("<b style=\"font-size:20px\">Motorspo
 });
 
 //Collectible 5 Alpha Trophy
-motorsports_collectible05_marker = L.marker([305.666792, 3492.400392], {icon:collectible_icon});
+motorsports_collectible05_marker = L.marker([1071.666792, 3492.400392], {icon:collectible_icon});
 motorsports_collectible05_marker.bindPopup("<b style=\"font-size:20px\">Motorsports</b><br>\
                               <i>Collectible</i><br>\
                               <span><b>Challenge:</b> Alpha Trophy</span><br>", {
