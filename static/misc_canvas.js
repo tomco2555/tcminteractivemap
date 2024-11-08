@@ -618,10 +618,8 @@ treasure_58_marker.bindPopup('<b>Treasure Crate</b><br>', {
 });
 
 //Treasure 59 Ahihi-Kinau
-//Not confirmed yet
-treasure_59_marker = L.marker([197.197422, 5252.23901], {icon:treasure_icon});
-treasure_59_marker.bindPopup('<b>Treasure Crate</b><br>\
-                                <b>Not confirmed yet</b>', {
+treasure_59_marker = L.marker([189.376963, 5257.284388], {icon:treasure_icon});
+treasure_59_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
@@ -657,10 +655,8 @@ treasure_64_marker.bindPopup('<b>Treasure Crate</b><br>', {
 });
 
 //Treasure 65 Next to Ma'alaea Beach
-//Not confirmed yet
 treasure_65_marker = L.marker([1138.4275, 5193.876085], {icon:treasure_icon});
-treasure_65_marker.bindPopup('<b>Treasure Crate</b><br>\
-                                <b>Not confirmed yet</b>', {
+treasure_65_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
