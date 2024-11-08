@@ -632,18 +632,14 @@ treasure_60_marker.bindPopup('<b>Treasure Crate</b><br>', {
 });
 
 //Treasure 61 Haleakala Observatory
-//Not confirmed yet
-treasure_61_marker = L.marker([749.185973, 5281.29216], {icon:treasure_icon});
-treasure_61_marker.bindPopup('<b>Treasure Crate</b><br>\
-                                <b>Not confirmed yet</b>', {
+treasure_61_marker = L.marker([752.295263, 5288.082219], {icon:treasure_icon});
+treasure_61_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
 //Treasure 62 Makawao Reserve
-//Not confirmed yet
-treasure_62_marker = L.marker([814.283467, 5623.5], {icon:treasure_icon});
-treasure_62_marker.bindPopup('<b>Treasure Crate</b><br>\
-                                <b>Not confirmed yet</b>', {
+treasure_62_marker = L.marker([814.392041, 5644.27427], {icon:treasure_icon});
+treasure_62_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
@@ -681,10 +677,8 @@ treasure_67_marker.bindPopup('<b>Treasure Crate</b><br>', {
 });
 
 //Treasure 68 Mountain north of Iao Lake
-//Not confirmed yet
 treasure_68_marker = L.marker([1674.996132, 4924.709856], {icon:treasure_icon});
-treasure_68_marker.bindPopup('<b>Treasure Crate</b><br>\
-                                <b>Not confirmed yet</b>', {
+treasure_68_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
@@ -695,10 +689,8 @@ treasure_69_marker.bindPopup('<b>Treasure Crate</b><br>', {
 });
 
 //Treasure 70 Kamanawai Gulch
-//Not confirmed yet
 treasure_70_marker = L.marker([1302.838154, 4830.069646], {icon:treasure_icon});
-treasure_70_marker.bindPopup('<b>Treasure Crate</b><br>\
-                                <b>Not confirmed yet</b>', {
+treasure_70_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 

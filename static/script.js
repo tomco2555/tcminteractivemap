@@ -522,14 +522,14 @@ function switchMode() {
         //Clears whole canvas
         markers_canvas.clear();
 
+        //Remove script with id misc_script
+        misc_script.remove();
+
         //Adds path to the array and removes script from HTMLCollection
         for(var i = scripts.length - 1; i >= 0; --i) {
             playlist_arr.push(scripts[i].getAttributeNode("src").value);
             scripts[i].remove();
         }
-        
-        //Remove script with id misc_script
-        misc_script.remove();
 
         //To keep original order of playlist paths
         playlist_arr = playlist_arr.reverse();
@@ -576,14 +576,14 @@ function switchMode() {
             }
         });
 
+        //Remove script with id misc_script
+        misc_script.remove();
+
         //Adds path to the array and removes script from HTMLCollection
         for(var i = scripts.length - 1; i >= 0; --i) {
             playlist_arr.push(scripts[i].getAttributeNode("src").value);
             scripts[i].remove();
         }
-
-        //Remove script with id misc_script
-        misc_script.remove();
 
         //To keep original order of playlist paths
         playlist_arr = playlist_arr.reverse();
