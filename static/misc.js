@@ -648,10 +648,9 @@ treasure_62_marker.bindPopup('<b>Treasure Crate</b><br>\
 });
 
 //Treasure 63 Kea'a Beach
-//Not confirmed yet
 treasure_63_marker = L.marker([701.95729, 6081.783323], {icon:treasure_icon}).addTo(treasure_group);
 treasure_63_marker.bindPopup('<b>Treasure Crate</b><br>\
-                                <b>Not confirmed yet</b>', {
+                                <b>Bugged and currently unreachable</b>', {
                             className: "hstPopup"
 });
 
@@ -669,19 +668,16 @@ treasure_65_marker.bindPopup('<b>Treasure Crate</b><br>\
                             className: "hstPopup"
 });
 
-//Treasure 66 Next to Ma'alaea Beach
-//Not confirmed yet
+//Treasure 66 Pu'u Koa'e
 treasure_66_marker = L.marker([1955.038169, 5175.296988], {icon:treasure_icon}).addTo(treasure_group);
-treasure_66_marker.bindPopup('<b>Treasure Crate</b><br>\
-                                <b>Not confirmed yet</b>', {
+treasure_66_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
 //Treasure 67 under Honokohau on the hill next to the highway
 //Not confirmed yet
-treasure_67_marker = L.marker([1890.092992, 4909.363496], {icon:treasure_icon}).addTo(treasure_group);
-treasure_67_marker.bindPopup('<b>Treasure Crate</b><br>\
-                                <b>Not confirmed yet</b>', {
+treasure_67_marker = L.marker([1894.271374, 4929.75], {icon:treasure_icon}).addTo(treasure_group);
+treasure_67_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
@@ -704,6 +700,30 @@ treasure_69_marker.bindPopup('<b>Treasure Crate</b><br>', {
 treasure_70_marker = L.marker([1302.838154, 4830.069646], {icon:treasure_icon}).addTo(treasure_group);
 treasure_70_marker.bindPopup('<b>Treasure Crate</b><br>\
                                 <b>Not confirmed yet</b>', {
+                            className: "hstPopup"
+});
+
+//Treasure 71 Polipoli Spring State on the tunel
+treasure_71_marker = L.marker([791.81173, 5081], {icon:treasure_icon}).addTo(treasure_group);
+treasure_71_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 72 Auwahi Wind Turbines
+treasure_72_marker = L.marker([428.577603, 5450.379069], {icon:treasure_icon}).addTo(treasure_group);
+treasure_72_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 73 Pu'unianiau
+treasure_73_marker = L.marker([778.017204, 5815.953275], {icon:treasure_icon}).addTo(treasure_group);
+treasure_73_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 74 Iao Lake
+treasure_74_marker = L.marker([1597.794594, 4944.620944], {icon:treasure_icon}).addTo(treasure_group);
+treasure_74_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
