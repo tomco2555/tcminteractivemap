@@ -714,6 +714,30 @@ treasure_74_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
+//Treasure 75 Kalohi Islets
+treasure_75_marker = L.marker([654.797832, 4512.578701], {icon:treasure_icon}).addTo(treasure_group);
+treasure_75_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 76 Between Kula Reserve and Makawao Reserve
+treasure_76_marker = L.marker([1010.475178, 5518.968427], {icon:treasure_icon}).addTo(treasure_group);
+treasure_76_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 77 La Perouse Bay right cape
+treasure_77_marker = L.marker([157.065005, 5446.136429], {icon:treasure_icon}).addTo(treasure_group);
+treasure_77_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 78 La Perouse Bay right cape
+treasure_78_marker = L.marker([1882.721701, 4724.5], {icon:treasure_icon}).addTo(treasure_group);
+treasure_78_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
 mf_grounds_group.addTo(map);
 demo_royale_group.addTo(map);
 grand_race_group.addTo(map);
