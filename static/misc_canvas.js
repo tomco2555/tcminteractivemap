@@ -756,6 +756,12 @@ treasure_81_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
+//Treasure 82 Wailea
+treasure_82_marker = L.marker([587.834663, 4963.536051], {icon:treasure_icon});
+treasure_82_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
 mf_grounds_group.push(mf_grounds_marker);
 
 for(var i = 1; i <= 4; i++) {
@@ -785,7 +791,7 @@ for(var i = 1; i <= 6; i++) {
     }
 }
 
-for(var i = 1; i <= 81; i++) {
+for(var i = 1; i <= 82; i++) {
     if(i < 10) {
         treasure_group.push(window["treasure_0" + i + "_marker"]);
     }

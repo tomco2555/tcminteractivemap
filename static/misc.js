@@ -756,6 +756,12 @@ treasure_81_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
+//Treasure 82 Wailea
+treasure_82_marker = L.marker([587.834663, 4963.536051], {icon:treasure_icon}).addTo(treasure_group);
+treasure_82_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
 mf_grounds_group.addTo(map);
 demo_royale_group.addTo(map);
 grand_race_group.addTo(map);
