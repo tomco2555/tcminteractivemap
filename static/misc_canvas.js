@@ -732,9 +732,27 @@ treasure_77_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
-//Treasure 78 La Perouse Bay right cape
+//Treasure 78 Kapalua Labyrinth
 treasure_78_marker = L.marker([1882.721701, 4724.5], {icon:treasure_icon});
 treasure_78_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 79 Kaho'olawe
+treasure_79_marker = L.marker([1061.531726, 4856.912582], {icon:treasure_icon});
+treasure_79_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 80 Seven Sacred Pools
+treasure_80_marker = L.marker([370.720815, 5858.026129], {icon:treasure_icon});
+treasure_80_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 81 Makapipi Falls
+treasure_81_marker = L.marker([892.200035, 6027.55498], {icon:treasure_icon});
+treasure_81_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
@@ -767,7 +785,7 @@ for(var i = 1; i <= 6; i++) {
     }
 }
 
-for(var i = 1; i <= 78; i++) {
+for(var i = 1; i <= 81; i++) {
     if(i < 10) {
         treasure_group.push(window["treasure_0" + i + "_marker"]);
     }
