@@ -762,6 +762,36 @@ treasure_82_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
+//Treasure 83 Ubisoft logo between Olowalu and Kealaloloa Fields
+treasure_83_marker = L.marker([1256.513534, 5037.75], {icon:treasure_icon}).addTo(treasure_group);
+treasure_83_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 84 Between Kula Reserver and Ma'alaea Beach
+treasure_84_marker = L.marker([1038.034662, 5289.5], {icon:treasure_icon}).addTo(treasure_group);
+treasure_84_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 85 Manawainui Gulch
+treasure_85_marker = L.marker([331.038458, 5714], {icon:treasure_icon}).addTo(treasure_group);
+treasure_85_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 86 Lyon Hill's Cross
+treasure_86_marker = L.marker([622.766241, 5877.5], {icon:treasure_icon}).addTo(treasure_group);
+treasure_86_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+//Treasure 87 Close to the bridge on the north of Kihei
+treasure_87_marker = L.marker([906.778404, 5017.75], {icon:treasure_icon}).addTo(treasure_group);
+treasure_87_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
 mf_grounds_group.addTo(map);
 demo_royale_group.addTo(map);
 grand_race_group.addTo(map);
