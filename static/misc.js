@@ -792,6 +792,12 @@ treasure_87_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
+//Treasure 88 Island in Paia Bay closer to Kahului
+treasure_88_marker = L.marker([1399.55442, 5659.5059], {icon:treasure_icon}).addTo(treasure_group);
+treasure_88_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
 mf_grounds_group.addTo(map);
 demo_royale_group.addTo(map);
 grand_race_group.addTo(map);

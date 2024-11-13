@@ -792,6 +792,12 @@ treasure_87_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
+//Treasure 88 Island in Paia Bay closer to Kahului
+treasure_88_marker = L.marker([1399.55442, 5659.5059], {icon:treasure_icon});
+treasure_88_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
 mf_grounds_group.push(mf_grounds_marker);
 
 for(var i = 1; i <= 4; i++) {
@@ -821,7 +827,7 @@ for(var i = 1; i <= 6; i++) {
     }
 }
 
-for(var i = 1; i <= 87; i++) {
+for(var i = 1; i <= 88; i++) {
     if(i < 10) {
         treasure_group.push(window["treasure_0" + i + "_marker"]);
     }
