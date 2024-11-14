@@ -649,7 +649,7 @@ treasure_63_marker.bindPopup('<b>Treasure Crate</b><br>\
 });
 
 //Treasure 64 Random ass house community between Pukalani and Haipua'ena
-treasure_64_marker = L.marker([1051.38377, 4155.666553], {icon:treasure_icon});
+treasure_64_marker = L.marker([1135.387075, 5724], {icon:treasure_icon});
 treasure_64_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
