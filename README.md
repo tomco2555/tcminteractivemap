@@ -6,8 +6,5 @@ Repo containing all the files for [Interactive Map](https://tcminteractivemap.ne
 :white_check_mark: Performance mode - Markers on canvas instead of DOM elements
 
 ## Things to do
-- Numbers for filters to show amount of displayed markers
 - Hover over marker to show name
-- GR routes
-- DR zones
-- Shortcuts for races
+- Other challenges
