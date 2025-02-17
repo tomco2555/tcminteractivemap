@@ -798,6 +798,12 @@ treasure_88_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
+//Treasure 89 Waimoku Falls
+treasure_89_marker = L.marker([526.829204, 5790.143878], {icon:treasure_icon}).addTo(treasure_group);
+treasure_89_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
 mf_grounds_group.addTo(map);
 demo_royale_group.addTo(map);
 grand_race_group.addTo(map);

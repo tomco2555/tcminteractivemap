@@ -798,6 +798,12 @@ treasure_88_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
+//Treasure 89 Waimoku Falls
+treasure_89_marker = L.marker([526.829204, 5790.143878], {icon:treasure_icon});
+treasure_89_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
 mf_grounds_group.push(mf_grounds_marker);
 
 for(var i = 1; i <= 4; i++) {
@@ -827,7 +833,7 @@ for(var i = 1; i <= 6; i++) {
     }
 }
 
-for(var i = 1; i <= 88; i++) {
+for(var i = 1; i <= 89; i++) {
     if(i < 10) {
         treasure_group.push(window["treasure_0" + i + "_marker"]);
     }
