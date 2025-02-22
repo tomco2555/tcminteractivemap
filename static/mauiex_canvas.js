@@ -346,6 +346,15 @@ mauiex_collectible17_marker.bindPopup("<b style=\"font-size:20px\">Maui Expediti
     className: "hstPopup"
 });
 
+//Valley Isle Wonders
+//Collectible 1 Valley Isle Wonders
+mauiex_collectible18_marker = L.marker([605.753921, 4995.115836], {icon:collectible_icon});
+mauiex_collectible18_marker.bindPopup("<b style=\"font-size:20px\">Maui Expeditions</b><br>\
+                              <i>Collectible</i><br>\
+                              <span><b>Challenge:</b> Valley Isle Wonders</span><br>", {
+    className: "hstPopup"
+});
+
 mauiex_container_group.push(mauiex_container_marker);
 
 for(var i = 1; i <= 1; i++) {
@@ -370,7 +379,7 @@ for(var i = 1; i <= 10; i++) {
     }
 }
 
-for(var i = 1; i <= 17; i++) {
+for(var i = 1; i <= 18; i++) {
     if(i < 10) {
         mauiex_collectibles_group.push(window["mauiex_collectible0" + i + "_marker"]);
     }
