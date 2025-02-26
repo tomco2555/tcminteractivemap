@@ -26,3 +26,11 @@ map.on('click', onMapClick);
 
 var markers_canvas = new L.MarkersCanvas();
 markers_canvas.addTo(map);
+
+//var challenges_canvas = new L.MarkersCanvas();
+//challenges_canvas.addTo(map);
+
+map.createPane("challenges");
+map.getPane("challenges").style.zIndex = 600;
+map.createPane("challenges-popup");
+map.getPane("challenges-popup").style.zIndex = 700;

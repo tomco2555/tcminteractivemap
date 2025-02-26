@@ -23,18 +23,1011 @@
                     <p class="web_logo">THE CREW MOTORFEST INTERACTIVE MAP</p>
                     <p style="margin-bottom: 5px">created by Tomco</p>
                 </div>
-                <div id="map_settings">
-                    <span class="map_settings_text">Performance mode</span>
-                    <label class="switch">
-                        <input type="checkbox" id="toggle_switch" onchange="switchMode()">
-                        <div class="slider round"></div>
-                    </label>
-                </div>
-                <div id="events">
-                    <div class="event_header">
-                        <button class="header">Playlists</button>
+                <div>
+                    <div class="map_settings">
+                        <span class="map_settings_text">Performance mode</span>
+                        <label class="switch">
+                            <input type="checkbox" id="mode_switch" onchange="switchMode()">
+                            <div class="slider round"></div>
+                        </label>
                     </div>
-                    <div id="event_filters">
+                    <div class="map_settings">
+                        <span class="map_settings_text">Challenges</span>
+                        <label class="switch">
+                            <input type="checkbox" id="challenges_switch" onchange="challengesMode()">
+                            <div class="slider round"></div>
+                        </label>
+                    </div>
+                </div>
+                <div class="events" id="challenges_menu" hidden>
+                    <div class="event_header">
+                        <span class="header">Challenges</span>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Made in Japan</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Nihon No Spirit">Nihon No Spirit</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>MADE IN JAPAN CONTAINER</b> to the <b>JAPANESE TEMPLE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Toyota Supra Ryūjin Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Nihon No Kohai">Nihon No Kōhai</button>
+                                <div class="challenge_details">
+                                    <span>Reach a <b>200 km/h</b> speed inside the <b>CONVENTION CENTER</b> in <b>FREEDRIVE</b> by <b>NIGHT</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Toyota Supra Ryūjin Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Nihon No Style">Nihon No Style</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>JAPANESE TEMPLE</b> to <b>HONOLULU</b> by <b>NIGHT</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Toyota Supra Ryūjin Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Nihon No Jaunt">Nihon No Jaunt</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>OAHU AIRPORT</b> to the <b>MEMORIAL NATATORIUM</b> by <b>NIGHT</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Toyota Supra Ryūjin Edition</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Hawaii Scenic Tour</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Rainbow Flash">Rainbow Flash</button>
+                                <div class="challenge_details">
+                                    <span>Reach a speed of <b>200 km/h</b> in the <b>BIG BANKED TURN</b> in the <b>MOTORFEST GROUNDS</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ford Bronco Hawaii Scenic Tour Ed.</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Rainbow Peak">Rainbow Peak</button>
+                                <div class="challenge_details">
+                                    <span>Visit the top of the <b>STAIRWAY TO HEAVEN</b> on a <b>SUNNY DAY</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ford Bronco Hawaii Scenic Tour Ed.</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Rainbow Stroll">Rainbow Stroll</button>
+                                <div class="challenge_details">
+                                    <span>Drive from inside the <b>MAKUA CAVES</b> to <b>OAHU AIRPORT</b> in less than <b>7min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ford Bronco Hawaii Scenic Tour Ed.</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Rainbow Spiral">Rainbow Spiral</button>
+                                <div class="challenge_details">
+                                    <span>Fly through the <b>DOUBLE LOOPS</b> of the <b>MOTORFEST GROUNDS</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Northrop Grumman F4U Corsair</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Rainbow Lava">Rainbow Lava</button>
+                                <div class="challenge_details">
+                                    <span>Fly from the <b>MOTORFEST GROUNDS</b> to the <b>MAUNA PELE NUNUI CRATER</b> in less than <b>4min</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Northrop Grumman F4U Corsair</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">American Muscle</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="American Vacation">American Vacation</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>EWA GOLF COURSE</b> at <b>SUNRISE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ford Mustang Shelby GT500 Tribute Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="American Cruiser">American Cruiser</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>MA'AKUA BLACK BEACH</b> to <b>BARBERS POINT HARBOR</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ford Mustang Shelby GT500 Tribute Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="American Spin">American Spin</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>WAHIAWA</b> to <b>FORD ISLAND</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ford Mustang GT &#40Monster Edition&#41</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">911 Legacy</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="911 Der Vogel">911 Der Vogel</button>
+                                <div class="challenge_details">
+                                    <span>Reach a <b>300 km/h</b> speed on the <b>OAHU AIRPORT</b> runway in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Porsche 911 Carrera 4S Timeless Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="911 Royal">911 Royal</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>ROYAL LUAU</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Porsche 911 Carrera 4S Timeless Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="911 Leisure">911 Leisure</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>AULINAII RESORT</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Porsche 911 Carrera 4S Timeless Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="911 Cruising">911 Cruising</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>KANEOHE GOLF COURSE</b> to the <b>COCONUT RESORT</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Porsche 911 Turbo 3.6</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="911 Uphill">911 Uphill</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>AULINAII RESORT</b> to the <b>MAUNA PELE OBSERVATORY</b> in less than <b>3min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Porsche 959 Raid</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Rule the Streets</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Donut x Bean Giver">Donut x Bean Giver</button>
+                                <div class="challenge_details">
+                                    <span>Reach a speed of <b>300 km/h</b> in <b>HONOLULU</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Chevrolet Corvette C8 Stingray Donut Media Ed.</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Donut x Gig Lover">Donut x Gig Lover</button>
+                                <div class="challenge_details">
+                                    <span>Get to the top of the <b>KAKAAKO CENTER ROOF</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Chevrolet Corvette C8 Stingray Donut Media Ed.</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Donut x Window Shopper">Donut x Window Shopper</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>MOANA CENTER</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Chevrolet Corvette C8 Stingray Donut Media Ed.</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Donut x Tribute">Donut x Tribute</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>NATIONAL CEMETERY</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Chevrolet Corvette C8 Stingray Donut Media Ed.</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Donut x C-8 Explosion">Donut x C-8 Explosion</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>DIAMOND HEAD</b> to the <b>OAHU AIRPORT</b> in less than <b>5min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Chevrolet Corvette C8 Stingray Donut Media Ed.</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Donut x Tomorrowland">Donut x Tomorrowland</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>RULE THE STREETS</b> container to the <b>ELECTRIC ODYSSEY</b> container in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Chevrolet Corvette C8 Stingray Donut Media Ed.</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Donut x Notorious">Donut x Notorious</button>
+                                <div class="challenge_details">
+                                    <span>Reach the <b>CUPOLA</b> of the <b>BUSINESS PLAZA</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Chevrolet Corvette C8 Stingray Donut Media Ed.</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Donut x Chevy Rampage">Donut x Chevy Rampage</button>
+                                <div class="challenge_details">
+                                    <span>Break <b>400 OBJECTS</b> in <b>HONOLULU</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Chevrolet Corvette C8 Stingray Donut Media Ed.</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Donut x Flying Dino">Donut x Flying Dino</button>
+                                <div class="challenge_details">
+                                    <span>Reach a speed of <b>150 km/h</b> in the <b>OAHU AIRPORT</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ford F-150 SVT Raptor</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Donut x Hi Speed">Donut x Hi Speed</button>
+                                <div class="challenge_details">
+                                    <span>Reach a speed of <b>200 km/h</b> through the <b>WAIKIKI MARKET PLACE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Nissan 370Z Nismo</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Donut x King Of Hawaii">Donut x King Of Hawaii</button>
+                                <div class="challenge_details">
+                                    <span>Get to the top of <b>ROYAL LUAU ROOF</b> with any <b>HYPERCAR</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Hypercar</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Donut x Over The Top">Donut x Over The Top</button>
+                                <div class="challenge_details">
+                                    <span>Get onto the <b>CONVENTION CENTER</b> roof with any <b>HYPERCAR</b> vehicle in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Hypercar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Off-roading Addict</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Wild Peak">Wild Peak</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>MAUNA PELE NUNUI CRATER</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ivory-Tower IVT Falcon S-1000 Adventure Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Wild Waves">Wild Waves</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>KAENA POINT SATELLITE STATION</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ivory-Tower IVT Falcon S-1000 Adventure Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Wild Run">Wild Run</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>MAUNA PELE SULPHUR BANKS</b> to the <b>MAUNA PELE NUNUI CRATER</b> in less than <b>3min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ivory-Tower IVT Falcon S-1000 Adventure Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Wild Turtle">Wild Turtle</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>TURTLE BAY RESORT</b> to the <b>TURTLE ROCK</b> in less than <b>1min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ivory-Tower IVT Falcon S-1000 Adventure Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Wild Lands">Wild Lands</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>STAIRWAY TO HEAVEN RADIO ANTENNA</b> to the <b>COCONUT RESORT</b> without using asphalt roads</span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ivory-Tower IVT Falcon S-1000 Adventure Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Wild Call">Wild Call</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>STAIRWAY TO HEAVEN RADIO ANTENNA</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> KTM 525 XC</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Wild Sprint">Wild Sprint</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>KAENA POINT</b> to the <b>KAENA POINT SATELLITE STATION</b> in less than <b>1min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Kawasaki KX450F</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Vintage Garage</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Retro Rainbow">Retro Rainbow</button>
+                                <div class="challenge_details">
+                                    <span>Climb to the top of <b>HALEIWA RAINBOW BRIDGE</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Shelby Cobra 427</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Retro Driving">Retro Driving</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>WAHIAWA PINEAPPLE TOWER</b> to the <b>HALEIWA MOTEL</b> in less than 3min</span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Shelby Cobra 427</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Retro Beach Party">Retro Beach Party</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>MOKAPU SURF SHOP</b> to the <b>KAHALUU BEACH NATURAL ARCH</b> in less than 2min</span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Shelby Cobra 427</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Automobili Lamborghini</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="A.L. Rivals">A.L. Rivals</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>AUTOMOBILI LAMBORGHINI CONTAINER</b> to the <b>A PORSCHE STORY: 911 LEGACY CONTAINER</b> in less than <b>2min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Lambroghini Diablo GT Pura Potenza Edizione</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Motorsports</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Alpha Sprint">Alpha Sprint</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>KAENA POINT</b> to the <b>AULINAII RESORT</b> in less than <b>3min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Red Bull RB18</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Alpha Endurance">Alpha Endurance</button>
+                                <div class="challenge_details">
+                                    <span>Drive <b>30 km</b> on the <b>HANAUMA RACETRACK</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> No Restriction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Electric Odyssey</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="E-Spin">E-Spin</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>TURTLE BAY RESORT</b> to the <b>AULINAII RESORT</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Lotus Evija Pure Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Clean E-nergy">Clean E-nergy</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>WAIMEA</b> wind turbines to the <b>WAIPIO FIELDS</b> south wind turbines <b>WITHOUT COLLISION</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Porsche Taycan Turbo S</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="E-ruption">E-ruption</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>MAUNA PELE NUNUI CRATER</b> top in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Volkswagen ID. Buggy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Dream Cars</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Super Racetrack">Super Racetrack</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>HANAUMA RACETRACK</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Mercedes-Benz Vision EQ Silver Arrow</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Super Touristy">Super Touristy</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>TURTLE BAY RESORT</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Mercedes-Benz Vision EQ Silver Arrow</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Super Day Off">Super Day Off</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>AULINAII RESORT</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Mercedes-Benz Vision EQ Silver Arrow</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Super Ride">Super Ride</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>ROYAL LUAU</b> to <b>KANEOHE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Lamborghini Egoista</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Bike Lovers</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Rider Stroll">Rider Stroll</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>WAHIAWA</b> to <b>HALEIWA</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Honda CB1000R Neo Sports Café</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Rider Tourism">Rider Tourism</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>HALEIWA</b> to <b>KANEOHE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Honda CB1000R Neo Sports Café</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Rider Sightseing">Rider Sightseing</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>KANEOHE</b> to <b>HONOLULU</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Harley-Davidson Iron 883</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Rider Cruise">Rider Cruise</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>HONOLULU</b> to <b>WAHIAWA</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> KTM RC16 Red Bull Team</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Alpha Rider">Alpha Rider</button>
+                                <div class="challenge_details">
+                                    <span>Reach a <b>350 km/h</b> speed on the <b>HANAUMA RACETRACK</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> KTM RC16 Red Bull Team</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Rider Club">Rider Club</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>MAUNA PELE OBSERVATORY</b> with an <b>ALL BIKE CREW</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> No Restriction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Liberty Walk</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Liberty Run">Liberty Run</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>WAIKIKI PARKING LOT</b> to <b>BARBERS POINT HARBOR</b> in less than <b>3min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> BMW M4 Liberty Walk Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Liberty Journey">Liberty Journey</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>WAHIAWA</b> to <b>HALEIWA</b> without collision</span>
+                                    <br>
+                                    <span><b>Vehicle:</b> BMW M4 Liberty Walk Edition</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Drift Experience</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Burning Turtle">Burning Turtle</button>
+                                <div class="challenge_details">
+                                    <span>Drive under the <b>TURTLE ROCK</b> in <b>FREEDRIVE</b> by <b>NIGHT</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Toyota GR Supra&#40Drift Edition&#41</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Burning Journey">Burning Journey</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>MOTORFEST GROUNDS</b> to the <b>TURTLE BAY RESORT</b> in less than <b>8min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Toyota GR Supra&#40Drift Edition&#41</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Burning Donut">Burning Donut</button>
+                                <div class="challenge_details">
+                                    <span>Perform a <b>DONUT</b> on top of the <b>CONVENTION CENTER</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Nissan 370Z Nismo&#40Drift Edition&#41</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Ocean'N Sky</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="ONS Eruption">ONS Eruption</button>
+                                <div class="challenge_details">
+                                    <span>Perform a <b>TAKE OFF</b> from the <b>VOLCANO GATE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Grumman F8F Bearcat</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="ONS Fast Flight">ONS Fast Flight</button>
+                                <div class="challenge_details">
+                                    <span>Fly from <b>FORD ISLAND</b> to the <b>TURTLE BAY RESORT</b> in less than <b>5min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> North American P-51 Mustang</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="ONS Cruiser">ONS Cruiser</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>KANEOHE HARBOR</b> to <b>BARBERS POINT HARBOR</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Frauscher 1414 Demon</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="ONS Wayfarer">ONS Wayfarer</button>
+                                <div class="challenge_details">
+                                    <span>Visit <b>LAIE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Frauscher 1414 Demon</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Gymkhana Grid Masters</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Gymkhana Trick">Gymkhana Trick</button>
+                                <div class="challenge_details">
+                                    <span>Perform <b>GRIND</b> for <b>25sec</b> in the <b>GYMKHANA GRID PARK</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> No Restriction</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Gymkhana Astra">Gymkhana Astra</button>
+                                <div class="challenge_details">
+                                    <span>Perform <b>2 NO GRAVITY</b> on the <b>BUSINESS PLAZA ROOFTOP</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> No Restriction</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Gymkhana Skill">Gymkhana Skill</button>
+                                <div class="challenge_details">
+                                    <span>Perform <b>10 PRECISION</b> in the <b>GYMKHANA GRID PARK</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> No Restriction</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Gymkhana 360">Gymkhana 360</button>
+                                <div class="challenge_details">
+                                    <span>Perform <b>10 DONUT</b> at the <b>MAUNA PELE OBSERVATORY</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> No Restriction</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Gymkhana Tire Slayer">Gymkhana Tire Slayer</button>
+                                <div class="challenge_details">
+                                    <span>Perform <b>50 CLOSE DRIFT</b> in <b>HONOLULU</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> No Restriction</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Gymkhana Demolition">Gymkhana Demolition</button>
+                                <div class="challenge_details">
+                                    <span>Perform <b>5 CLOSE DRIFT</b> around the <b>WRECKING BALL</b> in the <b>GYMKHANA GRID PARK</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> No Restriction</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Gymkhana Jaunt">Gymkhana Jaunt</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>OAHU AIRPORT</b> to <b>GYMKHANA GRID PARK</b> in less than <b>5min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Hoonigan Ford Hoonicorn Mustang</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Gymkhana Speed">Gymkhana Speed</button>
+                                <div class="challenge_details">
+                                    <span>Reach a speed of <b>350 km/h</b> in the <b>GYMKHANA GRID PARK</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Hoonigan Audi S1 e-tron quattro Hoonitron&#40Drift Edition&#41</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Gymkhana Airlines">Gymkhana Airlines</button>
+                                <div class="challenge_details">
+                                    <span>Perform <b>5 PERFECT LANDING</b> in the <b>GYMKHANA GRID PARK</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Hoonigan Ford Hoonicorn Mustang</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Gymkhana Addict">Gymkhana Addict</button>
+                                <div class="challenge_details">
+                                    <span>Spend <b>10min</b> in the <b>GYMKHANA GRID PARK</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Hoonigan Ford Hoonicorn Mustang</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Drift Experience Vol.2</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Blazing Cruise">Blazing Cruise</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>HALEIWA</b> to <b>HONOLULU</b> in less than <b>5min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Mazda MX-5&#40Drift Edition&#41</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Blazing Night">Blazing Night</button>
+                                <div class="challenge_details">
+                                    <span>Drift for <b>5 km</b> with a <b>DRIFT CAR</b> in <b>HONOLULU</b> by <b>NIGHT</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Drift cars</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Blazing Park">Blazing Park</button>
+                                <div class="challenge_details">
+                                    <span>Drift for <b>30sec</b> on the top of the <b>MOANA CENTER PARKING LOT</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Toyota GR Supra&#40Drift Edition&#41</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Hollywood Action!</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Night Out Movie Award">Night Out Movie Award</button>
+                                <div class="challenge_details">
+                                    <span>Visit <b>COCONUT RESORT</b> by <b>NIGHT</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Mini Cooper S 1969</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Time Saver Movie Award">Time Saver Movie Award</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>KANEOHE</b> to <b>WAIKIKI</b> in less than <b>5min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Aston Martin DB5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Donk vs Lowrider</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Dirty South N Da Place">Dirty South N Da Place</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>LOWRIDER HQ</b> in <b>HALEIWA</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Chevrolet Caprice Weasel D. Customs Donk Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="West Side N Da Hood">West Side N Da Hood</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>DONK HQ</b> in <b>WAHIAWA</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Buick GNX El Sereno Lowrider Edición</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Off-roading Addict Vol.2</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Wilder Spin">Wilder Spin</button>
+                                <div class="challenge_details">
+                                    <span>Drive <b>OFFROAD</b> from the <b>TURTLE BAY BEACH</b> to <b>TURTLE ROCK</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Jeep Wrangler 392 Adventure Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Wilder Explorer">Wilder Explorer</button>
+                                <div class="challenge_details">
+                                    <span>Visit <b>MAUNA PELE NUNUI CRATER</b> in <b>RAINY WEATHER</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Jeep Wrangler 392 Adventure Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Wilder Speedster">Wilder Speedster</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>MAUNA PELE NUNUI CRATER</b> to <b>HALEIWA</b> in less than <b>6min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Jeep Wrangler 392 Adventure Edition</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Wilder Tracks">Wilder Tracks</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>MAUNA PELE OBSERVATORY</b> to <b>AULINAII RESORT WITHOUT JUMPING</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Jeep Wrangler 392 Adventure Edition</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">The Chase Squad</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Code 10 - Cop Island">Code 10 - Cop Island</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>CHASE SQUAD CONTAINER</b> to <b>HANA BEACH</b> in less than <b>5min</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ivory-Tower Aezus Chase Squad Ed.</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Code 10 - Maui Patrol">Code 10 - Maui Patrol</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>HANA BEACH</b> to <b>LELE</b> in less than <b>10min</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ivory-Tower Aezus Chase Squad Ed.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Made in Japan Vol.2</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Sekai No Tourist">Sekai No Tourist</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>CAR MEET</b> to <b>KAHULUI</b> in less than <b>10min</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Liberty Walk Honda NSX</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Sekai No Cop">Sekai No Cop</button>
+                                <div class="challenge_details">
+                                    <span>Visit <b>CHASE SQUAD HQ</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Liberty Walk Honda NSX</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Sekai No Speedway">Sekai No Speedway</button>
+                                <div class="challenge_details">
+                                    <span>Reach a <b>300 km/h SPEED</b> on the <b>KAIWI ISLETS</b> roads in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Liberty Walk Honda NSX</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Sekai No Valley">Sekai No Valley</button>
+                                <div class="challenge_details">
+                                    <span>Visit <b>IAO LAKE</b> by <b>NIGHT</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Liberty Walk Honda NSX</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Maui Expeditions</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Fast Tourism">Valley Isle Fast Tourism</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>OAHU AIRPORT</b> to <b>KAHULUI AIRPORT</b> with any <b>GROUND VEHICLE</b> in less than <b>8min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Ground Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Star Watcher">Valley Isle Star Watcher</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>KAHULUI</b> to <b>HALEAKALA OBSERVATORY</b> with any <b>GROUND VEHICLE</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Ground Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Monster Trip">Valley Isle Monster Trip</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>HALEAKALA OBSERVATORY</b> to <b>WAILEA</b> with a <b>MONSTER TRUCK</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Monster Truck</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Maze">Valley Isle Maze</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>WAILEA</b> to <b>KAPALUA LABYRINTH</b> with any <b>GROUND VEHICLE</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Ground Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Jaunt">Valley Isle Jaunt</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>KAPALUA LABYRINTH</b> to <b>KULA FIELDS</b> with any <b>GROUND VEHICLE</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Ground Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Stroll">Valley Isle Stroll</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>KULA FIELDS</b> to <b>KE'ANAE POINT</b> with any <b>GROUND VEHICLE</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Ground Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Ascension">Valley Isle Ascension</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>KE'ANAE POINT</b> to <b>RED HILL HALEAKALA</b> with a <b>RALLY RAID</b> vehicle in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Rally Raid Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Descent">Valley Isle Descent</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>RED HILL HALEAKALA</b> to <b>MOKULAU BEACH</b> with a <b>RALLY RAID</b> vehicle in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Rally Raid Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Wayfarer">Valley Isle Wayfarer</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>MOKULAU BEACH</b> to <b>LELE</b> with a <b>RALLY RAID VEHICLE</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Rally Raid Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Sailor">Valley Isle Sailor</button>
+                                <div class="challenge_details">
+                                    <span>Sail from <b>KAHULUI BEACH</b> to <b>BLACK ROCK BEACH</b> with any <b>WATER VEHICLE</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Water Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Black Rock Beach">Valley Isle Black Rock Beach</button>
+                                <div class="challenge_details">
+                                    <span>Sail from <b>BLACK ROCK BEACH</b> to <b>PAILOLO ISLETS</b> with any <b>WATER VEHICLE</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Water Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Pailolo Islets">Valley Isle Pailolo Islets</button>
+                                <div class="challenge_details">
+                                    <span>Sail from <b>PAILOLO ISLETS</b> to <b>MOKULAU BEACH</b> with any <b>WATER VEHICLE</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Water Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Mokulau Beach">Valley Isle Mokulau Beach</button>
+                                <div class="challenge_details">
+                                    <span>Sail from <b>MOKULAU BEACH</b> to <b>PEAHI BEACH</b> with any <b>WATER VEHICLE</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Water Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Peahi Beach">Valley Isle Peahi Beach</button>
+                                <div class="challenge_details">
+                                    <span>Sail from <b>PEAHI BEACH</b> to <b>KAHULUI BEACH</b> with any <b>WATER VEHICLE</b> in <b>FREEDRIVE</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Any Water Vehicle</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle Bamboos">Valley Isle Bamboos</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>KO'OLAU BAMBOO FOREST</b></b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> No Restriction</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle West Falls">Valley Isle West Falls</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>KAHOMA FALLS</b></b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> No Restriction</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Valley Isle East Falls">Valley Isle East Falls</button>
+                                <div class="challenge_details">
+                                    <span>Visit the <b>WAIMOKU FALLS</b></b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> No Restriction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="events">
+                    <div class="event_header">
+                        <button class="header header_hover">Playlists</button>
+                    </div>
+                    <div class="event_filters" id="playlist_filters">
                         <div class="filter_option playlist_checkbox">
                             <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('mij')" id="mij_playlist">
                             <span>Made in Japan</span>
@@ -152,11 +1145,11 @@
                         </div>
                     </div>
                 </div>
-                <div id="events">
+                <div class="events">
                     <div class="event_header">
-                        <button class="header">Activities</button>
+                        <button class="header header_hover">Activities</button>
                     </div>
-                    <div id="event_filters">
+                    <div class="event_filters" id="activities_filters">
                         <div class="filter_option activity_checkbox">
                             <input class="filter_checkbox" type="checkbox" id="events_checkbox" onchange="activitiesCheckbox()">
                             <span>Events</span>
@@ -184,11 +1177,11 @@
                         </div>
                     </div>
                 </div>
-                <div id="events">
+                <div class="events">
                     <div class="event_header">
-                        <button class="header">Misc</button>
+                        <button class="header header_hover">Misc</button>
                     </div>
-                    <div id="event_filters">
+                    <div class="event_filters" id="misc_filters">
                         <div class="filter_option misc_checkbox">
                             <input class="filter_checkbox" type="checkbox" id="grand_race_checkbox" onchange="GrandRaceCanvasCheckbox()">
                             <span>Grand Race</span>
@@ -228,6 +1221,7 @@
     </div>
 
     <script src="static/map.js"></script>
+    <script src="static/marker_icons.js"></script>
     <script src="static/feats_markers.js"></script>
     <!--<script src="static/markers_counter.js"></script>-->
     <script id="misc_script" src="static/misc_canvas.js"></script>
@@ -254,6 +1248,7 @@
     <script class="playlist_script" src="static/chase_squad_canvas.js"></script>
     <script class="playlist_script" src="static/mij2_canvas.js"></script>
     <script class="playlist_script" src="static/mauiex_canvas.js"></script>
+    <script src="static/test.js"></script>
 
     <script>
         var counter = 0;

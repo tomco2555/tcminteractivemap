@@ -465,11 +465,13 @@ function TreasureCanvasCheckbox() {
     }
 }
 
-//Checks toggle switch for performance mode
+//Checks mode switch for performance mode
 document.addEventListener("DOMContentLoaded", function() {
-    const toggle_switch = document.getElementById("toggle_switch");
+    const mode_switch = document.getElementById("mode_switch");
+    const challenges_switch = document.getElementById("challenges_switch");
     
-    toggle_switch.checked = true;
+    mode_switch.checked = true;
+    challenges_switch.checked = false;
 })
 
 //Switches performance mode
@@ -479,8 +481,8 @@ function switchMode() {
 
     //Array to store paths to playlist js scripts
     var playlist_arr = [];
-    //Stores state of checkmark(toggle switch)
-    var toggle_switch_status = document.getElementById("toggle_switch").checked;
+    //Stores state of checkmark(mode switch)
+    var mode_switch_status = document.getElementById("mode_switch").checked;
     //Gets all the playlist scripts
     var scripts = document.body.getElementsByClassName("playlist_script");
     //Get misc script
@@ -517,7 +519,7 @@ function switchMode() {
     }
 
     //DOM Mode
-    if(!toggle_switch_status) {
+    if(!mode_switch_status) {
 
         //Clears whole canvas
         markers_canvas.clear();
@@ -567,10 +569,11 @@ function switchMode() {
     }
 
     //Canvas mode
-    else if(toggle_switch_status) {
+    else if(mode_switch_status) {
 
         //Clears whole map pane
         map.eachLayer((layer)=>{
+            console.log(layer)
             if(layer instanceof L.Marker){
                 layer.remove();
             }
@@ -619,5 +622,234 @@ function switchMode() {
 
         loadAllScripts(playlist_arr);
 
+    }
+}
+
+//Adds functionality to each accordion menu and accordion submenu button
+//Allows to have only one opened challenge throughout all the challenges
+document.addEventListener("DOMContentLoaded", async function() {
+
+    let markers_json;
+
+    try {
+        const markers_json_file = await fetch("static/challenges.json");
+        markers_json = await markers_json_file.json();
+    }
+    catch(error) {
+        console.log("Markers JSON data could not be found: ", error)
+    }
+
+
+    var challenges_pane_markers = L.featureGroup({pane: "challenges"}).addTo(map);
+    var challenges_pane_popups = L.featureGroup({pane: "challenges"}).addTo(map);
+
+    function clearLayer() {
+        challenges_pane_markers.clearLayers();
+        challenges_pane_popups.clearLayers();
+    }
+
+    function addMarkersToGroup(dataset) {
+        markers_json[dataset].forEach((marker) => {
+            if(marker["icon"] === "start") {
+                L.marker([marker["lat"], marker["lng"]], {icon:start_icon, pane:'challenges'}).bindPopup('<b>'+marker["name"]+'</b>', {className:"hstPopup", pane:'challenges-popup'}).addTo(challenges_pane_markers);
+            }
+            
+            else if(marker["icon"] === "finish") {
+                L.marker([marker["lat"], marker["lng"]], {icon:finish_icon, pane:'challenges'}).bindPopup('<b>'+marker["name"]+'</b>', {className:"hstPopup", pane:'challenges-popup'}).addTo(challenges_pane_markers);
+            }
+
+            else if(marker["icon"] === "challenge") {
+                L.marker([marker["lat"], marker["lng"]], {icon:challenge_icon, pane:'challenges'}).bindPopup('<b>'+marker["name"]+'</b>', {className:"hstPopup", pane:'challenges-popup'}).addTo(challenges_pane_markers);
+            }
+        })
+    }
+    var accordion_menu = document.getElementsByClassName("accordion_menu");
+
+    //Functionality for accordion menu buttons
+    for(var i = 0; i < accordion_menu.length; i++) {
+        accordion_menu[i].addEventListener("click", function() {
+
+            var submenu = this.nextElementSibling;
+            //Submenu is opened
+            if(submenu.style.maxHeight) {
+                submenu.style.maxHeight = null;
+                this.classList.remove("active");
+            }
+
+            //Submenu is not opened
+            else {
+                submenu.style.maxHeight = submenu.scrollHeight + "px";
+                this.classList.add("active");
+            }
+        })
+    }
+
+    var accordion_submenu = document.getElementsByClassName("accordion_submenu");
+
+    //Tracking opened challenge so we can close it if we click on another challenge
+    var active_accordion_submenu = null;
+
+    //Functionality for accordion submenu buttons
+    for(var j = 0; j < accordion_submenu.length; j++) {
+        accordion_submenu[j].addEventListener("click", function() {
+
+            var challenge_details = this.nextElementSibling;
+            var submenu = this.parentElement.parentElement;
+            //console.log(submenu);
+            //Challenge details are opened
+            if(challenge_details.style.maxHeight) {
+                challenge_details.style.maxHeight = null;
+                submenu.style.maxHeight = submenu.scrollHeight - challenge_details.scrollHeight + "px";
+                active_accordion_submenu = null;
+                this.classList.remove("accordion_submenu_active");
+                clearLayer();
+            }
+
+            //Challenge details are not opened
+            else {
+                //Check if there is any challenge opened and if so then close it
+                if(active_accordion_submenu) {
+                    active_accordion_submenu.classList.remove("accordion_submenu_active");
+                    var challenge_details_active = active_accordion_submenu.nextElementSibling;
+                    challenge_details_active.style.maxHeight = null;
+                    
+                    //Check if submenu button we are trying to press is in the same submenu
+                    //If it is the case then we need to substract height of the content that is about to be hidden
+                    if(active_accordion_submenu.parentElement.parentElement === this.parentElement.parentElement) {
+                        //console.log(submenu.scrollHeight)
+                        //console.log(challenge_details_active.scrollHeight)
+                        submenu.style.maxHeight = submenu.scrollHeight - challenge_details_active.scrollHeight + "px";
+                    }
+                    
+                    //Case that submenu item is in different submenu
+                   else if(active_accordion_submenu.parentElement.parentElement !== this.parentElement.parentElement) {
+                        //We need to take care of situtaion that the other submenu is closed
+                        //Trying to change the height of open submenu will force it to open in order to calculate max-height
+                        if(active_accordion_submenu.parentElement.parentElement.style.maxHeight !== "") {
+                            active_accordion_submenu.parentElement.parentElement.style.maxHeight = active_accordion_submenu.parentElement.parentElement.scrollHeight - challenge_details_active.scrollHeight + "px";
+                        }
+                    }
+                }
+
+                challenge_details.style.maxHeight = challenge_details.scrollHeight + "px";
+
+                //There is is no submenu item active
+                if(!active_accordion_submenu) {
+                    submenu.style.maxHeight = submenu.scrollHeight + challenge_details.scrollHeight + "px";
+                }
+                //There is submenu item active
+                else {
+                    submenu.style.maxHeight = parseInt(submenu.style.maxHeight.split("p")[0]) + challenge_details.scrollHeight + "px";
+                }
+                active_accordion_submenu = this;
+                //console.log(active_accordion_submenu)
+                this.classList.add("accordion_submenu_active");
+                //console.log(this.getAttribute("data-markers"))
+                clearLayer();
+                addMarkersToGroup(this.getAttribute("data-markers"))
+            }
+        })
+    }
+})
+
+//When Challenges checkbox is checked remove all the markers and popups from the map if not checked behave normally
+//If Challenges checkbox is checked then disable Performance mode checkbox
+function challengesMode() {
+    //Stores state of checkmark(challenges switch)
+    var challenges_switch_status = document.getElementById("challenges_switch").checked;
+
+    //Mode switch checkbox
+    var mode_switch_checkbox = document.getElementById("mode_switch");
+
+    //Map div
+    var interactive_map = document.getElementById("map");
+
+    //Marker pane with all DOM markers
+    var dom_markers = interactive_map.getElementsByClassName("leaflet-marker-pane");
+    //Popup pane with all popups
+    var popup_markers = interactive_map.getElementsByClassName("leaflet-popup-pane");
+    //Challenges pane with all DOM markers
+    var challenges_markers = interactive_map.getElementsByClassName("leaflet-challenges-pane");
+    //Challenges popup pane with all challenges popups
+    var challenges_popups = interactive_map.getElementsByClassName("leaflet-challenges-popup-pane");
+
+    //Get all the DIVs for each filter type containing checkboxes
+    var all_checkboxes = document.querySelectorAll(".event_filters");
+
+    //Get all the headers for each menu with checkboxes
+    var all_event_headers = document.querySelectorAll(".event_header");
+
+    //DIV with Challenges menu
+    var challenges_menu = document.getElementById("challenges_menu");
+
+    //Challenges checkbox checked
+    if(challenges_switch_status) {
+        mode_switch_checkbox.disabled = true;
+
+        //Checks states of performance mode
+        if(mode_switch_checkbox.checked) {
+            map.removeLayer(markers_canvas);
+            //canvas_markers[0].style.display = "none";
+        }
+
+        else if(!mode_switch_checkbox.checked) {
+            dom_markers[0].style.display = "none";
+        }
+
+        popup_markers[0].style.display = "none";
+        challenges_markers[0].style.display = "";
+        challenges_popups[0].style.display = "";
+        map.closePopup();
+
+        all_checkboxes.forEach(function(checkbox) {
+            checkbox.style.display = "none";
+        })
+
+        all_event_headers.forEach(function(header) {
+            if(header.children[0].innerHTML === "Challenges") {
+                header.style.display = "";
+            }
+            else {
+                header.style.display = "none";
+            }
+        })
+
+        challenges_menu.hidden = false;
+    }
+
+    //Challenges checkbox not checked
+    else if(!challenges_switch_status) {
+        mode_switch_checkbox.disabled = false;
+
+        //Checks states of performance mode
+        if(mode_switch_checkbox.checked) {
+            markers_canvas.addTo(map)
+            map.fire('moveend');
+            markers_canvas.redraw();
+        }
+
+        else if(!mode_switch_checkbox.checked) {
+            dom_markers[0].style.display = "";
+        }
+
+        popup_markers[0].style.display = "";
+        challenges_markers[0].style.display = "none";
+        challenges_popups[0].style.display = "none";
+        map.closePopup();
+
+        all_checkboxes.forEach(function(checkbox) {
+            checkbox.style.display = "";
+        })
+
+        all_event_headers.forEach(function(header) {
+            if(header.children[0].innerHTML === "Challenges") {
+                header.style.display = "none";
+            }
+            else {
+                header.style.display = "";
+            }
+        })
+
+        challenges_menu.hidden = true;
     }
 }
