@@ -209,7 +209,10 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 })
 
-function activitiesCheckbox() {
+//Deprecated func
+/* function activitiesCheckbox() {
+
+    const start_time = performance.now();
 
     const checkboxes = document.querySelectorAll(".playlist_checkbox");
 
@@ -217,6 +220,75 @@ function activitiesCheckbox() {
         single_checkbox = checkbox.querySelectorAll(".filter_checkbox")[0]
         single_checkbox.dispatchEvent(new Event('change'));
     })
+
+    const end_time = performance.now();
+
+    console.log("Activity action took " + (end_time - start_time) + "ms")
+} */
+
+//Shows or hides markers based on the activity
+function activitiesCheckboxTemp(elem) {
+
+    //const start_time = performance.now();
+
+    //Stores state of checkmark(mode switch)
+    var mode_switch_status = document.getElementById("mode_switch").checked;
+    //State of the activity checkbox that invoked this function
+    var activity_checkbox_status = elem.checked;
+    //ID of the checkbox that invoked this function
+    var activity_checkbox_name
+
+    //Since we split by "_" delimiter and photo_ops contains delimiter we have to set it to store it same way
+    if(elem.id.split("_")[0] !== "photo") {
+        activity_checkbox_name = elem.id.split("_")[0]
+    }
+
+    else {
+        activity_checkbox_name = elem.id.split("_")[0] + "_" + elem.id.split("_")[1]
+    }
+
+    //All playlist checkboxes
+    const checkboxes = document.querySelectorAll(".playlist_checkbox");
+
+    //console.log(elem);
+    //console.log(mode_switch_status)
+    //console.log(activity_checkbox_status)
+    //console.log(activity_checkbox_name)
+
+    //Canvas Mode
+    if(mode_switch_status) {
+        checkboxes.forEach(function(checkbox) {
+
+            single_checkbox = checkbox.querySelectorAll(".filter_checkbox")[0]
+
+            //If activity checkbox is not checked then remove markers in that category for all the playlists
+            if(!activity_checkbox_status) {
+                markers_canvas.removeMarkers(window[single_checkbox.id.split("_")[0] + "_" + activity_checkbox_name + "_group"]);
+            }
+
+            //If activity checkbox is checked then show markers for playlists in that category that are also checked
+            //Not checked playlist checkboxes result in nothing
+            else if(activity_checkbox_status) {
+                if(single_checkbox.checked){
+                    markers_canvas.addMarkers(window[single_checkbox.id.split("_")[0] + "_" + activity_checkbox_name + "_group"]);
+                }
+            }
+        })
+    }
+
+    //DOM mode, remains same because old function seems fast enough
+    else if(!mode_switch_status) {
+        const checkboxes = document.querySelectorAll(".playlist_checkbox");
+
+        checkboxes.forEach(function(checkbox) {
+            single_checkbox = checkbox.querySelectorAll(".filter_checkbox")[0]
+            single_checkbox.dispatchEvent(new Event('change'));
+        })
+    }
+
+    //const end_time = performance.now();
+
+    //console.log("Activity action took " + (end_time - start_time) + "ms(Temp func)")
 }
 
 function watchCheckbox(playlist_name) {
