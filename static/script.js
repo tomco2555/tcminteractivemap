@@ -54,7 +54,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const checkboxes = document.querySelectorAll(".filter_checkbox");
     
     checkboxes.forEach(function(checkbox) {
-        checkbox.checked = true;
+        if(checkbox.parentElement.classList.contains("rivals_checkbox")) {
+            checkbox.checked = false;
+        }
+
+        else {
+            checkbox.checked = true;
+        }
     })
 })
 
@@ -138,6 +144,39 @@ document.addEventListener("DOMContentLoaded", function() {
         //Misc
         else if(btn.innerHTML == "Misc") {
             const misc_checkboxes = document.querySelectorAll(".misc_checkbox")
+
+            btn.addEventListener("click", function() {
+
+                var hide_all = false;
+
+                misc_checkboxes.forEach(function(checkbox) {
+                    if(checkbox.querySelectorAll(".filter_checkbox")[0].checked) {
+                        hide_all = true;
+                        return;
+                    }
+                })
+
+                if(hide_all === true) {
+                    misc_checkboxes.forEach(function(checkbox) {
+                        single_checkbox = checkbox.querySelectorAll(".filter_checkbox")[0]
+                        single_checkbox.checked = false;
+                        single_checkbox.dispatchEvent(new Event('change'));
+                    })
+                }
+
+                else if(hide_all === false) {
+                    misc_checkboxes.forEach(function(checkbox) {
+                        single_checkbox = checkbox.querySelectorAll(".filter_checkbox")[0]
+                        single_checkbox.checked = true;
+                        single_checkbox.dispatchEvent(new Event('change'));
+                    })
+                }
+            })
+        }
+
+        //Rivals
+        else if(btn.innerHTML == "Rivals") {
+            const misc_checkboxes = document.querySelectorAll(".rivals_checkbox")
 
             btn.addEventListener("click", function() {
 
@@ -316,6 +355,90 @@ function TreasureCheckbox() {
     }
 }
 
+//Hides and shows Clawblades rivals
+function ClawbladesCheckbox() {
+
+    var clawblades_checkbox_status = document.getElementById("clawblades_checkbox").checked;
+
+    if(clawblades_checkbox_status) {
+        clawblades_group.addTo(map);
+    }
+
+    else if(!clawblades_checkbox_status) {
+        clawblades_group.remove();
+    }
+}
+
+//Hides and shows Diamond Fangs rivals
+function DiamondFangsCheckbox() {
+
+    var diamond_fangs_checkbox_status = document.getElementById("diamond_fangs_checkbox").checked;
+
+    if(diamond_fangs_checkbox_status) {
+        diamond_fangs_group.addTo(map);
+    }
+
+    else if(!diamond_fangs_checkbox_status) {
+        diamond_fangs_group.remove();
+    }
+}
+
+//Hides and shows Quickwhiskers rivals
+function QuickwhiskersCheckbox() {
+
+    var quickwhiskers_checkbox_status = document.getElementById("quickwhiskers_checkbox").checked;
+
+    if(quickwhiskers_checkbox_status) {
+        quickwhiskers_group.addTo(map);
+    }
+
+    else if(!quickwhiskers_checkbox_status) {
+        quickwhiskers_group.remove();
+    }
+}
+
+//Hides and shows Nightstalkers rivals
+function NightstalkersCheckbox() {
+
+    var nightstalkers_checkbox_status = document.getElementById("nightstalkers_checkbox").checked;
+
+    if(nightstalkers_checkbox_status) {
+        nightstalkers_group.addTo(map);
+    }
+
+    else if(!nightstalkers_checkbox_status) {
+        nightstalkers_group.remove();
+    }
+}
+
+//Hides and shows Chiefs
+function ChiefsCheckbox() {
+
+    var chiefs_checkbox_status = document.getElementById("chiefs_checkbox").checked;
+
+    if(chiefs_checkbox_status) {
+        chiefs_group.addTo(map);
+    }
+
+    else if(!chiefs_checkbox_status) {
+        chiefs_group.remove();
+    }
+}
+
+//Hides and shows Mysterious Driver
+function MysteriousDriverCheckbox() {
+
+    var mysterious_driver_checkbox_status = document.getElementById("mysterious_driver_checkbox").checked;
+
+    if(mysterious_driver_checkbox_status) {
+        mysterious_driver_group.addTo(map);
+    }
+
+    else if(!mysterious_driver_checkbox_status) {
+        mysterious_driver_group.remove();
+    }
+}
+
 //For canvas: Performance mode
 function watchCanvasCheckbox(playlist_name) {
 
@@ -465,6 +588,96 @@ function TreasureCanvasCheckbox() {
     }
 }
 
+//Hides and shows Clawblades Rivals
+function ClawbladesCanvasCheckbox() {
+
+    var clawblades_checkbox_status = document.getElementById("clawblades_checkbox").checked;
+
+    if(clawblades_checkbox_status) {
+        markers_canvas.removeMarkers(clawblades_group);
+        markers_canvas.addMarkers(clawblades_group);
+    }
+
+    else if(!clawblades_checkbox_status) {
+        markers_canvas.removeMarkers(clawblades_group);
+    }
+}
+
+//Hides and shows Diamond Fangs Rivals
+function DiamondFangsCanvasCheckbox() {
+
+    var diamond_fangs_checkbox_status = document.getElementById("diamond_fangs_checkbox").checked;
+
+    if(diamond_fangs_checkbox_status) {
+        markers_canvas.removeMarkers(diamond_fangs_group);
+        markers_canvas.addMarkers(diamond_fangs_group);
+    }
+
+    else if(!diamond_fangs_checkbox_status) {
+        markers_canvas.removeMarkers(diamond_fangs_group);
+    }
+}
+
+//Hides and shows Quickwhiskers Rivals
+function QuickwhiskersCanvasCheckbox() {
+
+    var quickwhiskers_checkbox_status = document.getElementById("quickwhiskers_checkbox").checked;
+
+    if(quickwhiskers_checkbox_status) {
+        markers_canvas.removeMarkers(quickwhiskers_group);
+        markers_canvas.addMarkers(quickwhiskers_group);
+    }
+
+    else if(!quickwhiskers_checkbox_status) {
+        markers_canvas.removeMarkers(quickwhiskers_group);
+    }
+}
+
+//Hides and shows Nightstalkers Rivals
+function NightstalkersCanvasCheckbox() {
+
+    var nightstalkers_checkbox_status = document.getElementById("nightstalkers_checkbox").checked;
+
+    if(nightstalkers_checkbox_status) {
+        markers_canvas.removeMarkers(nightstalkers_group);
+        markers_canvas.addMarkers(nightstalkers_group);
+    }
+
+    else if(!nightstalkers_checkbox_status) {
+        markers_canvas.removeMarkers(nightstalkers_group);
+    }
+}
+
+//Hides and shows Chiefs
+function ChiefsCanvasCheckbox() {
+
+    var chiefs_checkbox_status = document.getElementById("chiefs_checkbox").checked;
+
+    if(chiefs_checkbox_status) {
+        markers_canvas.removeMarkers(chiefs_group);
+        markers_canvas.addMarkers(chiefs_group);
+    }
+
+    else if(!chiefs_checkbox_status) {
+        markers_canvas.removeMarkers(chiefs_group);
+    }
+}
+
+//Hides and shows Mysterious Driver
+function MysteriousDriverCanvasCheckbox() {
+
+    var mysterious_driver_checkbox_status = document.getElementById("mysterious_driver_checkbox").checked;
+
+    if(mysterious_driver_checkbox_status) {
+        markers_canvas.removeMarkers(mysterious_driver_group);
+        markers_canvas.addMarkers(mysterious_driver_group);
+    }
+
+    else if(!mysterious_driver_checkbox_status) {
+        markers_canvas.removeMarkers(mysterious_driver_group);
+    }
+}
+
 //Checks mode switch for performance mode
 document.addEventListener("DOMContentLoaded", function() {
     const mode_switch = document.getElementById("mode_switch");
@@ -487,6 +700,8 @@ function switchMode() {
     var scripts = document.body.getElementsByClassName("playlist_script");
     //Get misc script
     var misc_script = document.getElementById("misc_script")
+    //Get rivals script
+    var rivals_script = document.getElementById("rivals_script")
 
     //Function for loading every script through promise
     //src is an argument - "static/{playlist_name}_canvas.js"
@@ -503,6 +718,10 @@ function switchMode() {
             }
 
             else if(filter === "misc") {
+                script.setAttribute("id", filter+"_script");
+            }
+
+            else if(filter === "rivals") {
                 script.setAttribute("id", filter+"_script");
             }
 
@@ -527,6 +746,9 @@ function switchMode() {
         //Remove script with id misc_script
         misc_script.remove();
 
+        //Remove script with id rivals_script
+        rivals_script.remove();
+
         //Adds path to the array and removes script from HTMLCollection
         for(var i = scripts.length - 1; i >= 0; --i) {
             playlist_arr.push(scripts[i].getAttributeNode("src").value);
@@ -542,6 +764,7 @@ function switchMode() {
 
             var playlist_checkboxes = document.querySelectorAll(".playlist_checkbox");
             var misc_checkboxes = document.querySelectorAll(".misc_checkbox");
+            var rivals_checkboxes = document.querySelectorAll(".rivals_checkbox");
 
             for (let i = 0; i < playlist_arr.length; i++) {
 
@@ -563,6 +786,15 @@ function switchMode() {
                 misc_checkbox.attributes.onchange.nodeValue = misc_checkbox.attributes.onchange.nodeValue.replace("Canvas", "");
                 misc_checkbox.dispatchEvent(new Event('change'));
             }
+
+            const src_rivals = rivals_script.getAttributeNode("src").value.replace("_canvas", "");
+            await loadScript(src_rivals, "rivals");
+
+            for (let i = 0; i < rivals_checkboxes.length; i++) {
+                var rivals_checkbox = rivals_checkboxes[i].querySelector(".filter_checkbox");
+                rivals_checkbox.attributes.onchange.nodeValue = rivals_checkbox.attributes.onchange.nodeValue.replace("Canvas", "");
+                rivals_checkbox.dispatchEvent(new Event('change'));
+            }
         }
 
         loadAllScripts(playlist_arr);
@@ -573,7 +805,6 @@ function switchMode() {
 
         //Clears whole map pane
         map.eachLayer((layer)=>{
-            console.log(layer)
             if(layer instanceof L.Marker){
                 layer.remove();
             }
@@ -581,6 +812,9 @@ function switchMode() {
 
         //Remove script with id misc_script
         misc_script.remove();
+
+        //Remove script with id rivals_script
+        rivals_script.remove();
 
         //Adds path to the array and removes script from HTMLCollection
         for(var i = scripts.length - 1; i >= 0; --i) {
@@ -597,6 +831,7 @@ function switchMode() {
 
             var playlist_checkboxes = document.querySelectorAll(".playlist_checkbox");
             var misc_checkboxes = document.querySelectorAll(".misc_checkbox");
+            var rivals_checkboxes = document.querySelectorAll(".rivals_checkbox");
 
             for (let i = 0; i < playlist_arr.length; i++) {
 
@@ -617,6 +852,15 @@ function switchMode() {
                 var misc_checkbox = misc_checkboxes[i].querySelector(".filter_checkbox");
                 misc_checkbox.attributes.onchange.nodeValue = misc_checkbox.attributes.onchange.nodeValue.replace("Checkbox", "CanvasCheckbox");
                 misc_checkbox.dispatchEvent(new Event('change'));
+            }
+
+            const src_rivals = rivals_script.getAttributeNode("src").value.replace(".js", "_canvas.js");
+            await loadScript(src_rivals, "rivals");
+
+            for (let i = 0; i < rivals_checkboxes.length; i++) {
+                var rivals_checkbox = rivals_checkboxes[i].querySelector(".filter_checkbox");
+                rivals_checkbox.attributes.onchange.nodeValue = rivals_checkbox.attributes.onchange.nodeValue.replace("Checkbox", "CanvasCheckbox");
+                rivals_checkbox.dispatchEvent(new Event('change'));
             }
         }
 

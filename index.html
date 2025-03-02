@@ -1211,6 +1211,43 @@
                         </div>
                     </div>
                 </div>
+                <div class="events">
+                    <div class="event_header">
+                        <button class="header header_hover">Rivals</button>
+                    </div>
+                    <div class="event_filters" id="rivals_filters">
+                        <div class="filter_option rivals_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="clawblades_checkbox" onchange="ClawbladesCanvasCheckbox()">
+                            <span>Clawblades</span>
+                            <span class="filter_marker_count"></span>
+                        </div>
+                        <div class="filter_option rivals_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="diamond_fangs_checkbox" onchange="DiamondFangsCanvasCheckbox()">
+                            <span>Diamond Fangs</span>
+                            <span class="filter_marker_count"></span>
+                        </div>
+                        <div class="filter_option rivals_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="quickwhiskers_checkbox" onchange="QuickwhiskersCanvasCheckbox()">
+                            <span>Quickwhiskers</span>
+                            <span class="filter_marker_count"></span>
+                        </div>
+                        <div class="filter_option rivals_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="nightstalkers_checkbox" onchange="NightstalkersCanvasCheckbox()">
+                            <span>Nightstalkers</span>
+                            <span class="filter_marker_count"></span>
+                        </div>
+                        <div class="filter_option rivals_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="chiefs_checkbox" onchange="ChiefsCanvasCheckbox()">
+                            <span>Chiefs</span>
+                            <span class="filter_marker_count"></span>
+                        </div>
+                        <div class="filter_option rivals_checkbox">
+                            <input class="filter_checkbox" type="checkbox" id="mysterious_driver_checkbox" onchange="MysteriousDriverCanvasCheckbox()">
+                            <span>Mysterious Driver</span>
+                            <span class="filter_marker_count"></span>
+                        </div>
+                    </div>
+                </div>
                 <div class="links">
                     <span><b>Other useful stuff</b></span><br>
                     <a href="https://docs.google.com/spreadsheets/d/1_YaAbpwQyw2B3wnyGUfvueYsEjxkSVaUobXkF5H1woc/edit?usp=sharing" class="custom_link">Vanity List</a>
@@ -1250,6 +1287,7 @@
     <script class="playlist_script" src="static/chase_squad_canvas.js"></script>
     <script class="playlist_script" src="static/mij2_canvas.js"></script>
     <script class="playlist_script" src="static/mauiex_canvas.js"></script>
+    <script id="rivals_script" src="static/rivals_canvas.js"></script>
     <script src="static/test.js"></script>
 
     <script>

@@ -64,14 +64,16 @@ mf_grounds_marker.bindPopup('<b>Motorfest Grounds</b><br>\
 //DR 01
 demo_royale_01_marker = L.marker([2799.490898, 1799.518329], {icon:demo_royale_icon});
 demo_royale_01_marker.bindPopup('<b>Demo Royale</b><br>\
-                                <span>Haleiwa</span>', {
+                                <span>Haleiwa</span><br>\
+                                <span>Currently disabled</span>', {
                             className: "hstPopup"
 });
 
 //DR 02
 demo_royale_02_marker = L.marker([2874.851303, 2731.231557], {icon:demo_royale_icon});
 demo_royale_02_marker.bindPopup('<b>Demo Royale</b><br>\
-                                <span>Ma\'akua Black Beach</span>', {
+                                <span>Ma\'akua Black Beach</span><br>\
+                                <span>Currently disabled</span>', {
                             className: "hstPopup"
 });
 
@@ -88,126 +90,118 @@ demo_royale_04_marker.bindPopup('<b>Demo Royale</b><br>\
                                 <span>Wahiawa Fields</span>', {
                             className: "hstPopup"
 });
+
+//DR 05
+demo_royale_05_marker = L.marker([1297.067791, 5316.9375], {icon:demo_royale_icon});
+demo_royale_05_marker.bindPopup('<b>Demo Royale</b><br>\
+                                <span>Kealaloloa</span>', {
+                            className: "hstPopup"
+});
                         
 //GRAND RACE
 //GR 01
 grand_race_01_marker = L.marker([2800.354437, 1806.922991], {icon:grand_race_icon});
 grand_race_01_marker.bindPopup('<b>Grand Race</b><br>\
-                                <span>Haleiwa</span>\
-                                <hr style=\"background-color:white;height:0.5px\">\
-                                <span><b>Races</b></span><br>\
-                                <span>Monster > Hypercar > AGP</span><br>\
-                                <span>ST2 > ST1 > Hypercar</span>', {
+                                <span>Haleiwa</span>', {
                             className: "hstPopup"
 });
 
 //GR 02
 grand_race_02_marker = L.marker([2875.125773, 2736.25], {icon:grand_race_icon});
 grand_race_02_marker.bindPopup('<b>Grand Race</b><br>\
-                                <span>Ma\'akua Black Beach</span>\
-                                <hr style=\"background-color:white;height:0.5px\">\
-                                <span><b>Races</b></span><br>\
-                                <span>Hypercar > AGP > Racing</span><br>\
-                                <span>ST1 > RR > ST2</span>', {
+                                <span>Ma\'akua Black Beach</span>', {
                             className: "hstPopup"
 });
 
 //GR 03
 grand_race_03_marker = L.marker([2172.700894, 1728.375], {icon:grand_race_icon});
 grand_race_03_marker.bindPopup('<b>Grand Race</b><br>\
-                                <span>Mauna Pele</span>\
-                                <hr style=\"background-color:white;height:0.5px\">\
-                                <span><b>Races</b></span><br>\
-                                <span>RR > ST2 > AGP</span><br>\
-                                <span>ST1 > Hypercar / Plane > Racing</span>', {
+                                <span>Mauna Pele</span>', {
                             className: "hstPopup"
 });
 
 //GR 04
 grand_race_04_marker = L.marker([2510.388077, 2270.5], {icon:grand_race_icon});
 grand_race_04_marker.bindPopup('<b>Grand Race</b><br>\
-                                <span>Wahiawa Fields</span>\
-                                <hr style=\"background-color:white;height:0.5px\">\
-                                <span><b>Races</b></span><br>\
-                                <span>Hypercar > ST1 > AGP</span><br>\
-                                <span>Hypercar > ST2 > RR</span>', {
+                                <span>Wahiawa Fields</span>', {
                             className: "hstPopup"
 });
 
 //GR 05
 grand_race_05_marker = L.marker([1225.355913, 3359.807402], {icon:grand_race_icon});
 grand_race_05_marker.bindPopup('<b>Grand Race</b><br>\
-                                <span>Diamond Head</span>\
-                                <hr style=\"background-color:white;height:0.5px\">\
-                                <span><b>Races</b></span><br>\
-                                <span>Hypercar > Rally > AGP</span><br>\
-                                <span>ST1 > RR > Hypercar</span>', {
+                                <span>Diamond Head</span>', {
                             className: "hstPopup"
 });
 
 //GR 06
 grand_race_06_marker = L.marker([1278.401843, 1810.546913], {icon:grand_race_icon});
 grand_race_06_marker.bindPopup('<b>Grand Race</b><br>\
-                                <span>Kalaeloa</span>\
-                                <hr style=\"background-color:white;height:0.5px\">\
-                                <span><b>Races</b></span><br>\
-                                <span>RR > Rally / Plane > Drift</span><br>\
-                                <span>Hypercar > AGP > Racing</span>', {
+                                <span>Kalaeloa</span>', {
                             className: "hstPopup"
 });
 
 //GR 07
 grand_race_07_marker = L.marker([2629.930045, 1012.046581], {icon:grand_race_icon});
 grand_race_07_marker.bindPopup('<b>Grand Race</b><br>\
-                                <span>Kaena Point</span>\
-                                <hr style=\"background-color:white;height:0.5px\">\
-                                <span><b>Races</b></span><br>\
-                                <span>ST2 > Rally > Motocross</span><br>\
-                                <span>ST1 > ST2 > Hypercar</span>', {
+                                <span>Kaena Point</span>', {
                             className: "hstPopup"
 });
 
 //GR 08
 grand_race_08_marker = L.marker([1212.78874, 3008], {icon:grand_race_icon});
 grand_race_08_marker.bindPopup('<b>Grand Race</b><br>\
-                                <span>Waikiki</span>\
-                                <hr style=\"background-color:white;height:0.5px\">\
-                                <span><b>Races</b></span><br>\
-                                <span>ST2 > Hypercar > Racing</span><br>\
-                                <span>ST2 > AGP > RR</span>', {
+                                <span>Waikiki</span>', {
                             className: "hstPopup"
 });
 
 //GR 09
 grand_race_09_marker = L.marker([1661.519716, 2745.165301], {icon:grand_race_icon});
 grand_race_09_marker.bindPopup('<b>Grand Race</b><br>\
-                                <span>Nuuanu - Punchbowl</span>\
-                                <hr style=\"background-color:white;height:0.5px\">\
-                                <span><b>Races</b></span><br>\
-                                <span>Drift > Racing > ST2</span><br>\
-                                <span>Motocross > RR / Plane > Rally</span>', {
+                                <span>Nuuanu - Punchbowl</span>', {
                             className: "hstPopup"
 });
 
 //GR 10
 grand_race_10_marker = L.marker([2099.021803, 3026.770577], {icon:grand_race_icon});
 grand_race_10_marker.bindPopup('<b>Grand Race</b><br>\
-                                <span>Kaneohe</span>\
-                                <hr style=\"background-color:white;height:0.5px\">\
-                                <span><b>Races</b></span><br>\
-                                <span>Monster > Racing > ST2</span><br>\
-                                <span>Hypercar > Rally > Racing</span>', {
+                                <span>Kaneohe</span><br>\
+                                <span>Currently disabled</span>', {
                             className: "hstPopup"
 });
 
 //GR 11
 grand_race_11_marker = L.marker([3206.067629, 2441.875], {icon:grand_race_icon});
 grand_race_11_marker.bindPopup('<b>Grand Race</b><br>\
-                                <span>Kahuku</span>\
-                                <hr style=\"background-color:white;height:0.5px\">\
-                                <span><b>Races</b></span><br>\
-                                <span>ST2 > RR > Racing</span><br>\
-                                <span>RR > Motocross > Monster</span>', {
+                                <span>Kahuku</span>', {
+                            className: "hstPopup"
+});
+
+//GR 12
+grand_race_12_marker = L.marker([1300.129429, 5315.1875], {icon:grand_race_icon});
+grand_race_12_marker.bindPopup('<b>Grand Race</b><br>\
+                                <span>Kealaloloa</span>', {
+                            className: "hstPopup"
+});
+
+//GR 13
+grand_race_13_marker = L.marker([1862.018983, 5136], {icon:grand_race_icon});
+grand_race_13_marker.bindPopup('<b>Grand Race</b><br>\
+                                <span>Kahakuloa</span>', {
+                            className: "hstPopup"
+});
+
+//GR 14
+grand_race_14_marker = L.marker([1047.385617, 5181.875], {icon:grand_race_icon});
+grand_race_14_marker.bindPopup('<b>Grand Race</b><br>\
+                                <span>Kula</span>', {
+                            className: "hstPopup"
+});
+
+//GR 15
+grand_race_15_marker = L.marker([490.058408, 5039.019699], {icon:grand_race_icon});
+grand_race_15_marker.bindPopup('<b>Grand Race</b><br>\
+                                <span>Wailea</span>', {
                             className: "hstPopup"
 });
 
@@ -806,7 +800,7 @@ treasure_89_marker.bindPopup('<b>Treasure Crate</b><br>', {
 
 mf_grounds_group.push(mf_grounds_marker);
 
-for(var i = 1; i <= 4; i++) {
+for(var i = 1; i <= 5; i++) {
     if(i < 10) {
         demo_royale_group.push(window["demo_royale_0" + i + "_marker"]);
     }
@@ -815,7 +809,7 @@ for(var i = 1; i <= 4; i++) {
     }
 }
 
-for(var i = 1; i <= 11; i++) {
+for(var i = 1; i <= 15; i++) {
     if(i < 10) {
         grand_race_group.push(window["grand_race_0" + i + "_marker"]);
     }
