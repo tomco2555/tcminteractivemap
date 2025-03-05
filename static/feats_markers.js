@@ -46,3 +46,10 @@ var aerobatics_icon = L.icon({
     iconAnchor: [20,42],
     popupAnchor: [0,-30],
 });
+
+var long_jump_icon = L.icon({
+    iconUrl: 'img/Misc/long_jump.png',
+    iconSize: [40, 42],
+    iconAnchor: [20,42],
+    popupAnchor: [0,-30],
+});
