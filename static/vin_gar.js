@@ -150,7 +150,7 @@ vg_event08_marker.bindPopup("<b style=\"font-size:20px\">Vintage Showdown</b><br
 var VGfeatsArr = [[2271.804224, 2230.038011, "slalom", "Schofield Barracks", "Slalom", "6,430 PTS", "2,880", "5,400"],  //Feat 01
                   [2617.1974, 3010.949063, "slalom", "Kualoa Beach", "Slalom", "5,760 PTS", "2,880", "5,400"],  //Feat 02
                   [3104.998734, 2618.125, "speedtrap", "Kahuku Black Beach", "Speedtrap", "210.0 km/h", "960", "1,800"],  //Feat 03
-                  [1496.137972, 1685.625, "slalom", "Kahuku Black Beach", "Makakilo", "4,420 PTS", "2,880", "5,400"],  //Feat 04
+                  [1496.137972, 1685.625, "slalom", "Kahuku Black Beach", "Slalom", "4,420 PTS", "2,880", "5,400"],  //Feat 04
                  ]
 
 function createVGFeatsMarkers(featsArr) {
