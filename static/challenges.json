@@ -1340,5 +1340,103 @@
             "name": "Waimoku Falls",
             "icon": "challenge"
         }
+    ],
+
+    "Apex Lightspeed": [
+        {
+            "lat": 685.595009,
+            "lng": 5449.318409,
+            "name": "Red Bull Playground",
+            "icon": "challenge"
+        }
+    ],
+
+    "Apex Paradise": [
+        {
+            "lat": 685.595009,
+            "lng": 5449.318409,
+            "name": "Red Bull Playground",
+            "icon": "challenge"
+        }
+    ],
+
+    "Apex Tourism": [
+        {
+            "lat": 777.38639,
+            "lng": 5813.25,
+            "name": "Pu'unianiau",
+            "icon": "start"
+        },
+
+        {
+            "lat": 760.505589,
+            "lng": 5427.5,
+            "name": "Red Bull Playground Smoky Tent",
+            "icon": "finish"
+        }
+    ],
+
+    "Apex Vertigo": [
+        {
+            "lat": 1276.759703,
+            "lng": 2878.25,
+            "name": "Business Plaza Helipad",
+            "icon": "challenge"
+        }
+    ],
+
+    "Apex Fast Trip": [
+        {
+            "lat": 447.97412,
+            "lng": 6035.863484,
+            "name": "Hana",
+            "icon": "start"
+        },
+
+        {
+            "lat": 567.906393,
+            "lng": 5002.625,
+            "name": "Wailea",
+            "icon": "challenge"
+        },
+
+        {
+            "lat": 1445.996777,
+            "lng": 4656.298154,
+            "name": "Lele",
+            "icon": "finish"
+        }
+    ],
+
+    "Apex Explorer": [
+        {
+            "lat": 1439.002426,
+            "lng": 3310.25,
+            "name": "Car Meet Big Wheel",
+            "icon": "start"
+        },
+
+        {
+            "lat": 739.026295,
+            "lng": 5284,
+            "name": "Haleakala Observatory",
+            "icon": "finish"
+        }
+    ],
+
+    "Apex Cruising": [
+        {
+            "lat": 2966.445652,
+            "lng": 1822.25,
+            "name": "Haleiwa Island",
+            "icon": "start"
+        },
+
+        {
+            "lat": 859.170683,
+            "lng": 6110.640026,
+            "name": "Ke'anae Point",
+            "icon": "finish"
+        }
     ]
 }
