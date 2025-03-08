@@ -8,7 +8,7 @@ var map = L.map('map', {
 });
 
 var bounds = [[0,0], [3579,6707]];
-var image = L.imageOverlay('img/oahu_maui.png', bounds).addTo(map);
+var image = L.imageOverlay('img/oahu_maui.avif', bounds).addTo(map);
 
 map.fitBounds(bounds);
 map.addControl(L.control.zoom({ position: 'bottomright' }));
