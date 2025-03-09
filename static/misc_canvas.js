@@ -165,8 +165,7 @@ grand_race_09_marker.bindPopup('<b>Grand Race</b><br>\
 //GR 10
 grand_race_10_marker = L.marker([2099.021803, 3026.770577], {icon:grand_race_icon});
 grand_race_10_marker.bindPopup('<b>Grand Race</b><br>\
-                                <span>Kaneohe</span><br>\
-                                <span>Currently disabled</span>', {
+                                <span>Kaneohe</span><br>', {
                             className: "hstPopup"
 });
 
@@ -202,6 +201,37 @@ grand_race_14_marker.bindPopup('<b>Grand Race</b><br>\
 grand_race_15_marker = L.marker([490.058408, 5039.019699], {icon:grand_race_icon});
 grand_race_15_marker.bindPopup('<b>Grand Race</b><br>\
                                 <span>Wailea</span>', {
+                            className: "hstPopup"
+});
+
+//GR 16
+grand_race_16_marker = L.marker([1298.544857, 4689.5], {icon:grand_race_icon});
+grand_race_16_marker.bindPopup('<b>Grand Race</b><br>\
+                                <span>Lahaina</span>', {
+                            className: "hstPopup"
+});
+
+//GR 17
+grand_race_17_marker = L.marker([1289.12586, 5699.987763], {icon:grand_race_icon});
+grand_race_17_marker.bindPopup('<b>Grand Race</b><br>\
+                                <span>Paia</span><br>\
+                                <span><i>Currently disabled</i></span>', {
+                            className: "hstPopup"
+});
+
+//GR 18
+grand_race_18_marker = L.marker([459.499903, 5995.204844], {icon:grand_race_icon});
+grand_race_18_marker.bindPopup('<b>Grand Race</b><br>\
+                                <span>Hana</span><br>\
+                                <span><i>Currently disabled</i></span>', {
+                            className: "hstPopup"
+});
+
+//GR 19
+grand_race_19_marker = L.marker([660.30759, 5536.292543], {icon:grand_race_icon});
+grand_race_19_marker.bindPopup('<b>Grand Race</b><br>\
+                                <span>Red Hill Haleakala</span><br>\
+                                <span><i>Currently disabled</i></span>', {
                             className: "hstPopup"
 });
 
@@ -638,7 +668,7 @@ treasure_62_marker.bindPopup('<b>Treasure Crate</b><br>', {
 //Treasure 63 Kea'a Beach
 treasure_63_marker = L.marker([701.95729, 6081.783323], {icon:treasure_icon});
 treasure_63_marker.bindPopup('<b>Treasure Crate</b><br>\
-                                <b>Bugged and currently unreachable</b>', {
+                                <b>Sometimes bugged and unreachable</b>', {
                             className: "hstPopup"
 });
 
@@ -798,6 +828,12 @@ treasure_89_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
+//Treasure 90 Next to the Valley Isle Feats - Kula Reserve
+treasure_90_marker = L.marker([980.529108, 5446.25], {icon:treasure_icon});
+treasure_90_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
 mf_grounds_group.push(mf_grounds_marker);
 
 for(var i = 1; i <= 5; i++) {
@@ -809,7 +845,7 @@ for(var i = 1; i <= 5; i++) {
     }
 }
 
-for(var i = 1; i <= 15; i++) {
+for(var i = 1; i <= 19; i++) {
     if(i < 10) {
         grand_race_group.push(window["grand_race_0" + i + "_marker"]);
     }
@@ -827,7 +863,7 @@ for(var i = 1; i <= 6; i++) {
     }
 }
 
-for(var i = 1; i <= 89; i++) {
+for(var i = 1; i <= 90; i++) {
     if(i < 10) {
         treasure_group.push(window["treasure_0" + i + "_marker"]);
     }
