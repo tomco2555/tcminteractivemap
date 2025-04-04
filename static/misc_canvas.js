@@ -834,6 +834,13 @@ treasure_90_marker.bindPopup('<b>Treasure Crate</b><br>', {
                             className: "hstPopup"
 });
 
+//Treasure 91 Small tunnel on the left side of Auwahi Wind Turbines
+treasure_91_marker = L.marker([368.962635, 5382.788178], {icon:treasure_icon});
+treasure_91_marker.bindPopup('<b>Treasure Crate</b><br>', {
+                            className: "hstPopup"
+});
+
+
 mf_grounds_group.push(mf_grounds_marker);
 
 for(var i = 1; i <= 5; i++) {
@@ -863,7 +870,7 @@ for(var i = 1; i <= 6; i++) {
     }
 }
 
-for(var i = 1; i <= 90; i++) {
+for(var i = 1; i <= 91; i++) {
     if(i < 10) {
         treasure_group.push(window["treasure_0" + i + "_marker"]);
     }
