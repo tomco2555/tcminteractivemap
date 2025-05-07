@@ -1438,5 +1438,125 @@
             "name": "Ke'anae Point",
             "icon": "finish"
         }
+    ],
+
+    "Bold Shot": [
+        {
+            "lat": 686.972633,
+            "lng": 5457.626914,
+            "name": "Red Bull Cannon",
+            "icon": "challenge"
+        }
+    ],
+
+    "Bold Rush": [
+        {
+            "lat": 760.505589,
+            "lng": 5427.5,
+            "name": "Red Bull Playground Smoky Tent",
+            "icon": "start"
+        },
+
+        {
+            "lat": 1051.401762,
+            "lng": 4862.066227,
+            "name": "Kaho'olawe",
+            "icon": "finish"
+        }
+    ],
+
+    "Bold and Dirty": [
+        {
+            "lat": 739.026295,
+            "lng": 5284,
+            "name": "Haleakala Observatory",
+            "icon": "start"
+        },
+
+        {
+            "lat": 177.151893,
+            "lng": 5691.75,
+            "name": "Little Island",
+            "icon": "finish"
+        }
+    ],
+
+    "Bold Tourism": [
+        {
+            "lat": 1017.530387,
+            "lng": 5878.709002,
+            "name": "Maui Arboretum",
+            "icon": "challenge"
+        }
+    ],
+
+    "Bold Surfin'": [
+        {
+            "lat": 1601.239329,
+            "lng": 4968.662575,
+            "name": "Iao Lake",
+            "icon": "challenge"
+        }
+    ],
+
+    "Bold Search": [
+        {
+            "lat": 1257.336102,
+            "lng": 5036.102884,
+            "name": "Ubisoft Logo",
+            "icon": "challenge"
+        }
+    ],
+
+    "Bold Stunts": [
+        {
+            "lat": 686.011214,
+            "lng": 5450.25,
+            "name": "Red Bull Playground",
+            "icon": "challenge"
+        }
+    ],
+
+    "Bold Expedition": [
+        {
+            "lat": 1953.620676,
+            "lng": 5173.5,
+            "name": "Pu'u Koa'e top",
+            "icon": "challenge"
+        }
+    ],
+
+    "Bold Move": [
+        {
+            "lat": 1645.806619,
+            "lng": 5288.098063,
+            "name": "Maui County Mayor Helipad",
+            "icon": "challenge"
+        }
+    ],
+
+    "Bold Loop": [
+        {
+            "lat": 1449.411736,
+            "lng": 3356.75,
+            "name": "Carmeet Looping",
+            "icon": "challenge"
+        }
+    ],
+
+    "Bold Spin": [
+        {
+            "lat": 1658.275969,
+            "lng": 3865.045666,
+            "name": "Kaohikaipu Island",
+            "icon": "start"
+        },
+
+        {
+            "lat": 2560.980314,
+            "lng": 3175.5,
+            "name": "Chinaman's Hat",
+            "icon": "finish"
+        }
     ]
 }
