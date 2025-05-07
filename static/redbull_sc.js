@@ -1,7 +1,7 @@
 var rb_container_icon = L.icon({
     iconUrl: 'img/RedBull_SC/rb_container.png',
     iconSize: [97.5, 75],
-    iconAnchor: [48.5,75],
+    iconAnchor: [48.75,75],
     popupAnchor: [0,-60],
 });
 
