@@ -90,6 +90,14 @@
     margin-right: 5px;
 }
 
+.hide_btn {
+    background: rgb(70, 70, 70);
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+}
+
 .events {
     width: 100%;
 }

@@ -64,6 +64,28 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 })
 
+// Functionality for the button that either hides everything or shows everything
+function hideOrShowEverything(button) {
+    const checkboxes = document.querySelectorAll(".filter_checkbox");
+    console.log(button.innerHTML)
+    
+    if (button.innerHTML === "Hide all") {
+        checkboxes.forEach(function(checkbox) {
+            checkbox.checked = false;
+            checkbox.dispatchEvent(new Event('change'));
+            button.innerHTML = "Show all"
+        })
+    }
+    
+    else if (button.innerHTML === "Show all") {
+        checkboxes.forEach(function(checkbox) {
+            checkbox.checked = true;
+            checkbox.dispatchEvent(new Event('change'));
+            button.innerHTML = "Hide all"
+        })
+    }
+}
+
 //Adds functionality to "Playlists", "Activities" and "Misc" buttons
 //When all checkboxes are checked pressing the button unchecks them
 //If atleast one checkbox is unchecked it unchecks all of them
@@ -208,23 +230,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     })
 })
-
-//Deprecated func
-/* function activitiesCheckbox() {
-
-    const start_time = performance.now();
-
-    const checkboxes = document.querySelectorAll(".playlist_checkbox");
-
-    checkboxes.forEach(function(checkbox) {
-        single_checkbox = checkbox.querySelectorAll(".filter_checkbox")[0]
-        single_checkbox.dispatchEvent(new Event('change'));
-    })
-
-    const end_time = performance.now();
-
-    console.log("Activity action took " + (end_time - start_time) + "ms")
-} */
 
 //Shows or hides markers based on the activity
 function activitiesCheckboxTemp(elem) {
