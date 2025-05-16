@@ -67,13 +67,11 @@ document.addEventListener("DOMContentLoaded", function() {
 // Functionality for the button that either hides everything or shows everything
 function hideOrShowEverything(button) {
     const checkboxes = document.querySelectorAll(".filter_checkbox");
-    console.log(button.innerHTML)
     
     if (button.innerHTML === "Hide all") {
         checkboxes.forEach(function(checkbox) {
             checkbox.checked = false;
             checkbox.dispatchEvent(new Event('change'));
-            button.innerHTML = "Show all"
         })
     }
     
@@ -81,7 +79,6 @@ function hideOrShowEverything(button) {
         checkboxes.forEach(function(checkbox) {
             checkbox.checked = true;
             checkbox.dispatchEvent(new Event('change'));
-            button.innerHTML = "Hide all"
         })
     }
 }
