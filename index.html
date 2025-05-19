@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
     <link rel="stylesheet" href="static/styles.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="lib/leaflet/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/rbush"></script>
     <script src="lib/leaflet-markers-canvas.js"></script>
@@ -41,8 +42,8 @@
                         </label>
                     </div>
                     <div class="map_settings">
-                         <button type="button" class="hide_btn" onclick="hideOrShowEverything(this)">Hide all</button>
-                         <button type="button" class="hide_btn" onclick="hideOrShowEverything(this)">Show all</button>
+                         <button type="button" class="hide_btn" id="hide_all_btn" onclick="hideOrShowEverything(this)">Hide all</button>
+                         <button type="button" class="hide_btn" id="show_all_btn" onclick="hideOrShowEverything(this)">Show all</button>
                     </div>
                 </div>
                 <div class="events" id="challenges_menu" hidden>

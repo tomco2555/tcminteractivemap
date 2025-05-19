@@ -1079,6 +1079,9 @@ function challengesMode() {
     //Mode switch checkbox
     var mode_switch_checkbox = document.getElementById("mode_switch");
 
+    var show_all_btn = document.getElementById("show_all_btn");
+    var hide_all_btn = document.getElementById("hide_all_btn");
+
     //Map div
     var interactive_map = document.getElementById("map");
 
@@ -1103,6 +1106,8 @@ function challengesMode() {
     //Challenges checkbox checked
     if(challenges_switch_status) {
         mode_switch_checkbox.disabled = true;
+        show_all_btn.disabled = true;
+        hide_all_btn.disabled = true;
 
         //Checks states of performance mode
         if(mode_switch_checkbox.checked) {
@@ -1138,6 +1143,8 @@ function challengesMode() {
     //Challenges checkbox not checked
     else if(!challenges_switch_status) {
         mode_switch_checkbox.disabled = false;
+        show_all_btn.disabled = false;
+        hide_all_btn.disabled = false;
 
         //Checks states of performance mode
         if(mode_switch_checkbox.checked) {
