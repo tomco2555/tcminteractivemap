@@ -7,10 +7,16 @@ var map = L.map('map', {
     zoomControl: false,
 });
 
+// Bounds of the basic image
 var bounds = [[0,0], [3579,6707]];
+
+// Expanded bounds for the case when user tries to go far from the map
+var expandedBounds = [[bounds[0][0] - 3000, [bounds[0][1] - 4000]], 
+                        [bounds[1][0] + 3000, [bounds[1][1] + 4000]]]
 var image = L.imageOverlay('img/oahu_maui.avif', bounds).addTo(map);
 
 map.fitBounds(bounds);
+map.setMaxBounds(expandedBounds);
 map.addControl(L.control.zoom({ position: 'bottomright' }));
 
 var popup = L.popup();
@@ -26,9 +32,6 @@ map.on('click', onMapClick);
 
 var markers_canvas = new L.MarkersCanvas();
 markers_canvas.addTo(map);
-
-//var challenges_canvas = new L.MarkersCanvas();
-//challenges_canvas.addTo(map);
 
 map.createPane("challenges");
 map.getPane("challenges").style.zIndex = 600;

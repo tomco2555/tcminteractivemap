@@ -67,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // Functionality for the button that either hides everything or shows everything
 function hideOrShowEverything(button) {
     const checkboxes = document.querySelectorAll(".filter_checkbox");
+    const mode_switch = document.getElementById("mode_switch");
     
     if (button.innerHTML === "Hide all") {
         checkboxes.forEach(function(checkbox) {
@@ -76,7 +77,16 @@ function hideOrShowEverything(button) {
     }
     
     else if (button.innerHTML === "Show all") {
+        if (mode_switch.checked) {
+            markers_canvas.redraw();
+            console.log("som tu")
+        }
         checkboxes.forEach(function(checkbox) {
+
+            // Prevent redrawing same markers when checkbox is checked in canvas mode
+            if(mode_switch.checked && checkbox.checked) {
+                return;
+            }
             checkbox.checked = true;
             checkbox.dispatchEvent(new Event('change'));
         })
@@ -842,7 +852,8 @@ function switchMode() {
 
             for (let i = 0; i < playlist_arr.length; i++) {
 
-                const src = playlist_arr[i].replace("_canvas", "");
+                var src = playlist_arr[i].replace("_canvas", "");
+                src = src.replace("canvas", "dom");
                 await loadScript(src, "playlist");
 
                 //We change onchange function to one that handles DOM mode, see watchCheckbox
@@ -852,7 +863,8 @@ function switchMode() {
                 playlist_checkbox.dispatchEvent(new Event('change'));
             }
 
-            const src_misc = misc_script.getAttributeNode("src").value.replace("_canvas", "");
+            var src_misc = misc_script.getAttributeNode("src").value.replace("_canvas", "");
+            src_misc = src_misc.replace("canvas", "dom");
             await loadScript(src_misc, "misc");
             
             for (let i = 0; i < misc_checkboxes.length; i++) {
@@ -861,7 +873,8 @@ function switchMode() {
                 misc_checkbox.dispatchEvent(new Event('change'));
             }
 
-            const src_rivals = rivals_script.getAttributeNode("src").value.replace("_canvas", "");
+            var src_rivals = rivals_script.getAttributeNode("src").value.replace("_canvas", "");
+            src_rivals = src_rivals.replace("canvas", "dom");
             await loadScript(src_rivals, "rivals");
 
             for (let i = 0; i < rivals_checkboxes.length; i++) {
@@ -909,7 +922,8 @@ function switchMode() {
 
             for (let i = 0; i < playlist_arr.length; i++) {
 
-                const src = playlist_arr[i].replace(".js", "_canvas.js");
+                var src = playlist_arr[i].replace(".js", "_canvas.js");
+                src = src.replace("dom", "canvas");
                 await loadScript(src, "playlist");
 
                 //We change onchange function to one that handles DOM mode, see watchCheckbox
@@ -919,7 +933,8 @@ function switchMode() {
                 playlist_checkbox.dispatchEvent(new Event('change'));
             }
 
-            const src_misc = misc_script.getAttributeNode("src").value.replace(".js", "_canvas.js");
+            var src_misc = misc_script.getAttributeNode("src").value.replace(".js", "_canvas.js");
+            src_misc = src_misc.replace("dom", "canvas");
             await loadScript(src_misc, "misc");
             
             for (let i = 0; i < misc_checkboxes.length; i++) {
@@ -928,7 +943,8 @@ function switchMode() {
                 misc_checkbox.dispatchEvent(new Event('change'));
             }
 
-            const src_rivals = rivals_script.getAttributeNode("src").value.replace(".js", "_canvas.js");
+            var src_rivals = rivals_script.getAttributeNode("src").value.replace(".js", "_canvas.js");
+            src_rivals = src_rivals.replace("dom", "canvas");
             await loadScript(src_rivals, "rivals");
 
             for (let i = 0; i < rivals_checkboxes.length; i++) {
@@ -950,7 +966,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     let markers_json;
 
     try {
-        const markers_json_file = await fetch("static/challenges.json");
+        const markers_json_file = await fetch("static/data/challenges.json");
         markers_json = await markers_json_file.json();
     }
     catch(error) {
