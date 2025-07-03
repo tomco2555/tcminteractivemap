@@ -1,4 +1,4 @@
-var countDownDate = Date.UTC(2025, 6, 1, 8);
+var countDownDate = Date.UTC(2025, 10, 4, 8);
 
 var refreshInterval = setInterval(function() {
     var now = new Date().getTime();
@@ -14,6 +14,6 @@ var refreshInterval = setInterval(function() {
 
     if (difference < 0) {
         clearInterval(refreshInterval);
-        document.getElementById("countdown_next_season").innerHTML = "Season 7 just dropped";
+        document.getElementById("countdown_next_season").innerHTML = "Season 8 just dropped";
     }
 }, 1000);
