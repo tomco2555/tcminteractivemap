@@ -1,0 +1,255 @@
+{
+    "Container": {
+        "coords": [2013.316226, 2192.5625]
+    },
+
+    "Events": [
+        {
+            "coords": [2066.470511, 2157.382789],
+            "name": "Mud Hour",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "KTM 525 XC (Race Spec)",
+            "category": "Rally Raid",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [2580.560461, 1760.75],
+            "name": "Off-road Island",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Toyota Tacoma",
+            "category": "Rally Raid",
+            "xp": "7,200",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [3089.048966, 2279.875],
+            "name": "Friday Night Rides",
+            "type": "Race",
+            "weather": "Sunset",
+            "bike": "BMW R1200GS Adventure",
+            "category": "Rally Raid",
+            "xp": "7,200",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [2195.056366, 1719.75],
+            "name": "Red-Hot West",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Ivory Tower IVT Falcon S-1000",
+            "category": "Rally Raid",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [1866.690101, 1592.375],
+            "name": "The Descent",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Land Rover Defender Works V8 Intrepid Outdoors",
+            "category": "Rally Raid",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [1696.321025, 2655.875],
+            "name": "Gear Valley",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Volkswagen Beetle Hoodlum Racing Crew Ed.",
+            "category": "Rally Raid",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2460.574963, 2850.08227],
+            "name": "Car vs Wild",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Jeep Wrangler Unlimited Rubicon 392",
+            "category": "Rally Raid",
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [3044.544343, 2284.75],
+            "name": "Waimea Sky",
+            "type": "Time Attack",
+            "weather": "Sunset",
+            "car": "Kawasaki KX450F",
+            "category": "Motocross",
+            "xp": "9,600",
+            "bucks": "18,000"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [2157.059146, 2134.932149],
+            "icon_name": "escape",
+            "name": "Kunia Fields",
+            "type": "Escape",
+            "objective": "560 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2208.84741, 2373.227134],
+            "icon_name": "slalom",
+            "name": "Mililani",
+            "type": "Slalom",
+            "objective": "5,880 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2280.501828, 1851.25],
+            "icon_name": "bullseye",
+            "name": "Volcanoes Road",
+            "type": "Bullseye",
+            "objective": "8,020 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        },
+        {
+            "coords": [2277.296283, 1613.264121],
+            "icon_name": "speedtrap",
+            "name": "Mauna Pele Red Hill",
+            "type": "Speedtrap",
+            "objective": "110.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [2652.367231, 2041.75],
+            "icon_name": "escape",
+            "name": "North Fork Kaukonahua River",
+            "type": "Escape",
+            "objective": "460 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2795.998647, 1295.0625],
+            "icon_name": "slalom",
+            "name": "Mokuleia Beach",
+            "type": "Slalom",
+            "objective": "5,900 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2975.753937, 2139],
+            "icon_name": "speedtrap",
+            "name": "Waimea Road",
+            "type": "Speedtrap",
+            "objective": "120.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [3148.862036, 2527.199636],
+            "icon_name": "bullseye",
+            "name": "Koolauloa",
+            "type": "Bullseye",
+            "objective": "2,950 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        },
+        {
+            "coords": [1676.762304, 2063.1875],
+            "icon_name": "escape",
+            "name": "Honouliuli Gulch",
+            "type": "Escape",
+            "objective": "610 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [2559.503667, 1519.749249],
+            "icon_name": "photo_op",
+            "name": "Wrecked Plane",
+            "requirements": "<span>- Rally Raid</span><br><span>- Plane Wreck</span><br><span>- source of Makaleha River</span><br>"
+        },
+        {
+            "coords": [2179.008291, 1390.525485],
+            "icon_name": "photo_op",
+            "name": "Crater",
+            "requirements": "<span>- Rally Raid</span><br><span>- highest spike of the Mauna Pele Nunui Crater in the background</span><br>"
+        },
+        {
+            "coords": [2683.647888, 2627.255245],
+            "icon_name": "photo_op",
+            "name": "Jungle Pond",
+            "requirements": "<span>- Ivory Tower IVT Falcon S-1000 Adventurer Edition</span><br><span>- Jungle Pond</span><br><span>- Hau'ula Forest</span><br>"
+        },
+        {
+            "coords": [1616.072449, 2541.4375],
+            "icon_name": "photo_op",
+            "name": "Farming",
+            "requirements": "<span>- Rally Raid</span><br><span>- Jump</span><br><span>- Farm</span><br><span>- countryside south of the Pearl Botanical Garden</span><br>"
+        },
+        {
+            "coords": [2401.492618, 1958.25],
+            "icon_name": "photo_op",
+            "name": "Lost Plane",
+            "requirements": "<span>- Rally Raid</span><br><span>- Plane wreck</span><br><span>- western hills above Schofield Barracks</span><br>"
+        },
+        {
+            "coords": [2743.2775, 1538.419992],
+            "icon_name": "photo_op",
+            "name": "Purple Tree",
+            "requirements": "<span>- Ivory Tower IVT Falcon S-1000 Adventurer Edition</span><br><span>- Jacaranda Tree</span><br><span>- Peacock Flats panel</span><br><span>- near Mokuleia</span><br>"
+        },
+        {
+            "coords": [2860.316771, 2385.6875],
+            "icon_name": "photo_op",
+            "name": "Bunker",
+            "requirements": "<span>- Ivory Tower IVT Falcon S-1000 Adventurer Edition</span><br><span>- bunker under the red tree</span><br><span>- eastern side of Koolauloa Mountain</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        { "coords": [3108.816877, 2276.4375], "icon_name": "collectible", "challenge_name": "Wild Look" },
+        { "coords": [2524.583663, 1801.708078], "icon_name": "collectible", "challenge_name": "Wild Look" },
+        { "coords": [2560.758156, 2480.75], "icon_name": "collectible", "challenge_name": "Wild Look" },
+        { "coords": [2070.271057, 2830.375], "icon_name": "collectible", "challenge_name": "Wild Look" },
+        { "coords": [2006.642472, 3502], "icon_name": "collectible", "challenge_name": "Wild Look" },
+        { "coords": [1573.080565, 3870.348967], "icon_name": "collectible", "challenge_name": "Wild Look" },
+        { "coords": [1106.303566, 3527.931558], "icon_name": "collectible", "challenge_name": "Wild Look" },
+        { "coords": [1118.63864, 3132.5], "icon_name": "collectible", "challenge_name": "Wild Look" },
+        { "coords": [2267.616911, 1378.946612], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [2714.361993, 1086.25], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [2507.377215, 1499.25], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [2861.747996, 1684.125], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [2866.998829, 2358.643057], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [2860.378709, 2384.0625], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [2570.47653, 2499.799248], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [2760.511531, 2665.25], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [1776.065154, 3047.3125], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [1727.202282, 3197.375], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [1646.255168, 3647.6875], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [1347.269217, 3773.121784], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [2465.240249, 2913.600967], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [2090.678602, 3613.580817], "icon_name": "collectible", "challenge_name": "Wild Raider" },
+        { "coords": [1861.407332, 1656.486023], "icon_name": "collectible", "challenge_name": "Wild Tiki" },
+        { "coords": [2589.978164, 1668.41845], "icon_name": "collectible", "challenge_name": "Wild Tiki" },
+        { "coords": [2565.881468, 1534.625], "icon_name": "collectible", "challenge_name": "Wild Tiki" },
+        { "coords": [3156.733232, 2290.561554], "icon_name": "collectible", "challenge_name": "Wild Tiki" },
+        { "coords": [2472.766311, 2333.125], "icon_name": "collectible", "challenge_name": "Wild Tiki" },
+        { "coords": [1796.820076, 2912.25], "icon_name": "collectible", "challenge_name": "Wild Tiki" },
+        { "coords": [1839.640608, 3101.625], "icon_name": "collectible", "challenge_name": "Wild Tiki" },
+        { "coords": [1990.063924, 2950.5625], "icon_name": "collectible", "challenge_name": "Wild Tiki" },
+        { "coords": [2173.383191, 1391.8125], "icon_name": "collectible", "challenge_name": "Wild Chimney" },
+        { "coords": [1650.440106, 3107.027197], "icon_name": "collectible", "challenge_name": "Wild Chimney" },
+        { "coords": [1554.021444, 2718.375], "icon_name": "collectible", "challenge_name": "Wild Chimney" },
+        { "coords": [1178.517924, 3135.716186], "icon_name": "collectible", "challenge_name": "Wild Chimney" },
+        { "coords": [1401.086435, 3801.406056], "icon_name": "collectible", "challenge_name": "Wild Chimney" }
+    ]
+}

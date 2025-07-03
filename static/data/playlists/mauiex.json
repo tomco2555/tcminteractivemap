@@ -1,0 +1,222 @@
+{
+    "Container": {
+        "coords": [645.944847, 4975.9375]
+    },
+
+    "Events": [
+        {
+            "coords": [585.850198, 5174.519036],
+            "name": "The Maui Big Tour",
+            "type": "Time Attack",
+            "weather": "Midday",
+            "car": "Porsche 178 Spyder Fitted Edition",
+            "category": "Street Tier 2",
+            "xp": "40,080",
+            "bucks": "75,150"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [979.356414, 5426.514216],
+            "icon_name": "escape",
+            "name": "Kula Reserve",
+            "type": "Escape",
+            "objective": "710 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1781.728186, 4719.849376],
+            "icon_name": "escape",
+            "name": "Kahana Beach",
+            "type": "Escape",
+            "objective": "900 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1938.227677, 4989.375],
+            "icon_name": "speedtrap",
+            "name": "Honokohau",
+            "type": "Speedtrap",
+            "objective": "140.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [657.350849, 4936.482406],
+            "icon_name": "speedtrap",
+            "name": "Kihei",
+            "type": "Speedtrap",
+            "objective": "160.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [332.208693, 5896.534829],
+            "icon_name": "speedtrap",
+            "name": "Ohe'o Gulch",
+            "type": "Speedtrap",
+            "objective": "150.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [742.835808, 5282.794762],
+            "icon_name": "photo_op",
+            "name": "Haleakala Observatory",
+            "requirements": "<span>- Street Tier 2</span><br><span>- beside Haleakala Observatory</span><br><span>- Night</span><br>"
+        },
+        {
+            "coords": [1623.428856, 4987.312516],
+            "icon_name": "photo_op",
+            "name": "Iao Lake Dam",
+            "requirements": "<span>- Hypercar</span><br><span>- Iao Lake Dam</span><br><span>- Midday</span><br>"
+        },
+        {
+            "coords": [228.798162, 5638.292696],
+            "icon_name": "photo_op",
+            "name": "Kalepa Sunset",
+            "requirements": "<span>- Street Tier 1</span><br><span>- Kalepa Sunset Rocks</span><br><span>- Midday</span><br>"
+        },
+        {
+            "coords": [1881.516443, 4726.03656],
+            "icon_name": "photo_op",
+            "name": "Kapalua Labyrinth",
+            "requirements": "<span>- Street Tier 1</span><br><span>- Kapalua Labyrinth</span><br><span>- Dusk</span><br>"
+        },
+        {
+            "coords": [570.988531, 6124.248592],
+            "icon_name": "photo_op",
+            "name": "Wai'anapanapa Sea Arch",
+            "requirements": "<span>- Motocross</span><br><span>- Wai'anapanapa Sea Arch</span><br><span>- Sunset</span><br>"
+        },
+        {
+            "coords": [897.863997, 6056.929138],
+            "icon_name": "photo_op",
+            "name": "Honomanu Beach",
+            "requirements": "<span>- Rally Raid</span><br><span>- Honomanu Beach</span><br><span>- Midday</span><br>"
+        },
+        {
+            "coords": [371.915941, 5858.945773],
+            "icon_name": "photo_op",
+            "name": "Seven Sacred Pool",
+            "requirements": "<span>- Hypercar</span><br><span>- on the bridge in front of Seven Sacred Pools</span><br><span>- Midday</span><br>"
+        },
+        {
+            "coords": [1288.141545, 5847.593672],
+            "icon_name": "photo_op",
+            "name": "Twin Falls",
+            "requirements": "<span>- Street Tier 2</span><br><span>- Twin Falls</span><br><span>- Sunrise</span><br>"
+        },
+        {
+            "coords": [1953.596959, 5190.748459],
+            "icon_name": "photo_op",
+            "name": "Pu'u Koa'e Aech",
+            "requirements": "<span>- Motocross</span><br><span>- Pu'u Koa'e Aech</span><br><span>- Afternoon</span><br>"
+        },
+        {
+            "coords": [772.836601, 5815.668745],
+            "icon_name": "photo_op",
+            "name": "Pu'Unianiau Crater",
+            "requirements": "<span>- Monster Truck</span><br><span>- Pu'Unianiau Crater</span><br><span>- Sunset</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1245.38748, 4919.125],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Lighthouses"
+        },
+        {
+            "coords": [1505.255484, 4609.4375],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Lighthouses"
+        },
+        {
+            "coords": [2037.799246, 4977.943351],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Lighthouses"
+        },
+        {
+            "coords": [1821.145741, 5364.75],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Lighthouses"
+        },
+        {
+            "coords": [830.918693, 6151.577726],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Lighthouses"
+        },
+        {
+            "coords": [156.964988, 5440.074246],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Lighthouses"
+        },
+        {
+            "coords": [472.53487, 6077.936338],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Fun Hook"
+        },
+        {
+            "coords": [591.631363, 4938],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Fun Dolphins"
+        },
+        {
+            "coords": [1651.230841, 5296],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Street Lava"
+        },
+        {
+            "coords": [1686.785031, 5354.831266],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Cowboys"
+        },
+        {
+            "coords": [491.709747, 6089.338435],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Jaws"
+        },
+        {
+            "coords": [1357.195323, 4799.752442],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Sea Turbines"
+        },
+        {
+            "coords": [1770.029752, 4944.267391],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Mountain Tiki"
+        },
+        {
+            "coords": [1578.727361, 5161.375],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle City Tiki"
+        },
+        {
+            "coords": [879.995272, 5670.0625],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Tree Tiki"
+        },
+        {
+            "coords": [779.745254, 5306.25],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Volcano Tiki"
+        },
+        {
+            "coords": [665.759421, 5350.875],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Sky Tiki"
+        },
+        {
+            "coords": [605.753921, 4995.115836],
+            "icon_name": "collectible",
+            "challenge_name": "Valley Isle Wonders"
+        }
+    ]
+}

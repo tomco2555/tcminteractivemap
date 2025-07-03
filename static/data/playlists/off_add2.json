@@ -1,0 +1,237 @@
+{
+    "Container": {
+        "coords": [2807.95944, 1561.114996]
+    },
+
+    "Events": [
+        {
+            "coords": [2588.767026, 1776.782564],
+            "name": "Life Of Pierce",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Ivory Tower IVT Falcon S-1000 Adventure Edition",
+            "category": "Rally Raid",
+            "xp": "7,200",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [2601.636706, 1556.375],
+            "name": "Jungle Bruise",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Land Rover Defender Works V8 Pierce Edition",
+            "category": "Rally Raid",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [3017.257106, 2630.967556],
+            "name": "Blue Rush",
+            "type": "Time Attack",
+            "weather": "Afternoon",
+            "car": "Peugeot 3008 DKR Maxi",
+            "category": "Rally Raid",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2840.080852, 1891.176038],
+            "name": "Wetter World",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Jeep Wrangler Unlimited Rubicon 392",
+            "category": "Rally Raid",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [2151.913295, 2789.285288],
+            "name": "Boyz N The Mud",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "KTM 450 EXC Nighthawk Edition",
+            "category": "Motocross",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1920.731605, 3545.769664],
+            "name": "The Goats And The Darkness",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Jeep Gladiator",
+            "category": "Rally Raid",
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [1647.970517, 3094.316913],
+            "name": "The KTM Strikes Back... Again",
+            "type": "Time Attack",
+            "weather": "Sunrise",
+            "car": "KTM 450 EXC",
+            "category": "Motocross",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1810.832538, 1589.189113],
+            "name": "Big Trouble In Little Mauna",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Hummer HX Concept",
+            "category": "Rally Raid",
+            "xp": "7,200",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [3029.195075, 2235.114773],
+            "name": "Green Planet",
+            "type": "Live Event",
+            "weather": "Midday",
+            "car": "Audi S1 EKS RX Quattro",
+            "category": "Rally",
+            "xp": "9,600",
+            "bucks": "18,000"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [3060.389239, 2131.462189],
+            "icon_name": "escape",
+            "name": "Waimea",
+            "type": "Escape",
+            "objective": "390 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2604.320591, 2416.007095],
+            "icon_name": "escape",
+            "name": "Wahiawa Edge",
+            "type": "Escape",
+            "objective": "520 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2536.249135, 2792.629844],
+            "icon_name": "speedtrap",
+            "name": "Hindu Monastery",
+            "type": "Speedtrap",
+            "objective": "150.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1585.388867, 3206.198923],
+            "icon_name": "slalom",
+            "name": "Waimanalo Road",
+            "type": "Slalom",
+            "objective": "4,850 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1609.227326, 2032.446636],
+            "icon_name": "speedtrap",
+            "name": "Mililani Waipio",
+            "type": "Speedtrap",
+            "objective": "140.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [2656.053782, 1324.25],
+            "icon_name": "slalom",
+            "name": "Kuaokala Meadows",
+            "type": "Slalom",
+            "objective": "4,960 PTS",
+            "xp": "1,920",
+            "bucks": "3,600"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1549.515679, 3538.75],
+            "icon_name": "photo_op",
+            "name": "Kuapa River Gorge",
+            "requirements": "<span>- Jeep Wrangler 392 Unlimited Edition</span><br><span>- Drift</span><br><span>- Sunset</span><br><span>- Kuapa River Gorge</span><br>"
+        },
+        {
+            "coords": [2723.428237, 1411.11997],
+            "icon_name": "photo_op",
+            "name": "Makaleha River Gorge",
+            "requirements": "<span>- Rally Raid vehicle</span><br><span>- Dusk</span><br><span>- Makaleha River Gorge</span><br>"
+        },
+        {
+            "coords": [2599.50581, 1644.730373],
+            "icon_name": "photo_op",
+            "name": "Peacock River Gorge",
+            "requirements": "<span>- Rally vehicle</span><br><span>- Burnout</span><br><span>- Morning</span><br><span>- Peacock River Gorge</span><br>"
+        },
+        {
+            "coords": [1613.651084, 1844],
+            "icon_name": "photo_op",
+            "name": "Makakilo River Gorge",
+            "requirements": "<span>- Motocross</span><br><span>- Wheelie</span><br><span>- Makakilo River Gorge</span><br>"
+        },
+        {
+            "coords": [1651.68331, 1706.602216],
+            "icon_name": "photo_op",
+            "name": "Nanakuli River Gorge",
+            "requirements": "<span>- Motocross</span><br><span>- Burnout</span><br><span>- Nanakuli River Gorge</span><br>"
+        },
+        {
+            "coords": [1772.58624, 2923.35621],
+            "icon_name": "photo_op",
+            "name": "Manoa Canyon",
+            "requirements": "<span>- Rally Raid vehicle</span><br><span>- Midday</span><br><span>- Manoa Canyon</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1504.262163, 3533.375],
+            "icon_name": "collectible",
+            "challenge_name": "Wilder Fauna"
+        },
+        {
+            "coords": [2900.37726, 2301.279019],
+            "icon_name": "collectible",
+            "challenge_name": "Wilder Fauna"
+        },
+        {
+            "coords": [2354.185594, 1730.46707],
+            "icon_name": "collectible",
+            "challenge_name": "Wilder Fauna"
+        },
+        {
+            "coords": [2175.317806, 1413.152902],
+            "icon_name": "collectible",
+            "challenge_name": "Wilder Fauna"
+        },
+        {
+            "coords": [2029.525241, 3566.75],
+            "icon_name": "collectible",
+            "challenge_name": "Wilder Supply Shortages"
+        },
+        {
+            "coords": [3127.374445, 2382.596299],
+            "icon_name": "collectible",
+            "challenge_name": "Wilder Supply Shortages"
+        },
+        {
+            "coords": [3174.874508, 2187.75],
+            "icon_name": "collectible",
+            "challenge_name": "Wilder Supply Shortages"
+        },
+        {
+            "coords": [2638.148448, 1504.25],
+            "icon_name": "collectible",
+            "challenge_name": "Wilder Supply Shortages"
+        }
+    ]
+}

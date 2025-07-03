@@ -1,0 +1,375 @@
+{
+    "Container": {
+        "coords": [1968.091024, 3586.268817]
+    },
+
+    "Events": [
+        {
+            "coords": [1721.68757, 3709.9375],
+            "name": "Rocket Start",
+            "type": "Race",
+            "weather": "Afternoon",
+            "boat": "Proto WR1",
+            "category": "Powerboat",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1707.561059, 3562.1875],
+            "name": "Staggering Blue",
+            "type": "Time Attack",
+            "weather": "Morning",
+            "plane": "Beechcraft Model 17 Staggerwing",
+            "category": "Plane",
+            "xp": "18,000",
+            "bucks": "33,750"
+        },
+        {
+            "coords": [1281.445809, 3684.981222],
+            "name": "Hanauma Waters",
+            "type": "Race",
+            "weather": "Afternoon",
+            "boat": "Ice Marine Bladerunner 35",
+            "category": "Powerboat",
+            "xp": "14,400",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [2048.697321, 3191.014317],
+            "name": "Airwalker",
+            "type": "Time Attack",
+            "weather": "Morning",
+            "plane": "Zivko Edge 540 V3",
+            "category": "Plane",
+            "xp": "21,600",
+            "bucks": "40,500"
+        },
+        {
+            "coords": [3254.321684, 2269.264089],
+            "name": "Yacht Surfin'",
+            "type": "Race",
+            "weather": "Afternoon",
+            "boat": "Lamborghini Tecnomar for Lamborghini 63",
+            "category": "Powerboat",
+            "xp": "14,400",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [2457.365246, 1774.594317],
+            "name": "Red Winds",
+            "type": "Time Attack",
+            "weather": "Sunset",
+            "plane": "Grumman F8F Bearcat",
+            "category": "Plane",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1498.549154, 2195.160092],
+            "name": "Deep Sport",
+            "type": "Race",
+            "weather": "Sunrise",
+            "boat": "DCB M31 Widebody",
+            "category": "Powerboat",
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [1227.957576, 2393.650946],
+            "name": "Skyline Ride",
+            "type": "Time Attack",
+            "weather": "Afternoon",
+            "plane": "Granville Brothers Aircraft Gee Bee R-1",
+            "category": "Plane",
+            "xp": "9,600",
+            "bucks": "18,000"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [2999.88017, 2026.350137],
+            "icon_name": "bullseye",
+            "name": "Haleiwa Beach",
+            "type": "Bullseye",
+            "objective": "3,900 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        },
+        {
+            "coords": [2876.032686, 1810.900467],
+            "icon_name": "buoy_smashing",
+            "name": "Haleiwa Waters",
+            "type": "Buoy Smashing",
+            "objective": "16,890 PTS",
+            "xp": "5,760",
+            "bucks": "10,800"
+        },
+        {
+            "coords": [2646.887866, 1124.5],
+            "icon_name": "bullseye",
+            "name": "Kaena",
+            "type": "Bullseye",
+            "objective": "4,110 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        },
+        {
+            "coords": [2064.322628, 1258.25],
+            "icon_name": "slalom",
+            "name": "Kaimu Waters",
+            "type": "Slalom",
+            "objective": "5,540 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        },
+        {
+            "coords": [2176.533467, 1416],
+            "icon_name": "low_altitude",
+            "name": "Nunui Crater",
+            "type": "Low Altitude",
+            "objective": "3,660 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1991.142155, 2090],
+            "icon_name": "escape",
+            "name": "Kunia Fields",
+            "type": "Escape",
+            "objective": "1510 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1377.87461, 2255.777246],
+            "icon_name": "buoy_smashing",
+            "name": "Pearl Harbor",
+            "type": "Buoy Smashing",
+            "objective": "17,420 PTS",
+            "xp": "5,760",
+            "bucks": "10,800"
+        },
+        {
+            "coords": [1432.117595, 3598.094777],
+            "icon_name": "low_altitude",
+            "name": "Kuapa",
+            "type": "Low Altitude",
+            "objective": "2,880 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1855.071714, 3660],
+            "icon_name": "slalom",
+            "name": "Waimanalo Bay",
+            "type": "Slalom",
+            "objective": "2,350 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1846.833198, 3448.029442],
+            "icon_name": "speedtrap",
+            "name": "Waimanalo",
+            "type": "Speedtrap",
+            "objective": "220.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [2196.494816, 2715.29004],
+            "icon_name": "low_altitude",
+            "name": "Mililani",
+            "type": "Low Altitude",
+            "objective": "3,190 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [3319.451909, 2484.75],
+            "icon_name": "slalom",
+            "name": "Kahuku",
+            "type": "Slalom",
+            "objective": "4,720 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2813.502953, 2887.5],
+            "icon_name": "buoy_smashing",
+            "name": "Ma'akua Waters",
+            "type": "Buoy Smashing",
+            "objective": "16,990 PTS",
+            "xp": "5,760",
+            "bucks": "10,800"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [3123.50689, 1866.25],
+            "icon_name": "photo_op",
+            "name": "Lighthouse",
+            "requirements": "<span>- Proto WR1</span><br><span>- Lighthouse</span><br><span>- Laniakea Island</span><br>"
+        },
+        {
+            "coords": [1779.9134, 3053.287081],
+            "icon_name": "photo_op",
+            "name": "Stairway To Heaven",
+            "requirements": "<span>- Grumman F8F Bearcat</span><br><span>- Stairway To Heaven Antenna</span><br><span>- south west of Kaneohe</span><br>"
+        },
+        {
+            "coords": [1502.50225, 2249],
+            "icon_name": "photo_op",
+            "name": "Submarine",
+            "requirements": "<span>- Proto WR1</span><br><span>- USS Submarine Museum</span><br><span>- Pearl Harbor</span><br>"
+        },
+        {
+            "coords": [3177.426998, 2176.121119],
+            "icon_name": "photo_op",
+            "name": "Kawela Arch",
+            "requirements": "<span>- Grumman F8F Bearcat</span><br><span>- Natural Arch</span><br><span>- Waimea Bay</span><br><span>- Low Altitude</span><br>"
+        },
+        {
+            "coords": [2913.716779, 2025.375],
+            "icon_name": "photo_op",
+            "name": "Rainbow Bridge",
+            "requirements": "<span>- Proto WR1</span><br><span>- Rainbow Bridge</span><br><span>- Haleiwa</span><br>"
+        },
+        {
+            "coords": [2582.405084, 3171.5],
+            "icon_name": "photo_op",
+            "name": "Chinaman's Hat",
+            "requirements": "<span>- Grumman F8F Bearcat</span><br><span>- Chinaman's Hat</span><br><span>- off the coast of Kualoa</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [3061.278157, 2429.265347],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Seeker"
+        },
+        {
+            "coords": [1864.496947, 1707.220935],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Seeker"
+        },
+        {
+            "coords": [2093.034873, 2775.25],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Seeker"
+        },
+        {
+            "coords": [2114.818371, 2663.125],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Seeker"
+        },
+        {
+            "coords": [1640.63639, 2752.875],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Seeker"
+        },
+        {
+            "coords": [1811.523342, 2210.5],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Seeker"
+        },
+        {
+            "coords": [1507.322592, 1710.049362],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Seeker"
+        },
+        {
+            "coords": [2741.724267, 1400.25],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Seeker"
+        },
+        {
+            "coords": [1581.366098, 3872.65297],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Lost Souls"
+        },
+        {
+            "coords": [1045.634654, 3547.9522],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Lost Souls"
+        },
+        {
+            "coords": [1078.267893, 3393.75],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Lost Souls"
+        },
+        {
+            "coords": [1083.270987, 3149.5],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Lost Souls"
+        },
+        {
+            "coords": [1224.586091, 1693.520741],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Lost Souls"
+        },
+        {
+            "coords": [2721.64575, 990.163574],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Lost Souls"
+        },
+        {
+            "coords": [2965.796906, 1751.166785],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Lost Souls"
+        },
+        {
+            "coords": [3134.117899, 1865],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Lost Souls"
+        },
+        {
+            "coords": [3249.758718, 2560.5],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Lost Souls"
+        },
+        {
+            "coords": [1481.005565, 3728.927611],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Watcher"
+        },
+        {
+            "coords": [2090.633718, 1913.625],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Watcher"
+        },
+        {
+            "coords": [2567.187145, 1514.269172],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Watcher"
+        },
+        {
+            "coords": [2798.926875, 1605.662723],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Watcher"
+        },
+        {
+            "coords": [2404.198609, 1959.746444],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Watcher"
+        },
+        {
+            "coords": [2758.577791, 2672.510079],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Watcher"
+        },
+        {
+            "coords": [2632.002988, 2619.125],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Watcher"
+        },
+        {
+            "coords": [2351.013656, 2738.978117],
+            "icon_name": "collectible",
+            "challenge_name": "ONS Watcher"
+        }
+    ]
+}

@@ -1,0 +1,217 @@
+{
+    "Container": {
+        "coords": [1400.43992, 5347.495033]
+    },
+
+    "Events": [
+        {
+            "coords": [1385.940402, 5378.519343],
+            "name": "Day One",
+            "type": "Target Smash",
+            "weather": "Afternoon",
+            "car": "Audi RS 6 Avant Chase Squad Ed.",
+            "category": "Street Tier 2",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1346.165273, 5375.867692],
+            "name": "Training Beasts",
+            "type": "Target Smash",
+            "weather": "Afternoon",
+            "car": "Audi RS 6 Avant Chase Squad Ed.",
+            "category": "Street Tier 2",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1490.234129, 4609.010388],
+            "name": "Dog Eat Dog",
+            "type": "Pursuit",
+            "weather": "Dawn",
+            "car": "Ford Mustang Dark Horse Chase Squad Ed.",
+            "category": "Street Tier 2",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1493.240948, 5344.047887],
+            "name": "First Night Out",
+            "type": "Navigation",
+            "weather": "Dawn",
+            "car": "Ivory Tower Ogmios Chase Squad Ed.",
+            "category": "Street Tier 2",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1508.614803, 5430.049749],
+            "name": "Encounter",
+            "type": "Time Attack",
+            "weather": "Night",
+            "car": "Ivory Tower Ogmios Chase Squad Ed.",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [206.63594, 5517.475061],
+            "name": "Chase Squad Assemble",
+            "type": "Pursuit",
+            "weather": "Dawn",
+            "car": "Ivory Tower Aezus Chase Squad Ed.",
+            "category": "Hypercar",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [734.939713, 5740.904939],
+            "name": "Night Off?",
+            "type": "Time Attack / Pursuit",
+            "weather": "Dawn",
+            "car": "Multi Vehicle",
+            "category": "Rally Raid",
+            "xp": "18,000",
+            "bucks": "33,750"
+        },
+        {
+            "coords": [832.158753, 5982.24221],
+            "name": "Dogged Mindset",
+            "type": "Pursuit",
+            "weather": "Night",
+            "car": "Porsche 911 GT3 RS Chase Squad Ed.",
+            "category": "Hypercar",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1664.340936, 5077.5],
+            "name": "Dogs V Cats",
+            "type": "Time Attack / Pursuit",
+            "weather": "Dawn",
+            "car": "Multi Vehicle",
+            "category": "Helicopter",
+            "xp": "28,800",
+            "bucks": "54,000"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [1326.022428, 5065.75],
+            "icon_name": "slalom",
+            "name": "Kealaloloa",
+            "type": "Slalom",
+            "objective": "5,440 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [414.756358, 5368.354683],
+            "icon_name": "slalom",
+            "name": "Kahikinui",
+            "type": "Slalom",
+            "objective": "5,060 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [768.657436, 4463.96511],
+            "icon_name": "slalom",
+            "name": "Hanawi",
+            "type": "Slalom",
+            "objective": "5,110 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1334.692785, 4995.355856],
+            "icon_name": "speedtrap",
+            "name": "Olowalu",
+            "type": "Speedtrap",
+            "objective": "200.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1747.451653, 5367.647576],
+            "icon_name": "speedtrap",
+            "name": "Waiehu",
+            "type": "Speedtrap",
+            "objective": "200.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [951.785067, 5102.65931],
+            "icon_name": "escape",
+            "name": "Auwahi",
+            "type": "Escape",
+            "objective": "960 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1645.618085, 5282.441209],
+            "icon_name": "photo_op",
+            "name": "Maui County Mayor",
+            "requirements": "<span>- Street Tier 2 chase vehicle</span><br><span>- Maui County Mayor building</span><br>"
+        },
+        {
+            "coords": [537.256714, 6081.875],
+            "icon_name": "photo_op",
+            "name": "Hana Police Station",
+            "requirements": "<span>- Street Tier 2 chase vehicle</span><br><span>- Hana Police Station</span><br>"
+        },
+        {
+            "coords": [1686.781799, 5354.212547],
+            "icon_name": "photo_op",
+            "name": "Maui Paniolos Mural",
+            "requirements": "<span>- Hypercar chase vehicle</span><br><span>- Maui Paniolos Mural in Kahului</span><br>"
+        },
+        {
+            "coords": [1366.859382, 5353.682217],
+            "icon_name": "photo_op",
+            "name": "Chase Squad HQ",
+            "requirements": "<span>- Hypercar chase vehicle</span><br><span>- Chase Squad HQ</span><br>"
+        },
+        {
+            "coords": [1651.964993, 5368.177906],
+            "icon_name": "photo_op",
+            "name": "Queen Ka'ahumanu Center",
+            "requirements": "<span>- Street Tier 2 chase vehicle</span><br><span>- Queen Ka'ahumanu Center</span><br>"
+        },
+        {
+            "coords": [1213.432324, 5255.924705],
+            "icon_name": "photo_op",
+            "name": "Chase Speed",
+            "requirements": "<span>- Hypercar chase vehicle</span><br><span>- High Speed</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1772.544324, 5377.193518],
+            "icon_name": "collectible",
+            "challenge_name": "Code 10 - Gordon"
+        },
+        {
+            "coords": [1691.085142, 5376.309634],
+            "icon_name": "collectible",
+            "challenge_name": "Code 10 - Gordon"
+        },
+        {
+            "coords": [1538.012433, 5323.983732],
+            "icon_name": "collectible",
+            "challenge_name": "Code 10 - Gordon"
+        },
+        {
+            "coords": [1592.273781, 5212.437638],
+            "icon_name": "collectible",
+            "challenge_name": "Code 10 - Gordon"
+        }
+    ]
+}

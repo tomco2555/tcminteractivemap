@@ -1,0 +1,206 @@
+{
+    "Container": {
+        "coords": [738.41363, 5319.917868]
+    },
+
+    "Events": [
+        {
+            "coords": [697.144878, 5475.625],
+            "name": "Rally Blast",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Ford Puma Hybrid Rally1",
+            "category": "Rally",
+            "xp": "10,000",
+            "bucks": "18,750"
+        },
+        {
+            "coords": [744.328628, 5374.011537],
+            "name": "The Dirt Clash",
+            "type": "Choose Your Ride",
+            "weather": "Sunset",
+            "car": "Multi Vehicle",
+            "category": "Multi Category",
+            "xp": "9,000",
+            "bucks": "16,875"
+        },
+        {
+            "coords": [643.37391, 5460.625],
+            "name": "Moto Rush",
+            "type": "Time Attack",
+            "weather": "Afternoon",
+            "car": "KTM RC16 Red Bull Team",
+            "category": "Racing",
+            "xp": "10,000",
+            "bucks": "18,750"
+        },
+        {
+            "coords": [631.00239, 5460.625],
+            "name": "The Asphalt Clash",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Multi Vehicle",
+            "category": "Multi Category",
+            "xp": "10,000",
+            "bucks": "18,750"
+        },
+        {
+            "coords": [666.255554, 5495.5625],
+            "name": "Alpha Nitro",
+            "type": "Street Versus",
+            "weather": "Afternoon",
+            "car": "Red Bull RB20",
+            "category": "Alpha GP",
+            "xp": "9,000",
+            "bucks": "16,875"
+        },
+        {
+            "coords": [678.189697, 5497.8125],
+            "name": "The High Clash",
+            "type": "Choose Your Ride",
+            "weather": "Night",
+            "car": "Multi Vehicle",
+            "category": "Multi Category",
+            "xp": "10,000",
+            "bucks": "18,750"
+        },
+        {
+            "coords": [712.007417, 5402.5],
+            "name": "Speed War",
+            "type": "Choose Your Ride",
+            "weather": "TBD",
+            "car": "Multi Vehicle",
+            "category": "Multi Category",
+            "xp": "10,000",
+            "bucks": "18,750"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [750.436013, 5254.864044],
+            "icon_name": "long_jump",
+            "name": "Observatory",
+            "type": "Long Jump",
+            "objective": "360 m",
+            "xp": "1,600",
+            "bucks": "3,000"
+        },
+        {
+            "coords": [701.104427, 5495.633903],
+            "icon_name": "long_jump",
+            "name": "Red Hill",
+            "type": "Long Jump",
+            "objective": "270 m",
+            "xp": "1,600",
+            "bucks": "3,000"
+        },
+        {
+            "coords": [594.891512, 5460.455341],
+            "icon_name": "long_jump",
+            "name": "Caldera",
+            "type": "Long Jump",
+            "objective": "390 m",
+            "xp": "1,600",
+            "bucks": "3,000"
+        },
+        {
+            "coords": [674.234668, 5485.380855],
+            "icon_name": "escape",
+            "name": "Motorfest Gate",
+            "type": "Escape",
+            "objective": "820 m",
+            "xp": "2,400",
+            "bucks": "4,500"
+        },
+        {
+            "coords": [638.448573, 5453.56105],
+            "icon_name": "slalom",
+            "name": "Paddocks",
+            "type": "Slalom",
+            "objective": "5,600 PTS",
+            "xp": "2,400",
+            "bucks": "4,500"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [510.415884, 5446.5],
+            "icon_name": "photo_op",
+            "name": "Glass Turn",
+            "requirements": "<span>- Ford Puma Hybrid Rally1</span><br><span>- Nitro</span><br><span>- Red Bull glass turn</span><br>"
+        },
+        {
+            "coords": [688.383913, 5451.97006],
+            "icon_name": "photo_op",
+            "name": "RB Cannon",
+            "requirements": "<span>- Ferrari 488 GT3 AF Corse</span><br><span>- Jumping from the Red Bull cannon</span><br><span>- Red Bull playground</span><br>"
+        },
+        {
+            "coords": [725.850033, 5393.280197],
+            "icon_name": "photo_op",
+            "name": "RB Drift",
+            "requirements": "<span>- Ford Puma Hybrid Rally1</span><br><span>- Drifting</span><br><span>- Red Bull playground</span><br>"
+        },
+        {
+            "coords": [697.92717, 5413.43274],
+            "icon_name": "photo_op",
+            "name": "RB Speed",
+            "requirements": "<span>- Red Bull vehicle</span><br><span>- High Speed</span><br><span>- Red Bull playground</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [715.599868, 5358.985518],
+            "icon_name": "collectible",
+            "challenge_name": "Apex Pylons"
+        },
+        {
+            "coords": [730.621114, 5394.16408],
+            "icon_name": "collectible",
+            "challenge_name": "Apex Pylons"
+        },
+        {
+            "coords": [688.893139, 5412.75],
+            "icon_name": "collectible",
+            "challenge_name": "Apex Pylons"
+        },
+        {
+            "coords": [702.696959, 5461.162448],
+            "icon_name": "collectible",
+            "challenge_name": "Apex Pylons"
+        },
+        {
+            "coords": [716.835117, 5487.413787],
+            "icon_name": "collectible",
+            "challenge_name": "Apex Pylons"
+        },
+        {
+            "coords": [593.391382, 5431.75],
+            "icon_name": "collectible",
+            "challenge_name": "Apex Pylons"
+        },
+        {
+            "coords": [641.820585, 5458.6875],
+            "icon_name": "collectible",
+            "challenge_name": "Apex Pylons"
+        },
+        {
+            "coords": [616.642106, 5432.347846],
+            "icon_name": "collectible",
+            "challenge_name": "Apex Shelters"
+        },
+        {
+            "coords": [543.442807, 5434.734332],
+            "icon_name": "collectible",
+            "challenge_name": "Apex Shelters"
+        },
+        {
+            "coords": [750.495989, 5335.739382],
+            "icon_name": "collectible",
+            "challenge_name": "Apex Shelters"
+        }
+    ]
+}

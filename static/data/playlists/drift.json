@@ -1,0 +1,273 @@
+{
+    "Container": {
+        "coords": [1613.32165, 2627.255819]
+    },
+
+    "Events": [
+        {
+            "coords": [1349.55225, 3377.672317],
+            "name": "Initial Drill",
+            "type": "Drift Trial",
+            "weather": "Sunrise",
+            "car": "Nissan 370Z Nismo",
+            "category": "Drift",
+            "xp": "7,200",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [1782.497856, 2362.25],
+            "name": "Wind Slider",
+            "type": "Drift Trial",
+            "weather": "Sunset",
+            "car": "BMW M5",
+            "category": "Drift",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1750.124613, 1456.625],
+            "name": "Dream Spiral",
+            "type": "Drift Trial",
+            "weather": "Morning",
+            "car": "Creators DeLorean DMC-12 Outadrift",
+            "category": "Drift",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2650.859392, 1825.375],
+            "name": "Silver Shadow",
+            "type": "Drift Race",
+            "weather": "Dusk",
+            "car": "Shelby GT 500",
+            "category": "Drift",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2350.133578, 1535.5],
+            "name": "Hawai'i Red Sun",
+            "type": "Drift Race",
+            "weather": "Afternoon",
+            "car": "Toyota GR Supra",
+            "category": "Drift",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1398.016607, 1673.544974],
+            "name": "Diffracted Blue",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Lamborghini Aventador LP 700-4",
+            "category": "Drift",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [2150.000703, 2676.75],
+            "name": "Skyline Juku",
+            "type": "Race",
+            "weather": "Dusk",
+            "car": "Nissan Skyline GT-R (R34)",
+            "category": "Drift",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2841.523695, 2175.060459],
+            "name": "Drift Emperor",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Mazda RX7",
+            "category": "Drift",
+            "xp": "9,600",
+            "bucks": "18,000"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [2712.665913, 2273.525078],
+            "icon_name": "bullseye",
+            "name": "Koolauloa",
+            "type": "Bullseye",
+            "objective": "7,740 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        },
+        {
+            "coords": [2590.010019, 1435.5],
+            "icon_name": "bullseye",
+            "name": "Kuaokala",
+            "type": "Bullseye",
+            "objective": "6,850 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        },
+        {
+            "coords": [2447.695047, 1536.896589],
+            "icon_name": "slalom",
+            "name": "Mauna Pele North Road",
+            "type": "Slalom",
+            "objective": "6,490 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2079.176896, 1276.690982],
+            "icon_name": "escape",
+            "name": "Kaimu Black Beach",
+            "type": "Escape",
+            "objective": "550 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1903.124549, 1316.632827],
+            "icon_name": "buoy_smashing",
+            "name": "Kaimu Waters",
+            "type": "Buoy Smashing",
+            "objective": "19,820 PTS",
+            "xp": "5,760",
+            "bucks": "10,800"
+        },
+        {
+            "coords": [1410.258349, 1767.125],
+            "icon_name": "slalom",
+            "name": "Kalaeloa Fields",
+            "type": "Slalom",
+            "objective": "8,250 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1993.554474, 2423.078162],
+            "icon_name": "escape",
+            "name": "Mililani Heritage",
+            "type": "Escape",
+            "objective": "720 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1525.543362, 2666.202352],
+            "icon_name": "escape",
+            "name": "Nuuanu Punchbowl",
+            "type": "Escape",
+            "objective": "600 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1381.809175, 3120.904167],
+            "icon_name": "slalom",
+            "name": "Kaimuki",
+            "type": "Slalom",
+            "objective": "7,710 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1615.004851, 2863.25],
+            "icon_name": "photo_op",
+            "name": "HNL Mountain Roads",
+            "requirements": "<span>- Nissan 370Z Nismo Drift</span><br><span>- Manoa mountain roads north of Honolulu</span><br>"
+        },
+        {
+            "coords": [1415.281933, 2103.712607],
+            "icon_name": "photo_op",
+            "name": "Ewa Shopping Mall",
+            "requirements": "<span>- Mitsubishi Lancer Evolution X Drift</span><br><span>- Night</span><br><span>- Ewa Mall parking lot</span><br>"
+        },
+        {
+            "coords": [1748.276925, 2109.058818],
+            "icon_name": "photo_op",
+            "name": "Central Industrial Zone",
+            "requirements": "<span>- Mitsubishi Lancer Evolution X Drift</span><br><span>- Central Industrial Zone in the Mililani Waipio area</span><br><span>- west of Honouliuli Gulch</span><br>"
+        },
+        {
+            "coords": [1855.0412, 1427.5],
+            "icon_name": "photo_op",
+            "name": "Southern Volcano Roads",
+            "requirements": "<span>- Drift car</span><br><span>- winding road south of the Mauna Pele volcano</span><br>"
+        },
+        {
+            "coords": [2513.416305, 1287.287895],
+            "icon_name": "photo_op",
+            "name": "Northern Volcano Roads",
+            "requirements": "<span>- Nissan 370Z Nismo Drift</span><br><span>- winding roads north of the Mauna Pele volcano</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1326.64219, 1598],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        },
+        {
+            "coords": [1573.139132, 2403.125],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        },
+        {
+            "coords": [1286.014976, 2825.375],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        },
+        {
+            "coords": [1290.135898, 2808.875],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        },
+        {
+            "coords": [1186.26821, 3173.375],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        },
+        {
+            "coords": [1225.514659, 3340.75],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        },
+        {
+            "coords": [1475.439996, 3338.6875],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        },
+        {
+            "coords": [2910.618075, 2524.25],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        },
+        {
+            "coords": [2970.625018, 2559.0625],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        },
+        {
+            "coords": [3284.268585, 2287.225272],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        },
+        {
+            "coords": [2828.274256, 2029.125],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        },
+        {
+            "coords": [2942.041406, 1800.117088],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        },
+        {
+            "coords": [1437.771115, 1597.402457],
+            "icon_name": "collectible",
+            "challenge_name": "Burning Rubber"
+        }
+    ]
+}

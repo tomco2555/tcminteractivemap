@@ -1,0 +1,255 @@
+{
+    "Container": {
+        "coords" : [1562.268069, 2303]
+    },
+
+    "Events": [
+        {
+            "coords": [2442.904726, 2235.606477],
+            "name": "Jackson V8",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Ford Mustang GT Fastback",
+            "category": "Street Tier 2",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [2092.382066, 2226.3125],
+            "name": "Vegas Strip",
+            "type": "Drag Race",
+            "weather": "Dawn",
+            "car": "Ford Mustang GT",
+            "category": "Dragster",
+            "xp": "4,800",
+            "bucks": "9,000"
+        },
+        {
+            "coords": [2193.478998, 1982.197084],
+            "name": "Denver RWD",
+            "type": "Outrun",
+            "weather": "Afternoon",
+            "car": "Ford Mustang GT Fastback Stunt Edition",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [2741.391554, 2814.196601],
+            "name": "Orlando Smackdown",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Ford Mustang GT",
+            "category": "Monster",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [3138.434459, 2431.25],
+            "name": "Tallahassee Melee",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Ford Mustang GT",
+            "category": "Rally Raid",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [3219.114911, 2214.625],
+            "name": "Palm Springs Riot",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Ford Mustang Shelby GT500",
+            "category": "Street Tier 2",
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [2268.005818, 1768.375],
+            "name": "Phoenix Rumble",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Ford Mustang GT",
+            "category": "Rally Raid",
+            "xp": "14,400",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [2129.92626, 1965.84524],
+            "name": "Reno Roar",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Ford Mustang Shelby GT500 Tribute Edition",
+            "category": "Street Tier 2",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1418.857813, 2118.84547],
+            "name": "Detroit Finisher",
+            "type": "Race",
+            "weather": "Dawn",
+            "car": "Ford Mustang Boss 429",
+            "category": "Street Tier 1",
+            "xp": "14,400",
+            "bucks": "27,000"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [1550.695041, 1833.6875],
+            "icon_name": "escape",
+            "name": "Makakilo River",
+            "type": "Escape",
+            "objective": "690 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2055.316933, 2183.28243],
+            "icon_name": "slalom",
+            "name": "Kunia",
+            "type": "Slalom",
+            "objective": "5,510 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2243.328411, 2097.278713],
+            "icon_name": "speedtrap",
+            "name": "Schofield",
+            "type": "Speedtrap",
+            "objective": "250.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [2645.845217, 1814.612777],
+            "icon_name": "escape",
+            "name": "Peacock Flats",
+            "type": "Escape",
+            "objective": "440 m",
+            "xp": "1,440",
+            "bucks": "2,700"
+        },
+        {
+            "coords": [3249.991633, 2322.5],
+            "icon_name": "speedtrap",
+            "name": "Turtle Bay Resort",
+            "type": "Speedtrap",
+            "objective": "200.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [2882.130379, 2602.5],
+            "icon_name": "slalom",
+            "name": "Cultural Center",
+            "type": "Slalom",
+            "objective": "5,660 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2314.893948, 2785.875],
+            "icon_name": "escape",
+            "name": "Waiahole Forest",
+            "type": "Escape",
+            "objective": "960 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1400.536982, 2153.25],
+            "icon_name": "photo_op",
+            "name": "Bunkers",
+            "requirements": "<span>- Ford Mustang Shelby GT500 Tribute Edition</span><br><span>- Ewa military camp</span><br><span>- Bunkers</span><br><span>- Hawaiian flag</span><br>"
+        },
+        {
+            "coords": [2435.926708, 2268.125],
+            "icon_name": "photo_op",
+            "name": "American Flag",
+            "requirements": "<span>- Ford</span><br><span>- American flag</span><br><span>- Afternoon</span><br><span>- Wahiawa police station</span><br>"
+        },
+        {
+            "coords": [3182.191082, 2184.25],
+            "icon_name": "photo_op",
+            "name": "Waimea Arch",
+            "requirements": "<span>- Street Tier 2</span><br><span>- Top of natural arch</span><br><span>- Waimea Bay</span><br><span>- Sunrise</span><br>"
+        },
+        {
+            "coords": [2475.664365, 1835],
+            "icon_name": "photo_op",
+            "name": "Airtime",
+            "requirements": "<span>- Street Tier 2</span><br><span>- Jump over the hillock</span><br><span>- Peacock Flats belvedere</span><br>"
+        },
+        {
+            "coords": [1391.698683, 2257.858359],
+            "icon_name": "photo_op",
+            "name": "Battleship",
+            "requirements": "<span>- Ford</span><br><span>- Donut</span><br><span>- USS Ship Museum</span><br><span>- in Pearl Harbor</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1567.011337, 2303.0625],
+            "icon_name": "collectible",
+            "challenge_name": "American Stars"
+        },
+        {
+            "coords": [1403.998602, 2167.282284],
+            "icon_name": "collectible",
+            "challenge_name": "American Stars"
+        },
+        {
+            "coords": [1264.26494, 2360.5],
+            "icon_name": "collectible",
+            "challenge_name": "American Stars"
+        },
+        {
+            "coords": [1340.318722, 1801.125],
+            "icon_name": "collectible",
+            "challenge_name": "American Stars"
+        },
+        {
+            "coords": [1681.320304, 2649.125],
+            "icon_name": "collectible",
+            "challenge_name": "American Stars"
+        },
+        {
+            "coords": [2823.853284, 1548.387074],
+            "icon_name": "collectible",
+            "challenge_name": "American Stars"
+        },
+        {
+            "coords": [1976.871239, 3223.0625],
+            "icon_name": "collectible",
+            "challenge_name": "American Stars"
+        },
+        {
+            "coords": [2910.630238, 2528.8125],
+            "icon_name": "collectible",
+            "challenge_name": "American Stars"
+        },
+        {
+            "coords": [2727.568388, 2152],
+            "icon_name": "collectible",
+            "challenge_name": "American Stars"
+        },
+        {
+            "coords": [2308.515468, 2083.1875],
+            "icon_name": "collectible",
+            "challenge_name": "American Stars"
+        },
+        {
+            "coords": [1112.919048, 3239.375],
+            "icon_name": "collectible",
+            "challenge_name": "American Stars"
+        }
+    ]
+}

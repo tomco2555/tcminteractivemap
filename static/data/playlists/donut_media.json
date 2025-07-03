@@ -1,0 +1,229 @@
+{
+    "Container": {
+        "coords": [1405.025416, 2956.375]
+    },
+
+    "Events": [
+        {
+            "coords": [1455.767718, 2920.875],
+            "name": "Legendary x Rivalry",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Multi Vehicle",
+            "category": "Street Tier 2",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [1402.353388, 3062.965193],
+            "name": "American x Wrestle",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Multi Vehicle",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [1348.383156, 2679.4375],
+            "name": "Hi x Low",
+            "type": "Time Attack",
+            "weather": "Midday",
+            "car": "Nissan 370Z Nismo",
+            "category": "Street Tier 2",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [1448.98755, 2481.237695],
+            "name": "Mo x Powa",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Multi Vehicle",
+            "category": "Hypercar",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1185.508033, 3184.875],
+            "name": "Screw x Drifter",
+            "type": "Drift Trial",
+            "weather": "Sunrise",
+            "car": "Mitsubishi Lancer Evolution X",
+            "category": "Drift",
+            "xp": "4,800",
+            "bucks": "9,000"
+        },
+        {
+            "coords": [1324.972186, 2452.953424],
+            "name": "Raptor x Delicacy",
+            "type": "Speed Parkour",
+            "weather": "Afternoon",
+            "car": "Ford F-150 SVT Raptor",
+            "category": "Street Tier 1",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1460.190084, 2826.4375],
+            "name": "German x Qualität",
+            "type": "Race",
+            "weather": "Midday",
+            "car": "Multi Vehicle",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [1405.798946, 2959.416231],
+            "icon_name": "speedtrap",
+            "name": "Moiliili Heights",
+            "type": "Speedtrap",
+            "objective": "210.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1105.534267, 3231.373033],
+            "icon_name": "speedtrap",
+            "name": "Diamond Head",
+            "type": "Speedtrap",
+            "objective": "120.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1370.299809, 2507.9375],
+            "icon_name": "slalom",
+            "name": "Chinatown",
+            "type": "Slalom",
+            "objective": "5,130 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1403.24939, 2851.718662],
+            "icon_name": "bullseye",
+            "name": "Convention Center",
+            "type": "Bullseye",
+            "objective": "5,870 PTS",
+            "xp": "4,800",
+            "bucks": "9,000"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1384.696373, 2886.205668],
+            "icon_name": "photo_op",
+            "name": "Swimming Pool",
+            "requirements": "<span>- Boat</span><br><span>- Swimming Pool</span><br><span>- High School near Convention Center of Honolulu</span><br>"
+        },
+        {
+            "coords": [1338.322456, 2611.256955],
+            "icon_name": "photo_op",
+            "name": "Roadworks",
+            "requirements": "<span>- Donut</span><br><span>- Near the barrier ring of construction site</span><br><span>- Honolulu's Waterfront Plaza</span><br>"
+        },
+        {
+            "coords": [1385.130642, 2901.8125],
+            "icon_name": "photo_op",
+            "name": "Football Field",
+            "requirements": "<span>- Modern Vehicle</span><br><span>- Burn</span><br><span>- Football Field</span><br><span>- High School near Convention Center of Honolulu</span><br>"
+        },
+        {
+            "coords": [1331.083361, 2708.395749],
+            "icon_name": "photo_op",
+            "name": "Artsy Shopping Mall",
+            "requirements": "<span>- Moana Center</span><br><span>- Graffiti Mural</span><br><span>- Jump from roof to roof</span><br>"
+        },
+        {
+            "coords": [1179.317024, 3128.765337],
+            "icon_name": "photo_op",
+            "name": "Street Art",
+            "requirements": "<span>- Street Tier 2</span><br><span>- Turbo graffiti</span><br><span>- Inside the Diamond Head tunnel</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        { "coords": [1208.525404, 2903.615322], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [1237.116803, 2684.707671], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [1295.365619, 2246.036302], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [1396.466226, 1541.152905], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [1302.632803, 1572.959035], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [2382.943142, 1334.125], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [2918.445058, 1795.125], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [2965.185183, 1853.857204], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [2950.194074, 2001], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [3134.247293, 2109.5], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [3233.535873, 2228.648459], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [3332.124824, 2260.4375], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [2938.029972, 2601.313061], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [2521.012005, 2992.25], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [2279.81932, 3050.375], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [2073.93161, 3184.790061], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [2038.067685, 3358.875], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [1813.023202, 3479.25], "icon_name": "collectible", "challenge_name": "Donut x Lifeguard" },
+        { "coords": [1398.641768, 2956.0625], "icon_name": "collectible", "challenge_name": "Donut x Drone" },
+        { "coords": [1284.206407, 2873.421692], "icon_name": "collectible", "challenge_name": "Donut x Drone" },
+        { "coords": [1282.269089, 2767], "icon_name": "collectible", "challenge_name": "Donut x Drone" },
+        { "coords": [1327.383331, 2698.0625], "icon_name": "collectible", "challenge_name": "Donut x Drone" },
+        { "coords": [1401.715395, 2594.37478], "icon_name": "collectible", "challenge_name": "Donut x Drone" },
+        { "coords": [1310.126424, 2928.747899], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1459.62224, 2752.4375], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1475.147394, 2658.191167], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1412.654471, 2692.574234], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1328.44722, 2712.3125], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1388.065576, 2069.5625], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1518.868479, 2163.375], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1620.716192, 2228.623798], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1601.993572, 2541.341772], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1755.857948, 2792.629844], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1234.819162, 1702.25], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1285.199393, 1735.063264], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1310.36472, 1768.128004], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1304.890222, 1771.375], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1299.506468, 1774.5], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1232.708299, 1809.1327], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1359.771163, 3243.625], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2490.466084, 2143.682596], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1985.267788, 2121.375], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2831.933282, 1582.1875], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2243.528194, 2186.875], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1925.8183, 2319], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2394.719827, 2269.017272], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2266.195181, 2347.9375], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2375.686621, 2108.5], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2687.630836, 2425.3125], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2876.187377, 2014.1875], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2780.644457, 2133.959877], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2687.944003, 1163.5], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2704.367122, 1117.236], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2648.770111, 1072.769375], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2395.135968, 1347], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1754.186897, 3762.073241], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1747.134597, 3763.25], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1765.755203, 3697.75], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1762.683016, 3700.996893], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1649.363164, 3679.606913], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1652.271795, 3660.25], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1678.115016, 3642.625], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1665.289895, 3679.076583], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2352.246906, 2829.75], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1751.581581, 3429.114335], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1937.324919, 3452.006917], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1925.070269, 3308.9375], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1872.364927, 3129.566225], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1871.380572, 2944.375], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1965.820058, 3126.625], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1998.563115, 3117.3125], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1727.590804, 3198.597525], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1773.519194, 3049.25], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [2276.659697, 2842.375], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [3218.122996, 2440.25], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" },
+        { "coords": [1523.940928, 1783.6875], "icon_name": "collectible", "challenge_name": "Donut x Jasper Wong" }
+    ]
+}

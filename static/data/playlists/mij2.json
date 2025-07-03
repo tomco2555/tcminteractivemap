@@ -1,0 +1,187 @@
+{
+    "Container": {
+        "coords": [2084.289429, 3377.849094]
+    },
+
+    "Events": [
+        {
+            "coords": [1821.16393, 3469.242645],
+            "name": "Wangan Style",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Toyota Supra Ryūjin Edition",
+            "category": "Street Tier 2",
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [1714.692334, 5206.75],
+            "name": "K-Car Style",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Mazda RX-7 Turbo 10th Aniversary",
+            "category": "Street Tier 1",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1662.860549, 5328.579926],
+            "name": "Hashiriya Style",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Toyota GR86",
+            "category": "Street Tier 1",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1476.385564, 5435.0625],
+            "name": "Tsuchiya Style",
+            "type": "Drift Trial",
+            "weather": "Night",
+            "car": "Mitsubishi Lancer Evolution VI GSR",
+            "category": "Drift",
+            "xp": "7,200",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [1252.95271, 2435.010589],
+            "name": "Bosozoku Style",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Mitsubishi 3000GT VR4",
+            "category": "Street Tier 2",
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [707.63588, 5311.25],
+            "name": "Touge Style",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Nissan Skyline GT-R (R32)",
+            "category": "Street Tier 2",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [541.573345, 6069.0625],
+            "name": "Wangan Soul",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Liberty Walk Honda NSX",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [683.589913, 5969.395447],
+            "icon_name": "slalom",
+            "name": "Hana",
+            "type": "Slalom",
+            "objective": "5,250 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [653.874578, 5570.125],
+            "icon_name": "slalom",
+            "name": "Caldera",
+            "type": "Slalom",
+            "objective": "6,720 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [961.092236, 5937.875],
+            "icon_name": "slalom",
+            "name": "Bamboo Forest",
+            "type": "Slalom",
+            "objective": "4,640 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1297.005853, 5570.0625],
+            "icon_name": "speedtrap",
+            "name": "Kanaha Pond",
+            "type": "Speedtrap",
+            "objective": "200.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1567.558571, 5409.278488],
+            "icon_name": "speedtrap",
+            "name": "Kahului",
+            "type": "Speedtrap",
+            "objective": "200.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1682.104857, 5049.5],
+            "icon_name": "escape",
+            "name": "Iao",
+            "type": "Escape",
+            "objective": "940 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1475.921853, 5394.871187],
+            "icon_name": "photo_op",
+            "name": "Airport",
+            "requirements": "<span>- Drifting in front of a plane</span><br><span>- Kahului Airport</span><br>"
+        },
+        {
+            "coords": [924.647604, 5943.875],
+            "icon_name": "photo_op",
+            "name": "Bamboo Forest",
+            "requirements": "<span>- Street Tier 2</span><br><span>- Drift</span><br><span>- Pipawai Bamboo Forest</span><br>"
+        },
+        {
+            "coords": [1621.871098, 4678.625],
+            "icon_name": "photo_op",
+            "name": "Jodo Mission",
+            "requirements": "<span>- Street Tier 2</span><br><span>- Jodo Mission of Napili</span><br><span>- Night</span><br>"
+        },
+        {
+            "coords": [1612.367547, 5244.375],
+            "icon_name": "photo_op",
+            "name": "Kuikahi Stairs",
+            "requirements": "<span>- Street Tier 1</span><br><span>- Kuikahi Stairs</span><br><span>- west of Kahului</span><br>"
+        },
+        {
+            "coords": [1707.627918, 5065.4375],
+            "icon_name": "photo_op",
+            "name": "Kepaniwai Park",
+            "requirements": "<span>- Any vehicle</span><br><span>- Kepaniwai Park</span><br>"
+        },
+        {
+            "coords": [430.048785, 6053.364377],
+            "icon_name": "photo_op",
+            "name": "Hana Tree",
+            "requirements": "<span>- Street Tier 2 car</span><br><span>- Purple tree</span><br><span>- Hana</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1618.809459, 4679.75],
+            "icon_name": "collectible",
+            "challenge_name": "Sekai No Ryūjin"
+        },
+        {
+            "coords": [1697.755695, 5063.875],
+            "icon_name": "collectible",
+            "challenge_name": "Sekai No Ryūjin"
+        }
+    ]
+}

@@ -1,0 +1,236 @@
+{
+    "Container": {
+        "coords": [1207.772941, 1589.310879]
+    },
+
+    "Events": [
+        {
+            "coords": [1189.062477, 1526.997094],
+            "name": "Grid Paradise",
+            "type": "Stunt Race",
+            "weather": "Morning",
+            "car": "Hoonigan Ford Hoonicorn Mustang",
+            "category": "Drift",
+            "xp": "9,760",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1152.282553, 1646.5],
+            "name": "Rocket Science",
+            "type": "Stunt Race",
+            "weather": "Morning",
+            "car": "Hoonigan Ford Hoonicorn Mustang",
+            "category": "Drift",
+            "xp": "9,760",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1463.30853, 1616.28112],
+            "name": "Scotto vs Scotto",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Multi Vehicle",
+            "category": "Street Tier 2",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2424.574718, 1335.033637],
+            "name": "Volkhana",
+            "type": "Time Attack",
+            "weather": "Afternoon",
+            "car": "Hoonigan Chevrolet Big Block 632 Camaro",
+            "category": "Street Tier 2",
+            "xp": "14,640",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [2336.071431, 1343.121799],
+            "name": "Carbon Project",
+            "type": "Delivery",
+            "weather": "Sunset",
+            "car": "Mitsubishi Lancer Evolution IX",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [1108.502456, 1558.827551],
+            "name": "Rocket Up",
+            "type": "Stunt Race",
+            "weather": "Dawn",
+            "car": "Hoonigan Audi S1 E-tron Quattro Hoonitron",
+            "category": "Drift",
+            "xp": "9,760",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1244.879509, 1692.018748],
+            "name": "This vs That",
+            "type": "Race",
+            "weather": "Midday",
+            "car": "Multi Vehicle",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [1352.337254, 1713.721778],
+            "name": "Racekhana",
+            "type": "Race",
+            "weather": "Dusk",
+            "car": "Hoonigan Audi S1 E-tron Quattro Hoonitron",
+            "category": "Drift",
+            "xp": "18,300",
+            "bucks": "33,750"
+        },
+        {
+            "coords": [1233.495927, 1587.294197],
+            "name": "Hoonigan Burnyard",
+            "type": "Stunt Trial",
+            "weather": "Morning",
+            "car": "Hoonigan Ford Hoonicorn Mustang",
+            "category": "Drift",
+            "xp": "9,760",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1327.482627, 1853.545923],
+            "name": "Gymkhana Motorfest",
+            "type": "Time Attack",
+            "weather": "Sunset",
+            "car": "Hoonigan Mitsubishi Lancer Evolution IX",
+            "category": "Drift",
+            "xp": "12,200",
+            "bucks": "22,500"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [1255.729495, 1805.930164],
+            "icon_name": "slalom",
+            "name": "Barbers Point Harbor",
+            "type": "Slalom",
+            "objective": "4,280 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1332.812196, 1632.409742],
+            "icon_name": "speedtrap",
+            "name": "Nai'a Lagoon Beach",
+            "type": "Speedtrap",
+            "objective": "210.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1102.509503, 1554.751035],
+            "icon_name": "bullseye",
+            "name": "Gymkhana Grid Park",
+            "type": "Bullseye",
+            "objective": "4,290 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1676.265758, 1477.455002],
+            "icon_name": "slalom",
+            "name": "Leeward Coast",
+            "type": "Slalom",
+            "objective": "2,990 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1841.883226, 1537],
+            "icon_name": "bullseye",
+            "name": "Observatory Road",
+            "type": "Bullseye",
+            "objective": "4,180 PTS",
+            "xp": "4,800",
+            "bucks": "9,000"
+        },
+        {
+            "coords": [2324.451911, 1398.507567],
+            "icon_name": "slalom",
+            "name": "Pokai Road",
+            "type": "Slalom",
+            "objective": "4,120 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1226.07793, 1575.787462],
+            "icon_name": "photo_op",
+            "name": "Hoonigan Hangar",
+            "requirements": "<span>- Hoonigan Ford Hoonicorn Mustang</span><br><span>- Drift</span><br><span>- Hoonigan Hangar entrance</span><br>"
+        },
+        {
+            "coords": [2381.5654, 1352.25],
+            "icon_name": "photo_op",
+            "name": "Waianae Gas Station",
+            "requirements": "<span>- Hoonigan Mitsubishi Lancer Evolution IX</span><br><span>- Gas pumps</span><br><span>- Waianae Gas Station</span><br>"
+        },
+        {
+            "coords": [1122.665471, 1567.746254],
+            "icon_name": "photo_op",
+            "name": "Perched Boat",
+            "requirements": "<span>- Hoonigan Ford Hoonicorn Mustang</span><br><span>- Donut</span><br><span>- Highest perched boat</span><br><span>- Gymkhana Grid Park</span><br>"
+        },
+        {
+            "coords": [1289.109733, 1790.05401],
+            "icon_name": "photo_op",
+            "name": "Barbers Point Harbor",
+            "requirements": "<span>- Hoonigan car</span><br><span>- Jumping above the rainbow containers</span><br><span>- Barbers Point Harbor</span><br>"
+        },
+        {
+            "coords": [1233.561376, 1756.737724],
+            "icon_name": "photo_op",
+            "name": "Barbers Point Tunnels",
+            "requirements": "<span>- Hoonigan Mitsubishi Lancer Evolution IX</span><br><span>- Burn</span><br><span>- Lowest tunnel near the small cargo ship</span><br><span>- Barbers Point Harbor</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1124.131574, 1607.875],
+            "icon_name": "collectible",
+            "challenge_name": "Gymkhana Mark"
+        },
+        {
+            "coords": [1146.567949, 1616.625],
+            "icon_name": "collectible",
+            "challenge_name": "Gymkhana Mark"
+        },
+        {
+            "coords": [1136.361768, 1563.324705],
+            "icon_name": "collectible",
+            "challenge_name": "Gymkhana Mark"
+        },
+        {
+            "coords": [1136.136144, 1553.375],
+            "icon_name": "collectible",
+            "challenge_name": "Gymkhana Mark"
+        },
+        {
+            "coords": [1153.194127, 1548.875],
+            "icon_name": "collectible",
+            "challenge_name": "Gymkhana Mark"
+        },
+        {
+            "coords": [1169.641394, 1518.974262],
+            "icon_name": "collectible",
+            "challenge_name": "Gymkhana Mark"
+        },
+        {
+            "coords": [1238.006152, 1589.25],
+            "icon_name": "collectible",
+            "challenge_name": "Gymkhana Mark"
+        }
+    ]
+}

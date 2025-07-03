@@ -1,0 +1,196 @@
+{
+    "Container": {
+        "coords": [2810.380379, 1631.125]
+    },
+
+    "Events": [
+        {
+            "coords": [3046.326482, 2039.561122],
+            "name": "Speed Of Light",
+            "type": "Drift Trial",
+            "weather": "Sunset",
+            "car": "Toyota GR Supra",
+            "category": "Drift",
+            "xp": "7,200",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [2470.936762, 2960.625],
+            "name": "Arch-Drifter",
+            "type": "Drift Trial",
+            "weather": "Afternoon",
+            "car": "Nissan Skyline GT-R (R34)",
+            "category": "Drift",
+            "xp": "7,200",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [1669.138921, 2764.1875],
+            "name": "Nature vs Nurture",
+            "type": "Drift Trial",
+            "weather": "Midday",
+            "car": "BMW Z4 sDrive35is",
+            "category": "Drift",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1462.536314, 2682.625],
+            "name": "Night Glider",
+            "type": "Drift Trial",
+            "weather": "Dusk",
+            "car": "Lamborghini Murciélago LP640",
+            "category": "Drift",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1422.082819, 2346.6875],
+            "name": "The Hard Yards",
+            "type": "Drift Trial",
+            "weather": "Afternoon",
+            "car": "McLaren 12C",
+            "category": "Drift",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1417.796506, 1615.827383],
+            "name": "No Rest For The Drifter",
+            "type": "Drift Trial",
+            "weather": "Dusk",
+            "car": "Chevrolet Camaro SS",
+            "category": "Drift",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [2000.642319, 1485.969078],
+            "name": "Smoke In The Eye",
+            "type": "Drift Trial",
+            "weather": "Dawn",
+            "car": "Mazda MX-5",
+            "category": "Drift",
+            "xp": "14,400",
+            "bucks": "27,000"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [1896.230377, 1417.660708],
+            "icon_name": "speedtrap",
+            "name": "Kapolei",
+            "type": "Speedtrap",
+            "objective": "250.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1241.271807, 1962.221318],
+            "icon_name": "slalom",
+            "name": "Barber Point Waters",
+            "type": "Slalom",
+            "objective": "5,320 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        },
+        {
+            "coords": [1419.022459, 2460.024492],
+            "icon_name": "slalom",
+            "name": "Chinatown",
+            "type": "Slalom",
+            "objective": "8,210 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1593.153221, 2921.76522],
+            "icon_name": "speedtrap",
+            "name": "Manoa",
+            "type": "Speedtrap",
+            "objective": "220.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1979.260089, 3087.25],
+            "icon_name": "escape",
+            "name": "Kaneohe Bay",
+            "type": "Escape",
+            "objective": "760 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2668.386109, 2560.625],
+            "icon_name": "slalom",
+            "name": "Kualoa Racetrack",
+            "type": "Slalom",
+            "objective": "8,290 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [3278.959756, 2283.723613],
+            "icon_name": "photo_op",
+            "name": "Turtle Bay Resort",
+            "requirements": "<span>- Toyota GR Supra Drift</span><br><span>- Drift</span><br><span>- Night</span><br><span>- Turtle Bay Resort parking lot</span><br>"
+        },
+        {
+            "coords": [2149.37975, 3041.843149],
+            "icon_name": "photo_op",
+            "name": "Kaneohe",
+            "requirements": "<span>- Nissan 370Z Nismo Drift</span><br><span>- Nitro</span><br><span>- Parking lot of the Kaneohe harbor</span><br>"
+        },
+        {
+            "coords": [2890.851983, 2557.796671],
+            "icon_name": "photo_op",
+            "name": "Polynesian Cultural Center",
+            "requirements": "<span>- Drift car</span><br><span>- Drift</span><br><span>- Night</span><br><span>- Polynesian Cultural Center parking lot</span><br>"
+        },
+        {
+            "coords": [1339.958977, 3607.459783],
+            "icon_name": "photo_op",
+            "name": "Hanauma Racetrack",
+            "requirements": "<span>- Drift car</span><br><span>- Burn</span><br><span>- Hanauma Racetrack parking lot</span><br>"
+        },
+        {
+            "coords": [1387.219884, 2856.772792],
+            "icon_name": "photo_op",
+            "name": "Convention Center",
+            "requirements": "<span>- Toyota GR Supra Drift</span><br><span>- Nitro</span><br><span>- Night</span><br><span>- Convention Center parking lot</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1306.19766, 2787.125],
+            "icon_name": "collectible",
+            "challenge_name": "Blazing Rubber"
+        },
+        {
+            "coords": [1461.072692, 2768.323048],
+            "icon_name": "collectible",
+            "challenge_name": "Blazing Rubber"
+        },
+        {
+            "coords": [1407.503761, 2554.9375],
+            "icon_name": "collectible",
+            "challenge_name": "Blazing Rubber"
+        },
+        {
+            "coords": [1374.208373, 2424.315599],
+            "icon_name": "collectible",
+            "challenge_name": "Blazing Rubber"
+        },
+        {
+            "coords": [1223.139554, 2920.25],
+            "icon_name": "collectible",
+            "challenge_name": "Blazing Rubber"
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "Clawblades": [
+        {
+            "coords": [1391.263754, 2405.25],
+            "name": "Flash",
+            "car": "Chevrolet Camaro ZL1",
+            "chase_restriction": "Any Chase Squad Street Tier 2",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        },
+        {
+            "coords": [818.482583, 4693.598037],
+            "name": "Leapfrog",
+            "car": "Dodge Challenger SRT Demon",
+            "chase_restriction": "Any Chase Squad Hypercar",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        },
+        {
+            "coords": [1620.428947, 5368.266294],
+            "name": "Hunter-Killer",
+            "car": "Dodge Charger SRT Hellcat Redeye Widebody",
+            "chase_restriction": "Any Chase Squad Hypercar",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        },
+        {
+            "coords": [318.747224, 5308.780936],
+            "name": "Killjoy",
+            "car": "Ford Mustang Shelby GT500",
+            "chase_restriction": "Any Chase Squad Street Tier 2",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        }
+    ],
+
+    "Diamond_fangs": [
+        {
+            "coords": [1251.415734, 1758.221011],
+            "name": "Catseye",
+            "car": "BMW M2 Beehive Edition",
+            "chase_restriction": "Any Chase Squad Hypercar",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        },
+        {
+            "coords": [2389.600859, 2244.375],
+            "name": "Blaze",
+            "car": "Porsche Cayman GT4",
+            "chase_restriction": "Any Chase Squad Street Tier 2",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        },
+        {
+            "coords": [1272.249014, 5488.209282],
+            "name": "Daydream",
+            "car": "Porsche 911 Turbo 3.6",
+            "chase_restriction": "Any Chase Squad Hypercar",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        },
+        {
+            "coords": [462.506338, 6032.875],
+            "name": "Stalker",
+            "car": "Volkswagen Golf GTI Dash Edition",
+            "chase_restriction": "Any Chase Squad Street Tier 2",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        }
+    ],
+
+    "Quickwhiskers": [
+        {
+            "coords": [1622.004254, 4988.75],
+            "name": "Cinnamon",
+            "car": "Saleen S1",
+            "chase_restriction": "Any Chase Squad Hypercar",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        },
+        {
+            "coords": [671.141382, 5502.875],
+            "name": "Silver",
+            "car": "Dodge Viper SRT-10 GTS",
+            "chase_restriction": "Any Chase Squad Hypercar",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        },
+        {
+            "coords": [1239.915469, 2973.384015],
+            "name": "Paws",
+            "car": "Ford GT 2005",
+            "chase_restriction": "Any Chase Squad Street Tier 2",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        },
+        {
+            "coords": [3172.427862, 2465.327793],
+            "name": "Catnip",
+            "car": "Pontiac Firebird 1982",
+            "chase_restriction": "Any Chase Squad Street Tier 2",
+            "race_restriction": "Any Street Tier 1 vehicle"
+        }
+    ],
+
+    "Nightstalkers": [
+        {
+            "coords": [1436.261601, 2647.5],
+            "name": "Furrball",
+            "car": "Abarth 500",
+            "chase_restriction": "Any Chase Squad Street Tier 2",
+            "race_restriction": "Any Street Tier 1 vehicle"
+        },
+        {
+            "coords": [1469.204985, 3349.741599],
+            "name": "Devilcat",
+            "car": "Abarth 500",
+            "chase_restriction": "Any Chase Squad Street Tier 2",
+            "race_restriction": "Any Street Tier 1 vehicle"
+        },
+        {
+            "coords": [1951.378164, 4912.375],
+            "name": "Pretty-Boi",
+            "car": "Abarth 500",
+            "chase_restriction": "Any Chase Squad Street Tier 2",
+            "race_restriction": "Any Street Tier 1 vehicle"
+        },
+        {
+            "coords": [598.767788, 4986.375],
+            "name": "Blue-eyes",
+            "car": "Abarth 500",
+            "chase_restriction": "Any Chase Squad Street Tier 2",
+            "race_restriction": "Any Street Tier 1 vehicle"
+        }
+    ],
+
+    "Chiefs": [
+        {
+            "coords": [2829.629113, 1854.9375],
+            "name": "The Lion",
+            "car": "Pontiac GTO Rival Ed.",
+            "chase_restriction": "Any Chase Squad Street Tier 2",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        },
+        {
+            "coords": [1762.647066, 5364.553984],
+            "name": "The Tank",
+            "car": "BMW M5 CS Rival Ed.",
+            "chase_restriction": "Any Chase Hypercar",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        },
+        {
+            "coords": [2016.388499, 3104.875],
+            "name": "Speedbolt",
+            "car": "DeLorean DMC-12 Rival Ed.",
+            "chase_restriction": "Any Chase Street Tier 2",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        },
+        {
+            "coords": [2319.885617, 1734],
+            "name": "Shade",
+            "car": "Alfa Romeo Giulia GTAm Rival Ed.",
+            "chase_restriction": "Any Chase Hypercar",
+            "race_restriction": "Any Street Tier 2 vehicle"
+        }
+    ],
+
+    "Mysterious_driver": [
+    {
+      "coords": [1458.04875, 5387.25],
+      "name": "Sam",
+      "car": "Creators Tempesta Rival Ed.",
+      "chase_restriction": "Any Chase Squad Hypercar",
+      "race_restriction": "Hypercars"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+    "Container": {
+        "coords": [1315.091931, 3628.872001]
+    },
+
+    "Events": [
+        {
+            "coords": [1078.761741, 3541.125],
+            "name": "Opening Act: Alpha Debut",
+            "type": "Time Attack",
+            "weather": "Morning",
+            "car": "Ivory Tower IVT AGP R-07",
+            "category": "Alpha GP",
+            "xp": "7,740",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [1260.180072, 3592.721167],
+            "name": "Act 2: Alpha Grand Prix",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Ivory Tower IVT AGP R-07",
+            "category": "Alpha GP",
+            "xp": "12,900",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [1263.626248, 3592.632779],
+            "name": "Act 3: Grand Touring",
+            "type": "Race",
+            "weather": "Midday",
+            "car": "McLaren Senna GTR",
+            "category": "Racing",
+            "xp": "23,220",
+            "bucks": "40,500"
+        },
+        {
+            "coords": [1292.609473, 3595.019264],
+            "name": "Act 4: Alpha Gamble",
+            "type": "Race",
+            "weather": "Midday",
+            "car": "Proto Alpha Mark II",
+            "category": "Alpha GP",
+            "xp": "10,320",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1072.013361, 3501.416004],
+            "name": "Act 5: Acura Derby",
+            "type": "Race",
+            "weather": "Dawn",
+            "car": "Acura NSX GT3",
+            "category": "Racing",
+            "xp": "25,800",
+            "bucks": "45,000"
+        },
+        {
+            "coords": [1300.133743, 3595.107652],
+            "name": "Act 6: Alpha Rising",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Proto Alpha Mark X",
+            "category": "Alpha GP",
+            "xp": "12,900",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [1078.111038, 3535.975848],
+            "name": "Act 7: 24h Of Hanauma",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Bugatti Bolide",
+            "category": "Racing",
+            "xp": "25,800",
+            "bucks": "45,000"
+        },
+        {
+            "coords": [1073.6045, 3506.365751],
+            "name": "Alpha Grand Finale",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Red Bull RB18",
+            "category": "Alpha GP",
+            "xp": "19,350",
+            "bucks": "33,750"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [1162.53593, 3657.333049],
+            "icon_name": "bullseye",
+            "name": "Water Bridge",
+            "type": "Bullseye",
+            "objective": "7,120 PTS",
+            "xp": "4,800",
+            "bucks": "9,000"
+        },
+        {
+            "coords": [1228.015925, 3597.625],
+            "icon_name": "speedtrap",
+            "name": "Paddocks",
+            "type": "Speedtrap",
+            "objective": "170.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1214.868245, 3491.339732],
+            "icon_name": "speedtrap",
+            "name": "Forest Straight",
+            "type": "Speedtrap",
+            "objective": "250.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1079.989018, 3434.947966],
+            "icon_name": "slalom",
+            "name": "Marina Straight",
+            "type": "Slalom",
+            "objective": "6,790 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        },
+        {
+            "coords": [1186.888077, 3567.625],
+            "icon_name": "slalom",
+            "name": "Peak Chicane",
+            "type": "Slalom",
+            "objective": "9,240 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1280.51148, 3597.494138],
+            "icon_name": "photo_op",
+            "name": "Pit Stop",
+            "requirements": "<span>- Ivory Tower IVT AGP R-07</span><br><span>- Pitlane</span><br><span>- North-east of Hanauma Racetrack</span><br>"
+        },
+        {
+            "coords": [1069.27797, 3520.773052],
+            "icon_name": "photo_op",
+            "name": "Starting Grid",
+            "requirements": "<span>- Ivory Tower IVT AGP R-07</span><br><span>- Starting Grid</span><br><span>- Near the marina of Hanauma Racetrack</span><br>"
+        },
+        {
+            "coords": [1089.027747, 3587.859808],
+            "icon_name": "photo_op",
+            "name": "High Speed",
+            "requirements": "<span>- Racing Vehicle</span><br><span>- High Speed</span><br>"
+        },
+        {
+            "coords": [1230.8808, 3694.375],
+            "icon_name": "photo_op",
+            "name": "Water Bridge",
+            "requirements": "<span>- Racing Vehicle</span><br><span>- Water bridge of Hanauma Racetrack</span><br><span>- Night</span><br>"
+        },
+        {
+            "coords": [1056.68671, 3506.719305],
+            "icon_name": "photo_op",
+            "name": "Podium",
+            "requirements": "<span>- Red Bull RB18</span><br><span>- Next to the Hanauma Racetrack podium at the marina</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1190.256703, 3653.095606],
+            "icon_name": "collectible",
+            "challenge_name": "Alpha Trophy"
+        },
+        {
+            "coords": [1130.965455, 3600.410953],
+            "icon_name": "collectible",
+            "challenge_name": "Alpha Trophy"
+        },
+        {
+            "coords": [1201.270952, 3618.875],
+            "icon_name": "collectible",
+            "challenge_name": "Alpha Trophy"
+        },
+        {
+            "coords": [1334.249557, 3605.095536],
+            "icon_name": "collectible",
+            "challenge_name": "Alpha Trophy"
+        },
+        {
+            "coords": [1071.666792, 3492.400392],
+            "icon_name": "collectible",
+            "challenge_name": "Alpha Trophy"
+        }
+    ]
+}

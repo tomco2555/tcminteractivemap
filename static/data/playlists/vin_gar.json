@@ -1,0 +1,304 @@
+{
+    "Container": {
+        "coords": [1891.44214, 3393.9375]
+    },
+
+    "Events": [
+        {
+            "coords": [2089.439627, 3600.625],
+            "name": "Back in Time",
+            "type": "Navigation",
+            "weather": "Morning",
+            "car": "Cadillac Eldorado Brougham",
+            "category": "Street Tier 1",
+            "xp": "16,320",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [2618.6144, 2752.043743],
+            "name": "Stock Around the Clock",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Cadillac Eldorado Brougham",
+            "category": "Street Tier 1",
+            "xp": "8,160",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [2357.850939, 3022.917501],
+            "name": "Kiss Me Kombi",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Volkswagen Kombi 21 Window Bus",
+            "category": "Street Tier 1",
+            "xp": "11,700",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [3275.749051, 2297.0625],
+            "name": "Mustang Sally",
+            "type": "Navigation",
+            "weather": "Midday",
+            "car": "Ford Mustang Boss 429",
+            "category": "Street Tier 1",
+            "xp": "13,000",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [2267.298192, 2351],
+            "name": "Get Dirt on It",
+            "type": "Time Attack",
+            "weather": "Sunrise",
+            "car": "Nissan Fairlady Z 432 (PS30)",
+            "category": "Rally",
+            "xp": "10,160",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1591.46467, 1544.409598],
+            "name": "Stayin' Ahead",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Ferrari 365 GTB4 Competizione",
+            "category": "Racing",
+            "xp": "10,160",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2840.48506, 1730.3125],
+            "name": "Drive This Way",
+            "type": "Navigation",
+            "weather": "Night",
+            "car": "Pontiac Firebird T/A",
+            "category": "Street Tier 1",
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [2031.429169, 2314.75],
+            "name": "Vintage Showdown",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Ferrari F40",
+            "category": "Street Tier 2",
+            "xp": "8,400",
+            "bucks": "15,750"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [2271.804224, 2230.038011],
+            "icon_name": "slalom",
+            "name": "Schofield Barracks",
+            "type": "Slalom",
+            "objective": "6,430 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2617.1974, 3010.949063],
+            "icon_name": "slalom",
+            "name": "Kualoa Beach",
+            "type": "Slalom",
+            "objective": "5,760 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [3104.998734, 2618.125],
+            "icon_name": "speedtrap",
+            "name": "Kahuku Black Beach",
+            "type": "Speedtrap",
+            "objective": "210.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1496.137972, 1685.625],
+            "icon_name": "slalom",
+            "name": "Kahuku Black Beach",
+            "type": "Slalom",
+            "objective": "4,420 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [2640.621455, 2702.385341],
+            "icon_name": "photo_op",
+            "name": "Hau'ula Forest",
+            "requirements": "<span>- Classic Car</span><br><span>- Drifting</span><br><span>- Kualoa Racetrack</span><br><span>- near Hau'ula Forest</span><br>"
+        },
+        {
+            "coords": [2931.23455, 2568.4375],
+            "icon_name": "photo_op",
+            "name": "Gas Station",
+            "requirements": "<span>- Classic Car</span><br><span>- Gas Station</span><br><span>- Laie</span><br>"
+        },
+        {
+            "coords": [3285.355894, 2288.8125],
+            "icon_name": "photo_op",
+            "name": "Resort",
+            "requirements": "<span>- Classic Car</span><br><span>- Turtle Bay Resort</span><br>"
+        },
+        {
+            "coords": [2429.80046, 2232.75],
+            "icon_name": "photo_op",
+            "name": "Theater",
+            "requirements": "<span>- Classic Car</span><br><span>- Night</span><br><span>- Theater</span><br><span>- Wahiawa</span><br>"
+        },
+        {
+            "coords": [2722.599042, 989.271669],
+            "icon_name": "photo_op",
+            "name": "Kaena Point",
+            "requirements": "<span>- Volkswagen Kombi 21 Window Bus</span><br><span>- Sunset</span><br><span>- Kaena Point</span><br>"
+        },
+        {
+            "coords": [2845.167954, 1741.125],
+            "icon_name": "photo_op",
+            "name": "Motel",
+            "requirements": "<span>- Classic Car</span><br><span>- Motel Sign</span><br><span>- Night</span><br><span>- between the Mokuleia Park Airport and Haleiwa</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [2933.057121, 2569.5],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [2889.56475, 2012.5625],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [2852.196165, 2023.6875],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [2843.380062, 1880.5625],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [2447.326192, 2227.875],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [2412.69541, 2327.375],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [2352.074171, 2292.125],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [2372.187869, 2206.75],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [2369.069162, 2117.25],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [2380.563027, 1355.4375],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [2046.31584, 2040.4375],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [2026.067052, 2310.75],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1933.379218, 2320.625],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [2034.566051, 3087.375],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1968.697343, 3109.1875],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1920.072783, 3318.9375],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1367.198714, 3016.8125],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1403.065681, 3048.125],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1326.083012, 2790.625],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1478.376723, 2810.75],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1508.44084, 2670.5625],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1448.441859, 2532.5625],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1379.755168, 2469.5625],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1471.505994, 2407],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1600.813941, 2384.3125],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1397.563221, 2053.4375],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        },
+        {
+            "coords": [1345.607543, 1787.60127],
+            "icon_name": "collectible",
+            "challenge_name": "Retro Texas"
+        }
+    ]
+}

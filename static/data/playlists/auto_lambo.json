@@ -1,0 +1,238 @@
+{
+    "Container": {
+        "coords": [1144.408662, 3047.541839]
+    },
+
+    "Events": [
+        {
+            "coords": [2065.127285, 3038.25],
+            "name": "Creating A Legend",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Lamborghini Miura SV",
+            "category": "Street Tier 2",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2512.18017, 2968.8125],
+            "name": "Designing History",
+            "type": "Outrun",
+            "weather": "Morning",
+            "car": "Lamborghini Countach LP 5000 Quattrovalvole",
+            "category": "Street Tier 2",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2897.72454, 1940.654561],
+            "name": "Chasing The Future",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Lamborghini Diablo GT",
+            "category": "Street Tier 2",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2793.098986, 1450],
+            "name": "Trailblazing Forever",
+            "type": "Outrun",
+            "weather": "Sunset",
+            "car": "Lamborghini Huracán LP610-4",
+            "category": "Street Tier 2",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [1392.121975, 2134.932149],
+            "name": "Powering Through",
+            "type": "Race",
+            "weather": "Dusk",
+            "car": "Lamborghini Urus",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [1433.403908, 2153.228537],
+            "name": "Achieving Immortality",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Lamborghini Countach LPI 800-4",
+            "category": "Hypercar",
+            "xp": "7,200",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [1281.131068, 3719.293281],
+            "name": "Owning The Racetracks",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Lamborghini Essenza SCV12",
+            "category": "Racing",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [1281.502285, 2987.375],
+            "name": "Defining Perfection",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Lamborghini Sián Roadster",
+            "category": "Hypercar",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [1500.739524, 2572.875],
+            "name": "Going For More",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Lamborghini Revuelto",
+            "category": "Hypercar",
+            "xp": "8,400",
+            "bucks": "15,750"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [1396.781217, 2831.25],
+            "icon_name": "speedtrap",
+            "name": "Convention Center",
+            "type": "Speedtrap",
+            "objective": "150.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1343.033039, 2927.775628],
+            "icon_name": "escape",
+            "name": "Ala Wai",
+            "type": "Escape",
+            "objective": "450 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1311.448545, 3214.242262],
+            "icon_name": "slalom",
+            "name": "Kaimuki",
+            "type": "Slalom",
+            "objective": "5,120 PTS",
+            "xp": "1,920",
+            "bucks": "3,600"
+        },
+        {
+            "coords": [2230.255695, 3033.25],
+            "icon_name": "escape",
+            "name": "Kahaluu",
+            "type": "Escape",
+            "objective": "710 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2842.002777, 1590.375],
+            "icon_name": "slalom",
+            "name": "Mokuleia Beach",
+            "type": "Slalom",
+            "objective": "5,100 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1400.83176, 1515.506609],
+            "icon_name": "bullseye",
+            "name": "Nanakuli",
+            "type": "Bullseye",
+            "objective": "5,440 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [2873.119762, 2019.125],
+            "icon_name": "photo_op",
+            "name": "Street Art",
+            "requirements": "<span>- Lamborghini Miura SV</span><br><span>- In front of the graffiti</span><br><span>- Haleiwa</span><br><span>- Nitro</span><br>"
+        },
+        {
+            "coords": [1267.787063, 1800.735807],
+            "icon_name": "photo_op",
+            "name": "Rainbow Containers",
+            "requirements": "<span>- Lamborghini Street Tier 2</span><br><span>- near the rainbow containers</span><br><span>- Kalaeloa</span><br>"
+        },
+        {
+            "coords": [1322.744059, 3602.25],
+            "icon_name": "photo_op",
+            "name": "Artsy Racetrack",
+            "requirements": "<span>- Lamborghini Essenza SCV12</span><br><span>- Drift</span><br><span>- next to the manta rays fresca</span><br><span>- Hanauma Racetrack</span><br>"
+        },
+        {
+            "coords": [1491.488434, 2708.875],
+            "icon_name": "photo_op",
+            "name": "Urban Marvels",
+            "requirements": "<span>- Lamborghini</span><br><span>- Huli mural</span><br><span>- between the State Capitol and the National Cemetery</span><br>"
+        },
+        {
+            "coords": [1297.510827, 2772.625],
+            "icon_name": "photo_op",
+            "name": "Waikiki Wing Hotel",
+            "requirements": "<span>- Lamborghini car</span><br><span>- Waikiki Wing Hotel in Honolulu</span><br><span>- Dusk</span><br>"
+        },
+        {
+            "coords": [2938.300917, 1782.625],
+            "icon_name": "photo_op",
+            "name": "Swimming Pool",
+            "requirements": "<span>- Lamborghini Diablo GT Pura Potenza Edizione</span><br><span>- next to the pool</span><br><span>- Haleiwa Island Resort</span><br>"
+        },
+        {
+            "coords": [2945.108337, 2680.875],
+            "icon_name": "photo_op",
+            "name": "Hole Rock",
+            "requirements": "<span>- Lamborghini</span><br><span>- Laie Point</span><br><span>- Hole Rock in the background</span><br><span>- Sunrise</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [2953.488272, 1794.052502],
+            "icon_name": "collectible",
+            "challenge_name": "A.L. Wheels"
+        },
+        {
+            "coords": [2357.768069, 2299.75],
+            "icon_name": "collectible",
+            "challenge_name": "A.L. Wheels"
+        },
+        {
+            "coords": [2013.883648, 3166.125],
+            "icon_name": "collectible",
+            "challenge_name": "A.L. Wheels"
+        },
+        {
+            "coords": [1312.258831, 2999.546966],
+            "icon_name": "collectible",
+            "challenge_name": "A.L. Wheels"
+        },
+        {
+            "coords": [1333.195782, 2146.687799],
+            "icon_name": "collectible",
+            "challenge_name": "A.L. Wheels"
+        },
+        {
+            "coords": [1409.832954, 2014.989161],
+            "icon_name": "collectible",
+            "challenge_name": "A.L. Wheels"
+        },
+        {
+            "coords": [1341.683773, 1589.841209],
+            "icon_name": "collectible",
+            "challenge_name": "A.L. Wheels"
+        }
+    ]
+}

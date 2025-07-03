@@ -1,0 +1,259 @@
+{
+    "MF_grounds": 
+        {
+            "coords": [1434.040568, 3407]
+        },
+
+    "Demo_royale": [
+        {
+            "coords": [2799.490898, 1799.518329],
+            "name": "Haleiwa",
+            "info": "<span>Currently disabled</span>"
+        },
+        {
+            "coords": [2874.851303, 2731.231557],
+            "name": "Ma'akua Black Beach",
+            "info": "<span>Currently disabled</span>"
+        },
+        {
+            "coords": [2172.266193, 1722.954061],
+            "name": "Mauna Pele",
+            "info": ""
+        },
+        {
+            "coords": [2507.259738, 2266.625],
+            "name": "Wahiawa Fields",
+            "info": ""
+        },
+        {
+            "coords": [1297.067791, 5316.9375],
+            "name": "Kealaloloa",
+            "info": ""
+        }
+    ],
+
+    "Grand_race": [
+        {
+            "coords": [2800.354437, 1806.922991],
+            "name": "Haleiwa",
+            "info": ""
+        },
+        {
+            "coords": [2875.125773, 2736.25],
+            "name": "Ma'akua Black Beach",
+            "info": ""
+        },
+        {
+            "coords": [2172.700894, 1728.375],
+            "name": "Mauna Pele",
+            "info": ""
+        },
+        {
+            "coords": [2510.388077, 2270.5],
+            "name": "Wahiawa Fields",
+            "info": ""
+        },
+        {
+            "coords": [1225.355913, 3359.807402],
+            "name": "Diamond Head",
+            "info": ""
+        },
+        {
+            "coords": [1278.401843, 1810.546913],
+            "name": "Kalaeloa",
+            "info": ""
+        },
+        {
+            "coords": [2629.930045, 1012.046581],
+            "name": "Kaena Point",
+            "info": ""
+        },
+        {
+            "coords": [1212.78874, 3008],
+            "name": "Waikiki",
+            "info": ""
+        },
+        {
+            "coords": [1661.519716, 2745.165301],
+            "name": "Nuuanu - Punchbowl",
+            "info": ""
+        },
+        {
+            "coords": [2099.021803, 3026.770577],
+            "name": "Kaneohe",
+            "info": ""
+        },
+        {
+            "coords": [3206.067629, 2441.875],
+            "name": "Kahuku",
+            "info": ""
+        },
+        {
+            "coords": [1300.129429, 5315.1875],
+            "name": "Kealaloloa",
+            "info": ""
+        },
+        {
+            "coords": [1862.018983, 5136],
+            "name": "Kahakuloa",
+            "info": ""
+        },
+        {
+            "coords": [1047.385617, 5181.875],
+            "name": "Kula",
+            "info": ""
+        },
+        {
+            "coords": [490.058408, 5039.019699],
+            "name": "Wailea",
+            "info": ""
+        },
+        {
+            "coords": [1298.544857, 4689.5],
+            "name": "Lahaina",
+            "info": ""
+        },
+        {
+            "coords": [1289.12586, 5699.987763],
+            "name": "Paia",
+            "info": "<i>Currently disabled</i>"
+        },
+        {
+            "coords": [459.499903, 5995.204844],
+            "name": "Hana",
+            "info": "<i>Currently disabled</i>"
+        },
+        {
+            "coords": [660.30759, 5536.292543],
+            "name": "Red Hill Haleakala",
+            "info": "<i>Currently disabled</i>"
+        }
+    ],
+
+    "Achievements": [
+        {
+            "coords": [2167.516464, 1378.50467],
+            "name": "Pele Shout-out",
+            "info": "<span><b>Description:</b> Reach the summit of the volcano with a ground vehicle</span><br>"
+        },
+        {
+            "coords": [1263.644593, 2811.279785],
+            "name": "Local Luxuries",
+            "info": "<span><b>Description:</b> Stay still for 1 minute on the beach in front of the Royal Hawaiian Hotel</span><br>"
+        },
+        {
+            "coords": [2092.193402, 2183.5],
+            "name": "French Toast",
+            "info": "<span><b>Description:</b> Perform a donut move in the Ubisoft logo</span><br>"
+        },
+        {
+            "coords": [1404.352537, 2962.625],
+            "name": "Sweet Tooth",
+            "info": "<span><b>Description:</b> Fly through the \"Rule the Streets\" inflatable donut with a plane</span><br>"
+        },
+        {
+            "coords": [2502.185783, 2224.857861],
+            "name": "Unholy pizza",
+            "info": "<span><b>Description:</b> Perform a donut move around the pineapple shop</span><br>"
+        },
+        {
+            "coords": [1425.49613, 3422.027962],
+            "name": "Oahu Mindfulness",
+            "info": "<span><b>Description:</b> Stay in a Car meet car for 10 seconds or more</span><br>"
+        }
+    ],
+
+    "Treasures": [
+        {"coords": [1111.971133, 3529.700275], "name": "Hanauma Racetrack", "location": "Oahu", "info": ""},
+        {"coords": [1248.790404, 2983.725452], "name": "Waikiki Shell(HNL)", "location": "Oahu", "info": ""},
+        {"coords": [1451.745641, 2645.75], "name": "State Capitol(HNL)", "location": "Oahu", "info": ""},
+        {"coords": [1248.619792, 2446.854628], "name": "Oahu Airport(HNL)", "location": "Oahu", "info": ""},
+        {"coords": [1541.93917, 2261.3125], "name": "USS Submarine Museum", "location": "Oahu", "info": ""},
+        {"coords": [1357.514976, 2074.125], "name": "Ewa", "location": "Oahu", "info": ""},
+        {"coords": [1204.444286, 1806.657826], "name": "Barbers Point Harbor", "location": "Oahu", "info": ""},
+        {"coords": [1430.508867, 1584.272743], "name": "Aulinaii Resort", "location": "Oahu", "info": ""},
+        {"coords": [1091.994273, 3209.380903], "name": "Diamond Head", "location": "Oahu", "info": ""},
+        {"coords": [1592.940664, 1847.869873], "name": "Makakilo River Gorge", "location": "Oahu", "info": ""},
+        {"coords": [2080.091588, 1316.898229], "name": "Maili Point", "location": "Oahu", "info": ""},
+        {"coords": [2390.438098, 1354.6875], "name": "Waianae", "location": "Oahu", "info": ""},
+        {"coords": [2721.856213, 991.894037], "name": "Kaena Point", "location": "Oahu", "info": ""},
+        {"coords": [2805.989454, 1293.25], "name": "Mokuleia Beach", "location": "Oahu", "info": ""},
+        {"coords": [2681.776366, 1502.75], "name": "Makaleha River - Peacock River", "location": "Oahu", "info": ""},
+        {"coords": [2606.691648, 1797.875], "name": "Peacock Flats Farm", "location": "Oahu", "info": ""},
+        {"coords": [2917.566226, 1779.1875], "name": "Haleiwa Island Resort", "location": "Oahu", "info": ""},
+        {"coords": [2760.853347, 2041.505666], "name": "Haleiwa Fields Farm", "location": "Oahu", "info": ""},
+        {"coords": [2551.132101, 2207.25], "name": "Pineapple Plantation", "location": "Oahu", "info": ""},
+        {"coords": [2181.197765, 2013.25], "name": "Japanese Jodo", "location": "Oahu", "info": ""},
+        {"coords": [1838.208505, 1755.4375], "name": "Nanakuli River under the Mauna Pele", "location": "Oahu", "info": ""},
+        {"coords": [1935.91047, 2078.375], "name": "Kunia Fields Farm", "location": "Oahu", "info": ""},
+        {"coords": [1958.449659, 2417.598085], "name": "Multicultural Heritage", "location": "Oahu", "info": ""},
+        {"coords": [2224.504992, 2311.5625], "name": "Mililani Fields Farm", "location": "Oahu", "info": ""},
+        {"coords": [1737.306388, 2599.147751], "name": "Pearl Botanical Garden", "location": "Oahu", "info": ""},
+        {"coords": [1773.805232, 3051.696091], "name": "Stairway To Heaven", "location": "Oahu", "info": ""},
+        {"coords": [1396.570277, 3799.196347], "name": "Koko Crater", "location": "Oahu", "info": ""},
+        {"coords": [1677.991985, 3645.125], "name": "Coconut Resort", "location": "Oahu", "info": ""},
+        {"coords": [1867.658147, 3338.427891], "name": "Kailua", "location": "Oahu", "info": ""},
+        {"coords": [2158.389197, 3078.300984], "name": "Kaneohe", "location": "Oahu", "info": ""},
+        {"coords": [2033.821956, 2715.125], "name": "Ewa Forest", "location": "Oahu", "info": ""},
+        {"coords": [2510.961939, 2835.409804], "name": "Hindu Monastery", "location": "Oahu", "info": ""},
+        {"coords": [2499.000949, 2499.125], "name": "Wahiawa Forest", "location": "Oahu", "info": ""},
+        {"coords": [3063.353943, 2022.25], "name": "Turtle Rock", "location": "Oahu", "info": ""},
+        {"coords": [2743.07839, 2939.442889], "name": "Ma'akua Black Beach", "location": "Oahu", "info": ""},
+        {"coords": [1819.143491, 1437.375], "name": "Leeward Coast", "location": "Oahu", "info": ""},
+        {"coords": [2945.933725, 2686.38705], "name": "Laie Point", "location": "Oahu", "info": ""},
+        {"coords": [3250.625352, 2561.625], "name": "Kahuku Black Beach", "location": "Oahu", "info": ""},
+        {"coords": [3114.835903, 2277.325777], "name": "Waimea Hills", "location": "Oahu", "info": ""},
+        {"coords": [3330.109146, 2260.75], "name": "Turtle Bay Beach", "location": "Oahu", "info": ""},
+        {"coords": [2061.000492, 3562.75], "name": "Mokapu", "location": "Oahu", "info": ""},
+        {"coords": [2303.344298, 1629.350801], "name": "Mauna Pele Red Hill", "location": "Oahu", "info": ""},
+        {"coords": [2816.53654, 2375.61362], "name": "Koolauloa Hills", "location": "Oahu", "info": ""},
+        {"coords": [1696.878357, 5060.75], "name": "Iao", "location": "Maui", "info": ""},
+        {"coords": [1206.325384, 5384.625], "name": "Kula Fields", "location": "Maui", "info": ""},
+        {"coords": [1292.022358, 5258.5], "name": "Kealaloloa Fields", "location": "Maui", "info": ""},
+        {"coords": [1648.527592, 5354.389324], "name": "Queen Ka'ahumanu Center (Kahului)", "location": "Maui", "info": ""},
+        {"coords": [1550.865826, 5442.33573], "name": "Kahului Harbor", "location": "Maui", "info": ""},
+        {"coords": [1885.468361, 5254.75], "name": "Unnamed small island north of Kahului", "location": "Maui", "info": ""},
+        {"coords": [1747.212135, 4799.133724], "name": "Under Napili highway bridge", "location": "Maui", "info": ""},
+        {"coords": [1445.3368, 5056.167039], "name": "Kaonohua Falls", "location": "Maui", "info": ""},
+        {"coords": [425.798851, 5044.542256], "name": "Tunel south of Wailea", "location": "Maui", "info": ""},
+        {"coords": [432.755777, 5999.270363], "name": "Hana", "location": "Maui", "info": ""},
+        {"coords": [1016.106504, 5882.774866], "name": "Maui Arboretum", "location": "Maui", "info": ""},
+        {"coords": [1266.970892, 5912.25], "name": "Haipua'ena Falls", "location": "Maui", "info": ""},
+        {"coords": [1620.913261, 4679.1875], "name": "Jodo Mission", "location": "Maui", "info": ""},
+        {"coords": [1306.175905, 4629.806275], "name": "Awalua Beach", "location": "Maui", "info": ""},
+        {"coords": [569.47073, 5263.876644], "name": "Tunel between Kanaio Reserve and Kahikinui Reserve", "location": "Maui", "info": ""},
+        {"coords": [189.376963, 5257.284388], "name": "Ahihi-Kinau", "location": "Maui", "info": ""},
+        {"coords": [1051.38377, 4155.666553], "name": "First roundabout off the bridge from Oahu", "location": "Maui", "info": ""},
+        {"coords": [752.295263, 5288.082219], "name": "Haleakala Observatory", "location": "Maui", "info": ""},
+        {"coords": [814.392041, 5644.27427], "name": "Makawao Reserve", "location": "Maui", "info": ""},
+        {"coords": [701.95729, 6081.783323], "name": "Kea'a Beach", "location": "Maui", "info": "<b>Sometimes bugged and unreachable</b>"},
+        {"coords": [1135.387075, 5724], "name": "Random ass house community between Pukalani and Haipua'ena", "location": "Maui", "info": ""},
+        {"coords": [1138.4275, 5193.876085], "name": "Next to Ma'alaea Beach", "location": "Maui", "info": ""},
+        {"coords": [1955.038169, 5175.296988], "name": "Pu'u Koa'e", "location": "Maui", "info": ""},
+        {"coords": [1894.271374, 4929.75], "name": "under Honokohau on the hill next to the highway", "location": "Maui", "info": ""},
+        {"coords": [1674.996132, 4924.709856], "name": "Mountain north of Iao Lake", "location": "Maui", "info": ""},
+        {"coords": [1435.856353, 4627.748718], "name": "Lele", "location": "Maui", "info": ""},
+        {"coords": [1302.838154, 4830.069646], "name": "Kamanawai Gulch", "location": "Maui", "info": ""},
+        {"coords": [791.81173, 5081], "name": "Polipoli Spring State on the tunel", "location": "Maui", "info": ""},
+        {"coords": [428.577603, 5450.379069], "name": "Auwahi Wind Turbines", "location": "Maui", "info": ""},
+        {"coords": [778.017204, 5815.953275], "name": "Pu'unianiau", "location": "Maui", "info": ""},
+        {"coords": [1597.794594, 4944.620944], "name": "Iao Lake", "location": "Maui", "info": ""},
+        {"coords": [654.797832, 4512.578701], "name": "Kalohi Islets", "location": "Maui", "info": ""},
+        {"coords": [1010.475178, 5518.968427], "name": "Between Kula Reserve and Makawao Reserve", "location": "Maui", "info": ""},
+        {"coords": [157.065005, 5446.136429], "name": "La Perouse Bay right cape", "location": "Maui", "info": ""},
+        {"coords": [1882.721701, 4724.5], "name": "Kapalua Labyrinth", "location": "Maui", "info": ""},
+        {"coords": [1061.531726, 4856.912582], "name": "Kaho'olawe", "location": "Maui", "info": ""},
+        {"coords": [370.720815, 5858.026129], "name": "Seven Sacred Pools", "location": "Maui", "info": ""},
+        {"coords": [892.200035, 6027.55498], "name": "Makapipi Falls", "location": "Maui", "info": ""},
+        {"coords": [587.834663, 4963.536051], "name": "Wailea", "location": "Maui", "info": ""},
+        {"coords": [1256.513534, 5037.75], "name": "Ubisoft logo between Olowalu and Kealaloloa Fields", "location": "Maui", "info": ""},
+        {"coords": [1038.034662, 5289.5], "name": "Between Kula Reserver and Ma'alaea Beach", "location": "Maui", "info": ""},
+        {"coords": [331.038458, 5714], "name": "Manawainui Gulch", "location": "Maui", "info": ""},
+        {"coords": [622.766241, 5877.5], "name": "Lyon Hill's Cross", "location": "Maui", "info": ""},
+        {"coords": [906.778404, 5017.75], "name": "Close to the bridge on the north of Kihei", "location": "Maui", "info": ""},
+        {"coords": [1399.55442, 5659.5059], "name": "Island in Paia Bay closer to Kahului", "location": "Maui", "info": ""},
+        {"coords": [526.829204, 5790.143878], "name": "Waimoku Falls", "location": "Maui", "info": ""},
+        {"coords": [980.529108, 5446.25], "name": "Next to the Valley Isle Feats - Kula Reserve", "location": "Maui", "info": ""},
+        {"coords": [368.962635, 5382.788178], "name": "Small tunnel on the left side of Auwahi Wind Turbines", "location": "Maui", "info": ""}
+    ]
+}

@@ -14,6 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/rbush"></script>
     <script src="lib/leaflet-markers-canvas.js"></script>
     <script src="static/js/script.js"></script>
+    <script src="static/js/settings.js"></script>
+    <script src="static/js/countdown_timer.js"></script>
 </head>
 <body>
     <div id="main-container">
@@ -27,12 +29,65 @@
                     <p style="margin-bottom: 5px">created by Tomco</p>
                 </div>
                 <div>
-                    <div class="map_settings">
-                        <span class="map_settings_text">Performance mode</span>
-                        <label class="switch">
-                            <input type="checkbox" id="mode_switch" onchange="switchMode()">
-                            <div class="slider round"></div>
-                        </label>
+                    <div class="map_settings override_flex">
+                        <div class="settings_text" id="settings_menu">
+                            <i class="fa-solid fa-gear" id="gear"></i>
+                            <button class="map_settings_text btn_setting" id="settings_btn">Settings</button>
+                            <span id="arrow_pointer">▼</span>
+                        </div>
+                        <div id="settings_content">
+                            <div class="settings_option">
+                                <span class="map_settings_text">Performance mode</span>
+                                <label class="switch smaller_switch">
+                                    <input type="checkbox" id="mode_switch" onchange="switchMode(this)">
+                                    <div class="slider round smaller_slider"></div>
+                                </label>
+                            </div>
+                            <div class="settings_option" id="primary_color">
+                                <span class="map_settings_text">Primary color</span>
+                                <div class="checkmark-flexbox">
+                                    <div class="square black" data-chosen="false" id="primary_black_color" onclick="changeColor(this)"></div>
+                                    <div class="square lightgray" data-chosen="false" id="primary_lightgray_color" onclick="changeColor(this)"></div>
+                                </div>
+                            </div>
+                            <div class="settings_option" id="secondary_color">
+                                <span class="map_settings_text">Secondary color</span>
+                                <div class="checkmark-flexbox">
+                                    <div class="square red" data-chosen="false" id="secondary_red_color" onclick="changeColor(this)"></div>
+                                    <div class="square blue" data-chosen="false" id="secondary_blue_color" onclick="changeColor(this)"></div>
+                                    <div class="square green" data-chosen="false" id="secondary_green_color" onclick="changeColor(this)"></div>
+                                    <div class="square yellow" data-chosen="false" id="secondary_yellow_color" onclick="changeColor(this)"></div>
+                                    <div class="square purple" data-chosen="false" id="secondary_purple_color" onclick="changeColor(this)"></div>
+                                    <div class="square orange" data-chosen="false" id="secondary_orange_color" onclick="changeColor(this)"></div>
+                                    <div class="square cyan" data-chosen="false" id="secondary_cyan_color" onclick="changeColor(this)"></div>
+                                    <div class="square indigo" data-chosen="false" id="secondary_indigo_color" onclick="changeColor(this)"></div>
+                                </div>
+                            </div>
+                            <div class="settings_option">
+                                <span class="map_settings_text">Save the state on exit[WIP]</span>
+                                <label class="switch smaller_switch">
+                                    <input type="checkbox">
+                                    <div class="slider round smaller_slider"></div>
+                                </label>
+                            </div>
+                            <div class="settings_option">
+                                <span class="map_settings_text">Icon size[WIP]</span>
+                            </div>
+                            <div class="settings_option">
+                                <span class="map_settings_text">Playlist alphabetical order</span>
+                                <label class="switch smaller_switch">
+                                    <input type="checkbox" id="playlist_order_switch" onchange="sortPlaylists(this)">
+                                    <div class="slider round smaller_slider"></div>
+                                </label>
+                            </div>
+                            <div class="settings_option">
+                                <span class="map_settings_text">Show location names[WIP]</span>
+                                <label class="switch smaller_switch">
+                                    <input type="checkbox" id="mode_switch">
+                                    <div class="slider round smaller_slider"></div>
+                                </label>
+                            </div>
+                        </div>
                     </div>
                     <div class="map_settings">
                         <span class="map_settings_text">Challenges</span>
@@ -1193,127 +1248,127 @@
                     </div>
                     <div class="event_filters" id="playlist_filters">
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('mij')" id="mij_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('mij')" id="mij_playlist">
                             <span>Made in Japan</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('hst')" id="hst_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('hst')" id="hst_playlist">
                             <span>Hawaii Scenic Tour</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('am')" id="am_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('am')" id="am_playlist">
                             <span>American Muscle</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('porsche')" id="porsche_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('porsche')" id="porsche_playlist">
                             <span>911 Legacy</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('dm')" id="dm_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('dm')" id="dm_playlist">
                             <span>Rule the Streets</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('oa')" id="oa_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('oa')" id="oa_playlist">
                             <span>Off-roading Addict</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('vg')" id="vg_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('vg')" id="vg_playlist">
                             <span>Vintage Garage</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('al')" id="al_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('al')" id="al_playlist">
                             <span>Automobili Lamborghini</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('motorsports')" id="motorsports_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('motorsports')" id="motorsports_playlist">
                             <span>Motorsports</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('eo')" id="eo_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('eo')" id="eo_playlist">
                             <span>Electric Odyssey</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('dc')" id="dc_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('dc')" id="dc_playlist">
                             <span>Dream Cars</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('bl')" id="bl_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('bl')" id="bl_playlist">
                             <span>Bike Lovers</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('lbwk')" id="lbwk_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('lbwk')" id="lbwk_playlist">
                             <span>Liberty Walk</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('de')" id="de_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('de')" id="de_playlist">
                             <span>Drift Experience</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('ons')" id="ons_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('ons')" id="ons_playlist">
                             <span>Ocean'N Sky</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('gym')" id="gym_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('gym')" id="gym_playlist">
                             <span>Gymkhana Grid Masters</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('de2')" id="de2_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('de2')" id="de2_playlist">
                             <span>Drift Experience Vol.2</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('ha')" id="ha_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('ha')" id="ha_playlist">
                             <span>Hollywood Action!</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('dvl')" id="dvl_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('dvl')" id="dvl_playlist">
                             <span>Donk vs Lowrider</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('oa2')" id="oa2_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('oa2')" id="oa2_playlist">
                             <span>Off-roading Addict Vol.2</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('tcs')" id="tcs_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('tcs')" id="tcs_playlist">
                             <span>The Chase Squad</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('mij2')" id="mij2_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('mij2')" id="mij2_playlist">
                             <span>Made in Japan Vol.2</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('mauiex')" id="mauiex_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('mauiex')" id="mauiex_playlist">
                             <span>Maui Expeditions</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                             <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('rb')" id="rb_playlist">
+                             <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('rb')" id="rb_playlist">
                             <span>Red Bull Speed Clash</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('rb2')" id="rb2_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('rb2')" id="rb2_playlist">
                            <span>Red Bull Wild Ride</span>
                            <span class="filter_marker_count"></span>
                        </div>
@@ -1357,27 +1412,27 @@
                     </div>
                     <div class="event_filters" id="misc_filters">
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="grand_race_checkbox" onchange="GrandRaceCanvasCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="grand_race_checkbox" onchange="miscCheckbox(this, grand_race_group)">
                             <span>Grand Race</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="demo_royale_checkbox" onchange="DemoRoyaleCanvasCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="demo_royale_checkbox" onchange="miscCheckbox(this, demo_royale_group)">
                             <span>Demo Royale</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="mf_grounds_checkbox" onchange="MFGroundsCanvasCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="mf_grounds_checkbox" onchange="miscCheckbox(this, mf_grounds_group)">
                             <span>Motorfest Grounds</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="treasure_checkbox" onchange="TreasureCanvasCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="treasure_checkbox" onchange="miscCheckbox(this, treasure_group)">
                             <span>Treasure Locations</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="achievements_checkbox" onchange="AchievementsCanvasCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="achievements_checkbox" onchange="miscCheckbox(this, achievements_group)">
                             <span>Achievements</span>
                             <span class="filter_marker_count"></span>
                         </div>
@@ -1389,32 +1444,32 @@
                     </div>
                     <div class="event_filters" id="rivals_filters">
                         <div class="filter_option rivals_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="clawblades_checkbox" onchange="ClawbladesCanvasCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="clawblades_checkbox" onchange="rivalsCheckbox(this, clawblades_group)">
                             <span>Clawblades</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option rivals_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="diamond_fangs_checkbox" onchange="DiamondFangsCanvasCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="diamond_fangs_checkbox" onchange="rivalsCheckbox(this, diamond_fangs_group)">
                             <span>Diamond Fangs</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option rivals_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="quickwhiskers_checkbox" onchange="QuickwhiskersCanvasCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="quickwhiskers_checkbox" onchange="rivalsCheckbox(this, quickwhiskers_group)">
                             <span>Quickwhiskers</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option rivals_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="nightstalkers_checkbox" onchange="NightstalkersCanvasCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="nightstalkers_checkbox" onchange="rivalsCheckbox(this, nightstalkers_group)">
                             <span>Nightstalkers</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option rivals_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="chiefs_checkbox" onchange="ChiefsCanvasCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="chiefs_checkbox" onchange="rivalsCheckbox(this, chiefs_group)">
                             <span>Chiefs</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option rivals_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="mysterious_driver_checkbox" onchange="MysteriousDriverCanvasCheckbox()">
+                            <input class="filter_checkbox" type="checkbox" id="mysterious_driver_checkbox" onchange="rivalsCheckbox(this, mysterious_driver_group)">
                             <span>Mysterious Driver</span>
                             <span class="filter_marker_count"></span>
                         </div>
@@ -1432,37 +1487,15 @@
     </div>
 
     <script src="static/js/map.js"></script>
-    <script src="static/js/countdown_timer.js"></script>
     <script src="static/js/marker_icons.js"></script>
-    <script src="static/js/feats_markers.js"></script>
+    <script src="static/js/playlist_loader.js"></script>
+    <script src="static/js/misc_loader.js"></script>
+    <script src="static/js/rivals_loader.js"></script>
+    <script src="static/js/sort_playlists.js"></script>
+    <script src="static/js/location_names.js"></script>
     <!--<script src="static/markers_counter.js"></script>-->
-    <script id="misc_script" src="static/js/canvas/misc_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/mij_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/hst_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/american_muscle_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/porsche_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/donut_media_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/off_add_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/vin_gar_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/auto_lambo_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/motorsports_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/ele_ody_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/dream_cars_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/bike_lovers_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/lbwk_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/drift_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/ons_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/gymkhana_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/drift2_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/hollywood_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/dvl_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/off_add2_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/chase_squad_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/mij2_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/mauiex_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/redbull_sc_canvas.js"></script>
-    <script class="playlist_script" src="static/js/canvas/redbull_wr_canvas.js"></script>
-    <script id="rivals_script" src="static/js/canvas/rivals_canvas.js"></script>
+    <!-- <script id="misc_script" src="static/js/canvas/misc_canvas.js"></script> -->
+    <!-- <script id="rivals_script" src="static/js/canvas/rivals_canvas.js"></script> -->
 
     <script>
         var counter = 0;

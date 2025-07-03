@@ -1,0 +1,241 @@
+{
+    "Container": {
+        "coords": [1786.76132, 3465.5]
+    },
+
+    "Events": [
+        {
+            "coords": [1666.598792, 3527.755731],
+            "name": "Ground Works",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "BMW M4 Competition Coupé",
+            "category": "Street Tier 2",
+            "xp": "14,400",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [1436.34481, 2109.122752],
+            "name": "Art Works",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "BMW M4 Liberty Walk Edition",
+            "category": "Street Tier 2",
+            "xp": "14,400",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [1660.259105, 2658.125],
+            "name": "Master Works",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Nissan GT-R",
+            "category": "Street Tier 2",
+            "xp": "14,400",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [1603.25689, 2249.125],
+            "name": "Custom Nation",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Chrysler 300 SRT8",
+            "category": "Street Tier 2",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [2846.115887, 1695.465285],
+            "name": "Global Nation",
+            "type": "Race",
+            "weather": "Midday",
+            "car": "Mini Cooper S",
+            "category": "Street Tier 1",
+            "xp": "14,400",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [2820.574464, 1938.091299],
+            "name": "Elite Nation",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Mercedes-Benz C 63 S Coupé",
+            "category": "Street Tier 2",
+            "xp": "18,000",
+            "bucks": "33,750"
+        },
+        {
+            "coords": [2899.762991, 2006.680657],
+            "name": "Peak Performance",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Acura NSX",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [1176.843532, 3230.682495],
+            "name": "Punk Performance",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Lamborghini Aventador LP 700-4",
+            "category": "Hypercar",
+            "xp": "14,400",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [2441.740104, 2281.1875],
+            "name": "Pure Performance",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Lamborghini Huracán Performante",
+            "category": "Hypercar",
+            "xp": "14,400",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [1434.127883, 3671.5],
+            "name": "Liberty Territory",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Multi Vehicle",
+            "category": "Street Tier 1",
+            "xp": "40,080",
+            "bucks": "75,150"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [1874.025733, 3121],
+            "icon_name": "speedtrap",
+            "name": "Kamo'oali'i",
+            "type": "Speedtrap",
+            "objective": "250.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [2205.765362, 2431.375],
+            "icon_name": "escape",
+            "name": "Mililani Mauka",
+            "type": "Escape",
+            "objective": "920 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [3170.248805, 2425.5],
+            "icon_name": "escape",
+            "name": "Koolauloa",
+            "type": "Escape",
+            "objective": "790 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2821.382769, 1846.375],
+            "icon_name": "slalom",
+            "name": "Haleiwa",
+            "type": "Slalom",
+            "objective": "6,000 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1156.446674, 3018.207658],
+            "icon_name": "slalom",
+            "name": "Waikiki Shell",
+            "type": "Slalom",
+            "objective": "4,290 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1997.968473, 2140.854168],
+            "icon_name": "photo_op",
+            "name": "Industrial Park",
+            "requirements": "<span>- Drift Nissan</span><br><span>- containers</span><br><span>- Kunia Fields's industrial park</span><br>"
+        },
+        {
+            "coords": [1282.662361, 1825.270781],
+            "icon_name": "photo_op",
+            "name": "Docks",
+            "requirements": "<span>- Mazda</span><br><span>- containers inside the container terminal</span><br><span>- Barbers Point Harbor</span><br>"
+        },
+        {
+            "coords": [2006.499086, 3503],
+            "icon_name": "photo_op",
+            "name": "Island",
+            "requirements": "<span>- Ford</span><br><span>- island to the southeast in the background</span><br><span>- belvedere of Mokapu</span><br>"
+        },
+        {
+            "coords": [2706.755062, 1124.25],
+            "icon_name": "photo_op",
+            "name": "Antenna",
+            "requirements": "<span>- BMW</span><br><span>- deep space antenna</span><br><span>- Kaena Point</span><br>"
+        },
+        {
+            "coords": [2143.817996, 2887.647318],
+            "icon_name": "photo_op",
+            "name": "Gorilla Head",
+            "requirements": "<span>- Lamborghini</span><br><span>- gorilla head</span><br><span>- north of the Japanese Temple in Kaneohe</span><br>"
+        },
+        {
+            "coords": [2521.500879, 2234.25],
+            "icon_name": "photo_op",
+            "name": "Maze",
+            "requirements": "<span>- Porsche</span><br><span>- Pineapple Garden</span><br>"
+        },
+        {
+            "coords": [1354.34814, 2134.401819],
+            "icon_name": "photo_op",
+            "name": "The Golf Course",
+            "requirements": "<span>- Lamborghini hypercar</span><br><span>- next to the golf flag and pond</span><br><span>- Ewa golf course</span><br>"
+        },
+        {
+            "coords": [1167.133683, 3507.125],
+            "icon_name": "photo_op",
+            "name": "Tunnel",
+            "requirements": "<span>- Hypercar</span><br><span>- Nitro</span><br><span>- Hanauma Racetrack underground tunnel</span><br>"
+        },
+        {
+            "coords": [1235.639202, 2295.75],
+            "icon_name": "photo_op",
+            "name": "Airport",
+            "requirements": "<span>- Hypercar</span><br><span>- Oahu Airline plane</span><br><span>- on the runway at Oahu Airport</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1430.815787, 2397.625],
+            "icon_name": "collectible",
+            "challenge_name": "Liberty Quest"
+        },
+        {
+            "coords": [1297.57171, 1816.5],
+            "icon_name": "collectible",
+            "challenge_name": "Liberty Quest"
+        },
+        {
+            "coords": [1996.728326, 2131.485004],
+            "icon_name": "collectible",
+            "challenge_name": "Liberty Quest"
+        },
+        {
+            "coords": [2186.25058, 2204.5625],
+            "icon_name": "collectible",
+            "challenge_name": "Liberty Quest"
+        },
+        {
+            "coords": [3159.194574, 2406.814706],
+            "icon_name": "collectible",
+            "challenge_name": "Liberty Quest"
+        }
+    ]
+}

@@ -1,0 +1,213 @@
+{
+    "Container": {
+        "coords": [2151.373031, 2998.375]
+    },
+
+    "Events": [
+        {
+            "coords": [2041.533985, 3005.027043],
+            "name": "Scene 1: The Driver",
+            "type": "Video Lane",
+            "weather": "Midday",
+            "car": "Mini Cooper S",
+            "category": "Street Tier 1",
+            "xp": "7,200",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [1616.83916, 2700.175632],
+            "name": "Scene 2: The Test",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Dodge Challenger R/T",
+            "category": "Street Tier 1",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [1307.177338, 2540.59235],
+            "name": "Scene 3: The First Job",
+            "type": "Video Lane",
+            "weather": "Midday",
+            "car": "Multi Vehicle",
+            "category": "Motocross",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1335.508402, 2101.625],
+            "name": "Scene 4: The Ascent",
+            "type": "Navigation",
+            "weather": "Sunset",
+            "car": "Ferrari 308 GTS",
+            "category": "Street Tier 1",
+            "xp": "18,000",
+            "bucks": "33,750"
+        },
+        {
+            "coords": [1432.128972, 1969.5],
+            "name": "Scene 5: The Race",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Ariel Nomad",
+            "category": "Rally Raid",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1365.884527, 1673.625],
+            "name": "Scene 6: The Heist",
+            "type": "Video Lane",
+            "weather": "Dawn",
+            "car": "Shelby GT 500",
+            "category": "Street Tier 1",
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [2273.717298, 1933.406716],
+            "name": "Scene 7: The Love Story",
+            "type": "Navigation",
+            "weather": "Dusk",
+            "car": "Porsche 550 Spyder",
+            "category": "Street Tier 1",
+            "xp": "14,400",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [1545.934554, 2644.66775],
+            "name": "Scene 8: The Getaway",
+            "type": "Time Attack",
+            "weather": "Midday",
+            "car": "Multi Vehicle",
+            "category": "Street Tier 2",
+            "xp": "14,400",
+            "bucks": "27,000"
+        },
+        {
+            "coords": [2010.106052, 2464.75],
+            "name": "The Premiere",
+            "type": "Time Attack",
+            "weather": "Night",
+            "car": "Ivory Tower Aezus",
+            "category": "Hypercar",
+            "xp": "9,600",
+            "bucks": "18,000"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [2108.551126, 3088.370878],
+            "icon_name": "bullseye",
+            "name": "Kaneohe",
+            "type": "Bullseye",
+            "objective": "6,320 PTS",
+            "xp": "4,800",
+            "bucks": "9,000"
+        },
+        {
+            "coords": [2100.859569, 3536.594566],
+            "icon_name": "slalom",
+            "name": "Mokapu",
+            "type": "Slalom",
+            "objective": "4,970 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1374.20612, 3083.356931],
+            "icon_name": "escape",
+            "name": "Makiki",
+            "type": "Escape",
+            "objective": "1270 m",
+            "xp": "1,440",
+            "bucks": "2,700"
+        },
+        {
+            "coords": [1487.784616, 2364.034746],
+            "icon_name": "speedtrap",
+            "name": "Kaka'ako",
+            "type": "Speedtrap",
+            "objective": "200.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1433.64205, 2765.75],
+            "icon_name": "photo_op",
+            "name": "Rooftop",
+            "requirements": "<span>- Mini Cooper S 1969</span><br><span>- Edge of the Kakaako Center Rooftop</span><br>"
+        },
+        {
+            "coords": [2004.844021, 3053.463858],
+            "icon_name": "photo_op",
+            "name": "Canals",
+            "requirements": "<span>- Motocross Bike</span><br><span>- Kaneohe Canals</span><br>"
+        },
+        {
+            "coords": [1591.516101, 1841],
+            "icon_name": "photo_op",
+            "name": "High Point",
+            "requirements": "<span>- Chevrolet Impala</span><br><span>- Jump from the highest cliff</span><br><span>- Afternoon</span><br><span>- Makakilo River</span><br>"
+        },
+        {
+            "coords": [1415.396387, 3819.141294],
+            "icon_name": "photo_op",
+            "name": "Koko Crater",
+            "requirements": "<span>- Street Tier 1 vehicle</span><br><span>- House</span><br><span>- Dusk</span><br><span>- Entrance of Koko Crater</span><br>"
+        },
+        {
+            "coords": [1234.869905, 3010.329161],
+            "icon_name": "photo_op",
+            "name": "Waikiki Shell",
+            "requirements": "<span>- Aston Martin DB5</span><br><span>- Movie Poster</span><br><span>- Parking lot side of the Waikiki Shell</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1839.512339, 3000.5],
+            "icon_name": "collectible",
+            "challenge_name": "Focus Puller Movie Award"
+        },
+        {
+            "coords": [1657.00675, 3657],
+            "icon_name": "collectible",
+            "challenge_name": "Focus Puller Movie Award"
+        },
+        {
+            "coords": [1410.762409, 3002.625],
+            "icon_name": "collectible",
+            "challenge_name": "Focus Puller Movie Award"
+        },
+        {
+            "coords": [1337.701923, 1765.380468],
+            "icon_name": "collectible",
+            "challenge_name": "Focus Puller Movie Award"
+        },
+        {
+            "coords": [1337.138499, 1623.625],
+            "icon_name": "collectible",
+            "challenge_name": "Focus Puller Movie Award"
+        },
+        {
+            "coords": [1433.261249, 1587.375],
+            "icon_name": "collectible",
+            "challenge_name": "Focus Puller Movie Award"
+        },
+        {
+            "coords": [1902.145436, 1979.137941],
+            "icon_name": "collectible",
+            "challenge_name": "Focus Puller Movie Award"
+        },
+        {
+            "coords": [2391.501476, 2092.875],
+            "icon_name": "collectible",
+            "challenge_name": "Focus Puller Movie Award"
+        }
+    ]
+}

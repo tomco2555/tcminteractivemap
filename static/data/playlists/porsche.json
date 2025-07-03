@@ -1,0 +1,188 @@
+{
+    "Container": {
+        "coords": [1437.003357, 2245.25]
+    },
+
+    "Events": [
+        {
+            "coords": [1272.477611, 1797.995768],
+            "name": "911 Arrival",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Porsche 911",
+            "category": "Street Tier 1",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [1647.486228, 1889.566096],
+            "name": "911 Rally",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Porsche 959 Raid",
+            "category": "Rally Raid",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [2144.542128, 1691.5],
+            "name": "911 Legends",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Porsche 911 Turbo 3.6",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [1594.814293, 2413.625],
+            "name": "911 Freeway",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Porsche 911 GT1 Strassenversion (993)",
+            "category": "Hypercar",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1350.976705, 2850.08227],
+            "name": "911 Grand Prix",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Porsche 911 GT3 Cup",
+            "category": "Racing",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [1185.378902, 3202.75],
+            "name": "911 Challenge",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Porsche 911 Carrera 4S (992)",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [1268.412791, 2943.066812],
+            "icon_name": "speedtrap",
+            "name": "Waikiki",
+            "type": "Speedtrap",
+            "objective": "170.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1426.628058, 2144.5],
+            "icon_name": "escape",
+            "name": "Ewa",
+            "type": "Escape",
+            "objective": "1100 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1440.502493, 1974.860852],
+            "icon_name": "speedtrap",
+            "name": "Kapolei",
+            "type": "Speedtrap",
+            "objective": "170.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [2303.24711, 1440.730067],
+            "icon_name": "escape",
+            "name": "Waianae",
+            "type": "Escape",
+            "objective": "1380 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [2275.704, 1578.615889],
+            "icon_name": "photo_op",
+            "name": "Volcano",
+            "requirements": "<span>- Porsche 959 Raid</span><br><span>- Mauna Pele Nunui Crater in the background</span><br>"
+        },
+        {
+            "coords": [1232.405268, 1700.125],
+            "icon_name": "photo_op",
+            "name": "Rainbow Silo",
+            "requirements": "<span>- Street Tier 2</span><br><span>- Rainbow smiley silo located near the lighthouse</span><br><span>- Kalaeloa Barbers Point Harbor</span><br>"
+        },
+        {
+            "coords": [1222.398834, 3011.625],
+            "icon_name": "photo_op",
+            "name": "Waikiki Shell",
+            "requirements": "<span>- Porsche 911 Turbo 3.6</span><br><span>- Waikiki Shell</span><br><span>- in Honolulu</span><br>"
+        },
+        {
+            "coords": [1280.282185, 3281.152241],
+            "icon_name": "photo_op",
+            "name": "Close Shot",
+            "requirements": "<span>- Porsche</span><br><span>- Freedrive</span><br><span>- Near Miss</span><br>"
+        },
+        {
+            "coords": [1433.189609, 2244.375],
+            "icon_name": "photo_op",
+            "name": "Carrera 4S",
+            "requirements": "<span>- Porsche 911 Carrera 4S Timeless Edition</span><br><span>- Porsche container</span><br><span>- Ford Island</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1275.877426, 1744.875],
+            "icon_name": "collectible",
+            "challenge_name": "911 Collection"
+        },
+        {
+            "coords": [1454.013007, 2164.125],
+            "icon_name": "collectible",
+            "challenge_name": "911 Collection"
+        },
+        {
+            "coords": [1429.510001, 2244.5625],
+            "icon_name": "collectible",
+            "challenge_name": "911 Collection"
+        },
+        {
+            "coords": [1377.133243, 2316.835369],
+            "icon_name": "collectible",
+            "challenge_name": "911 Collection"
+        },
+        {
+            "coords": [1257.284758, 2750.291825],
+            "icon_name": "collectible",
+            "challenge_name": "911 Collection"
+        },
+        {
+            "coords": [1135.147358, 3038.875],
+            "icon_name": "collectible",
+            "challenge_name": "911 Collection"
+        },
+        {
+            "coords": [1063.521303, 3541.25],
+            "icon_name": "collectible",
+            "challenge_name": "911 Collection"
+        },
+        {
+            "coords": [2150.697969, 3046.216013],
+            "icon_name": "collectible",
+            "challenge_name": "911 Collection"
+        },
+        {
+            "coords": [2916.840113, 2009.243919],
+            "icon_name": "collectible",
+            "challenge_name": "911 Collection"
+        }
+    ]
+}

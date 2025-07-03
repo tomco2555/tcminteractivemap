@@ -1,0 +1,298 @@
+{
+    "Container": {
+        "coords": [2914.363598, 2551.06449]
+    },
+
+    "Events": [
+        {
+            "coords": [2973.235806, 2616.29509],
+            "name": "What Donk Bizness Is",
+            "type": "Time Attack",
+            "weather": "Sunset",
+            "car": "Chevrolet Caprice",
+            "category": "Street Tier 1",
+            "xp": "12,000",
+            "bucks": "22,500",
+            "side": "Donk",
+            "side_event_number": "1/6"
+        },
+        {
+            "coords": [1777.595056, 2268],
+            "name": "The Way You Drive",
+            "type": "Street Versus",
+            "weather": "Night",
+            "car": "Chevrolet Caprice Weasel D. Customs Donk Edition",
+            "category": "Street Tier 1",
+            "xp": "4,800",
+            "bucks": "9,000",
+            "side": "Donk",
+            "side_event_number": "2/6"
+        },
+        {
+            "coords": [2627.9001, 2206.75],
+            "name": "Get It Or Donk Come Back",
+            "type": "Street Versus",
+            "weather": "Dawn",
+            "car": "Chevrolet Caprice Weasel D. Customs Donk Edition",
+            "category": "Street Tier 1",
+            "xp": "4,800",
+            "bucks": "9,000",
+            "side": "Donk",
+            "side_event_number": "3/6"
+        },
+        {
+            "coords": [2679.64894, 2530.75],
+            "name": "Ride Wit' Us",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Chevrolet Caprice Weasel D. Customs Donk Edition",
+            "category": "Street Tier 1",
+            "xp": "12,000",
+            "bucks": "22,500",
+            "side": "Donk",
+            "side_event_number": "4/6"
+        },
+        {
+            "coords": [2038.921709, 3021.113723],
+            "name": "Low' Don't Dance No Mo'",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Chevrolet Caprice Weasel D. Customs Donk Edition",
+            "category": "Street Tier 1",
+            "xp": "9,600",
+            "bucks": "18,000",
+            "side": "Donk",
+            "side_event_number": "5/6"
+        },
+        {
+            "coords": [1574.491, 2249.306671],
+            "name": "The Return Of \"D\"",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Chevrolet Caprice Weasel D. Customs Donk Edition",
+            "category": "Street Tier 1",
+            "xp": "10,800",
+            "bucks": "20,250",
+            "side": "Donk",
+            "side_event_number": "6/6"
+        },
+        {
+            "coords": [2970.938355, 2609.577576],
+            "name": "Ridin' In My Buick",
+            "type": "Navigation",
+            "weather": "Morning",
+            "car": "Buick GNX",
+            "category": "Street Tier 1",
+            "xp": "21,600",
+            "bucks": "40,500",
+            "side": "Lowrider",
+            "side_event_number": "1/6"
+        },
+        {
+            "coords": [2873.763851, 2035.125],
+            "name": "Hop' Till Infinity",
+            "type": "Car Dance",
+            "weather": "Midday",
+            "car": "Buick GNX El Sereno Lowrider Edición",
+            "category": "Street Tier 1",
+            "xp": "8,400",
+            "bucks": "15,750",
+            "side": "Lowrider",
+            "side_event_number": "2/6"
+        },
+        {
+            "coords": [2844.772006, 1974.625],
+            "name": "R U Still Low?",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Buick GNX El Sereno Lowrider Edición",
+            "category": "Street Tier 1",
+            "xp": "14,400",
+            "bucks": "27,000",
+            "side": "Lowrider",
+            "side_event_number": "3/6"
+        },
+        {
+            "coords": [2122.998516, 3052.933528],
+            "name": "Some Car 2 Dance With",
+            "type": "Car Dance",
+            "weather": "Morning",
+            "car": "Buick GNX El Sereno Lowrider Edición",
+            "category": "Street Tier 1",
+            "xp": "8,400",
+            "bucks": "15,750",
+            "side": "Lowrider",
+            "side_event_number": "4/6"
+        },
+        {
+            "coords": [2069.626968, 3106.85042],
+            "name": "Still GNX",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Buick GNX El Sereno Lowrider Edición",
+            "category": "Street Tier 1",
+            "xp": "9,600",
+            "bucks": "18,000",
+            "side": "Lowrider",
+            "side_event_number": "5/6"
+        },
+        {
+            "coords": [1576.434997, 2253.726088],
+            "name": "Donks, Don't Kill My Vibe",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Buick GNX El Sereno Lowrider Edición",
+            "category": "Street Tier 1",
+            "xp": "10,800",
+            "bucks": "20,250",
+            "side": "Lowrider",
+            "side_event_number": "6/6"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [2211.89082, 2877.967981],
+            "icon_name": "slalom",
+            "name": "Kahaluu Tunnel",
+            "type": "Slalom",
+            "objective": "5,220 PTS",
+            "xp": "1,920",
+            "bucks": "3,600",
+            "side": "Dirty South"
+        },
+        {
+            "coords": [2038.887455, 2253.284147],
+            "icon_name": "speedtrap",
+            "name": "Kaukonahua River",
+            "type": "Speedtrap",
+            "objective": "270.0 km/h",
+            "xp": "960",
+            "bucks": "1,800",
+            "side": "Dirty South"
+        },
+        {
+            "coords": [2435.442299, 2248.625],
+            "icon_name": "slalom",
+            "name": "Wahiawa Streets",
+            "type": "Slalom",
+            "objective": "5,100 PTS",
+            "xp": "2,880",
+            "bucks": "5,400",
+            "side": "Dirty South"
+        },
+        {
+            "coords": [2901.811375, 1955.75],
+            "icon_name": "slalom",
+            "name": "Haleiwa Coast",
+            "type": "Slalom",
+            "objective": "3,390 PTS",
+            "xp": "2,880",
+            "bucks": "5,400",
+            "side": "West Side"
+        },
+        {
+            "coords": [2961.128867, 2612.1875],
+            "icon_name": "speedtrap",
+            "name": "Laie Village",
+            "type": "Speedtrap",
+            "objective": "190.0 km/h",
+            "xp": "960",
+            "bucks": "1,800",
+            "side": "West Side"
+        },
+        {
+            "coords": [1591.236916, 2882.344017],
+            "icon_name": "bullseye",
+            "name": "Kalihi Laces",
+            "type": "Bullseye",
+            "objective": "6,520 PTS",
+            "xp": "4,800",
+            "bucks": "9,000",
+            "side": "West Side"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [2920.014288, 2002.172851],
+            "icon_name": "photo_op",
+            "name": "Haleiwa Docks",
+            "requirements": "<span>- Buick GNX El Sereno Lowrider Edición</span><br><span>- Sunrise</span><br><span>- Haleiwa docks</span><br>",
+            "side": "West Side"
+        },
+        {
+            "coords": [2884.132099, 1979.810599],
+            "icon_name": "photo_op",
+            "name": "Big Tree",
+            "requirements": "<span>- Buick GNX El Sereno Lowrider Edición</span><br><span>- Midday</span><br><span>- Under the big tree</span><br><span>- Haleiwa park</span><br>",
+            "side": "West Side"
+        },
+        {
+            "coords": [2888.727, 2030.722287],
+            "icon_name": "photo_op",
+            "name": "Lowrider HQ",
+            "requirements": "<span>- Buick GNX El Sereno Lowrider Edición</span><br><span>- Sunset</span><br><span>- Lowrider HQ</span><br><span>- Haleiwa</span><br>",
+            "side": "West Side"
+        },
+        {
+            "coords": [2379.77046, 2220.5],
+            "icon_name": "photo_op",
+            "name": "Donk HQ",
+            "requirements": "<span>- Hoonigan Chevrolet Caprice Donk</span><br><span>- Night</span><br><span>- Donk HQ</span><br><span>- Wahiawa</span><br>",
+            "side": "Dirty South"
+        },
+        {
+            "coords": [2402.642296, 2163.5],
+            "icon_name": "photo_op",
+            "name": "Wahiawa Bridge",
+            "requirements": "<span>- Chevrolet Caprice Weasel D. Customs Donk Edition</span><br><span>- Midday</span><br><span>- Nitro</span><br><span>- Western bridge of Wahiawa</span><br>",
+            "side": "Dirty South"
+        },
+        {
+            "coords": [2373.315453, 2347.125],
+            "icon_name": "photo_op",
+            "name": "Luxurious Villas",
+            "requirements": "<span>- Chevrolet Caprice Weasel D. Customs Donk Edition</span><br><span>- Dusk</span><br><span>- Luxurious Villas</span><br><span>- East of Wahiawa</span><br>",
+            "side": "Dirty South"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1340.457746, 2248.422787],
+            "icon_name": "collectible",
+            "challenge_name": "Dirty South V West Side"
+        },
+        {
+            "coords": [1952.96901, 3241.64265],
+            "icon_name": "collectible",
+            "challenge_name": "Dirty South V West Side"
+        },
+        {
+            "coords": [2091.908781, 3147.155506],
+            "icon_name": "collectible",
+            "challenge_name": "Dirty South V West Side"
+        },
+        {
+            "coords": [2310.119872, 2215.121228],
+            "icon_name": "collectible",
+            "challenge_name": "Dirty South V West Side"
+        },
+        {
+            "coords": [2312.391698, 2093.375],
+            "icon_name": "collectible",
+            "challenge_name": "Dirty South V West Side"
+        },
+        {
+            "coords": [2869.185004, 1991.5625],
+            "icon_name": "collectible",
+            "challenge_name": "Dirty South V West Side"
+        },
+        {
+            "coords": [2967.005132, 2606.0625],
+            "icon_name": "collectible",
+            "challenge_name": "Dirty South V West Side"
+        }
+    ]
+}

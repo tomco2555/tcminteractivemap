@@ -1,0 +1,187 @@
+{
+    "Container": {
+        "coords": [1349.381937, 2044.952811]
+    },
+
+    "Events": [
+        {
+            "coords": [1381.110271, 1787.212389],
+            "name": "Dream Bulls",
+            "type": "Outrun",
+            "weather": "Sunrise",
+            "car": "Lamborghini Egoista",
+            "category": "Hypercar",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2901.045399, 2033.813092],
+            "name": "Dream Duel: Egoista vs Terzo Millennio",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Lamborghini Egoista",
+            "category": "Hypercar",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [2248.531242, 3039.630317],
+            "name": "Dream Bugattis",
+            "type": "Outrun",
+            "weather": "Morning",
+            "car": "Bugatti La Voiture Noire",
+            "category": "Hypercar",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1970.030236, 3417.855574],
+            "name": "Dream Duel: Veyron vs Noire",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Bugatti La Voiture Noire",
+            "category": "Hypercar",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1228.979947, 3314.394555],
+            "name": "French Dreams",
+            "type": "Outrun",
+            "weather": "Morning",
+            "car": "Citroen GT",
+            "category": "Hypercar",
+            "xp": "4,800",
+            "bucks": "9,000"
+        },
+        {
+            "coords": [1552.774971, 2367.438745],
+            "name": "Dream Duel: Trezor vs Citroen GT",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Citroen GT",
+            "category": "Hypercar",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2601.687074, 1462.278799],
+            "name": "Supercar Festival",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Mercedes-Benz Vision EQ Silver Arrow",
+            "category": "Hypercar",
+            "xp": "18,000",
+            "bucks": "33,750"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [2432.662665, 1805.420389],
+            "icon_name": "slalom",
+            "name": "Ka'ala",
+            "type": "Slalom",
+            "objective": "5,480 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1320.130067, 1851.470718],
+            "icon_name": "speedtrap",
+            "name": "Barbers Point",
+            "type": "Speedtrap",
+            "objective": "150.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1906.535787, 2174.25],
+            "icon_name": "speedtrap",
+            "name": "Kunia",
+            "type": "Speedtrap",
+            "objective": "200.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [2924.094072, 2143.063877],
+            "icon_name": "slalom",
+            "name": "East Haleiwa",
+            "type": "Slalom",
+            "objective": "4,970 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1505.38297, 3560.724585],
+            "icon_name": "escape",
+            "name": "Kuapa River",
+            "type": "Escape",
+            "objective": "1340 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [2135.320435, 1691.929751],
+            "icon_name": "photo_op",
+            "name": "Sulphur Chimneys",
+            "requirements": "<span>- Lamborghini Egoista</span><br><span>- easternmost Sulphur Chimney</span><br><span>- Mauna Pele Sulphur Banks</span><br>"
+        },
+        {
+            "coords": [1437.315506, 1595.75],
+            "icon_name": "photo_op",
+            "name": "Aulinaii Resort",
+            "requirements": "<span>- Lamborghini Egoista</span><br><span>- Aulinaii Resort</span><br><span>- near Kohola Lagoon Beach</span><br>"
+        },
+        {
+            "coords": [1291.514167, 2805.875],
+            "icon_name": "photo_op",
+            "name": "Royal Luau",
+            "requirements": "<span>- Lamborghini Egoista</span><br><span>- Royal Luau</span><br><span>- Honolulu</span><br>"
+        },
+        {
+            "coords": [1325.857014, 2674.984953],
+            "icon_name": "photo_op",
+            "name": "Fast Fashion",
+            "requirements": "<span>- Lamborghini Egoista</span><br><span>- high speed</span><br><span>- going through Moana Center</span><br>"
+        },
+        {
+            "coords": [2534.472369, 1756.75],
+            "icon_name": "photo_op",
+            "name": "Fire Ball",
+            "requirements": "<span>- Lamborghini Egoista</span><br><span>- hairpin turns</span><br><span>- Peacock area</span><br><span>- volcano in the background</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1428.405643, 1576.848122],
+            "icon_name": "collectible",
+            "challenge_name": "Super Shinny"
+        },
+        {
+            "coords": [1267.397991, 2812.875],
+            "icon_name": "collectible",
+            "challenge_name": "Super Shinny"
+        },
+        {
+            "coords": [1307.513745, 2879.875],
+            "icon_name": "collectible",
+            "challenge_name": "Super Shinny"
+        },
+        {
+            "coords": [3303.501933, 2272.25],
+            "icon_name": "collectible",
+            "challenge_name": "Super Shinny"
+        },
+        {
+            "coords": [2937.506539, 1777],
+            "icon_name": "collectible",
+            "challenge_name": "Super Shinny"
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "Container": {
+        "coords": [2068.023957, 3166.9375]
+    },
+
+    "Events": [
+        {
+            "coords": [2027.499086, 2980.375],
+            "name": "Kyusha Spirit",
+            "type": "Race",
+            "weather": "Dawn",
+            "car": "Honda NSX",
+            "category": "Street Tier 2",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [1944.360157, 3300.644348],
+            "name": "Wangan Spirit",
+            "type": "Race",
+            "weather": "Dusk",
+            "car": "Nissan Skyline GT-R (R34)",
+            "category": "Street Tier 2",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [1611.040678, 3395.880317],
+            "name": "Touge Spirit",
+            "type": "Race",
+            "weather": "Dawn",
+            "car": "Mazda RX7",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [1370.337828, 2455.875],
+            "name": "Ebisu Style",
+            "type": "Drift Trial",
+            "weather": "Night",
+            "car": "Mazda RX7",
+            "category": "Drift",
+            "xp": "7,200",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [1252.95271, 2435.010589],
+            "name": "Zeroyon Style",
+            "type": "Drag Race",
+            "weather": "Night",
+            "car": "Nissan Skyline GT-R (R34)",
+            "category": "Dragster",
+            "xp": "4,800",
+            "bucks": "9,000"
+        },
+        {
+            "coords": [1335.321535, 2795.75],
+            "name": "Kanjo Style",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Mitsubishi Lancer Evolution X Black Knight Edition",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [1331.817808, 2828.25],
+            "name": "Shinjuku Style",
+            "type": "Race",
+            "weather": "Night",
+            "car": "Toyota Supra Ryūjin Edition",
+            "category": "Street Tier 2",
+            "xp": "14,400",
+            "bucks": "27,000"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [1278.404716, 2365.481603],
+            "icon_name": "speedtrap",
+            "name": "Oahu Airport",
+            "type": "Speedtrap",
+            "objective": "210.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1355.323626, 2685.3125],
+            "icon_name": "speedtrap",
+            "name": "Moana Center",
+            "type": "Speedtrap",
+            "objective": "210.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [1561.628761, 2955],
+            "icon_name": "slalom",
+            "name": "Manoa Laces",
+            "type": "Slalom",
+            "objective": "4,040 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1273.885634, 3700.0625],
+            "icon_name": "slalom",
+            "name": "Hanauma Bay",
+            "type": "Slalom",
+            "objective": "5,640 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1791.830564, 2923.444598],
+            "icon_name": "escape",
+            "name": "Manoa Canyon",
+            "type": "Escape",
+            "objective": "880 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1999.438203, 3165.125],
+            "icon_name": "speedtrap",
+            "name": "Kaneohe",
+            "type": "Speedtrap",
+            "objective": "130.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1995.670028, 2952.701142],
+            "icon_name": "photo_op",
+            "name": "Temple",
+            "requirements": "<span>- Street Tier 2</span><br><span>- Night</span><br><span>- Japanese Temple</span><br>"
+        },
+        {
+            "coords": [1420.570814, 2413.5],
+            "icon_name": "photo_op",
+            "name": "Street Art",
+            "requirements": "<span>- Street Tier 2</span><br><span>- Dawn</span><br><span>- Dragon Wave graffiti</span><br><span>- Container area of Kaka'ako</span><br>"
+        },
+        {
+            "coords": [1316.00689, 2855.75],
+            "icon_name": "photo_op",
+            "name": "Waikiki Market",
+            "requirements": "<span>- Street Tier 2</span><br><span>- Night</span><br><span>- Waikiki Market</span><br>"
+        },
+        {
+            "coords": [2177.393413, 1998.902482],
+            "icon_name": "photo_op",
+            "name": "Ryūjin",
+            "requirements": "<span>- Toyota Supra Ryūjin Edition</span><br><span>- Night</span><br><span>- Japanese Jodo near Schofield Barracks</span><br>"
+        },
+        {
+            "coords": [2851.806436, 2018.25],
+            "icon_name": "photo_op",
+            "name": "Shrimp",
+            "requirements": "<span>- Street Tier 2</span><br><span>- Dusk</span><br><span>- Big Shrimp of Haleiwa</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [1579.645407, 3218.1875],
+            "icon_name": "collectible",
+            "challenge_name": "Nihon No Fire"
+        },
+        {
+            "coords": [1364.890222, 1761.4375],
+            "icon_name": "collectible",
+            "challenge_name": "Nihon No Fire"
+        },
+        {
+            "coords": [1979.37449, 2956.5625],
+            "icon_name": "collectible",
+            "challenge_name": "Nihon No Fire"
+        },
+        {
+            "coords": [2399.315649, 2256.112574],
+            "icon_name": "collectible",
+            "challenge_name": "Nihon No Fire"
+        },
+        {
+            "coords": [2180.443722, 2011.3125],
+            "icon_name": "collectible",
+            "challenge_name": "Nihon No Fire"
+        }
+    ]
+}

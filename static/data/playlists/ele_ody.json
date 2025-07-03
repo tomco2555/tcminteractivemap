@@ -1,0 +1,205 @@
+{
+    "Container": {
+        "coords": [2349.010687, 2251.125]
+    },
+
+    "Events": [
+        {
+            "coords": [2434.775235, 2328.856184],
+            "name": "Porsche E-xpress",
+            "type": "Delivery",
+            "weather": "Dusk",
+            "car": "Porsche Taycan Turbo S",
+            "category": "Street Tier 2",
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [1988.9548, 3115.512478],
+            "name": "Piece Of E-story",
+            "type": "Race",
+            "weather": "Dusk",
+            "car": "Porsche Taycan Turbo S",
+            "category": "Street Tier 2",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [2436.365778, 2332.303329],
+            "name": "Lotus E-xpress",
+            "type": "Delivery",
+            "weather": "Dusk",
+            "car": "Lotus Evija",
+            "category": "Hypercar",
+            "xp": "4,800",
+            "bucks": "9,000"
+        },
+        {
+            "coords": [1590.25659, 2387.634435],
+            "name": "Hyper E-volution",
+            "type": "Race",
+            "weather": "Dusk",
+            "car": "Lotus Evija",
+            "category": "Hypercar",
+            "xp": "7,200",
+            "bucks": "13,500"
+        },
+        {
+            "coords": [2431.505786, 2326.116145],
+            "name": "Hummer E-xpress",
+            "type": "Delivery",
+            "weather": "Dusk",
+            "car": "GMC Hummer EV",
+            "category": "Rally Raid",
+            "xp": "9,600",
+            "bucks": "18,000"
+        },
+        {
+            "coords": [2415.863758, 1637.128975],
+            "name": "E-xplorers",
+            "type": "Race",
+            "weather": "Dusk",
+            "car": "GMC Hummer EV",
+            "category": "Rally Raid",
+            "xp": "8,400",
+            "bucks": "15,750"
+        },
+        {
+            "coords": [1923.595696, 1808.248816],
+            "name": "Final E-vent",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Multi Vehicle",
+            "category": "Rally Raid",
+            "xp": "14,400",
+            "bucks": "27,000"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [1857.421251, 2270.196383],
+            "icon_name": "escape",
+            "name": "Waipio Fields",
+            "type": "Escape",
+            "objective": "1340 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1870.15753, 2077.037781],
+            "icon_name": "slalom",
+            "name": "Kunia Farm",
+            "type": "Slalom",
+            "objective": "6,480 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1858.636601, 1790.875],
+            "icon_name": "escape",
+            "name": "Nanakuli Rivers",
+            "type": "Escape",
+            "objective": "2100 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2384.384878, 2239.125],
+            "icon_name": "speedtrap",
+            "name": "Wahiawa",
+            "type": "Speedtrap",
+            "objective": "190.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [2418.255537, 1615.8125],
+            "icon_name": "escape",
+            "name": "Mauna Pele Red Hill",
+            "type": "Escape",
+            "objective": "760 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [2827.250527, 2053.0625],
+            "icon_name": "slalom",
+            "name": "Haleiwa Fields",
+            "type": "Slalom",
+            "objective": "8,940 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1731.946343, 2207.233817],
+            "icon_name": "photo_op",
+            "name": "Wind Turbines",
+            "requirements": "<span>- Porsche Taycan Turbo S</span><br><span>- Water Tank Graffiti</span><br><span>- near the wind turbines at Waipio Fields</span><br>"
+        },
+        {
+            "coords": [2052.838148, 1941.184891],
+            "icon_name": "photo_op",
+            "name": "Water Tank",
+            "requirements": "<span>- GMC Hummer EV</span><br><span>- Water Tank Graffiti</span><br><span>- southwest of the Japanese Jodo</span><br>"
+        },
+        {
+            "coords": [1884.276717, 1566.25],
+            "icon_name": "photo_op",
+            "name": "Observatory",
+            "requirements": "<span>- Porsche Taycan Turbo S</span><br><span>- Mauna Pele observatory</span><br>"
+        },
+        {
+            "coords": [2128.458026, 1682.75],
+            "icon_name": "photo_op",
+            "name": "Sulphur Chimneys",
+            "requirements": "<span>- GMC Hummer EV</span><br><span>- easternmost Sulphur chimney</span><br><span>- Mauna Pele Sulphur Banks</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [3149.653131, 2416.360648],
+            "icon_name": "collectible",
+            "challenge_name": "E-nergy"
+        },
+        {
+            "coords": [2958.938502, 2083.6875],
+            "icon_name": "collectible",
+            "challenge_name": "E-nergy"
+        },
+        {
+            "coords": [2351.941174, 2265.0625],
+            "icon_name": "collectible",
+            "challenge_name": "E-nergy"
+        },
+        {
+            "coords": [2126.194285, 2369],
+            "icon_name": "collectible",
+            "challenge_name": "E-nergy"
+        },
+        {
+            "coords": [1784.772499, 2317.5],
+            "icon_name": "collectible",
+            "challenge_name": "E-nergy"
+        },
+        {
+            "coords": [1728.75733, 2090.9375],
+            "icon_name": "collectible",
+            "challenge_name": "E-nergy"
+        },
+        {
+            "coords": [1495.757154, 2406.5625],
+            "icon_name": "collectible",
+            "challenge_name": "E-nergy"
+        },
+        {
+            "coords": [1313.580828, 1795.520894],
+            "icon_name": "collectible",
+            "challenge_name": "E-nergy"
+        }
+    ]
+}

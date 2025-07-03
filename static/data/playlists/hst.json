@@ -1,0 +1,359 @@
+{
+    "Container": {
+        "coords": [1514.642559, 3303.776903]
+    },
+
+    "Events": [
+        {
+            "coords": [1463.222549, 3336.483347],
+            "name": "Ho'laule'a Hawai'i",
+            "type": "Race",
+            "weather": "Midday",
+            "car": "Ford GT",
+            "category": "Hypercar",
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [1474.895846, 3423.125],
+            "name": "Wonders of Ko'olau Poko",
+            "type": "Race",
+            "weather": "Sunrise",
+            "car": "Volkswagen Kombi Dak1ne Edition",
+            "category": "Street Tier 1",
+            "xp": "21,600",
+            "bucks": "40,500"
+        },
+        {
+            "coords": [1645.748067, 2304.25],
+            "name": "Bounty of 'Ewa",
+            "type": "Race",
+            "weather": "Midday",
+            "car": "BMW Z4 M40i",
+            "category": "Street Tier 2",
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "coords": [1296.697908, 1650.475616],
+            "name": "Dukes of Wai'anae",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "Ford Bronco Hawaii Scenic Tour Ed.",
+            "category": "Rally Raid",
+            "xp": "10,800",
+            "bucks": "20,250"
+        },
+        {
+            "coords": [2566.700011, 1691],
+            "name": "Giant of Ma'ili's",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Chevrolet Camaro Z28",
+            "category": "Street Tier 1",
+            "xp": "18,000",
+            "bucks": "33,750"
+        },
+        {
+            "coords": [3097.975445, 2052],
+            "name": "Wild Heart of Ko'olau Loa",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "Dodge Challenger SRT-8 392",
+            "category": "Rally",
+            "xp": "21,600",
+            "bucks": "40,500"
+        },
+        {
+            "coords": [2949.543798, 2661.5],
+            "name": "Explorers of Moana",
+            "type": "Race",
+            "weather": "Afternoon",
+            "boat": "Proto Offshore MK2",
+            "category": "Powerboat",
+            "xp": "18,000",
+            "bucks": "33,750"
+        },
+        {
+            "coords": [1928.493466, 3161.120865],
+            "name": "Kingdom of Lani",
+            "type": "Time Attack",
+            "weather": "Sunset",
+            "plane": "Northrop Grumman F4U™ Corsair®",
+            "category": "Plane",
+            "xp": "24,000",
+            "bucks": "45,000"
+        },
+        {
+            "coords": [1397.15249, 2415.75],
+            "name": "Art of Honolulu",
+            "type": "Race",
+            "weather": "Midday",
+            "car": "Honda Civic Type R Fitted Edition",
+            "category": "Street Tier 1",
+            "xp": "12,000",
+            "bucks": "22,500"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [1502.130871, 3387],
+            "icon_name": "slalom",
+            "name": "Motorfest Grounds",
+            "type": "Slalom",
+            "objective": "5,810 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1435.010546, 3286.4375],
+            "icon_name": "aerobatics",
+            "name": "Motorfest Grounds Heights",
+            "type": "Aerobatics",
+            "objective": "6,010 PTS",
+            "xp": "8,640",
+            "bucks": "16,200"
+        },
+        {
+            "coords": [1656.742969, 3583.625],
+            "icon_name": "escape",
+            "name": "Coconut Resort",
+            "type": "Escape",
+            "objective": "1490 m",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1640.005256, 2685.1875],
+            "icon_name": "low_altitude",
+            "name": "National Cemetery",
+            "type": "Low Altitude",
+            "objective": "8,510 PTS",
+            "xp": "5,760",
+            "bucks": "10,800"
+        },
+        {
+            "coords": [1683.125984, 2698.875],
+            "icon_name": "bullseye",
+            "name": "Kalihi Road",
+            "type": "Bullseye",
+            "objective": "6,390 PTS",
+            "xp": "4,800",
+            "bucks": "9,000"
+        },
+        {
+            "coords": [1563.977261, 2232.159332],
+            "icon_name": "bullseye",
+            "name": "Waipahu",
+            "type": "Bullseye",
+            "objective": "3,460 PTS",
+            "xp": "3,840",
+            "bucks": "7,200"
+        },
+        {
+            "coords": [1647.80742, 2224.75],
+            "icon_name": "slalom",
+            "name": "Honouliuli Farm",
+            "type": "Slalom",
+            "objective": "3,690 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        },
+        {
+            "coords": [1324.010423, 1725.5],
+            "icon_name": "speedtrap",
+            "name": "Kalaeloa",
+            "type": "Speedtrap",
+            "objective": "220.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [2561.250633, 1245.875],
+            "icon_name": "speedtrap",
+            "name": "Kaena Point",
+            "type": "Speedtrap",
+            "objective": "170.0 km/h",
+            "xp": "960",
+            "bucks": "1,800"
+        },
+        {
+            "coords": [2944.067005, 2705.567322],
+            "icon_name": "slalom",
+            "name": "Laie Point",
+            "type": "Slalom",
+            "objective": "4,560 PTS",
+            "xp": "2,880",
+            "bucks": "5,400"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [1475.39662, 3338.75],
+            "icon_name": "photo_op",
+            "name": "Festival",
+            "requirements": "<span>- Motorfest Wheel at the Motorfest Grounds</span><br><span>- Sunset</span><br>"
+        },
+        {
+            "coords": [1307.858404, 3207.259583],
+            "icon_name": "photo_op",
+            "name": "Lē'ahi",
+            "requirements": "<span>- Volkswagen Kombi 21 Window Bus</span><br><span>- Midday</span><br><span>- Diamond Head in the background</span><br>"
+        },
+        {
+            "coords": [1677.111338, 3662.989903],
+            "icon_name": "photo_op",
+            "name": "Rabbit Island",
+            "requirements": "<span>- Ford Bronco Hawaii Scenic Tour Ed.</span><br><span>- Rabbit Island in the background</span><br>"
+        },
+        {
+            "coords": [2809.371391, 1339.260244],
+            "icon_name": "photo_op",
+            "name": "Painted Wreck",
+            "requirements": "<span>- Ford Bronco Hawaii Scenic Tour Ed.</span><br><span>- Shipwreck with whale graffiti</span><br><span>- Mokuleia Beach</span><br><span>- Morning</span><br>"
+        },
+        {
+            "coords": [3067.630932, 2039.295957],
+            "icon_name": "photo_op",
+            "name": "Turtle Rock",
+            "requirements": "<span>- Bike</span><br><span>- Turtle Rock located near Haleiwa</span><br><span>- Sunrise</span><br>"
+        },
+        {
+            "coords": [2772.232849, 2790.243359],
+            "icon_name": "photo_op",
+            "name": "Maakua Beach",
+            "requirements": "<span>- Plane</span><br><span>- Ma'akua Black Beach in the background</span><br><span>- Sunset</span><br>"
+        },
+        {
+            "coords": [2685.372504, 3060.125],
+            "icon_name": "photo_op",
+            "name": "Shipwreck",
+            "requirements": "<span>- Boat</span><br><span>- Shipwreck</span><br><span>- Kualoa Beach</span><br><span>- Afternoon</span><br>"
+        },
+        {
+            "coords": [1417.091438, 2243.296263],
+            "icon_name": "photo_op",
+            "name": "Ford Island",
+            "requirements": "<span>- Plane</span><br><span>- Ford Island located in Pearl Harbor</span><br>"
+        },
+        {
+            "coords": [1407.292536, 1533.75],
+            "icon_name": "photo_op",
+            "name": "Resort",
+            "requirements": "<span>- Boat</span><br><span>- Aulinaii Resort</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {"coords": [2033.940365, 3375.25], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [2043.637023, 3198.5], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [2896.440576, 2526.875], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [2944.567299, 2019.25], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [2850.313027, 2016.625], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [2859.754394, 1973.5], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [2899.786183, 1888.947378], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [2505.867158, 2221.375953], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [2361.374402, 2210.125], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [2384.467947, 1338.729913], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [2354.521002, 1359.76634], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [1339.516206, 1757.625], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [1265.898518, 1794.875], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [1402.884316, 2125], "icon_name": "collectible", "challenge_name": "Rainbow Fun Treasures"},
+        {"coords": [3288.878058, 2285.625], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [2856.257699, 1954], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [2651.012691, 1071.5], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [2872.823468, 2014.9375], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [2858.338436, 2015.254326], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [2765.887083, 2042.566326], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [2413.817949, 1881.75], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [2052.897006, 1937.75], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [2044.00624, 3029.6875], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [2064.257347, 3065.66145], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [1906.880836, 3539.875], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [1319.871731, 3603], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [1147.136495, 3036.25], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [1423.235072, 2827.896795], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [1340.095045, 2644.579362], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [1420.764413, 2414.625], "icon_name": "collectible", "challenge_name": "Rainbow Ocean Arts"},
+        {"coords": [1408.451526, 2103.1875], "icon_name": "collectible", "challenge_name": "Rainbow Flora Arts"},
+        {"coords": [1298.127601, 2931], "icon_name": "collectible", "challenge_name": "Rainbow Flora Arts"},
+        {"coords": [1440.231834, 2843.806697], "icon_name": "collectible", "challenge_name": "Rainbow Flora Arts"},
+        {"coords": [1754.003309, 2597.203207], "icon_name": "collectible", "challenge_name": "Rainbow Flora Arts"},
+        {"coords": [2020.382136, 2197.25], "icon_name": "collectible", "challenge_name": "Rainbow Flora Arts"},
+        {"coords": [2109.943283, 2287.5], "icon_name": "collectible", "challenge_name": "Rainbow Flora Arts"},
+        {"coords": [3283.290695, 2490.07653], "icon_name": "collectible", "challenge_name": "Rainbow Flora Arts"},
+        {"coords": [1431.841578, 2962.512248], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1431.398717, 2938.647394], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1332.136738, 2830.460057], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1488.841249, 2706.451205], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1345.131802, 2626.125], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1372.527056, 2550.445771], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1373.50164, 2423.343327], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1384.105432, 2417.686473], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1406.151471, 2419.25], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1419.104931, 2452.865036], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1430.329311, 2442.928716], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1440.68183, 2164.188692], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1441.918596, 2174.883682], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1702.562509, 2548.147674], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1745.393807, 2248.875], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1767.518139, 2246], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1734.383789, 2211.8125], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [2056.386091, 1338.1875], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [2385.873752, 1352.4375], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [2362.231519, 2125.707718], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [2404.141101, 2230.125], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [2734.296543, 2630.00586], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [2569.375035, 2489.875], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1760.418732, 2924.375], "icon_name": "collectible", "challenge_name": "Rainbow Portrait Arts"},
+        {"coords": [1530.489324, 3360.747636], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [1245.964537, 2893.480949], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [1390.014426, 3009.446461], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [1296.36076, 2871.383862], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [1316.817541, 2545.393449], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [1423.638788, 2381.182086], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [1421.448644, 2398.5625], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [1310.015151, 1817.75], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [1888.624613, 1565.125], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [2792.859532, 1271.5], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [2799.989971, 1282.603313], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [2803.818793, 1282.5], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [2807.93866, 1336.5625], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [2810.502127, 1342.9375], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [2849.684507, 1951.791493], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [2881.36637, 2015.25], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [2940.611039, 2011.692486], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [2947.168726, 1784.560739], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [2399.987654, 2325.643164], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [2684.059846, 3058.875], "icon_name": "collectible", "challenge_name": "Rainbow Word Arts"},
+        {"coords": [1224.768166, 2896.016627], "icon_name": "collectible", "challenge_name": "Rainbow Statues"},
+        {"coords": [1247.898864, 2883.404677], "icon_name": "collectible", "challenge_name": "Rainbow Statues"},
+        {"coords": [1423.261545, 2802.617727], "icon_name": "collectible", "challenge_name": "Rainbow Statues"},
+        {"coords": [1434.263165, 2742.375], "icon_name": "collectible", "challenge_name": "Rainbow Statues"},
+        {"coords": [1430.440101, 2656.25], "icon_name": "collectible", "challenge_name": "Rainbow Statues"},
+        {"coords": [1436.695076, 2636.8125], "icon_name": "collectible", "challenge_name": "Rainbow Statues"},
+        {"coords": [1396.218635, 2623.613872], "icon_name": "collectible", "challenge_name": "Rainbow Statues"},
+        {"coords": [1738.536517, 2599.766469], "icon_name": "collectible", "challenge_name": "Rainbow Statues"},
+        {"coords": [1722.196658, 2566.8125], "icon_name": "collectible", "challenge_name": "Rainbow Statues"},
+        {"coords": [2365.012585, 2148.875], "icon_name": "collectible", "challenge_name": "Rainbow Statues"},
+        {"coords": [2796.416436, 1804.398821], "icon_name": "collectible", "challenge_name": "Rainbow Statues"},
+        {"coords": [1184.790081, 2954.203743], "icon_name": "collectible", "challenge_name": "Rainbow Statues"},
+        {"coords": [1162.782004, 3138.670225], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [1391.033396, 3795.75], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [1829.856544, 2984.125], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [2445.319144, 2989.5625], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [2582.494305, 3029.5], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [2958.760823, 2671.095866], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [3080.373348, 2591.125], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [3191.029915, 2179.3031], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [3066.701403, 2030.9375], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [2719.947426, 980.798568], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [2252.906866, 1326.532322], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [2159.137972, 1285.5], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [2042.327719, 1383.791129], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [1992.078319, 1412.875], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"},
+        {"coords": [2219.684055, 1616.75], "icon_name": "collectible", "challenge_name": "Rainbow Cultural Treasures"}
+    ]
+}

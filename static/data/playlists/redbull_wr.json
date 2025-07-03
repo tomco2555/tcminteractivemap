@@ -1,0 +1,190 @@
+{
+    "Container": {
+        "coords": [721.719568, 5313.834672]
+    },
+
+    "Events": [
+        {
+            "coords": [747.247696, 5331.913945],
+            "name": "Dealing The Cards",
+            "type": "Race",
+            "weather": "Sunset",
+            "car": "Audi RS Q e-tron",
+            "category": "Rally Raid",
+            "xp": "8,000",
+            "bucks": "15,000"
+        },
+        {
+            "coords": [1270.661615, 5179.294288],
+            "name": "The Queen",
+            "type": "Action List",
+            "weather": "Sunrise",
+            "car": "Ford Fiesta Red Bull Ed.",
+            "category": "Rally",
+            "xp": "20,000",
+            "bucks": "37,500"
+        },
+        {
+            "coords": [843.436605, 4667.816001],
+            "name": "Straight Rush",
+            "type": "Outrun",
+            "weather": "Sunset",
+            "car": "Proto WR1",
+            "category": "Powerboat",
+            "xp": "10,000",
+            "bucks": "18,750"
+        },
+        {
+            "coords": [1568.124051, 5459],
+            "name": "The Joker",
+            "type": "Action List",
+            "weather": "Midday",
+            "car": "KTM 450 EXC Robbie Maddison Ed.",
+            "category": "Motocross",
+            "xp": "9,000",
+            "bucks": "16,875"
+        },
+        {
+            "coords": [1448.698193, 5263.702879],
+            "name": "M4 Of A Kind",
+            "type": "Outrun",
+            "weather": "Afternoon",
+            "car": "BMW M4 Red Bull Driftbrothers",
+            "category": "Drift",
+            "xp": "9,000",
+            "bucks": "16,875"
+        },
+        {
+            "coords": [374.270518, 5235.065055],
+            "name": "The Ace",
+            "type": "Action List",
+            "weather": "Morning",
+            "car": "Red Bull RB18",
+            "category": "Alpha GP",
+            "xp": "9,000",
+            "bucks": "16,875"
+        },
+        {
+            "coords": [578.79315, 4946.565488],
+            "name": "Full House",
+            "type": "Action List",
+            "weather": "Afternoon",
+            "car": "Multi Vehicle",
+            "category": "Motocross",
+            "xp": "10,000",
+            "bucks": "18,750"
+        }
+    ],
+
+    "Feats": [
+        {
+            "coords": [621.574632, 4932.069799],
+            "icon_name": "bullseye",
+            "name": "Wailea",
+            "type": "Bullseye",
+            "objective": "4,690 PTS",
+            "xp": "4,000",
+            "bucks": "7,500"
+        },
+        {
+            "coords": [708.025873, 4616],
+            "icon_name": "slalom",
+            "name": "Kalohi Islets",
+            "type": "Slalom",
+            "objective": "4,150 PTS",
+            "xp": "2,400",
+            "bucks": "4,500"
+        },
+        {
+            "coords": [1663.105654, 4918.281217],
+            "icon_name": "long_jump",
+            "name": "Kahoma Falls",
+            "type": "Long Jump",
+            "objective": "380 m",
+            "xp": "1,600",
+            "bucks": "3,000"
+        },
+        {
+            "coords": [617.278967, 5471.75],
+            "icon_name": "low_altitude",
+            "name": "RB Playground",
+            "type": "Low Altitude",
+            "objective": "4,380 PTS",
+            "xp": "2,400",
+            "bucks": "4,500"
+        },
+        {
+            "coords": [1327.252039, 5343],
+            "icon_name": "long_jump",
+            "name": "Chase Squad HQ",
+            "type": "Long Jump",
+            "objective": "310 m",
+            "xp": "1,600",
+            "bucks": "3,000"
+        }
+    ],
+
+    "Photo_ops": [
+        {
+            "coords": [846.443805, 4971.314225],
+            "icon_name": "photo_op",
+            "name": "Maui Big Hands",
+            "requirements": "<span>- Audi RS Q e-tron</span><br><span>- Maui Big Hands</span><br><span>- north of Kihei Beach</span><br>"
+        },
+        {
+            "coords": [1603.256539, 4966.75],
+            "icon_name": "photo_op",
+            "name": "Maui Big Pyramid",
+            "requirements": "<span>- KTM 450 EXC Robbie Maddison Ed.</span><br><span>- Maui Big Pyramid</span><br><span>- Iao Lake</span><br>"
+        },
+        {
+            "coords": [257.53642, 5280.25],
+            "icon_name": "photo_op",
+            "name": "Maui Big Whales",
+            "requirements": "<span>- Audi RS Q e-tron</span><br><span>- Maui Big Whales</span><br><span>- Ahihi Kinau</span><br>"
+        }
+    ],
+
+    "Collectibles": [
+        {
+            "coords": [402.75518, 4681.400445],
+            "icon_name": "collectible",
+            "challenge_name": "Bold Explorer"
+        },
+        {
+            "coords": [176.856041, 5690.088268],
+            "icon_name": "collectible",
+            "challenge_name": "Bold Explorer"
+        },
+        {
+            "coords": [260.59126, 5096.5],
+            "icon_name": "collectible",
+            "challenge_name": "Bold Explorer"
+        },
+        {
+            "coords": [1199.592774, 6036.795365],
+            "icon_name": "collectible",
+            "challenge_name": "Bold Explorer"
+        },
+        {
+            "coords": [1366.060703, 5972.046341],
+            "icon_name": "collectible",
+            "challenge_name": "Bold Explorer"
+        },
+        {
+            "coords": [1406.44868, 5664.698701],
+            "icon_name": "collectible",
+            "challenge_name": "Bold Explorer"
+        },
+        {
+            "coords": [1884.888846, 5260.160371],
+            "icon_name": "collectible",
+            "challenge_name": "Bold Explorer"
+        },
+        {
+            "coords": [2036.723719, 4709.019925],
+            "icon_name": "collectible",
+            "challenge_name": "Bold Explorer"
+        }
+    ]
+}
