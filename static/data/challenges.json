@@ -1558,5 +1558,130 @@
             "name": "Chinaman's Hat",
             "icon": "finish"
         }
+    ],
+    
+    "Supercar Essenza": [
+        {
+            "lat": 1164.556668,
+            "lng": 3559.5,
+            "name": "Hanauma Racetrack",
+            "icon": "challenge"
+        }
+    ],
+    
+    "Velocita Supercar": [
+        {
+            "lat": 913.643708,
+            "lng": 4475.278818,
+            "name": "Kaiwi Islets",
+            "icon": "challenge"
+        }
+    ],
+    
+    "Supercar Exhibition": [
+        {
+            "lat": 559.332749,
+            "lng": 5073.314378,
+            "name": "Museo Enzo Ferrari",
+            "icon": "challenge"
+        }
+    ],
+    
+    "Strada di Supercar": [
+        {
+            "lat": 559.332749,
+            "lng": 5073.314378,
+            "name": "Ferrari Museum",
+            "icon": "challenge"
+        }
+    ],
+
+    "Supercar Ride": [
+        {
+            "lat": 1438.522499,
+            "lng": 3400.375,
+            "name": "Car Meet",
+            "icon": "start"
+        },
+
+        {
+            "lat": 559.332749,
+            "lng": 5073.314378,
+            "name": "Museo Enzo Ferrari",
+            "icon": "finish"
+        }
+    ],
+
+    "Supercar Cruising": [
+        {
+            "lat": 2969.15044,
+            "lng": 2567.498161,
+            "name": "Laie",
+            "icon": "start"
+        },
+
+        {
+            "lat": 2020.011812,
+            "lng": 3103,
+            "name": "Kaneohe",
+            "icon": "finish"
+        }
+    ],
+
+    "Supercar Journey": [
+        {
+            "lat": 447.97412,
+            "lng": 6035.863484,
+            "name": "Hana",
+            "icon": "start"
+        },
+
+        {
+            "lat": 1284.791904,
+            "lng": 5643.5,
+            "name": "Paia",
+            "icon": "finish"
+        }
+    ],
+
+    "Supercar Pace": [
+        {
+            "lat": 2020.011812,
+            "lng": 3103,
+            "name": "Kaneohe",
+            "icon": "start"
+        },
+
+        {
+            "lat": 447.97412,
+            "lng": 6035.863484,
+            "name": "Hana",
+            "icon": "finish"
+        }
+    ],
+
+    "Supercar Quick Stroll": [
+        {
+            "lat": 1661.80877,
+            "lng": 4632.708576,
+            "name": "Black Rock",
+            "icon": "start"
+        },
+
+        {
+            "lat": 1560.496065,
+            "lng": 5309.840414,
+            "name": "Waikapu",
+            "icon": "finish"
+        }
+    ],
+    
+    "Supercar Dolce Vita": [
+        {
+            "lat": 2941.041568,
+            "lng": 1786.484434,
+            "name": "Haleiwa Island Resort",
+            "icon": "challenge"
+        }
     ]
 }
