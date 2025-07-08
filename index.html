@@ -7,12 +7,13 @@
     <meta name="description" content="The Crew Motorfest interactive map. Map contains all the events, feats, photo ops, collectibles, travelling challenges and treasure locations." />
     <meta name="google-site-verification" content="CYAlxjrxH9ZyM--EAzyDcc_YZBuAUy7KUENDi09s-4o" />
     <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
-    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="static/css/styles.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="lib/leaflet/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/rbush"></script>
     <script src="lib/leaflet-markers-canvas.js"></script>
-    <script src="static/script.js"></script>
+    <script src="static/js/script.js"></script>
 </head>
 <body>
     <div id="main-container">
@@ -41,8 +42,11 @@
                         </label>
                     </div>
                     <div class="map_settings">
-                         <button type="button" class="hide_btn" onclick="hideOrShowEverything(this)">Hide all</button>
-                         <button type="button" class="hide_btn" onclick="hideOrShowEverything(this)">Show all</button>
+                         <button type="button" class="hide_btn" id="hide_all_btn" onclick="hideOrShowEverything(this)">Hide all</button>
+                         <button type="button" class="hide_btn" id="show_all_btn" onclick="hideOrShowEverything(this)">Show all</button>
+                    </div>
+                    <div class="map_settings">
+                        <span id="countdown_next_season"></span>
                     </div>
                 </div>
                 <div class="events" id="challenges_menu" hidden>
@@ -1182,6 +1186,91 @@
                             </div>
                         </div>
                     </div>
+                    <div class="accordion_item">
+                        <button class="accordion_menu">Ferrari Supercars</button>
+                        <div class="challenges_submenu">
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Supercar Essenza">Supercar Essenza</button>
+                                <div class="challenge_details">
+                                    <span>Drive <b>10min</b> inside the <b>HANAUMA RACETRACK</b> &#40Oahu&#41</span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ferrari GTO</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Velocita Supercar">Velocità Supercar</button>
+                                <div class="challenge_details">
+                                    <span>Reach <b>300 km/h</b> speed in <b>KAIWI ISLETS</b> &#40Maui&#41</span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ferrari F50</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Supercar Exhibition">Supercar Exhibition</button>
+                                <div class="challenge_details">
+                                    <span>Spend <b>3min</b> inside the <b>MUSEO ENZO FERRARI</b> &#40Maui&#41</span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ferrari GTO</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Strada di Supercar">Strada di Supercar</button>
+                                <div class="challenge_details">
+                                    <span>Interact with all <b>VEHICLES EXPOSED</b> in the <b>FERRARI MUSEUM</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ferrari GTO</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Supercar Ride">Supercar Ride</button>
+                                <div class="challenge_details">
+                                    <span>Drive from the <b>CAR MEET</b> to the <b>MUSEO ENZO FERRARI</b> &#40Maui&#41 in less than <b>8min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ferrari GTO</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Supercar Cruising">Supercar Cruising</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>LAIE</b> to <b>KANEOHE</b> &#40Oahu&#41</span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ferrari F50</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Supercar Journey">Supercar Journey</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>HANA</b> to <b>PAIA</b> &#40Maui&#41</span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ferrari F50</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Supercar Pace">Supercar Pace</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>KANEOHE</b> &#40Oahu&#41 to <b>HANA</b> &#40Maui&#41 in less than <b>7min 40sec</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ferrari F50</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Supercar Quick Stroll">Supercar Quick Stroll</button>
+                                <div class="challenge_details">
+                                    <span>Drive from <b>BLACK ROCK</b> to <b>WAIKAPU</b> &#40Maui&#41 in less than <b>3min</b></span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ferrari F12berlinetta</span>
+                                </div>
+                            </div>
+                            <div class="challenges_submenu_item">
+                                <button class="accordion_submenu" data-markers="Supercar Dolce Vita">Supercar Dolce Vita</button>
+                                <div class="challenge_details">
+                                    <span>Reach <b>HALEIWA ISLAND RESORT</b> &#40Oahu&#41</span>
+                                    <br>
+                                    <span><b>Vehicle:</b> Ferrari F12berlinetta</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="events">
                     <div class="event_header">
@@ -1370,6 +1459,11 @@
                                 <span class="filter_marker_count"></span>
                             </label>
                         </div>
+                       <div class="filter_option playlist_checkbox">
+                            <input class="filter_checkbox" type="checkbox" onchange="watchCanvasCheckbox('ferrari')" id="ferrari_playlist">
+                           <span>Ferrari Supercars</span>
+                           <span class="filter_marker_count"></span>
+                       </div>
                     </div>
                 </div>
                 <div class="events">
@@ -1516,38 +1610,39 @@
         </div>
     </div>
 
-    <script src="static/map.js"></script>
-    <script src="static/marker_icons.js"></script>
-    <script src="static/feats_markers.js"></script>
+    <script src="static/js/map.js"></script>
+    <script src="static/js/countdown_timer.js"></script>
+    <script src="static/js/marker_icons.js"></script>
+    <script src="static/js/feats_markers.js"></script>
     <!--<script src="static/markers_counter.js"></script>-->
-    <script id="misc_script" src="static/misc_canvas.js"></script>
-    <script class="playlist_script" src="static/mij_canvas.js"></script>
-    <script class="playlist_script" src="static/hst_canvas.js"></script>
-    <script class="playlist_script" src="static/american_muscle_canvas.js"></script>
-    <script class="playlist_script" src="static/porsche_canvas.js"></script>
-    <script class="playlist_script" src="static/donut_media_canvas.js"></script>
-    <script class="playlist_script" src="static/off_add_canvas.js"></script>
-    <script class="playlist_script" src="static/vin_gar_canvas.js"></script>
-    <script class="playlist_script" src="static/auto_lambo_canvas.js"></script>
-    <script class="playlist_script" src="static/motorsports_canvas.js"></script>
-    <script class="playlist_script" src="static/ele_ody_canvas.js"></script>
-    <script class="playlist_script" src="static/dream_cars_canvas.js"></script>
-    <script class="playlist_script" src="static/bike_lovers_canvas.js"></script>
-    <script class="playlist_script" src="static/lbwk_canvas.js"></script>
-    <script class="playlist_script" src="static/drift_canvas.js"></script>
-    <script class="playlist_script" src="static/ons_canvas.js"></script>
-    <script class="playlist_script" src="static/gymkhana_canvas.js"></script>
-    <script class="playlist_script" src="static/drift2_canvas.js"></script>
-    <script class="playlist_script" src="static/hollywood_canvas.js"></script>
-    <script class="playlist_script" src="static/dvl_canvas.js"></script>
-    <script class="playlist_script" src="static/off_add2_canvas.js"></script>
-    <script class="playlist_script" src="static/chase_squad_canvas.js"></script>
-    <script class="playlist_script" src="static/mij2_canvas.js"></script>
-    <script class="playlist_script" src="static/mauiex_canvas.js"></script>
-    <script class="playlist_script" src="static/redbull_sc_canvas.js"></script>
-    <script class="playlist_script" src="static/redbull_wr_canvas.js"></script>
-    <script id="rivals_script" src="static/rivals_canvas.js"></script>
-    <script src="static/test.js"></script>
+    <script id="misc_script" src="static/js/canvas/misc_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/mij_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/hst_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/american_muscle_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/porsche_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/donut_media_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/off_add_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/vin_gar_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/auto_lambo_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/motorsports_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/ele_ody_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/dream_cars_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/bike_lovers_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/lbwk_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/drift_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/ons_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/gymkhana_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/drift2_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/hollywood_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/dvl_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/off_add2_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/chase_squad_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/mij2_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/mauiex_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/redbull_sc_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/redbull_wr_canvas.js"></script>
+    <script class="playlist_script" src="static/js/canvas/ferrari_canvas.js"></script>
+    <script id="rivals_script" src="static/js/canvas/rivals_canvas.js"></script>
 
     <script>
         var counter = 0;
