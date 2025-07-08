@@ -267,20 +267,12 @@ a.custom_link:hover {
 
 /* The switch - the box around the slider */
 .switch {
-<<<<<<< HEAD:static/styles.css
-  position: relative;
-  display: inline-block;
-  width: 50px;
-  height: 27px;
-}
-=======
     position: relative;
     display: inline-block;
     width: 50px;
     height: 27px;
     margin-right: 10px;
   }
->>>>>>> c37f82cfb9383009b987a640642dfcbdf5e3899b:static/css/styles.css
 
 /* Hide default HTML checkbox */
 .switch input {
