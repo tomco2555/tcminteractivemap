@@ -153,7 +153,7 @@ function createFerrariFeatsMarkers(featsArr) {
     }
 }
 
-createFerrariFeatsMarkers(AMfeatsArr);
+createFerrariFeatsMarkers(FerrarifeatsArr);
 
 //PHOTO OPS
 //Photo Ops 1 Supercar Views - Hanauma Racetrack
