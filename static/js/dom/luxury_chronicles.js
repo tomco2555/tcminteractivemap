@@ -42,8 +42,17 @@ lch_event01_marker.bindPopup("<b style=\"font-size:20px\">France: Genty Automobi
 });
 
 //Event 02
-lch_event02_marker = L.marker([1413.098598, 4721.449548], {icon:lch_event_icon}).addTo(lch_events_group);
-lch_event02_marker.bindPopup("<b style=\"font-size:20px\">TBD</b><br>", {
+lch_event02_marker = L.marker([1024.038458, 5164], {icon:lch_event_icon}).addTo(lch_events_group);
+lch_event02_marker.bindPopup("<b style=\"font-size:20px\">France: Citroën</b><br>\
+                              <i>Event</i><br>\
+                              <span><b>Luxury Chronicles: Europe(2/13)</b></span><br>\
+                              <hr style=\"background-color:white;height:0.5px\">\
+                              <span><b>Event type:</b> Race</span><br>\
+                              <span><b>Weather:</b> Sunset</span><br>\
+                              <span><b>Car:</b> Citroën GT</span><br>\
+                              <span><b>Category:</b> Hypercar</span><br>\
+                              <span style=\"display:inline-block;\"><img src=\"img/Misc/blue_xp.png\" style=\"vertical-align:middle; width:25%; height:25%\"> <span style=\"vertical-align:middle;\">9,000</span></span><br>\
+                              <span style=\"display:inline-block;\"><img src=\"img/Misc/bucks.png\" style=\"vertical-align:middle; width:25%; height:25%\"> <span style=\"vertical-align:middle;\">16,875</span></span><br>", {
     className: "hstPopup"
 });
 
@@ -60,7 +69,7 @@ lch_event04_marker.bindPopup("<b style=\"font-size:20px\">TBD</b><br>", {
 });
 
 //Event 05
-lch_event05_marker = L.marker([1024.038458, 5164], {icon:lch_event_icon}).addTo(lch_events_group);
+lch_event05_marker = L.marker([1413.098598, 4721.449548], {icon:lch_event_icon}).addTo(lch_events_group);
 lch_event05_marker.bindPopup("<b style=\"font-size:20px\">TBD</b><br>", {
     className: "hstPopup"
 });
@@ -150,6 +159,18 @@ lch_photo_ops01_marker.bindPopup("<b style=\"font-size:20px\">Luxury Views - Fre
                               <span><b>Requirements</b></span><br>\
                               <span>- French car</span><br>\
                               <span>- under a clear sky</span><br>", {
+    className: "hstPopup"
+});
+
+//Photo Ops 2 Luxury Views - Kihei Golf Club
+lch_photo_ops02_marker = L.marker([556.376697, 5033.185494], {icon:photo_op_icon}).addTo(lch_photo_ops_group);
+lch_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Luxury Views - Kihei Golf Club</b><br>\
+                              <i>Photo Ops</i><br>\
+                              <span><b>Luxury Chronicles: Europe</b></span><br>\
+                              <hr style=\"background-color:white;height:0.5px\">\
+                              <span><b>Requirements</b></span><br>\
+                              <span>- French car</span><br>\
+                              <span>- Kihei Golf Club</span><br>", {
     className: "hstPopup"
 });
 
