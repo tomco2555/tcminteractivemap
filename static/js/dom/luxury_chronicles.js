@@ -57,8 +57,17 @@ lch_event02_marker.bindPopup("<b style=\"font-size:20px\">France: Citroën</b><b
 });
 
 //Event 03
-lch_event03_marker = L.marker([1062.595185, 4570.866197], {icon:lch_event_icon}).addTo(lch_events_group);
-lch_event03_marker.bindPopup("<b style=\"font-size:20px\">TBD</b><br>", {
+lch_event03_marker = L.marker([318.62796, 5809.128106], {icon:lch_event_icon}).addTo(lch_events_group);
+lch_event03_marker.bindPopup("<b style=\"font-size:20px\">France: Bugatti Part 1</b><br>\
+                              <i>Event</i><br>\
+                              <span><b>Luxury Chronicles: Europe(3/13)</b></span><br>\
+                              <hr style=\"background-color:white;height:0.5px\">\
+                              <span><b>Event type:</b> Time Attack</span><br>\
+                              <span><b>Weather:</b> Morning</span><br>\
+                              <span><b>Car:</b> Multi Vehicle</span><br>\
+                              <span><b>Category:</b> Multi Category</span><br>\
+                              <span style=\"display:inline-block;\"><img src=\"img/Misc/blue_xp.png\" style=\"vertical-align:middle; width:25%; height:25%\"> <span style=\"vertical-align:middle;\">12,000</span></span><br>\
+                              <span style=\"display:inline-block;\"><img src=\"img/Misc/bucks.png\" style=\"vertical-align:middle; width:25%; height:25%\"> <span style=\"vertical-align:middle;\">22,500</span></span><br>", {
     className: "hstPopup"
 });
 
@@ -117,7 +126,7 @@ lch_event12_marker.bindPopup("<b style=\"font-size:20px\">TBD</b><br>", {
 });
 
 //Event 13
-lch_event13_marker = L.marker([318.62796, 5809.128106], {icon:lch_event_icon}).addTo(lch_events_group);
+lch_event13_marker = L.marker([1062.595185, 4570.866197], {icon:lch_event_icon}).addTo(lch_events_group);
 lch_event13_marker.bindPopup("<b style=\"font-size:20px\">TBD</b><br>", {
     className: "hstPopup"
 });
@@ -171,6 +180,18 @@ lch_photo_ops02_marker.bindPopup("<b style=\"font-size:20px\">Luxury Views - Kih
                               <span><b>Requirements</b></span><br>\
                               <span>- French car</span><br>\
                               <span>- Kihei Golf Club</span><br>", {
+    className: "hstPopup"
+});
+
+//Photo Ops 3 Luxury Views - Pu'unianiau Crater
+lch_photo_ops03_marker = L.marker([782.807596, 5811.625], {icon:photo_op_icon}).addTo(lch_photo_ops_group);
+lch_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Luxury Views - Pu'unianiau Crater</b><br>\
+                              <i>Photo Ops</i><br>\
+                              <span><b>Luxury Chronicles: Europe</b></span><br>\
+                              <hr style=\"background-color:white;height:0.5px\">\
+                              <span><b>Requirements</b></span><br>\
+                              <span>- French car</span><br>\
+                              <span>- Pu'unianiau Crater</span><br>", {
     className: "hstPopup"
 });
 
