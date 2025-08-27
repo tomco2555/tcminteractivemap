@@ -72,8 +72,17 @@ lch_event03_marker.bindPopup("<b style=\"font-size:20px\">France: Bugatti Part 1
 });
 
 //Event 04
-lch_event04_marker = L.marker([1899.243673, 4821.054034], {icon:lch_event_icon}).addTo(lch_events_group);
-lch_event04_marker.bindPopup("<b style=\"font-size:20px\">TBD</b><br>", {
+lch_event04_marker = L.marker([1062.595185, 4570.866197], {icon:lch_event_icon}).addTo(lch_events_group);
+lch_event04_marker.bindPopup("<b style=\"font-size:20px\">France: Bugatti Part 2</b><br>\
+                              <i>Event</i><br>\
+                              <span><b>Luxury Chronicles: Europe(4/13)</b></span><br>\
+                              <hr style=\"background-color:white;height:0.5px\">\
+                              <span><b>Event type:</b> Race</span><br>\
+                              <span><b>Weather:</b> Sunrise</span><br>\
+                              <span><b>Car:</b> Bugatti Vision GT</span><br>\
+                              <span><b>Category:</b> Racing</span><br>\
+                              <span style=\"display:inline-block;\"><img src=\"img/Misc/blue_xp.png\" style=\"vertical-align:middle; width:25%; height:25%\"> <span style=\"vertical-align:middle;\">10,000</span></span><br>\
+                              <span style=\"display:inline-block;\"><img src=\"img/Misc/bucks.png\" style=\"vertical-align:middle; width:25%; height:25%\"> <span style=\"vertical-align:middle;\">18,750</span></span><br>", {
     className: "hstPopup"
 });
 
@@ -126,7 +135,7 @@ lch_event12_marker.bindPopup("<b style=\"font-size:20px\">TBD</b><br>", {
 });
 
 //Event 13
-lch_event13_marker = L.marker([1062.595185, 4570.866197], {icon:lch_event_icon}).addTo(lch_events_group);
+lch_event13_marker = L.marker([1899.243673, 4821.054034], {icon:lch_event_icon}).addTo(lch_events_group);
 lch_event13_marker.bindPopup("<b style=\"font-size:20px\">TBD</b><br>", {
     className: "hstPopup"
 });
@@ -192,6 +201,18 @@ lch_photo_ops03_marker.bindPopup("<b style=\"font-size:20px\">Luxury Views - Pu'
                               <span><b>Requirements</b></span><br>\
                               <span>- French car</span><br>\
                               <span>- Pu'unianiau Crater</span><br>", {
+    className: "hstPopup"
+});
+
+//Photo Ops 4 Luxury Views - Kalohi Islets Resort Island
+lch_photo_ops04_marker = L.marker([633.160783, 4650.998073], {icon:photo_op_icon}).addTo(lch_photo_ops_group);
+lch_photo_ops04_marker.bindPopup("<b style=\"font-size:20px\">Luxury Views - Kalohi Islets Resort Island</b><br>\
+                              <i>Photo Ops</i><br>\
+                              <span><b>Luxury Chronicles: Europe</b></span><br>\
+                              <hr style=\"background-color:white;height:0.5px\">\
+                              <span><b>Requirements</b></span><br>\
+                              <span>- French car</span><br>\
+                              <span>- Kalohi Islets Resort Island</span><br>", {
     className: "hstPopup"
 });
 
