@@ -1,0 +1,148 @@
+{
+    "playlists": {
+        "American Muscle": [
+            {"type": "Container", "path": "img/AM/am_container.png", "iconSize": [64, 75], "iconAnchor": [32,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/AM/am_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Automobili Lamborghini": [
+            {"type": "Container", "path": "img/AL/al_container.png", "iconSize": [55, 75], "iconAnchor": [27.5,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/AL/al_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Bike Lovers": [
+            {"type": "Container", "path": "img/BikeLovers/bl_container.png", "iconSize": [68, 75], "iconAnchor": [34,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/BikeLovers/bl_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "The Chase Squad": [
+            {"type": "Container", "path": "img/ChaseSquad/tcs_container.png", "iconSize": [55, 75], "iconAnchor": [27.5,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/ChaseSquad/tcs_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Rule the Streets": [
+            {"type": "Container", "path": "img/Donut_Media/dm_container.png", "iconSize": [75, 75], "iconAnchor": [37.5,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/Donut_Media/dm_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Dream Cars": [
+            {"type": "Container", "path": "img/DreamCars/dc_container.png", "iconSize": [62, 75], "iconAnchor": [31,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/DreamCars/dc_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Drift Experience": [
+            {"type": "Container", "path": "img/Drift/de_container.png", "iconSize": [60, 75], "iconAnchor": [30,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/Drift/de_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Drift Experience Vol.2": [
+            {"type": "Container", "path": "img/Drift2/de2_container.png", "iconSize": [60, 75], "iconAnchor": [30,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/Drift2/de2_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Donk vs Lowrider": [
+            {"type": "Container", "path": "img/DvL/dvl_container.png", "iconSize": [90, 75], "iconAnchor": [45,75], "popupAnchor": [0,-60]},
+            {"type": "Event Donk", "path": "img/DvL/dvl_event_d.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]},
+            {"type": "Event Lowrider", "path": "img/DvL/dvl_event_l.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Electric Odyssey": [
+            {"type": "Container", "path": "img/EleOdy/eo_container.png", "iconSize": [75, 75], "iconAnchor": [37.5,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/EleOdy/eo_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Gymkhana Grid Masters": [
+            {"type": "Container", "path": "img/Gymkhana/gym_container.png", "iconSize": [88, 75], "iconAnchor": [44,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/Gymkhana/gym_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Hollywood Action!": [
+            {"type": "Container", "path": "img/HA/ha_container.png", "iconSize": [68, 75], "iconAnchor": [34,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/HA/ha_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Hawaii Scenic Tour": [
+            {"type": "Container", "path": "img/HST/hst_container.png", "iconSize": [53, 81], "iconAnchor": [26.5,81], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/HST/hst_event.png", "iconSize": [40, 46], "iconAnchor": [20,46], "popupAnchor": [0,-35]}
+        ],
+        "Liberty Walk": [
+            {"type": "Container", "path": "img/LBWK/lbwk_container.png", "iconSize": [68, 75], "iconAnchor": [34,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/LBWK/lbwk_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Maui Expeditions": [
+            {"type": "Container", "path": "img/MauiEx/mauiex_container.png", "iconSize": [64, 75], "iconAnchor": [32,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/MauiEx/mauiex_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Made in Japan": [
+            {"type": "Container", "path": "img/MIJ/mij_container.png", "iconSize": [55, 75], "iconAnchor": [27.5,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/MIJ/mij_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Made in Japan Vol.2": [
+            {"type": "Container", "path": "img/MIJ2/mij2_container.png", "iconSize": [55, 75], "iconAnchor": [27.5,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/MIJ2/mij2_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Motorsports": [
+            {"type": "Container", "path": "img/Motorsports/motorsports_container.png", "iconSize": [75, 64], "iconAnchor": [37.5,64], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/Motorsports/motorsports_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Off-roading Addict": [
+            {"type": "Container", "path": "img/OffAdd/oa_container.png", "iconSize": [45, 75], "iconAnchor": [22.5,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/OffAdd/oa_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Off-roading Addict Vol.2": [
+            {"type": "Container", "path": "img/OffAdd2/oa2_container.png", "iconSize": [52, 75], "iconAnchor": [26,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/OffAdd2/oa2_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Ocean'N Sky": [
+            {"type": "Container", "path": "img/ONS/ons_container.png", "iconSize": [75, 75], "iconAnchor": [37.5,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/ONS/ons_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "911 Legacy": [
+            {"type": "Container", "path": "img/Porsche/porsche_container.png", "iconSize": [75, 75], "iconAnchor": [37.5,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/Porsche/porsche_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Red Bull Speed Clash": [
+            {"type": "Container", "path": "img/RedBull_SC/rb_container.png", "iconSize": [97.5, 75], "iconAnchor": [48.5,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/RedBull_SC/rb_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Red Bull Wild Ride": [
+            {"type": "Container", "path": "img/RedBull_WR/rb2_container.png", "iconSize": [81, 75], "iconAnchor": [40.5,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/RedBull_WR/rb2_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ],
+        "Vintage Garage": [
+            {"type": "Container", "path": "img/VG/vg_container.png", "iconSize": [75, 75], "iconAnchor": [37.5,75], "popupAnchor": [0,-60]},
+            {"type": "Event", "path": "img/VG/vg_event.png", "iconSize": [35, 45], "iconAnchor": [17.5,45], "popupAnchor": [0,-35]}
+        ]
+    },
+
+    "playlist_side": {
+        "Feats": [
+            {"type": "Slalom", "path": "img/Misc/slalom.png", "iconSize": [40, 42], "iconAnchor": [20,42], "popupAnchor": [0,-30]},
+            {"type": "Speedtrap", "path": "img/Misc/speedtrap.png", "iconSize": [40, 42], "iconAnchor": [20,42], "popupAnchor": [0,-30]},
+            {"type": "Bullseye", "path": "img/Misc/bullseye.png", "iconSize": [40, 42], "iconAnchor": [20,42], "popupAnchor": [0,-30]},
+            {"type": "Escape", "path": "img/Misc/escape.png", "iconSize": [40, 42], "iconAnchor": [20,42], "popupAnchor": [0,-30]},
+            {"type": "Low Altitude", "path": "img/Misc/low_altitude.png", "iconSize": [40, 42], "iconAnchor": [20,42], "popupAnchor": [0,-30]},
+            {"type": "Buoy Smashing", "path": "img/Misc/buoy_smashing.png", "iconSize": [40, 42], "iconAnchor": [20,42], "popupAnchor": [0,-30]},
+            {"type": "Aerobatics", "path": "img/Misc/aerobatics.png", "iconSize": [40, 42], "iconAnchor": [20,42], "popupAnchor": [0,-30]},
+            {"type": "Long Jump", "path": "img/Misc/long_jump.png", "iconSize": [40, 42], "iconAnchor": [20,42], "popupAnchor": [0,-30]}
+        ],
+        "Other": [
+            {"type": "Collectible", "path": "img/Misc/collectible.png", "iconSize": [20, 23], "iconAnchor": [10,23], "popupAnchor": [0,-18]},
+            {"type": "Photo Ops", "path": "img/Misc/photo_op.png", "iconSize": [34, 27], "iconAnchor": [17,27], "popupAnchor": [0,-22]}
+        ]
+    },
+       
+    "misc": [
+        {"type": "MF Grounds", "path": "img/Misc/motorfest_grounds.png", "iconSize": [82, 75], "iconAnchor": [41,75], "popupAnchor": [0,-60]},
+        {"type": "Grand Race", "path": "img/Misc/grand_race.png", "iconSize": [58, 50], "iconAnchor": [29,50], "popupAnchor": [0,-35]},
+        {"type": "Demo Royale", "path": "img/Misc/demo_royale.png", "iconSize": [52, 50], "iconAnchor": [26,50], "popupAnchor": [0,-35]},
+        {"type": "Achievement", "path": "img/Misc/achievement.png", "iconSize": [30, 40], "iconAnchor": [15,40], "popupAnchor": [0,-30]},
+        {"type": "Treasure", "path": "img/Misc/treasure.png", "iconSize": [28, 40], "iconAnchor": [14,40], "popupAnchor": [0,-30]}
+    ],
+
+    "rivals": [
+        {"type": "Clawblades", "path": "img/Misc/Rivals/clawblades.png", "iconSize": [39, 50], "iconAnchor": [19.5, 50], "popupAnchor": [0,-35]},
+        {"type": "Diamond Fangs", "path": "img/Misc/Rivals/diamond_fangs.png", "iconSize": [36, 50], "iconAnchor": [18, 50], "popupAnchor": [0,-35]},
+        {"type": "Quickwhiskers", "path": "img/Misc/Rivals/quickwhiskers.png", "iconSize": [44, 50], "iconAnchor": [22, 50], "popupAnchor": [0,-35]},
+        {"type": "Nightstalkers", "path": "img/Misc/Rivals/nightstalkers.png", "iconSize": [47, 50], "iconAnchor": [23.5, 50], "popupAnchor": [0,-35]},
+        {"type": "Clawblades Chief", "path": "img/Misc/Rivals/clawblades_chief.png", "iconSize": [49, 60], "iconAnchor": [24.5, 60], "popupAnchor": [0,-45]},
+        {"type": "Diamond Fangs Chief", "path": "img/Misc/Rivals/diamond_fangs_chief.png", "iconSize": [48, 60], "iconAnchor": [24, 60], "popupAnchor": [0,-45]},
+        {"type": "Quickwhiskers Chief", "path": "img/Misc/Rivals/quickwhiskers_chief.png", "iconSize": [55, 60], "iconAnchor": [27.5, 60], "popupAnchor": [0,-45]},
+        {"type": "Nightstalkers Chief", "path": "img/Misc/Rivals/nightstalkers_chief.png", "iconSize": [68, 60], "iconAnchor": [34, 60], "popupAnchor": [0,-45]},
+        {"type": "White Tiger", "path": "img/Misc/Rivals/white_tiger.png", "iconSize": [63, 60], "iconAnchor": [31.5, 60], "popupAnchor": [0,-45]}
+    ],
+
+    "challenges": [
+        {"type": "Start", "path": "img/Misc/start_marker.png", "iconSize": [35, 50], "iconAnchor": [17.5,50], "popupAnchor": [0,-35]},
+        {"type": "Finish", "path": "img/Misc/finish_marker.png", "iconSize": [35, 50], "iconAnchor": [17.5,50], "popupAnchor": [0,-35]},
+        {"type": "Challenge", "path": "img/Misc/challenge_marker.png", "iconSize": [35, 50], "iconAnchor": [17.5,50], "popupAnchor": [0,-35]}
+    ]
+}

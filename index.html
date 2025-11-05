@@ -39,28 +39,28 @@
                             <div class="settings_option">
                                 <span class="map_settings_text">Performance mode</span>
                                 <label class="switch smaller_switch">
-                                    <input type="checkbox" id="mode_switch" onchange="switchMode(this)">
+                                    <input type="checkbox" id="mode_switch" onchange="InteractiveMap.map.funcs.switchMode(this)">
                                     <div class="slider round smaller_slider"></div>
                                 </label>
                             </div>
                             <div class="settings_option" id="primary_color">
                                 <span class="map_settings_text">Primary color</span>
                                 <div class="checkmark-flexbox">
-                                    <div class="square black" data-chosen="false" id="primary_black_color" onclick="changeColor(this)"></div>
-                                    <div class="square lightgray" data-chosen="false" id="primary_lightgray_color" onclick="changeColor(this)"></div>
+                                    <div class="square black" data-chosen="false" id="primary_black_color" onclick="InteractiveMap.features.colorChange.changeColor(this)"></div>
+                                    <div class="square lightgray" data-chosen="false" id="primary_lightgray_color" onclick="InteractiveMap.features.colorChange.changeColor(this)"></div>
                                 </div>
                             </div>
                             <div class="settings_option" id="secondary_color">
                                 <span class="map_settings_text">Secondary color</span>
                                 <div class="checkmark-flexbox">
-                                    <div class="square red" data-chosen="false" id="secondary_red_color" onclick="changeColor(this)"></div>
-                                    <div class="square blue" data-chosen="false" id="secondary_blue_color" onclick="changeColor(this)"></div>
-                                    <div class="square green" data-chosen="false" id="secondary_green_color" onclick="changeColor(this)"></div>
-                                    <div class="square yellow" data-chosen="false" id="secondary_yellow_color" onclick="changeColor(this)"></div>
-                                    <div class="square purple" data-chosen="false" id="secondary_purple_color" onclick="changeColor(this)"></div>
-                                    <div class="square orange" data-chosen="false" id="secondary_orange_color" onclick="changeColor(this)"></div>
-                                    <div class="square cyan" data-chosen="false" id="secondary_cyan_color" onclick="changeColor(this)"></div>
-                                    <div class="square indigo" data-chosen="false" id="secondary_indigo_color" onclick="changeColor(this)"></div>
+                                    <div class="square red" data-chosen="false" id="secondary_red_color" onclick="InteractiveMap.features.colorChange.changeColor(this)"></div>
+                                    <div class="square blue" data-chosen="false" id="secondary_blue_color" onclick="InteractiveMap.features.colorChange.changeColor(this)"></div>
+                                    <div class="square green" data-chosen="false" id="secondary_green_color" onclick="InteractiveMap.features.colorChange.changeColor(this)"></div>
+                                    <div class="square yellow" data-chosen="false" id="secondary_yellow_color" onclick="InteractiveMap.features.colorChange.changeColor(this)"></div>
+                                    <div class="square purple" data-chosen="false" id="secondary_purple_color" onclick="InteractiveMap.features.colorChange.changeColor(this)"></div>
+                                    <div class="square orange" data-chosen="false" id="secondary_orange_color" onclick="InteractiveMap.features.colorChange.changeColor(this)"></div>
+                                    <div class="square cyan" data-chosen="false" id="secondary_cyan_color" onclick="InteractiveMap.features.colorChange.changeColor(this)"></div>
+                                    <div class="square indigo" data-chosen="false" id="secondary_indigo_color" onclick="InteractiveMap.features.colorChange.changeColor(this)"></div>
                                 </div>
                             </div>
                             <div class="settings_option">
@@ -71,19 +71,46 @@
                                 </label>
                             </div>
                             <div class="settings_option">
-                                <span class="map_settings_text">Icon size[WIP]</span>
+                                <span class="map_settings_text">Marker size</span>
+                                <div class="slider_selector">
+                                    <input type="range" id="slider_size_selector" name="marker_size" list="steplist" min="70" max="120" step="10" value="100" onchange="resizeMarker(InteractiveMap.icons, this)">
+                                    <datalist id="steplist">
+                                        <option value="70" label="70"></option>
+                                        <option value="80" label="80"></option>
+                                        <option value="90" label="90"></option>
+                                        <option value="100" label="100"></option>
+                                        <option value="110" label="110"></option>
+                                        <option value="120" label="120"></option>
+                                    </datalist>
+                                    <div class="sliderticks">
+                                        <span class="sliderticks_option">70%</span>
+                                        <span class="sliderticks_option">80%</span>
+                                        <span class="sliderticks_option">90%</span>
+                                        <span class="sliderticks_option">100%</span>
+                                        <span class="sliderticks_option">110%</span>
+                                        <span class="sliderticks_option">120%</span>
+                                    </div>
+                                </div>
+                                <!-- <button onclick="resizeMarker(InteractiveMap.icons, 0.7)">Click</button> -->
                             </div>
                             <div class="settings_option">
                                 <span class="map_settings_text">Playlist alphabetical order</span>
                                 <label class="switch smaller_switch">
-                                    <input type="checkbox" id="playlist_order_switch" onchange="sortPlaylists(this)">
+                                    <input type="checkbox" id="playlist_order_switch" onchange="InteractiveMap.features.playlistSorter.sortPlaylists(this)">
                                     <div class="slider round smaller_slider"></div>
                                 </label>
                             </div>
                             <div class="settings_option">
-                                <span class="map_settings_text">Show location names[WIP]</span>
+                                <span class="map_settings_text">Show location names</span>
                                 <label class="switch smaller_switch">
-                                    <input type="checkbox" id="mode_switch">
+                                    <input type="checkbox" id="locations_switch" onchange="InteractiveMap.locations.funcs.locationShowLogic(this)">
+                                    <div class="slider round smaller_slider"></div>
+                                </label>
+                            </div>
+                            <div class="settings_option">
+                                <span class="map_settings_text">Tooltips[WIP]</span>
+                                <label class="switch smaller_switch">
+                                    <input type="checkbox">
                                     <div class="slider round smaller_slider"></div>
                                 </label>
                             </div>
@@ -97,8 +124,8 @@
                         </label>
                     </div>
                     <div class="map_settings">
-                         <button type="button" class="hide_btn" id="hide_all_btn" onclick="hideOrShowEverything(this)">Hide all</button>
-                         <button type="button" class="hide_btn" id="show_all_btn" onclick="hideOrShowEverything(this)">Show all</button>
+                         <button type="button" class="hide_btn" id="hide_all_btn" onclick="InteractiveMap.map.funcs.hideOrShowEverything(this)">Hide all</button>
+                         <button type="button" class="hide_btn" id="show_all_btn" onclick="InteractiveMap.map.funcs.hideOrShowEverything(this)">Show all</button>
                     </div>
                     <div class="map_settings">
                         <span id="countdown_next_season"></span>
@@ -1248,127 +1275,127 @@
                     </div>
                     <div class="event_filters" id="playlist_filters">
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('mij')" id="mij_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="mij_playlist" name="Made in Japan">
                             <span>Made in Japan</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('hst')" id="hst_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="hst_playlist" name="Hawaii Scenic Tour">
                             <span>Hawaii Scenic Tour</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('am')" id="am_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="am_playlist" name="American Muscle">
                             <span>American Muscle</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('porsche')" id="porsche_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="porsche_playlist" name="911 Legacy">
                             <span>911 Legacy</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('dm')" id="dm_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="dm_playlist" name="Rule the Streets">
                             <span>Rule the Streets</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('oa')" id="oa_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="oa_playlist" name="Off-roading Addict">
                             <span>Off-roading Addict</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('vg')" id="vg_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="vg_playlist" name="Vintage Garage">
                             <span>Vintage Garage</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('al')" id="al_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="al_playlist" name="Automobili Lamborghini">
                             <span>Automobili Lamborghini</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('motorsports')" id="motorsports_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="motorsports_playlist" name="Motorsports">
                             <span>Motorsports</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('eo')" id="eo_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="eo_playlist" name="Electric Odyssey">
                             <span>Electric Odyssey</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('dc')" id="dc_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="dc_playlist" name="Dream Cars">
                             <span>Dream Cars</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('bl')" id="bl_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="bl_playlist" name="Bike Lovers">
                             <span>Bike Lovers</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('lbwk')" id="lbwk_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="lbwk_playlist" name="Liberty Walk">
                             <span>Liberty Walk</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('de')" id="de_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="de_playlist" name="Drift Experience">
                             <span>Drift Experience</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('ons')" id="ons_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="ons_playlist" name="Ocean'N Sky">
                             <span>Ocean'N Sky</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('gym')" id="gym_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="gym_playlist" name="Gymkhana Grid Masters">
                             <span>Gymkhana Grid Masters</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('de2')" id="de2_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="de2_playlist" name="Drift Experience Vol.2">
                             <span>Drift Experience Vol.2</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('ha')" id="ha_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="ha_playlist" name="Hollywood Action!">
                             <span>Hollywood Action!</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('dvl')" id="dvl_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="dvl_playlist" name="Donk vs Lowrider">
                             <span>Donk vs Lowrider</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('oa2')" id="oa2_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="oa2_playlist" name="Off-roading Addict Vol.2">
                             <span>Off-roading Addict Vol.2</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('tcs')" id="tcs_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="tcs_playlist" name="The Chase Squad">
                             <span>The Chase Squad</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('mij2')" id="mij2_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="mij2_playlist" name="Made in Japan Vol.2">
                             <span>Made in Japan Vol.2</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('mauiex')" id="mauiex_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="mauiex_playlist" name="Maui Expeditions">
                             <span>Maui Expeditions</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                             <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('rb')" id="rb_playlist">
+                             <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="rb_playlist" name="Red Bull Speed Clash">
                             <span>Red Bull Speed Clash</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option playlist_checkbox">
-                            <input class="filter_checkbox" type="checkbox" onchange="watchCheckbox('rb2')" id="rb2_playlist">
+                            <input class="filter_checkbox" type="checkbox" onchange="InteractiveMap.map.funcs.watchCheckbox(this)" id="rb2_playlist" name="Red Bull Wild Ride">
                            <span>Red Bull Wild Ride</span>
                            <span class="filter_marker_count"></span>
                        </div>
@@ -1380,27 +1407,27 @@
                     </div>
                     <div class="event_filters" id="activities_filters">
                         <div class="filter_option activity_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="events_checkbox" onchange="activitiesCheckboxTemp(this)">
+                            <input class="filter_checkbox" type="checkbox" id="events_checkbox" onchange="InteractiveMap.map.funcs.activitiesCheckbox(this)">
                             <span>Events</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option activity_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="collectibles_checkbox" onchange="activitiesCheckboxTemp(this)"">
+                            <input class="filter_checkbox" type="checkbox" id="collectibles_checkbox" onchange="InteractiveMap.map.funcs.activitiesCheckbox(this)">
                             <span>Collectibles</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option activity_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="photo_ops_checkbox" onchange="activitiesCheckboxTemp(this)"">
+                            <input class="filter_checkbox" type="checkbox" id="photo_ops_checkbox" onchange="InteractiveMap.map.funcs.activitiesCheckbox(this)">
                             <span>Photo Ops</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option activity_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="feats_checkbox" onchange="activitiesCheckboxTemp(this)"">
+                            <input class="filter_checkbox" type="checkbox" id="feats_checkbox" onchange="InteractiveMap.map.funcs.activitiesCheckbox(this)">
                             <span>Feats</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option activity_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="container_checkbox" onchange="activitiesCheckboxTemp(this)"">
+                            <input class="filter_checkbox" type="checkbox" id="container_checkbox" onchange="InteractiveMap.map.funcs.activitiesCheckbox(this)">
                             <span>Container</span>
                             <span class="filter_marker_count"></span>
                         </div>
@@ -1412,27 +1439,27 @@
                     </div>
                     <div class="event_filters" id="misc_filters">
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="grand_race_checkbox" onchange="miscCheckbox(this, grand_race_group)">
+                            <input class="filter_checkbox" type="checkbox" id="grand_race_checkbox" onchange="InteractiveMap.map.funcs.miscCheckbox(this, 'grand_race')">
                             <span>Grand Race</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="demo_royale_checkbox" onchange="miscCheckbox(this, demo_royale_group)">
+                            <input class="filter_checkbox" type="checkbox" id="demo_royale_checkbox" onchange="InteractiveMap.map.funcs.miscCheckbox(this, 'demo_royale')">
                             <span>Demo Royale</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="mf_grounds_checkbox" onchange="miscCheckbox(this, mf_grounds_group)">
+                            <input class="filter_checkbox" type="checkbox" id="mf_grounds_checkbox" onchange="InteractiveMap.map.funcs.miscCheckbox(this, 'mf_grounds')">
                             <span>Motorfest Grounds</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="treasure_checkbox" onchange="miscCheckbox(this, treasure_group)">
+                            <input class="filter_checkbox" type="checkbox" id="treasure_checkbox" onchange="InteractiveMap.map.funcs.miscCheckbox(this, 'treasure')">
                             <span>Treasure Locations</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option misc_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="achievements_checkbox" onchange="miscCheckbox(this, achievements_group)">
+                            <input class="filter_checkbox" type="checkbox" id="achievements_checkbox" onchange="InteractiveMap.map.funcs.miscCheckbox(this, 'achievements')">
                             <span>Achievements</span>
                             <span class="filter_marker_count"></span>
                         </div>
@@ -1444,32 +1471,32 @@
                     </div>
                     <div class="event_filters" id="rivals_filters">
                         <div class="filter_option rivals_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="clawblades_checkbox" onchange="rivalsCheckbox(this, clawblades_group)">
+                            <input class="filter_checkbox" type="checkbox" id="clawblades_checkbox" onchange="InteractiveMap.map.funcs.rivalsCheckbox(this, 'clawblades')">
                             <span>Clawblades</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option rivals_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="diamond_fangs_checkbox" onchange="rivalsCheckbox(this, diamond_fangs_group)">
+                            <input class="filter_checkbox" type="checkbox" id="diamond_fangs_checkbox" onchange="InteractiveMap.map.funcs.rivalsCheckbox(this, 'diamond_fangs')">
                             <span>Diamond Fangs</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option rivals_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="quickwhiskers_checkbox" onchange="rivalsCheckbox(this, quickwhiskers_group)">
+                            <input class="filter_checkbox" type="checkbox" id="quickwhiskers_checkbox" onchange="InteractiveMap.map.funcs.rivalsCheckbox(this, 'quickwhiskers')">
                             <span>Quickwhiskers</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option rivals_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="nightstalkers_checkbox" onchange="rivalsCheckbox(this, nightstalkers_group)">
+                            <input class="filter_checkbox" type="checkbox" id="nightstalkers_checkbox" onchange="InteractiveMap.map.funcs.rivalsCheckbox(this, 'nightstalkers')">
                             <span>Nightstalkers</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option rivals_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="chiefs_checkbox" onchange="rivalsCheckbox(this, chiefs_group)">
+                            <input class="filter_checkbox" type="checkbox" id="chiefs_checkbox" onchange="InteractiveMap.map.funcs.rivalsCheckbox(this, 'chiefs')">
                             <span>Chiefs</span>
                             <span class="filter_marker_count"></span>
                         </div>
                         <div class="filter_option rivals_checkbox">
-                            <input class="filter_checkbox" type="checkbox" id="mysterious_driver_checkbox" onchange="rivalsCheckbox(this, mysterious_driver_group)">
+                            <input class="filter_checkbox" type="checkbox" id="mysterious_driver_checkbox" onchange="InteractiveMap.map.funcs.rivalsCheckbox(this, 'mysterious_driver')">
                             <span>Mysterious Driver</span>
                             <span class="filter_marker_count"></span>
                         </div>
@@ -1486,25 +1513,16 @@
         </div>
     </div>
 
-    <script src="static/js/map.js"></script>
-    <script src="static/js/marker_icons.js"></script>
-    <script src="static/js/playlist_loader.js"></script>
-    <script src="static/js/misc_loader.js"></script>
-    <script src="static/js/rivals_loader.js"></script>
-    <script src="static/js/sort_playlists.js"></script>
-    <script src="static/js/location_names.js"></script>
+    <script defer src="static/js/map.js"></script>
+    <script defer src="static/js/icon_loader.js"></script>
+    <script defer src="static/js/playlist_loader.js"></script>
+    <script defer src="static/js/misc_loader.js"></script>
+    <script defer src="static/js/rivals_loader.js"></script>
+    <script defer src="static/js/sort_playlists.js"></script>
+    <script defer src="static/js/location_names.js"></script>
+    <script defer src="static/js/marker_resizer.js"></script>
     <!--<script src="static/markers_counter.js"></script>-->
     <!-- <script id="misc_script" src="static/js/canvas/misc_canvas.js"></script> -->
     <!-- <script id="rivals_script" src="static/js/canvas/rivals_canvas.js"></script> -->
-
-    <script>
-        var counter = 0;
-        map.eachLayer((layer)=>{
-            if(layer instanceof L.Marker){
-                counter++;
-            }
-        });
-        console.log(counter)
-    </script>
 </body>
 </html>

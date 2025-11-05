@@ -1,15 +1,12 @@
-var rivals_json_data;
-
-async function loadRivalsJsonFile() {
-    const path_to_folder = "static/data/";
+InteractiveMap.utils.rivals.loadRivalsJsonFile = async function () {
     const file_ext = ".json";
     const file_name = "rivals";
 
-    const json_data = await fetch(path_to_folder + file_name + file_ext);
-    rivals_json_data = await json_data.json();
+    const json_data = await fetch(InteractiveMap.paths.pathToData + file_name + file_ext);
+    InteractiveMap.data.rivalsJSONData = await json_data.json();
 }
 
-async function loadRivals(data, mode, rival_group, icon_name, marker_type) {
+InteractiveMap.utils.rivals.loadRivals = async function (data, mode, rival_group, icon_name, marker_type) {
     var rivals_markers;
 
     if(mode === "canvas") {
@@ -27,19 +24,19 @@ async function loadRivals(data, mode, rival_group, icon_name, marker_type) {
             switch(data[i]['name']) {
                 case "The Lion":
                     current_rival_group = "Clawblades";
-                    current_icon_name = clawblades_chief_icon;
+                    current_icon_name = InteractiveMap.icons.rivals["Clawblades Chief"];
                     break;
                 case "The Tank":
                     current_rival_group = "Diamond Fangs";
-                    current_icon_name = diamond_fangs_chief_icon;
+                    current_icon_name = InteractiveMap.icons.rivals["Diamond Fangs Chief"];
                     break;
                 case "Speedbolt":
                     current_rival_group = "Quickwhiskers";
-                    current_icon_name = quickwhiskers_chief_icon;
+                    current_icon_name = InteractiveMap.icons.rivals["Quickwhiskers Chief"];
                     break;
                 case "Shade":
                     current_rival_group = "Nightstalkers";
-                    current_icon_name = nightstalkers_chief_icon;
+                    current_icon_name = InteractiveMap.icons.rivals["Nightstalkers Chief"];
                     break;
             }
         }
@@ -65,34 +62,34 @@ async function loadRivals(data, mode, rival_group, icon_name, marker_type) {
     return rivals_markers;
 }
 
-async function loadRivalsEverything(mode) {
-    let clawblades_group = await loadRivals(rivals_json_data["Clawblades"], mode, "Clawblades", clawblades_icon, "Rival");
+InteractiveMap.utils.rivals.loadRivalsEverything = async function (mode) {
+    let clawblades_group = await InteractiveMap.utils.rivals.loadRivals(InteractiveMap.data.rivalsJSONData["Clawblades"], mode, "Clawblades", InteractiveMap.icons.rivals["Clawblades"], "Rival");
 
-    let diamond_fangs_group = await loadRivals(rivals_json_data["Diamond_fangs"], mode, "Diamond Fangs", diamond_fangs_icon, "Rival");
+    let diamond_fangs_group = await InteractiveMap.utils.rivals.loadRivals(InteractiveMap.data.rivalsJSONData["Diamond_fangs"], mode, "Diamond Fangs", InteractiveMap.icons.rivals["Diamond Fangs"], "Rival");
 
-    let quickwhiskers_group = await loadRivals(rivals_json_data["Quickwhiskers"], mode, "Quickwhiskers", quickwhiskers_icon, "Rival");
+    let quickwhiskers_group = await InteractiveMap.utils.rivals.loadRivals(InteractiveMap.data.rivalsJSONData["Quickwhiskers"], mode, "Quickwhiskers", InteractiveMap.icons.rivals["Quickwhiskers"], "Rival");
 
-    let nightstalkers_group = await loadRivals(rivals_json_data["Nightstalkers"], mode, "Nightstalkers", nightstalkers_icon, "Rival");
+    let nightstalkers_group = await InteractiveMap.utils.rivals.loadRivals(InteractiveMap.data.rivalsJSONData["Nightstalkers"], mode, "Nightstalkers", InteractiveMap.icons.rivals["Nightstalkers"], "Rival");
 
-    let chiefs_group = await loadRivals(rivals_json_data["Chiefs"], mode, "Chiefs", "", "Chief");
+    let chiefs_group = await InteractiveMap.utils.rivals.loadRivals(InteractiveMap.data.rivalsJSONData["Chiefs"], mode, "Chiefs", "", "Chief");
 
-    let mysterious_driver_group = await loadRivals(rivals_json_data["Mysterious_driver"], mode, "The Chase Squad", white_tiger_icon, "Mysterious Driver");
+    let mysterious_driver_group = await InteractiveMap.utils.rivals.loadRivals(InteractiveMap.data.rivalsJSONData["Mysterious_driver"], mode, "The Chase Squad", InteractiveMap.icons.rivals["White Tiger"], "Mysterious Driver");
 
     return { clawblades_group, diamond_fangs_group, quickwhiskers_group, nightstalkers_group, chiefs_group, mysterious_driver_group }
 }
 
-async function initializeRivals(mode, first_load) {
+InteractiveMap.utils.rivals.initializeRivals = async function (mode, first_load) {
     if(first_load) {
-        await loadRivalsJsonFile();
+        await InteractiveMap.utils.rivals.loadRivalsJsonFile();
     }
 
-    const { clawblades_group, diamond_fangs_group, quickwhiskers_group, nightstalkers_group, chiefs_group, mysterious_driver_group } = await loadRivalsEverything(mode);
-    window["clawblades_group"] = clawblades_group;
-    window["diamond_fangs_group"] = diamond_fangs_group;
-    window["quickwhiskers_group"] = quickwhiskers_group;
-    window["nightstalkers_group"] = nightstalkers_group;
-    window["chiefs_group"] = chiefs_group;
-    window["mysterious_driver_group"] = mysterious_driver_group;
+    const { clawblades_group, diamond_fangs_group, quickwhiskers_group, nightstalkers_group, chiefs_group, mysterious_driver_group } = await InteractiveMap.utils.rivals.loadRivalsEverything(mode);
+    InteractiveMap.markers.rivals["clawblades"] = clawblades_group;
+    InteractiveMap.markers.rivals["diamond_fangs"] = diamond_fangs_group;
+    InteractiveMap.markers.rivals["quickwhiskers"] = quickwhiskers_group;
+    InteractiveMap.markers.rivals["nightstalkers"] = nightstalkers_group;
+    InteractiveMap.markers.rivals["chiefs"] = chiefs_group;
+    InteractiveMap.markers.rivals["mysterious_driver"] = mysterious_driver_group;
 }
 
-initializeRivals("canvas", true);
+InteractiveMap.utils.rivals.initializeRivals("canvas", true);

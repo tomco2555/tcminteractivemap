@@ -580,3 +580,25 @@ input:checked + .slider:before {
 .indigo {
     background-color: #6c3baa;
 }
+
+.sliderticks {
+    display: flex;
+}
+
+#slider_size_selector {
+    width:90%;
+    margin: auto;
+    accent-color: var(--secondary-color);
+}
+
+.sliderticks_option {
+    flex: 1;
+    font-size: 12px;
+}
+
+.slider_selector {
+    width:250px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}

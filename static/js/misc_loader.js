@@ -1,15 +1,12 @@
-var misc_json_data;
-
-async function loadMiscJsonFile() {
-    const path_to_folder = "static/data/";
+InteractiveMap.utils.misc.loadMiscJsonFile = async function () {
     const file_ext = ".json";
     const file_name = "misc";
 
-    const json_data = await fetch(path_to_folder + file_name + file_ext);
-    misc_json_data = await json_data.json();
+    const json_data = await fetch(InteractiveMap.paths.pathToData + file_name + file_ext);
+    InteractiveMap.data.miscJSONData = await json_data.json();
 }
 
-async function loadMFGrounds(data, mode) {
+InteractiveMap.utils.misc.loadMFGrounds = async function (data, mode) {
     var mfgrounds_markers;
 
     if(mode === "canvas") {
@@ -19,7 +16,7 @@ async function loadMFGrounds(data, mode) {
         mfgrounds_markers = L.featureGroup();
     }
 
-    var mfgrounds_marker = L.marker(data['coords'], {icon:mf_grounds_icon});
+    var mfgrounds_marker = L.marker(data['coords'], {icon:InteractiveMap.icons.misc["MF Grounds"]});
     mfgrounds_marker.bindPopup('<b>Motorfest Grounds</b><br>\
                                 <i>Car Meet</i>', {
         className: "hstPopup"
@@ -35,7 +32,7 @@ async function loadMFGrounds(data, mode) {
     return mfgrounds_markers;
 }
 
-async function loadDemoRoyale(data, mode) {
+InteractiveMap.utils.misc.loadDemoRoyale = async function (data, mode) {
     var demo_royale_markers;
 
     if(mode === "canvas") {
@@ -46,7 +43,7 @@ async function loadDemoRoyale(data, mode) {
     }
 
     for (let i = 0; i < data.length; i++) {
-        var demo_royale_marker = L.marker(data[i]['coords'], {icon:demo_royale_icon});
+        var demo_royale_marker = L.marker(data[i]['coords'], {icon:InteractiveMap.icons.misc["Demo Royale"]});
         demo_royale_marker.bindPopup("<b>Demo Royale</b><br>\
                                     <span>" + data[i]['name'] + "</span><br>\
                                     " + data[i]['info'], {
@@ -64,7 +61,7 @@ async function loadDemoRoyale(data, mode) {
     return demo_royale_markers;
 }
 
-async function loadGrandRace(data, mode) {
+InteractiveMap.utils.misc.loadGrandRace = async function (data, mode) {
     var grand_race_markers;
 
     if(mode === "canvas") {
@@ -75,7 +72,7 @@ async function loadGrandRace(data, mode) {
     }
 
     for (let i = 0; i < data.length; i++) {
-        var grand_race_marker = L.marker(data[i]['coords'], {icon:grand_race_icon});
+        var grand_race_marker = L.marker(data[i]['coords'], {icon:InteractiveMap.icons.misc["Grand Race"]});
         grand_race_marker.bindPopup("<b>Grand Race</b><br>\
                                     <span>" + data[i]['name'] + "</span><br>\
                                     " + data[i]['info'], {
@@ -93,7 +90,7 @@ async function loadGrandRace(data, mode) {
     return grand_race_markers;
 }
 
-async function loadAchievements(data, mode) {
+InteractiveMap.utils.misc.loadAchievements = async function (data, mode) {
     var achievements_markers;
 
     if(mode === "canvas") {
@@ -104,7 +101,7 @@ async function loadAchievements(data, mode) {
     }
 
     for (let i = 0; i < data.length; i++) {
-        var achievements_marker = L.marker(data[i]['coords'], {icon:achievement_icon});
+        var achievements_marker = L.marker(data[i]['coords'], {icon:InteractiveMap.icons.misc["Achievement"]});
         achievements_marker.bindPopup("<b>" + data[i]['name'] + "</b><br>\
                                     <i>Achievement</i>\
                                     <hr style=\"background-color:white;height:0.5px\">\
@@ -123,7 +120,7 @@ async function loadAchievements(data, mode) {
     return achievements_markers;
 }
 
-async function loadTreasures(data, mode) {
+InteractiveMap.utils.misc.loadTreasures = async function (data, mode) {
     var treasure_markers;
 
     if(mode === "canvas") {
@@ -134,7 +131,7 @@ async function loadTreasures(data, mode) {
     }
 
     for (let i = 0; i < data.length; i++) {
-        var treasure_marker = L.marker(data[i]['coords'], {icon:treasure_icon});
+        var treasure_marker = L.marker(data[i]['coords'], {icon:InteractiveMap.icons.misc["Treasure"]});
         treasure_marker.bindPopup("<b>Treasure Crate</b><br>\
                                     " + data[i]['info'], {
             className: "hstPopup"
@@ -151,47 +148,48 @@ async function loadTreasures(data, mode) {
     return treasure_markers;
 }
 
-async function loadMiscEverything(mode) {
-    let mf_grounds_group = await loadMFGrounds(misc_json_data["MF_grounds"], mode)
+InteractiveMap.utils.misc.loadMiscEverything = async function (mode) {
+    let mf_grounds_group = await InteractiveMap.utils.misc.loadMFGrounds(InteractiveMap.data.miscJSONData["MF_grounds"], mode)
 
-    let demo_royale_group = await loadDemoRoyale(misc_json_data["Demo_royale"], mode)
+    let demo_royale_group = await InteractiveMap.utils.misc.loadDemoRoyale(InteractiveMap.data.miscJSONData["Demo_royale"], mode)
 
-    let grand_race_group = await loadGrandRace(misc_json_data["Grand_race"], mode)
+    let grand_race_group = await InteractiveMap.utils.misc.loadGrandRace(InteractiveMap.data.miscJSONData["Grand_race"], mode)
 
-    let achievements_group = await loadAchievements(misc_json_data["Achievements"], mode)
+    let achievements_group = await InteractiveMap.utils.misc.loadAchievements(InteractiveMap.data.miscJSONData["Achievements"], mode)
 
-    let treasure_group = await loadTreasures(misc_json_data["Treasures"], mode)
+    let treasure_group = await InteractiveMap.utils.misc.loadTreasures(InteractiveMap.data.miscJSONData["Treasures"], mode)
 
     return { mf_grounds_group, demo_royale_group, grand_race_group, achievements_group, treasure_group }
 }
 
-async function initializeMisc(mode, first_load) {
+InteractiveMap.utils.misc.initializeMisc = async function (mode, first_load) {
     if(first_load) {
-        await loadMiscJsonFile();
+        await InteractiveMap.utils.misc.loadMiscJsonFile();
     }
 
-    const {mf_grounds_group, demo_royale_group, grand_race_group, achievements_group, treasure_group } = await loadMiscEverything(mode);
-    window["mf_grounds_group"] = mf_grounds_group;
-    window["demo_royale_group"] = demo_royale_group;
-    window["grand_race_group"] = grand_race_group;
-    window["achievements_group"] = achievements_group;
-    window["treasure_group"] = treasure_group;
+    const {mf_grounds_group, demo_royale_group, grand_race_group, achievements_group, treasure_group } = await InteractiveMap.utils.misc.loadMiscEverything(mode);
+
+    InteractiveMap.markers.misc["mf_grounds"] = mf_grounds_group;
+    InteractiveMap.markers.misc["demo_royale"] = demo_royale_group;
+    InteractiveMap.markers.misc["grand_race"] = grand_race_group;
+    InteractiveMap.markers.misc["achievements"] = achievements_group;
+    InteractiveMap.markers.misc["treasure"] = treasure_group;
 
     if(mode === "canvas" && first_load) {
-        markers_canvas.addMarkers(window["mf_grounds_group"]);
-        markers_canvas.addMarkers(window["demo_royale_group"]);
-        markers_canvas.addMarkers(window["grand_race_group"]);
-        markers_canvas.addMarkers(window["achievements_group"]);
-        markers_canvas.addMarkers(window["treasure_group"]);
+        InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.misc["mf_grounds"]);
+        InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.misc["demo_royale"]);
+        InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.misc["grand_race"]);
+        InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.misc["achievements"]);
+        InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.misc["treasure"]);
     }
 
     else if(mode === "dom" && first_load) {
-        window["mf_grounds_group"].addTo(map);
-        window["demo_royale_group"].addTo(map);
-        window["grand_race_group"].addTo(map);
-        window["achievements_group"].addTo(map);
-        window["treasure_group"].addTo(map);
+        InteractiveMap.markers.misc["mf_grounds"] .addTo(InteractiveMap.map.instance);
+        InteractiveMap.markers.misc["demo_royale"] .addTo(InteractiveMap.map.instance);
+        InteractiveMap.markers.misc["grand_race"] .addTo(InteractiveMap.map.instance);
+        InteractiveMap.markers.misc["achievements"] .addTo(InteractiveMap.map.instance);
+        InteractiveMap.markers.misc["treasure"] .addTo(InteractiveMap.map.instance);
     } 
 }
 
-initializeMisc("canvas", true);
+InteractiveMap.utils.misc.initializeMisc("canvas", true);

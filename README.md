@@ -14,10 +14,11 @@ Repo containing all the files for [Interactive Map](https://tcminteractivemap.ne
 - Add localStorage functionality with user settings
 - Add user guide
 - Add news/changelog
-- One day add backend so it is not static hell, also maybe use GL renderer
-- Parse HTML file into smaller HTML files
-- Parse script.js into more logical smaller scripts
-- Add overlay names as in game that change with zoom
-- Make new Maui map that is better quality
+- Parse script.js into more logical smaller scripts[Partially DONE]
+- Add overlay names as in game that change with zoom[DONE]
+- Make new Maui map that is better quality[FUTURE]
 - Add counter to each option that shows how many markers are shown with that option
 - Make whole filter name clickable, not just a checkbox
+- Path Finder
+- Rework challenges
+- Rework how icons are created, get rid of additional files[DONE]

@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Function to change colors of UI
 // Handles selection of only one checkbox per color option(primary)
-function changeColor(checkbox) {
+InteractiveMap.features.colorChange.changeColor = function(checkbox) {
     if (checkbox.getAttribute('data-chosen') === 'true') {
         return;
     }

@@ -1,54 +1,24 @@
-// Global object that holds all playlist loaded jsons
-// It is so we don't have to fetch everytime we change mode when it was fetched already
-var playlists_json_data = {};
-
 // Fetch all playlist jsons
-async function loadAllJsonFiles() {
-    const path_to_folder = "static/data/playlists/";
+InteractiveMap.utils.playlist.loadAllJsonFiles = async function() {
     const file_ext = ".json";
-    const file_names = ["american_muscle",
-                        "auto_lambo",
-                        "bike_lovers",
-                        "chase_squad",
-                        "donut_media",
-                        "dream_cars",
-                        "drift",
-                        "drift2",
-                        "dvl",
-                        "ele_ody",
-                        "gymkhana",
-                        "hollywood",
-                        "hst",
-                        "lbwk",
-                        "mauiex",
-                        "mij",
-                        "mij2",
-                        "motorsports",
-                        "off_add",
-                        "off_add2",
-                        "ons",
-                        "porsche",
-                        "redbull_sc",
-                        "redbull_wr",
-                        "vin_gar"
-                        ];
 
-    const fetch_promises = file_names.map(async function(file_name) {
-        const json_data = await fetch(path_to_folder + file_name + file_ext);
-        playlists_json_data[file_name] = await json_data.json();
+    const fetch_promises = InteractiveMap.data.playlists.map(async function(file_name) {
+        const json_data = await fetch(InteractiveMap.paths.pathToPlaylists + file_name[0] + file_ext);
+        InteractiveMap.data.playlistJSONData[file_name[0]] = await json_data.json();
+        InteractiveMap.markers.playlists[file_name[2]] = {};
     })
     await Promise.all(fetch_promises);
 }
 
 // Loads json data from global object based on file name
-function loadJsonFile(file_name) {
-    const data = playlists_json_data[file_name];
+InteractiveMap.utils.playlist.loadJsonFile = function (file_name) {
+    const data = InteractiveMap.data.playlistJSONData[file_name];
 
     return data;
 }
 
 // Creates container markers and returns them
-async function loadContainerData(data, playlist_prefix, playlist_name, mode) {
+InteractiveMap.utils.playlist.loadContainerData = async function (data, playlist_prefix, playlist_name, mode) {
     var container_markers;
 
     if(mode === "canvas") {
@@ -58,7 +28,7 @@ async function loadContainerData(data, playlist_prefix, playlist_name, mode) {
         container_markers = L.featureGroup();
     }
     
-    var container_marker = L.marker(data['coords'], {icon:window[playlist_prefix + "_container_icon"]});
+    var container_marker = L.marker(data['coords'], {icon:InteractiveMap.icons.playlists[playlist_name].Container});
     container_marker.bindPopup('<b>' + playlist_name + '</b><br>\
                                 <i>Container</i>', {
         className: "hstPopup"
@@ -74,7 +44,7 @@ async function loadContainerData(data, playlist_prefix, playlist_name, mode) {
     return container_markers;
 }
 
-async function loadEventsData(data, playlist_prefix, playlist_name, mode) {
+InteractiveMap.utils.playlist.loadEventsData = async function (data, playlist_prefix, playlist_name, mode) {
     var event_markers;
 
     if(mode === "canvas") {
@@ -85,7 +55,7 @@ async function loadEventsData(data, playlist_prefix, playlist_name, mode) {
     }
 
     for (let i = 0; i < data.length; i++) {
-        var event_marker = L.marker(data[i]['coords'], {icon: window[playlist_prefix + "_event" + (data[i]['side'] === "Donk" ? "_d" : (data[i]['side'] === "Lowrider" ? "_l" : "")) + "_icon"]})
+        var event_marker = L.marker(data[i]['coords'], {icon: (data[i]['side'] === "Donk" ? InteractiveMap.icons.playlists[playlist_name]["Event Donk"] : (data[i]['side'] === "Lowrider" ? InteractiveMap.icons.playlists[playlist_name]["Event Lowrider"] : InteractiveMap.icons.playlists[playlist_name]["Event"]))})
         event_marker.bindPopup("<b style=\"font-size:20px\">" + data[i]['name'] + "</b><br>\
                         <i>Event</i><br>\
                         <span><b>" + playlist_name + "(" + (i + 1) + "/" + data.length + ")</b></span><br>" +
@@ -112,7 +82,7 @@ async function loadEventsData(data, playlist_prefix, playlist_name, mode) {
 
 }
 
-async function loadFeatsData(data, playlist_name, side_activities_name, mode) {
+InteractiveMap.utils.playlist.loadFeatsData = async function (data, playlist_name, side_activities_name, mode) {
     var feats_markers;
 
     if(mode === "canvas") {
@@ -123,7 +93,7 @@ async function loadFeatsData(data, playlist_name, side_activities_name, mode) {
     }
 
     for (let i = 0; i < data.length; i++) {
-        var feat_marker = L.marker(data[i]['coords'], {icon:window[data[i]['icon_name'] + "_icon"]});
+        var feat_marker = L.marker(data[i]['coords'], {icon:InteractiveMap.icons.playlist_side.Feats[data[i]['type']]});
         feat_marker.bindPopup("<b style=\"font-size:20px\">" + (data[i]['side'] === "Dirty South" ? "Dirty South" : data[i]['side'] === "West Side" ? "West Side" : side_activities_name) + " Feats - " + data[i]['name'] + "</b><br>\
                                      <i>Feat - " + data[i]['type'] + "</i><br>\
                                      <span><b>" + playlist_name + "</b></span><br>\
@@ -145,7 +115,7 @@ async function loadFeatsData(data, playlist_name, side_activities_name, mode) {
     return feats_markers;
 }
 
-async function loadPhotoOpsData(data, playlist_name, side_activities_name, mode) {
+InteractiveMap.utils.playlist.loadPhotoOpsData = async function (data, playlist_name, side_activities_name, mode) {
     var photo_ops_markers;
 
     if(mode === "canvas") {
@@ -156,7 +126,7 @@ async function loadPhotoOpsData(data, playlist_name, side_activities_name, mode)
     }
 
     for (let i = 0; i < data.length; i++) {
-        var photo_ops_marker = L.marker(data[i]['coords'], {icon:window[data[i]['icon_name'] +"_icon"]});
+        var photo_ops_marker = L.marker(data[i]['coords'], {icon:InteractiveMap.icons.playlist_side.Other["Photo Ops"]});
         photo_ops_marker.bindPopup("<b style=\"font-size:20px\">" + (data[i]['side'] === "Dirty South" ? "Dirty South" : data[i]['side'] === "West Side" ? "West Side" : side_activities_name) + " Views - " + data[i]['name'] + "</b><br>\
                                     <i>Photo Ops</i><br>\
                                     <span><b>" + playlist_name + "</b></span><br>\
@@ -177,7 +147,7 @@ async function loadPhotoOpsData(data, playlist_name, side_activities_name, mode)
     return photo_ops_markers;
 }
 
-async function loadCollectiblesData(data, playlist_name, mode) {
+InteractiveMap.utils.playlist.loadCollectiblesData = async function (data, playlist_name, mode) {
     var collectibles_markers;
 
     if(mode === "canvas") {
@@ -188,7 +158,7 @@ async function loadCollectiblesData(data, playlist_name, mode) {
     }
 
     for (let i = 0; i < data.length; i++) {
-        var collectible_marker = L.marker(data[i]['coords'], {icon:window[data[i]['icon_name'] +"_icon"]});
+        var collectible_marker = L.marker(data[i]['coords'], {icon:InteractiveMap.icons.playlist_side.Other.Collectible});
         collectible_marker.bindPopup("<b style=\"font-size:20px\">" + playlist_name + "</b><br>\
                                     <i>Collectible</i><br>\
                                     <span><b>Challenge:</b> " + data[i]['challenge_name'] + "</span><br>", {
@@ -207,56 +177,56 @@ async function loadCollectiblesData(data, playlist_name, mode) {
 }
 
 // Main function that loads json file, creates all markers and adds them to the canvas
-async function loadEverything(file_name, playlist_prefix, playlist_name, side_activities_name, mode) {
-    const data = loadJsonFile(file_name);
+InteractiveMap.utils.playlist.loadEverything = async function (file_name, playlist_prefix, playlist_name, side_activities_name, mode) {
+    const data = InteractiveMap.utils.playlist.loadJsonFile(file_name);
 
     // Load container data
-    let container_group = await loadContainerData(data['Container'], playlist_prefix, playlist_name, mode);
+    let container_group = await InteractiveMap.utils.playlist.loadContainerData(data['Container'], playlist_prefix, playlist_name, mode);
 
     // Load events data
-    let events_group = await loadEventsData(data['Events'], playlist_prefix, playlist_name, mode);
+    let events_group = await InteractiveMap.utils.playlist.loadEventsData(data['Events'], playlist_prefix, playlist_name, mode);
 
     // Load feats data
-    let feats_group = await loadFeatsData(data['Feats'], playlist_name, side_activities_name, mode);
+    let feats_group = await InteractiveMap.utils.playlist.loadFeatsData(data['Feats'], playlist_name, side_activities_name, mode);
 
     // Load photo ops data
-    let photo_ops_group = await loadPhotoOpsData(data['Photo_ops'], playlist_name, side_activities_name, mode);
+    let photo_ops_group = await InteractiveMap.utils.playlist.loadPhotoOpsData(data['Photo_ops'], playlist_name, side_activities_name, mode);
 
     // Load collectibles data
-    let collectibles_group = await loadCollectiblesData(data['Collectibles'], playlist_name, mode);
+    let collectibles_group = await InteractiveMap.utils.playlist.loadCollectiblesData(data['Collectibles'], playlist_name, mode);
 
     return { container_group, events_group, feats_group, photo_ops_group, collectibles_group };
 }
 
-async function initializePlaylists(playlists, mode, first_load) {
+InteractiveMap.utils.playlist.initializePlaylists = async function (playlists, mode, first_load) {
     if(first_load) {
-        await loadAllJsonFiles();
+        await InteractiveMap.utils.playlist.loadAllJsonFiles();
     }
 
     const playlistPromises = playlists.map(async (playlist) => {
-        const { container_group, events_group, feats_group, photo_ops_group, collectibles_group } = await loadEverything(playlist[0], playlist[1], playlist[2], playlist[3], mode);
+        const { container_group, events_group, feats_group, photo_ops_group, collectibles_group } = await InteractiveMap.utils.playlist.loadEverything(playlist[0], playlist[1], playlist[2], playlist[3], mode);
 
-        window[playlist[1] + "_container_group"] = container_group;
-        window[playlist[1] + "_events_group"] = events_group;
-        window[playlist[1] + "_feats_group"] = feats_group;
-        window[playlist[1] + "_photo_ops_group"] = photo_ops_group;
-        window[playlist[1] + "_collectibles_group"] = collectibles_group;
+        InteractiveMap.markers.playlists[playlist[2]]["container"] = container_group;
+        InteractiveMap.markers.playlists[playlist[2]]["events"] = events_group;
+        InteractiveMap.markers.playlists[playlist[2]]["feats"] = feats_group;
+        InteractiveMap.markers.playlists[playlist[2]]["photo_ops"] = photo_ops_group;
+        InteractiveMap.markers.playlists[playlist[2]]["collectibles"] = collectibles_group;
 
         // TODO - remove this and add loading markers after DOMContentLoad based on mode switch
         if(mode === "canvas" && first_load) {
-            markers_canvas.addMarkers(window[playlist[1] + "_container_group"]);
-            markers_canvas.addMarkers(window[playlist[1] + "_events_group"]);
-            markers_canvas.addMarkers(window[playlist[1] + "_feats_group"]);
-            markers_canvas.addMarkers(window[playlist[1] + "_photo_ops_group"]);
-            markers_canvas.addMarkers(window[playlist[1] + "_collectibles_group"]);
+            InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.playlists[playlist[2]]["container"]);
+            InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.playlists[playlist[2]]["events"]);
+            InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.playlists[playlist[2]]["feats"]);
+            InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.playlists[playlist[2]]["photo_ops"]);
+            InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.playlists[playlist[2]]["collectibles"]);
         }
 
         else if(mode === "dom" && first_load) {
-            window[playlist[1] + "_container_group"].addTo(map);
-            window[playlist[1] + "_events_group"].addTo(map);
-            window[playlist[1] + "_feats_group"].addTo(map);
-            window[playlist[1] + "_photo_ops_group"].addTo(map);
-            window[playlist[1] + "_collectibles_group"].addTo(map);
+            InteractiveMap.markers.playlists[playlist[2]]["container"].addTo(InteractiveMap.map.instance);
+            InteractiveMap.markers.playlists[playlist[2]]["events"].addTo(InteractiveMap.map.instance);
+            InteractiveMap.markers.playlists[playlist[2]]["feats"].addTo(InteractiveMap.map.instance);
+            InteractiveMap.markers.playlists[playlist[2]]["photo_ops"].addTo(InteractiveMap.map.instance);
+            InteractiveMap.markers.playlists[playlist[2]]["collectibles"].addTo(InteractiveMap.map.instance);
         } 
     });
 
@@ -264,30 +234,4 @@ async function initializePlaylists(playlists, mode, first_load) {
     await Promise.all(playlistPromises);
 }
 
-const playlists_data = [["american_muscle", "am", "American Muscle", "American"],
-                        ["auto_lambo", "al", "Automobili Lamborghini", "A.L."],
-                        ["bike_lovers", "bl", "Bike Lovers", "Rider"],
-                        ["chase_squad", "tcs", "The Chase Squad", "Code 10"],
-                        ["donut_media", "dm", "Rule the Streets", "Donut x"],
-                        ["dream_cars", "dc", "Dream Cars", "Super"],
-                        ["drift", "de", "Drift Experience", "Burning"],
-                        ["drift2", "de2", "Drift Experience Vol.2", "Blazing"],
-                        ["dvl", "dvl", "Donk vs Lowrider", ""],
-                        ["ele_ody", "eo", "Electric Odyssey", "E-Feats"],
-                        ["gymkhana", "gym", "Gymkhana Grid Masters", "Gymkhana"],
-                        ["hollywood", "ha", "Hollywood Action!", "Movie Award"],
-                        ["hst", "hst", "Hawaii Scenic Tour", "Rainbow"],
-                        ["lbwk", "lbwk", "Liberty Walk", "Liberty"],
-                        ["mauiex", "mauiex", "Maui Expeditions", "Valley Isle"],
-                        ["mij", "mij", "Made in Japan", "Nihon No"],
-                        ["mij2", "mij2", "Made in Japan Vol.2", "Sekai No"],
-                        ["motorsports", "motorsports", "Motorsports", "Alpha"],
-                        ["off_add", "oa", "Off-roading Addict", "Wild"],
-                        ["off_add2", "oa2", "Off-roading Addict Vol.2", "Wilder"],
-                        ["ons", "ons", "Ocean\'N Sky", "ONS"],
-                        ["porsche", "porsche", "911 Legacy", "911"],
-                        ["redbull_sc", "rb", "Red Bull Speed Clash", "Apex"],
-                        ["redbull_wr", "rb2", "Red Bull Wild Ride", "Bold"],
-                        ["vin_gar", "vg", "Vintage Garage", "Retro"]]
-
-initializePlaylists(playlists_data, "canvas", true);
+InteractiveMap.utils.playlist.initializePlaylists(InteractiveMap.data.playlists, "canvas", true);

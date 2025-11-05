@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ES6",
+    "paths": {
+      "leaflet": ["lib/leaflet"]
+    }
+  },
+  "include": [
+    "static/js/**/*.js",
+    "lib/*.js"
+  ],
+  "exclude": [
+    "static/js/canvas/*.js",
+    "static/js/dom/*.js"
+  ]
+}

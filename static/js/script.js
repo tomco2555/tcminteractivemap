@@ -1,3 +1,81 @@
+/**
+ * Main global object that holds all the variables and functions
+ * @namespace
+ * @property {object} map
+ * @property {object} map.funcs
+ */
+const InteractiveMap = {
+    map: {
+        funcs: {}
+    },
+    icons: {
+        playlists: {},
+        playlist_side: {},
+        misc: {},
+        rivals: {},
+        challenges: {}
+    },
+    markers: {
+        playlists: {},
+        misc: {},
+        rivals: {}
+    },
+    locations: {
+        funcs: {},
+        JSONData: {}
+    },
+    settings: {},
+    challenges: {},
+    features: {
+        countdownTimer: {},
+        colorChange: {},
+        playlistSorter: {}
+    },
+    utils: {
+        playlist: {},
+        misc: {},
+        rivals: {},
+        icons: {}
+    },
+    paths: {
+        pathToPlaylists: "static/data/playlists/",
+        pathToData: "static/data/"
+    },
+    data: {
+        playlists: [
+            ["american_muscle", "am", "American Muscle", "American"],
+            ["auto_lambo", "al", "Automobili Lamborghini", "A.L."],
+            ["bike_lovers", "bl", "Bike Lovers", "Rider"],
+            ["chase_squad", "tcs", "The Chase Squad", "Code 10"],
+            ["donut_media", "dm", "Rule the Streets", "Donut x"],
+            ["dream_cars", "dc", "Dream Cars", "Super"],
+            ["drift", "de", "Drift Experience", "Burning"],
+            ["drift2", "de2", "Drift Experience Vol.2", "Blazing"],
+            ["dvl", "dvl", "Donk vs Lowrider", ""],
+            ["ele_ody", "eo", "Electric Odyssey", "E-Feats"],
+            ["gymkhana", "gym", "Gymkhana Grid Masters", "Gymkhana"],
+            ["hollywood", "ha", "Hollywood Action!", "Movie Award"],
+            ["hst", "hst", "Hawaii Scenic Tour", "Rainbow"],
+            ["lbwk", "lbwk", "Liberty Walk", "Liberty"],
+            ["mauiex", "mauiex", "Maui Expeditions", "Valley Isle"],
+            ["mij", "mij", "Made in Japan", "Nihon No"],
+            ["mij2", "mij2", "Made in Japan Vol.2", "Sekai No"],
+            ["motorsports", "motorsports", "Motorsports", "Alpha"],
+            ["off_add", "oa", "Off-roading Addict", "Wild"],
+            ["off_add2", "oa2", "Off-roading Addict Vol.2", "Wilder"],
+            ["ons", "ons", "Ocean\'N Sky", "ONS"],
+            ["porsche", "porsche", "911 Legacy", "911"],
+            ["redbull_sc", "rb", "Red Bull Speed Clash", "Apex"],
+            ["redbull_wr", "rb2", "Red Bull Wild Ride", "Bold"],
+            ["vin_gar", "vg", "Vintage Garage", "Retro"]
+        ],
+        playlistJSONData: {},
+        miscJSONData: {},
+        rivalsJSONData: {},
+        iconJSONData: {}
+    }
+};
+
 // Animation for closing filters sidebar
 document.addEventListener("DOMContentLoaded", function() {
     const filters_sidebar = document.getElementById("filters_sidebar")
@@ -25,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
             close_btn.textContent = ">";
             setTimeout(function() {
                 left_sidebar.style.width = '0';
-                map.invalidateSize();
+                InteractiveMap.map.instance.invalidateSize();
                 filters_sidebar.style.outline = 'none';
             }, 500);
         }
@@ -64,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 // Functionality for the buttons "Hide all" and "Show all"
-function hideOrShowEverything(button) {
+InteractiveMap.map.funcs.hideOrShowEverything = function(button) {
     const checkboxes = document.querySelectorAll(".filter_checkbox");
     const mode_switch = document.getElementById("mode_switch");
     
@@ -77,7 +155,7 @@ function hideOrShowEverything(button) {
     
     else if (button.innerHTML === "Show all") {
         if (mode_switch.checked) {
-            markers_canvas.redraw();
+            InteractiveMap.map.canvas.redraw();
         }
         checkboxes.forEach(function(checkbox) {
 
@@ -139,19 +217,24 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 // Checks/unchecks switches by default
-// Takes care of mode switch, challenges switch, playlist order switch
+// Takes care of mode switch, challenges switch, playlist order switch, show location names
 document.addEventListener("DOMContentLoaded", function() {
     const mode_switch = document.getElementById("mode_switch");
     const challenges_switch = document.getElementById("challenges_switch");
     const playlist_order_switch = document.getElementById("playlist_order_switch");
+    const locations_switch = document.getElementById("locations_switch");
+    const slider_size_selector = document.getElementById("slider_size_selector");
     
     mode_switch.checked = true;
     challenges_switch.checked = false;
     playlist_order_switch.checked = false;
+    locations_switch.checked = false;
+    slider_size_selector.value = "100";
 })
 
+// TODO - Canvas handling of checkboxes(toggling groups)
 // Shows or hides markers based on the activity
-function activitiesCheckboxTemp(elem) {
+InteractiveMap.map.funcs.activitiesCheckbox = function(elem) {
 
     // Stores state of checkmark(mode switch)
     var mode_switch_status = document.getElementById("mode_switch").checked;
@@ -160,7 +243,7 @@ function activitiesCheckboxTemp(elem) {
     // ID of the checkbox that invoked this function
     var activity_checkbox_name;
 
-    // Since we split by "_" delimiter and photo_ops contains delimiter we have to set it to store it same way
+    // Since we split by "_" delimiter and "photo_ops" contains delimiter we have to set it to store it same way
     if(elem.id.split("_")[0] !== "photo") {
         activity_checkbox_name = elem.id.split("_")[0]
     }
@@ -180,14 +263,14 @@ function activitiesCheckboxTemp(elem) {
 
             // If activity checkbox is not checked then remove markers in that category for all the playlists
             if(!activity_checkbox_status) {
-                markers_canvas.removeMarkers(window[single_checkbox.id.split("_")[0] + "_" + activity_checkbox_name + "_group"]);
+                InteractiveMap.map.canvas.removeMarkers(InteractiveMap.markers.playlists[single_checkbox.name][activity_checkbox_name]);
             }
 
             // If activity checkbox is checked then show markers for playlists in that category that are also checked
             // Not checked playlist checkboxes result in nothing
             else if(activity_checkbox_status) {
                 if(single_checkbox.checked){
-                    markers_canvas.addMarkers(window[single_checkbox.id.split("_")[0] + "_" + activity_checkbox_name + "_group"]);
+                    InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.playlists[single_checkbox.name][activity_checkbox_name]);
                 }
             }
         })
@@ -207,34 +290,31 @@ function activitiesCheckboxTemp(elem) {
 // Function that add/removes markers based on mode switch position
 // group_name - name of the group to be added/removed(e.g. am_container_group)
 // checkbox_status - true/false of checkbox from Activities section
-function toggleGroup(group_name, checkbox_status) {
-
-    const group = window[group_name];
-
+InteractiveMap.map.funcs.toggleGroup = function(group_name, checkbox_status) {
     // Add markers if the checkbox from Activities section is checked
     if (checkbox_status) {
         // Check if mode switch is in canvas or dom mode
         if (mode_switch.checked) {
-            markers_canvas.addMarkers(group);
+            InteractiveMap.map.canvas.addMarkers(group_name);
         } 
         else {
-            group.addTo(map);
+            group_name.addTo(InteractiveMap.map.instance);
         }
     } 
     else {
         if (mode_switch.checked) {
-            markers_canvas.removeMarkers(group);
+            InteractiveMap.map.canvas.removeMarkers(group_name);
         } 
         else {
-            group.remove();
+            group_name.remove();
         }
     }
 }
 
 // Function called when state of the playlist checkbox changes
-function watchCheckbox(playlist_name) {
+InteractiveMap.map.funcs.watchCheckbox = function(playlist_name) {
     // Current playlist checkbox
-    var playlist_checkbox_status = document.getElementById(playlist_name + "_playlist").checked;
+    var playlist_checkbox_status = playlist_name.checked;
     // Status of each checkbox from Activities section
     var events_checkbox_status = document.getElementById("events_checkbox").checked;
     var container_checkbox_status = document.getElementById("container_checkbox").checked;
@@ -247,46 +327,46 @@ function watchCheckbox(playlist_name) {
     // Playlist checkbox is not checked, remove all markers
     if(!(playlist_checkbox_status)) {
         if(mode_switch.checked) {
-            markers_canvas.removeMarkers(window[playlist_name + "_container_group"]);
-            markers_canvas.removeMarkers(window[playlist_name + "_events_group"]);
-            markers_canvas.removeMarkers(window[playlist_name + "_photo_ops_group"]);
-            markers_canvas.removeMarkers(window[playlist_name + "_collectibles_group"]);
-            markers_canvas.removeMarkers(window[playlist_name + "_feats_group"]);
+            InteractiveMap.map.canvas.removeMarkers(InteractiveMap.markers.playlists[playlist_name.name]["container"]);
+            InteractiveMap.map.canvas.removeMarkers(InteractiveMap.markers.playlists[playlist_name.name]["events"]);
+            InteractiveMap.map.canvas.removeMarkers(InteractiveMap.markers.playlists[playlist_name.name]["photo_ops"]);
+            InteractiveMap.map.canvas.removeMarkers(InteractiveMap.markers.playlists[playlist_name.name]["collectibles"]);
+            InteractiveMap.map.canvas.removeMarkers(InteractiveMap.markers.playlists[playlist_name.name]["feats"]);
         }
         else {
-            window[playlist_name + "_container_group"].remove();
-            window[playlist_name + "_events_group"].remove();
-            window[playlist_name + "_photo_ops_group"].remove();
-            window[playlist_name + "_collectibles_group"].remove();
-            window[playlist_name + "_feats_group"].remove();
+            InteractiveMap.markers.playlists[playlist_name.name]["container"].remove();
+            InteractiveMap.markers.playlists[playlist_name.name]["events"].remove();
+            InteractiveMap.markers.playlists[playlist_name.name]["photo_ops"].remove();
+            InteractiveMap.markers.playlists[playlist_name.name]["collectibles"].remove();
+            InteractiveMap.markers.playlists[playlist_name.name]["feats"].remove();
         }
     }
 
     // Playlist checkbox is checked, add markers based on what is selected in Activities
     else if(playlist_checkbox_status) {
-        toggleGroup(playlist_name + "_container_group", container_checkbox_status);
-        toggleGroup(playlist_name + "_events_group", events_checkbox_status);
-        toggleGroup(playlist_name + "_collectibles_group", collectibles_checkbox_status);
-        toggleGroup(playlist_name + "_photo_ops_group", photo_ops_checkbox_status);
-        toggleGroup(playlist_name + "_feats_group", feats_checkbox_status);
+        InteractiveMap.map.funcs.toggleGroup(InteractiveMap.markers.playlists[playlist_name.name]["container"], container_checkbox_status);
+        InteractiveMap.map.funcs.toggleGroup(InteractiveMap.markers.playlists[playlist_name.name]["events"], events_checkbox_status);
+        InteractiveMap.map.funcs.toggleGroup(InteractiveMap.markers.playlists[playlist_name.name]["photo_ops"], collectibles_checkbox_status);
+        InteractiveMap.map.funcs.toggleGroup(InteractiveMap.markers.playlists[playlist_name.name]["collectibles"], photo_ops_checkbox_status);
+        InteractiveMap.map.funcs.toggleGroup(InteractiveMap.markers.playlists[playlist_name.name]["feats"], feats_checkbox_status);
         }
 }
 
 // Function called when the status of the misc checkbox changes
 // checkbox - checkbox that registered change
 // filter - group that is shown/hidden
-function miscCheckbox(checkbox, filter) {
+InteractiveMap.map.funcs.miscCheckbox = function(checkbox, filter) {
     const mode_switch = document.getElementById("mode_switch");
 
     // Checkbox was checked
     if(checkbox.checked) {
         // Canvas mode
         if(mode_switch.checked) {
-            markers_canvas.addMarkers(filter);
+            InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.misc[filter]);
         }
         // DOM mode
         else {
-            filter.addTo(map);
+            InteractiveMap.markers.misc[filter].addTo(InteractiveMap.map.instance);
         }
     }
 
@@ -294,11 +374,11 @@ function miscCheckbox(checkbox, filter) {
     else {
         // Canvas mode
         if(mode_switch.checked) {
-            markers_canvas.removeMarkers(filter);
+            InteractiveMap.map.canvas.removeMarkers(InteractiveMap.markers.misc[filter]);
         }
         // DOM mode
         else {
-            filter.remove();
+            InteractiveMap.markers.misc[filter].remove();
         }
     }
 }
@@ -306,18 +386,18 @@ function miscCheckbox(checkbox, filter) {
 // Function called when the status of the rivals checkbox changes
 // checkbox - checkbox that registered change
 // filter - group that is shown/hidden
-function rivalsCheckbox(checkbox, filter) {
+InteractiveMap.map.funcs.rivalsCheckbox = function(checkbox, filter) {
     const mode_switch = document.getElementById("mode_switch");
 
     // Checkbox was checked
     if(checkbox.checked) {
         // Canvas mode
         if(mode_switch.checked) {
-            markers_canvas.addMarkers(filter);
+            InteractiveMap.map.canvas.addMarkers(InteractiveMap.markers.rivals[filter]);
         }
         // DOM mode
         else {
-            filter.addTo(map);
+            InteractiveMap.markers.rivals[filter].addTo(InteractiveMap.map.instance);
         }
     }
 
@@ -325,26 +405,26 @@ function rivalsCheckbox(checkbox, filter) {
     else {
         // Canvas mode
         if(mode_switch.checked) {
-            markers_canvas.removeMarkers(filter);
+            InteractiveMap.map.canvas.removeMarkers(InteractiveMap.markers.rivals[filter]);
         }
         // DOM mode
         else {
-            filter.remove();
+            InteractiveMap.markers.rivals[filter].remove();
         }
     }
 }
 
-async function initializeMarkersPerGroup(data, mode, checkbox_type, group) {
+InteractiveMap.map.funcs.initializeMarkersPerGroup = async function(data, mode, checkbox_type, group) {
     if(group === "playlists") {
-        await initializePlaylists(data, mode, false);
+        await InteractiveMap.utils.playlist.initializePlaylists(data, mode, false);
     }
 
     else if(group === "misc") {
-        await initializeMisc(mode, false);
+        await InteractiveMap.utils.misc.initializeMisc(mode, false);
     }
 
     else if(group === "rivals") {
-        await initializeRivals(mode, false);
+        await InteractiveMap.utils.rivals.initializeRivals(mode, false);
     }
 
     let checkboxes = document.querySelectorAll(checkbox_type);
@@ -357,32 +437,36 @@ async function initializeMarkersPerGroup(data, mode, checkbox_type, group) {
 // Switches performance mode
 // False - high quality, more demanding, DOM
 // True - lower quality, less demanding, canvas
-async function switchMode(switch_button) {
+// Calls function that take care of the change of markers and location names
+InteractiveMap.map.funcs.switchMode = async function(switch_button) {
     var mode_switch_status = switch_button.checked;
 
     if(!mode_switch_status) {
         //Clears whole canvas
-        markers_canvas.clear();
+        InteractiveMap.map.canvas.clear();
 
-        initializeMarkersPerGroup(playlists_data, "dom", ".playlist_checkbox", "playlists");
-        initializeMarkersPerGroup("", "dom", ".misc_checkbox", "misc");
-        initializeMarkersPerGroup("", "dom", ".rivals_checkbox", "rivals");
+        InteractiveMap.map.funcs.initializeMarkersPerGroup(InteractiveMap.data.playlists, "dom", ".playlist_checkbox", "playlists");
+        InteractiveMap.map.funcs.initializeMarkersPerGroup("", "dom", ".misc_checkbox", "misc");
+        InteractiveMap.map.funcs.initializeMarkersPerGroup("", "dom", ".rivals_checkbox", "rivals");
+        InteractiveMap.locations.funcs.modeSwitchWhileLocationsOn();
     }
 
     else {
         //Clears whole map pane
-        map.eachLayer((layer)=>{
+        InteractiveMap.map.instance.eachLayer((layer)=>{
             if(layer instanceof L.Marker){
                 layer.remove();
             }
         });
 
-        initializeMarkersPerGroup(playlists_data, "canvas", ".playlist_checkbox", "playlists");
-        initializeMarkersPerGroup("", "canvas", ".misc_checkbox", "misc");
-        initializeMarkersPerGroup("", "canvas", ".rivals_checkbox", "rivals");
+        InteractiveMap.map.funcs.initializeMarkersPerGroup(InteractiveMap.data.playlists, "canvas", ".playlist_checkbox", "playlists");
+        InteractiveMap.map.funcs.initializeMarkersPerGroup("", "canvas", ".misc_checkbox", "misc");
+        InteractiveMap.map.funcs.initializeMarkersPerGroup("", "canvas", ".rivals_checkbox", "rivals");
+        InteractiveMap.locations.funcs.modeSwitchWhileLocationsOn();
     }
 }
 
+// TODO - Rework challenges
 //Adds functionality to each accordion menu and accordion submenu button
 //Allows to have only one opened challenge throughout all the challenges
 document.addEventListener("DOMContentLoaded", async function() {
@@ -398,8 +482,8 @@ document.addEventListener("DOMContentLoaded", async function() {
     }
 
 
-    var challenges_pane_markers = L.featureGroup({pane: "challenges"}).addTo(map);
-    var challenges_pane_popups = L.featureGroup({pane: "challenges"}).addTo(map);
+    var challenges_pane_markers = L.featureGroup({pane: "challenges"}).addTo(InteractiveMap.map.instance);
+    var challenges_pane_popups = L.featureGroup({pane: "challenges"}).addTo(InteractiveMap.map.instance);
 
     function clearLayer() {
         challenges_pane_markers.clearLayers();
@@ -409,15 +493,15 @@ document.addEventListener("DOMContentLoaded", async function() {
     function addMarkersToGroup(dataset) {
         markers_json[dataset].forEach((marker) => {
             if(marker["icon"] === "start") {
-                L.marker([marker["lat"], marker["lng"]], {icon:start_icon, pane:'challenges'}).bindPopup('<b>'+marker["name"]+'</b>', {className:"hstPopup", pane:'challenges-popup'}).addTo(challenges_pane_markers);
+                L.marker([marker["lat"], marker["lng"]], {icon:InteractiveMap.icons.challenges["Start"], pane:'challenges'}).bindPopup('<b>'+marker["name"]+'</b>', {className:"hstPopup", pane:'challenges-popup'}).addTo(challenges_pane_markers);
             }
             
             else if(marker["icon"] === "finish") {
-                L.marker([marker["lat"], marker["lng"]], {icon:finish_icon, pane:'challenges'}).bindPopup('<b>'+marker["name"]+'</b>', {className:"hstPopup", pane:'challenges-popup'}).addTo(challenges_pane_markers);
+                L.marker([marker["lat"], marker["lng"]], {icon:InteractiveMap.icons.challenges["Finish"], pane:'challenges'}).bindPopup('<b>'+marker["name"]+'</b>', {className:"hstPopup", pane:'challenges-popup'}).addTo(challenges_pane_markers);
             }
 
             else if(marker["icon"] === "challenge") {
-                L.marker([marker["lat"], marker["lng"]], {icon:challenge_icon, pane:'challenges'}).bindPopup('<b>'+marker["name"]+'</b>', {className:"hstPopup", pane:'challenges-popup'}).addTo(challenges_pane_markers);
+                L.marker([marker["lat"], marker["lng"]], {icon:InteractiveMap.icons.challenges["Challenge"], pane:'challenges'}).bindPopup('<b>'+marker["name"]+'</b>', {className:"hstPopup", pane:'challenges-popup'}).addTo(challenges_pane_markers);
             }
         })
     }
@@ -551,7 +635,7 @@ function challengesMode() {
 
         //Checks states of performance mode
         if(mode_switch_checkbox.checked) {
-            map.removeLayer(markers_canvas);
+            InteractiveMap.map.instance.removeLayer(InteractiveMap.map.canvas);
             //canvas_markers[0].style.display = "none";
         }
 
@@ -562,7 +646,7 @@ function challengesMode() {
         popup_markers[0].style.display = "none";
         challenges_markers[0].style.display = "";
         challenges_popups[0].style.display = "";
-        map.closePopup();
+        InteractiveMap.map.instance.closePopup();
 
         all_checkboxes.forEach(function(checkbox) {
             checkbox.style.display = "none";
@@ -588,9 +672,9 @@ function challengesMode() {
 
         //Checks states of performance mode
         if(mode_switch_checkbox.checked) {
-            markers_canvas.addTo(map)
-            map.fire('moveend');
-            markers_canvas.redraw();
+            InteractiveMap.map.canvas.addTo(InteractiveMap.map.instance)
+            InteractiveMap.map.instance.fire('moveend');
+            InteractiveMap.map.canvas.redraw();
         }
 
         else if(!mode_switch_checkbox.checked) {
@@ -600,7 +684,7 @@ function challengesMode() {
         popup_markers[0].style.display = "";
         challenges_markers[0].style.display = "none";
         challenges_popups[0].style.display = "none";
-        map.closePopup();
+        InteractiveMap.map.instance.closePopup();
 
         all_checkboxes.forEach(function(checkbox) {
             checkbox.style.display = "";
