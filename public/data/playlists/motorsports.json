@@ -1,0 +1,233 @@
+{
+  "id": "motorsports",
+  "name": "Motorsports",
+  "imgFolder": "Motorsports",
+  "container": {
+    "lat": 1315.091931,
+    "lng": 3628.872001
+  },
+  "events": [
+    {
+      "lat": 1078.761741,
+      "lng": 3541.125,
+      "name": "Opening Act: Alpha Debut",
+      "number": "1/8",
+      "type": "Time Attack",
+      "weather": "Morning",
+      "car": "Ivory Tower IVT AGP R-07",
+      "category": "Alpha GP",
+      "xp": "7,740",
+      "bucks": "13,500"
+    },
+    {
+      "lat": 1260.180072,
+      "lng": 3592.721167,
+      "name": "Act 2: Alpha Grand Prix",
+      "number": "2/8",
+      "type": "Race",
+      "weather": "Morning",
+      "car": "Ivory Tower IVT AGP R-07",
+      "category": "Alpha GP",
+      "xp": "12,900",
+      "bucks": "22,500"
+    },
+    {
+      "lat": 1263.626248,
+      "lng": 3592.632779,
+      "name": "Act 3: Grand Touring",
+      "number": "3/8",
+      "type": "Race",
+      "weather": "Midday",
+      "car": "McLaren Senna GTR",
+      "category": "Racing",
+      "xp": "23,220",
+      "bucks": "40,500"
+    },
+    {
+      "lat": 1292.609473,
+      "lng": 3595.019264,
+      "name": "Act 4: Alpha Gamble",
+      "number": "4/8",
+      "type": "Race",
+      "weather": "Midday",
+      "car": "Proto Alpha Mark II",
+      "category": "Alpha GP",
+      "xp": "10,320",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1072.013361,
+      "lng": 3501.416004,
+      "name": "Act 5: Acura Derby",
+      "number": "5/8",
+      "type": "Race",
+      "weather": "Dawn",
+      "car": "Acura NSX GT3",
+      "category": "Racing",
+      "xp": "25,800",
+      "bucks": "45,000"
+    },
+    {
+      "lat": 1300.133743,
+      "lng": 3595.107652,
+      "name": "Act 6: Alpha Rising",
+      "number": "6/8",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Proto Alpha Mark X",
+      "category": "Alpha GP",
+      "xp": "12,900",
+      "bucks": "22,500"
+    },
+    {
+      "lat": 1078.111038,
+      "lng": 3535.975848,
+      "name": "Act 7: 24h Of Hanauma",
+      "number": "7/8",
+      "type": "Race",
+      "weather": "Sunset",
+      "car": "Bugatti Bolide",
+      "category": "Racing",
+      "xp": "25,800",
+      "bucks": "45,000"
+    },
+    {
+      "lat": 1073.6045,
+      "lng": 3506.365751,
+      "name": "Alpha Grand Finale",
+      "number": "8/8",
+      "type": "Race",
+      "weather": "Night",
+      "car": "Red Bull RB18",
+      "category": "Alpha GP",
+      "xp": "19,350",
+      "bucks": "33,750"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 1162.53593,
+      "lng": 3657.333049,
+      "type": "bullseye",
+      "location": "Water Bridge",
+      "featType": "Bullseye",
+      "objective": "7,120 PTS",
+      "xp": "4,800",
+      "bucks": "9,000"
+    },
+    {
+      "lat": 1228.015925,
+      "lng": 3597.625,
+      "type": "speedtrap",
+      "location": "Paddocks",
+      "featType": "Speedtrap",
+      "objective": "170.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 1214.868245,
+      "lng": 3491.339732,
+      "type": "speedtrap",
+      "location": "Forest Straight",
+      "featType": "Speedtrap",
+      "objective": "250.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 1079.989018,
+      "lng": 3434.947966,
+      "type": "slalom",
+      "location": "Marina Straight",
+      "featType": "Slalom",
+      "objective": "6,790 PTS",
+      "xp": "3,840",
+      "bucks": "7,200"
+    },
+    {
+      "lat": 1186.888077,
+      "lng": 3567.625,
+      "type": "slalom",
+      "location": "Peak Chicane",
+      "featType": "Slalom",
+      "objective": "9,240 PTS",
+      "xp": "3,840",
+      "bucks": "7,200"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 1280.51148,
+      "lng": 3597.494138,
+      "name": "Alpha Views - Pit Stop",
+      "requirements": [
+        "Ivory Tower IVT AGP R-07",
+        "Pitlane",
+        "North-east of Hanauma Racetrack"
+      ]
+    },
+    {
+      "lat": 1069.27797,
+      "lng": 3520.773052,
+      "name": "Alpha Views - Starting Grid",
+      "requirements": [
+        "Ivory Tower IVT AGP R-07",
+        "Starting Grid",
+        "Near the marina of Hanauma Racetrack"
+      ]
+    },
+    {
+      "lat": 1089.027747,
+      "lng": 3587.859808,
+      "name": "Alpha Views - High Speed",
+      "requirements": ["Racing Vehicle", "High Speed"]
+    },
+    {
+      "lat": 1230.8808,
+      "lng": 3694.375,
+      "name": "Alpha Views - Water Bridge",
+      "requirements": [
+        "Racing Vehicle",
+        "Water bridge of Hanauma Racetrack",
+        "Night"
+      ]
+    },
+    {
+      "lat": 1056.68671,
+      "lng": 3506.719305,
+      "name": "Alpha Views - Water Bridge",
+      "requirements": [
+        "Red Bull RB18",
+        "Next to the Hanauma Racetrack podium at the marina"
+      ]
+    }
+  ],
+  "collectibles": [
+    {
+      "lat": 1190.256703,
+      "lng": 3653.095606,
+      "challenge": "Alpha Trophy"
+    },
+    {
+      "lat": 1130.965455,
+      "lng": 3600.410953,
+      "challenge": "Alpha Trophy"
+    },
+    {
+      "lat": 1201.270952,
+      "lng": 3618.875,
+      "challenge": "Alpha Trophy"
+    },
+    {
+      "lat": 1334.249557,
+      "lng": 3605.095536,
+      "challenge": "Alpha Trophy"
+    },
+    {
+      "lat": 1071.666792,
+      "lng": 3492.400392,
+      "challenge": "Alpha Trophy"
+    }
+  ]
+}

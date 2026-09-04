@@ -1,0 +1,493 @@
+{
+  "id": "hst",
+  "name": "Hawaii Scenic Tour",
+  "imgFolder": "HST",
+  "container": {
+    "lat": 1514.642559,
+    "lng": 3303.776903
+  },
+  "events": [
+    {
+      "lat": 1463.222549,
+      "lng": 3336.483347,
+      "name": "Ho'laule'a Hawai'i",
+      "number": "1/9",
+      "type": "Race",
+      "weather": "Midday",
+      "car": "Ford GT",
+      "category": "Hypercar",
+      "xp": "12,000",
+      "bucks": "22,500"
+    },
+    {
+      "lat": 1474.895846,
+      "lng": 3423.125,
+      "name": "Wonders of Ko'olau Poko",
+      "number": "2/9",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Volkswagen Kombi Dak1ne Edition",
+      "category": "Street Tier 1",
+      "xp": "21,600",
+      "bucks": "40,500"
+    },
+    {
+      "lat": 1645.748067,
+      "lng": 2304.25,
+      "name": "Bounty of 'Ewa",
+      "number": "3/9",
+      "type": "Race",
+      "weather": "Midday",
+      "car": "BMW Z4 M40i",
+      "category": "Street Tier 2",
+      "xp": "12,000",
+      "bucks": "22,500"
+    },
+    {
+      "lat": 1296.697908,
+      "lng": 1650.475616,
+      "name": "Dukes of Wai'anae",
+      "number": "4/9",
+      "type": "Race",
+      "weather": "Morning",
+      "car": "Ford Bronco Hawaii Scenic Tour Ed.",
+      "category": "Rally Raid",
+      "xp": "10,800",
+      "bucks": "20,250"
+    },
+    {
+      "lat": 2566.700011,
+      "lng": 1691.0,
+      "name": "Giant of Ma'ili's",
+      "number": "5/9",
+      "type": "Race",
+      "weather": "Afternoon",
+      "car": "Chevrolet Camaro Z28",
+      "category": "Street Tier 1",
+      "xp": "18,000",
+      "bucks": "33,750"
+    },
+    {
+      "lat": 3097.975445,
+      "lng": 2052.0,
+      "name": "Wild Heart of Ko'olau Loa",
+      "number": "6/9",
+      "type": "Race",
+      "weather": "Afternoon",
+      "car": "Dodge Challenger SRT-8 392",
+      "category": "Rally",
+      "xp": "21,600",
+      "bucks": "40,500"
+    },
+    {
+      "lat": 2949.543798,
+      "lng": 2661.5,
+      "name": "Explorers of Moana",
+      "number": "7/9",
+      "type": "Race",
+      "weather": "Afternoon",
+      "car": "Proto Offshore MK2",
+      "category": "Powerboat",
+      "xp": "18,000",
+      "bucks": "33,750"
+    },
+    {
+      "lat": 1928.493466,
+      "lng": 3161.120865,
+      "name": "Kingdom of Lani",
+      "number": "8/9",
+      "type": "Time Attack",
+      "weather": "Sunset",
+      "car": "Northrop Grumman F4U™ Corsair®",
+      "category": "Plane",
+      "xp": "24,000",
+      "bucks": "45,000"
+    },
+    {
+      "lat": 1397.15249,
+      "lng": 2415.75,
+      "name": "Art of Honolulu",
+      "number": "9/9",
+      "type": "Race",
+      "weather": "Midday",
+      "car": "Honda Civic Type R Fitted Edition",
+      "category": "Street Tier 1",
+      "xp": "12,000",
+      "bucks": "22,500"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 1502.130871,
+      "lng": 3387.0,
+      "type": "slalom",
+      "location": "Motorfest Grounds",
+      "featType": "Slalom",
+      "objective": "5,810 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1435.010546,
+      "lng": 3286.4375,
+      "type": "aerobatics",
+      "location": "Motorfest Grounds Heights",
+      "featType": "Aerobatics",
+      "objective": "6,010 PTS",
+      "xp": "8,640",
+      "bucks": "16,200"
+    },
+    {
+      "lat": 1656.742969,
+      "lng": 3583.625,
+      "type": "escape",
+      "location": "Coconut Resort",
+      "featType": "Escape",
+      "objective": "1490 m",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1640.005256,
+      "lng": 2685.1875,
+      "type": "low_altitude",
+      "location": "National Cemetery",
+      "featType": "Low Altitude",
+      "objective": "8,510 PTS",
+      "xp": "5,760",
+      "bucks": "10,800"
+    },
+    {
+      "lat": 1683.125984,
+      "lng": 2698.875,
+      "type": "bullseye",
+      "location": "Kalihi Road",
+      "featType": "Bullseye",
+      "objective": "6,390 PTS",
+      "xp": "4,800",
+      "bucks": "9,000"
+    },
+    {
+      "lat": 1563.977261,
+      "lng": 2232.159332,
+      "type": "bullseye",
+      "location": "Waipahu",
+      "featType": "Bullseye",
+      "objective": "3,460 PTS",
+      "xp": "3,840",
+      "bucks": "7,200"
+    },
+    {
+      "lat": 1647.80742,
+      "lng": 2224.75,
+      "type": "slalom",
+      "location": "Honouliuli Farm",
+      "featType": "Slalom",
+      "objective": "3,690 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1324.010423,
+      "lng": 1725.5,
+      "type": "speedtrap",
+      "location": "Kalaeloa",
+      "featType": "Speedtrap",
+      "objective": "220.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 2561.250633,
+      "lng": 1245.875,
+      "type": "speedtrap",
+      "location": "Kaena Point",
+      "featType": "Speedtrap",
+      "objective": "170.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 2944.067005,
+      "lng": 2705.567322,
+      "type": "slalom",
+      "location": "Laie Point",
+      "featType": "Slalom",
+      "objective": "4,560 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 1475.39662,
+      "lng": 3338.75,
+      "name": "Rainbox Views - Festival",
+      "requirements": [
+        "Motorfest Wheel at the Motorfest Grounds",
+        "Sunset"
+      ]
+    },
+    {
+      "lat": 1307.858404,
+      "lng": 3207.259583,
+      "name": "Rainbox Views - Lē'ahi",
+      "requirements": [
+        "Volkswagen Kombi 21 Window Bus",
+        "Midday",
+        "Diamond Head in the background"
+      ]
+    },
+    {
+      "lat": 1677.111338,
+      "lng": 3662.989903,
+      "name": "Rainbox Views - Rabbit Island",
+      "requirements": [
+        "Ford Bronco Hawaii Scenic Tour Ed.",
+        "Rabbit Island in the background"
+      ]
+    },
+    {
+      "lat": 2809.371391,
+      "lng": 1339.260244,
+      "name": "Rainbox Views - Painted Wreck",
+      "requirements": [
+        "Ford Bronco Hawaii Scenic Tour Ed.",
+        "Shipwreck with whale graffiti",
+        "Mokuleia Beach",
+        "Morning"
+      ]
+    },
+    {
+      "lat": 3067.630932,
+      "lng": 2039.295957,
+      "name": "Rainbox Views - Turtle Rock",
+      "requirements": [
+        "Bike",
+        "Turtle Rock located near Haleiwa",
+        "Sunrise"
+      ]
+    },
+    {
+      "lat": 2772.232849,
+      "lng": 2790.243359,
+      "name": "Rainbox Views - Maakua Beach",
+      "requirements": [
+        "Plane",
+        "Ma'akua Black Beach in the background",
+        "Sunset"
+      ]
+    },
+    {
+      "lat": 2685.372504,
+      "lng": 3060.125,
+      "name": "Rainbox Views - Shipwreck",
+      "requirements": [
+        "Boat",
+        "Shipwreck",
+        "Kualoa Beach",
+        "Afternoon"
+      ]
+    },
+    {
+      "lat": 1417.091438,
+      "lng": 2243.296263,
+      "name": "Rainbox Views - Ford Island",
+      "requirements": [
+        "Plane",
+        "Ford Island located in Pearl Harbor"
+      ]
+    },
+    {
+      "lat": 1407.292536,
+      "lng": 1533.75,
+      "name": "Rainbox Views - Resort",
+      "requirements": [
+        "Boat",
+        "Aulinaii Resort"
+      ]
+    }
+  ],
+  "collectibles": [
+    {
+      "lat": 2033.940365,
+      "lng": 3375.25,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 2043.637023,
+      "lng": 3198.5,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 2896.440576,
+      "lng": 2526.875,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 2944.567299,
+      "lng": 2019.25,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 2850.313027,
+      "lng": 2016.625,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 2859.754394,
+      "lng": 1973.5,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 2899.786183,
+      "lng": 1888.947378,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 2505.867158,
+      "lng": 2221.375953,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 2361.374402,
+      "lng": 2210.125,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 2384.467947,
+      "lng": 1338.729913,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 2354.521002,
+      "lng": 1359.76634,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 1339.516206,
+      "lng": 1757.625,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 1265.898518,
+      "lng": 1794.875,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 1402.884316,
+      "lng": 2125.0,
+      "challenge": "Rainbow Fun Treasures"
+    },
+    {
+      "lat": 3288.878058,
+      "lng": 2285.625,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 2856.257699,
+      "lng": 1954.0,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 2651.012691,
+      "lng": 1071.5,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 2872.823468,
+      "lng": 2014.9375,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 2858.338436,
+      "lng": 2015.254326,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 2765.887083,
+      "lng": 2042.566326,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 2413.817949,
+      "lng": 1881.75,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 2052.897006,
+      "lng": 1937.75,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 2044.00624,
+      "lng": 3029.6875,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 2064.257347,
+      "lng": 3065.66145,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 1906.880836,
+      "lng": 3539.875,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 1319.871731,
+      "lng": 3603.0,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 1147.136495,
+      "lng": 3036.25,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 1423.235072,
+      "lng": 2827.896795,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 1340.095045,
+      "lng": 2644.579362,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 1420.764413,
+      "lng": 2414.625,
+      "challenge": "Rainbow Ocean Arts"
+    },
+    {
+      "lat": 1408.451526,
+      "lng": 2103.1875,
+      "challenge": "Rainbow Flora Arts"
+    },
+    {
+      "lat": 1298.127601,
+      "lng": 2931.0,
+      "challenge": "Rainbow Flora Arts"
+    },
+    {
+      "lat": 1440.231834,
+      "lng": 2843.806697,
+      "challenge": "Rainbow Flora Arts"
+    },
+    {
+      "lat": 1754.003309,
+      "lng": 2597.203207,
+      "challenge": "Rainbow Flora Arts"
+    },
+    {
+      "lat": 2020.382136,
+      "lng": 2197.25,
+      "challenge": "Rainbow Flora Arts"
+    },
+    {
+      "lat": 2109.943283,
+      "lng": 2287.5,
+      "challenge": "Rainbow Flora Arts"
+    }
+  ]
+}

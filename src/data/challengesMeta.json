@@ -1,0 +1,1008 @@
+[
+  {
+    "playlist": "Made in Japan Vol.1",
+    "challenges": [
+      {
+        "key": "Nihon No Spirit",
+        "label": "Nihon No Spirit",
+        "descriptionHtml": "Drive from the <b>MADE IN JAPAN CONTAINER</b> to the <b>JAPANESE TEMPLE</b>",
+        "vehicle": "Toyota Supra Ryūjin Edition"
+      },
+      {
+        "key": "Nihon No Kohai",
+        "label": "Nihon No Kōhai",
+        "descriptionHtml": "Reach a <b>200 km/h</b> speed inside the <b>CONVENTION CENTER</b> in <b>FREEDRIVE</b> by <b>NIGHT</b>",
+        "vehicle": "Toyota Supra Ryūjin Edition"
+      },
+      {
+        "key": "Nihon No Style",
+        "label": "Nihon No Style",
+        "descriptionHtml": "Drive from the <b>JAPANESE TEMPLE</b> to <b>HONOLULU</b> by <b>NIGHT</b>",
+        "vehicle": "Toyota Supra Ryūjin Edition"
+      },
+      {
+        "key": "Nihon No Jaunt",
+        "label": "Nihon No Jaunt",
+        "descriptionHtml": "Drive from the <b>OAHU AIRPORT</b> to the <b>MEMORIAL NATATORIUM</b> by <b>NIGHT</b>",
+        "vehicle": "Toyota Supra Ryūjin Edition"
+      }
+    ]
+  },
+  {
+    "playlist": "Made in Japan Vol.2",
+    "challenges": [
+      {
+        "key": "Sekai No Tourist",
+        "label": "Sekai No Tourist",
+        "descriptionHtml": "Drive from <b>CAR MEET</b> to <b>KAHULUI</b> in less than <b>10min</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Liberty Walk Honda NSX"
+      },
+      {
+        "key": "Sekai No Cop",
+        "label": "Sekai No Cop",
+        "descriptionHtml": "Visit <b>CHASE SQUAD HQ</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Liberty Walk Honda NSX"
+      },
+      {
+        "key": "Sekai No Speedway",
+        "label": "Sekai No Speedway",
+        "descriptionHtml": "Reach a <b>300 km/h SPEED</b> on the <b>KAIWI ISLETS</b> roads in <b>FREEDRIVE</b>",
+        "vehicle": "Liberty Walk Honda NSX"
+      },
+      {
+        "key": "Sekai No Valley",
+        "label": "Sekai No Valley",
+        "descriptionHtml": "Visit <b>IAO LAKE</b> by <b>NIGHT</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Liberty Walk Honda NSX"
+      }
+    ]
+  },
+  {
+    "playlist": "Drift Experience Vol.1",
+    "challenges": [
+      {
+        "key": "Burning Turtle",
+        "label": "Burning Turtle",
+        "descriptionHtml": "Drive under the <b>TURTLE ROCK</b> in <b>FREEDRIVE</b> by <b>NIGHT</b>",
+        "vehicle": "Toyota GR Supra&#40Drift Edition&#41"
+      },
+      {
+        "key": "Burning Journey",
+        "label": "Burning Journey",
+        "descriptionHtml": "Drive from the <b>MOTORFEST GROUNDS</b> to the <b>TURTLE BAY RESORT</b> in less than <b>8min</b>",
+        "vehicle": "Toyota GR Supra&#40Drift Edition&#41"
+      },
+      {
+        "key": "Burning Donut",
+        "label": "Burning Donut",
+        "descriptionHtml": "Perform a <b>DONUT</b> on top of the <b>CONVENTION CENTER</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Nissan 370Z Nismo&#40Drift Edition&#41"
+      }
+    ]
+  },
+  {
+    "playlist": "Drift Experience Vol.2",
+    "challenges": [
+      {
+        "key": "Blazing Cruise",
+        "label": "Blazing Cruise",
+        "descriptionHtml": "Drive from <b>HALEIWA</b> to <b>HONOLULU</b> in less than <b>5min</b>",
+        "vehicle": "Mazda MX-5&#40Drift Edition&#41"
+      },
+      {
+        "key": "Blazing Night",
+        "label": "Blazing Night",
+        "descriptionHtml": "Drift for <b>5 km</b> with a <b>DRIFT CAR</b> in <b>HONOLULU</b> by <b>NIGHT</b>",
+        "vehicle": "Drift cars"
+      },
+      {
+        "key": "Blazing Park",
+        "label": "Blazing Park",
+        "descriptionHtml": "Drift for <b>30sec</b> on the top of the <b>MOANA CENTER PARKING LOT</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Toyota GR Supra&#40Drift Edition&#41"
+      }
+    ]
+  },
+  {
+    "playlist": "Off-Roading Addict Vol.1",
+    "challenges": [
+      {
+        "key": "Wild Peak",
+        "label": "Wild Peak",
+        "descriptionHtml": "Visit the <b>MAUNA PELE NUNUI CRATER</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Ivory-Tower IVT Falcon S-1000 Adventure Edition"
+      },
+      {
+        "key": "Wild Waves",
+        "label": "Wild Waves",
+        "descriptionHtml": "Visit the <b>KAENA POINT SATELLITE STATION</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Ivory-Tower IVT Falcon S-1000 Adventure Edition"
+      },
+      {
+        "key": "Wild Run",
+        "label": "Wild Run",
+        "descriptionHtml": "Drive from the <b>MAUNA PELE SULPHUR BANKS</b> to the <b>MAUNA PELE NUNUI CRATER</b> in less than <b>3min</b>",
+        "vehicle": "Ivory-Tower IVT Falcon S-1000 Adventure Edition"
+      },
+      {
+        "key": "Wild Turtle",
+        "label": "Wild Turtle",
+        "descriptionHtml": "Drive from the <b>TURTLE BAY RESORT</b> to the <b>TURTLE ROCK</b> in less than <b>1min</b>",
+        "vehicle": "Ivory-Tower IVT Falcon S-1000 Adventure Edition"
+      },
+      {
+        "key": "Wild Lands",
+        "label": "Wild Lands",
+        "descriptionHtml": "Drive from the <b>STAIRWAY TO HEAVEN RADIO ANTENNA</b> to the <b>COCONUT RESORT</b> without using asphalt roads",
+        "vehicle": "Ivory-Tower IVT Falcon S-1000 Adventure Edition"
+      },
+      {
+        "key": "Wild Call",
+        "label": "Wild Call",
+        "descriptionHtml": "Visit the <b>STAIRWAY TO HEAVEN RADIO ANTENNA</b> in <b>FREEDRIVE</b>",
+        "vehicle": "KTM 525 XC"
+      },
+      {
+        "key": "Wild Sprint",
+        "label": "Wild Sprint",
+        "descriptionHtml": "Drive from the <b>KAENA POINT</b> to the <b>KAENA POINT SATELLITE STATION</b> in less than <b>1min</b>",
+        "vehicle": "Kawasaki KX450F"
+      }
+    ]
+  },
+  {
+    "playlist": "Off-Roading Addict Vol.2",
+    "challenges": [
+      {
+        "key": "Wilder Spin",
+        "label": "Wilder Spin",
+        "descriptionHtml": "Drive <b>OFFROAD</b> from the <b>TURTLE BAY BEACH</b> to <b>TURTLE ROCK</b>",
+        "vehicle": "Jeep Wrangler 392 Adventure Edition"
+      },
+      {
+        "key": "Wilder Explorer",
+        "label": "Wilder Explorer",
+        "descriptionHtml": "Visit <b>MAUNA PELE NUNUI CRATER</b> in <b>RAINY WEATHER</b>",
+        "vehicle": "Jeep Wrangler 392 Adventure Edition"
+      },
+      {
+        "key": "Wilder Speedster",
+        "label": "Wilder Speedster",
+        "descriptionHtml": "Drive from <b>MAUNA PELE NUNUI CRATER</b> to <b>HALEIWA</b> in less than <b>6min</b>",
+        "vehicle": "Jeep Wrangler 392 Adventure Edition"
+      },
+      {
+        "key": "Wilder Tracks",
+        "label": "Wilder Tracks",
+        "descriptionHtml": "Drive from <b>MAUNA PELE OBSERVATORY</b> to <b>AULINAII RESORT WITHOUT JUMPING</b>",
+        "vehicle": "Jeep Wrangler 392 Adventure Edition"
+      }
+    ]
+  },
+  {
+    "playlist": "Hawaii Scenic Tour",
+    "challenges": [
+      {
+        "key": "Rainbow Flash",
+        "label": "Rainbow Flash",
+        "descriptionHtml": "Reach a speed of <b>200 km/h</b> in the <b>BIG BANKED TURN</b> in the <b>MOTORFEST GROUNDS</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Ford Bronco Hawaii Scenic Tour Ed."
+      },
+      {
+        "key": "Rainbow Peak",
+        "label": "Rainbow Peak",
+        "descriptionHtml": "Visit the top of the <b>STAIRWAY TO HEAVEN</b> on a <b>SUNNY DAY</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Ford Bronco Hawaii Scenic Tour Ed."
+      },
+      {
+        "key": "Rainbow Stroll",
+        "label": "Rainbow Stroll",
+        "descriptionHtml": "Drive from inside the <b>MAKUA CAVES</b> to <b>OAHU AIRPORT</b> in less than <b>7min</b>",
+        "vehicle": "Ford Bronco Hawaii Scenic Tour Ed."
+      },
+      {
+        "key": "Rainbow Spiral",
+        "label": "Rainbow Spiral",
+        "descriptionHtml": "Fly through the <b>DOUBLE LOOPS</b> of the <b>MOTORFEST GROUNDS</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Northrop Grumman F4U Corsair"
+      },
+      {
+        "key": "Rainbow Lava",
+        "label": "Rainbow Lava",
+        "descriptionHtml": "Fly from the <b>MOTORFEST GROUNDS</b> to the <b>MAUNA PELE NUNUI CRATER</b> in less than <b>4min</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Northrop Grumman F4U Corsair"
+      }
+    ]
+  },
+  {
+    "playlist": "American Muscle: AMustang Tribute",
+    "challenges": [
+      {
+        "key": "American Vacation",
+        "label": "American Vacation",
+        "descriptionHtml": "Visit the <b>EWA GOLF COURSE</b> at <b>SUNRISE</b>",
+        "vehicle": "Ford Mustang Shelby GT500 Tribute Edition"
+      },
+      {
+        "key": "American Cruiser",
+        "label": "American Cruiser",
+        "descriptionHtml": "Drive from the <b>MA'AKUA BLACK BEACH</b> to <b>BARBERS POINT HARBOR</b>",
+        "vehicle": "Ford Mustang Shelby GT500 Tribute Edition"
+      },
+      {
+        "key": "American Spin",
+        "label": "American Spin",
+        "descriptionHtml": "Drive from <b>WAHIAWA</b> to <b>FORD ISLAND</b>",
+        "vehicle": "Ford Mustang GT &#40Monster Edition&#41"
+      }
+    ]
+  },
+  {
+    "playlist": "A Porsche Story: 911 Legacy",
+    "challenges": [
+      {
+        "key": "911 Der Vogel",
+        "label": "911 Der Vogel",
+        "descriptionHtml": "Reach a <b>300 km/h</b> speed on the <b>OAHU AIRPORT</b> runway in <b>FREEDRIVE</b>",
+        "vehicle": "Porsche 911 Carrera 4S Timeless Edition"
+      },
+      {
+        "key": "911 Royal",
+        "label": "911 Royal",
+        "descriptionHtml": "Visit the <b>ROYAL LUAU</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Porsche 911 Carrera 4S Timeless Edition"
+      },
+      {
+        "key": "911 Leisure",
+        "label": "911 Leisure",
+        "descriptionHtml": "Visit the <b>AULINAII RESORT</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Porsche 911 Carrera 4S Timeless Edition"
+      },
+      {
+        "key": "911 Cruising",
+        "label": "911 Cruising",
+        "descriptionHtml": "Drive from the <b>KANEOHE GOLF COURSE</b> to the <b>COCONUT RESORT</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Porsche 911 Turbo 3.6"
+      },
+      {
+        "key": "911 Uphill",
+        "label": "911 Uphill",
+        "descriptionHtml": "Drive from the <b>AULINAII RESORT</b> to the <b>MAUNA PELE OBSERVATORY</b> in less than <b>3min</b>",
+        "vehicle": "Porsche 959 Raid"
+      }
+    ]
+  },
+  {
+    "playlist": "Rule the Streets by Donut Media",
+    "challenges": [
+      {
+        "key": "Donut x Bean Giver",
+        "label": "Donut x Bean Giver",
+        "descriptionHtml": "Reach a speed of <b>300 km/h</b> in <b>HONOLULU</b>",
+        "vehicle": "Chevrolet Corvette C8 Stingray Donut Media Ed."
+      },
+      {
+        "key": "Donut x Gig Lover",
+        "label": "Donut x Gig Lover",
+        "descriptionHtml": "Get to the top of the <b>KAKAAKO CENTER ROOF</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Chevrolet Corvette C8 Stingray Donut Media Ed."
+      },
+      {
+        "key": "Donut x Window Shopper",
+        "label": "Donut x Window Shopper",
+        "descriptionHtml": "Visit the <b>MOANA CENTER</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Chevrolet Corvette C8 Stingray Donut Media Ed."
+      },
+      {
+        "key": "Donut x Tribute",
+        "label": "Donut x Tribute",
+        "descriptionHtml": "Visit the <b>NATIONAL CEMETERY</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Chevrolet Corvette C8 Stingray Donut Media Ed."
+      },
+      {
+        "key": "Donut x C-8 Explosion",
+        "label": "Donut x C-8 Explosion",
+        "descriptionHtml": "Drive from the <b>DIAMOND HEAD</b> to the <b>OAHU AIRPORT</b> in less than <b>5min</b>",
+        "vehicle": "Chevrolet Corvette C8 Stingray Donut Media Ed."
+      },
+      {
+        "key": "Donut x Tomorrowland",
+        "label": "Donut x Tomorrowland",
+        "descriptionHtml": "Drive from the <b>RULE THE STREETS</b> container to the <b>ELECTRIC ODYSSEY</b> container in <b>FREEDRIVE</b>",
+        "vehicle": "Chevrolet Corvette C8 Stingray Donut Media Ed."
+      },
+      {
+        "key": "Donut x Notorious",
+        "label": "Donut x Notorious",
+        "descriptionHtml": "Reach the <b>CUPOLA</b> of the <b>BUSINESS PLAZA</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Chevrolet Corvette C8 Stingray Donut Media Ed."
+      },
+      {
+        "key": "Donut x Chevy Rampage",
+        "label": "Donut x Chevy Rampage",
+        "descriptionHtml": "Break <b>400 OBJECTS</b> in <b>HONOLULU</b>",
+        "vehicle": "Chevrolet Corvette C8 Stingray Donut Media Ed."
+      },
+      {
+        "key": "Donut x Flying Dino",
+        "label": "Donut x Flying Dino",
+        "descriptionHtml": "Reach a speed of <b>150 km/h</b> in the <b>OAHU AIRPORT</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Ford F-150 SVT Raptor"
+      },
+      {
+        "key": "Donut x Hi Speed",
+        "label": "Donut x Hi Speed",
+        "descriptionHtml": "Reach a speed of <b>200 km/h</b> through the <b>WAIKIKI MARKET PLACE</b>",
+        "vehicle": "Nissan 370Z Nismo"
+      },
+      {
+        "key": "Donut x King Of Hawaii",
+        "label": "Donut x King Of Hawaii",
+        "descriptionHtml": "Get to the top of <b>ROYAL LUAU ROOF</b> with any <b>HYPERCAR</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Any Hypercar"
+      },
+      {
+        "key": "Donut x Over The Top",
+        "label": "Donut x Over The Top",
+        "descriptionHtml": "Get onto the <b>CONVENTION CENTER</b> roof with any <b>HYPERCAR</b> vehicle in <b>FREEDRIVE</b>",
+        "vehicle": "Any Hypercar"
+      }
+    ]
+  },
+
+  {
+    "playlist": "Vintage Garage",
+    "challenges": [
+      {
+        "key": "Retro Rainbow",
+        "label": "Retro Rainbow",
+        "descriptionHtml": "Climb to the top of <b>HALEIWA RAINBOW BRIDGE</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Shelby Cobra 427"
+      },
+      {
+        "key": "Retro Driving",
+        "label": "Retro Driving",
+        "descriptionHtml": "Drive from <b>WAHIAWA PINEAPPLE TOWER</b> to the <b>HALEIWA MOTEL</b> in less than 3min",
+        "vehicle": "Shelby Cobra 427"
+      },
+      {
+        "key": "Retro Beach Party",
+        "label": "Retro Beach Party",
+        "descriptionHtml": "Drive from the <b>MOKAPU SURF SHOP</b> to the <b>KAHALUU BEACH NATURAL ARCH</b> in less than 2min",
+        "vehicle": "Shelby Cobra 427"
+      }
+    ]
+  },
+  {
+    "playlist": "Automobili Lamborghini",
+    "challenges": [
+      {
+        "key": "A.L. Rivals",
+        "label": "A.L. Rivals",
+        "descriptionHtml": "Drive from the <b>AUTOMOBILI LAMBORGHINI CONTAINER</b> to the <b>A PORSCHE STORY: 911 LEGACY CONTAINER</b> in less than <b>2min</b>",
+        "vehicle": "Lambroghini Diablo GT Pura Potenza Edizione"
+      }
+    ]
+  },
+  {
+    "playlist": "Motorsports",
+    "challenges": [
+      {
+        "key": "Alpha Sprint",
+        "label": "Alpha Sprint",
+        "descriptionHtml": "Drive from the <b>KAENA POINT</b> to the <b>AULINAII RESORT</b> in less than <b>3min</b>",
+        "vehicle": "Red Bull RB18"
+      },
+      {
+        "key": "Alpha Endurance",
+        "label": "Alpha Endurance",
+        "descriptionHtml": "Drive <b>30 km</b> on the <b>HANAUMA RACETRACK</b> in <b>FREEDRIVE</b>",
+        "vehicle": "No Restriction"
+      }
+    ]
+  },
+  {
+    "playlist": "Electric Odyssey",
+    "challenges": [
+      {
+        "key": "E-Spin",
+        "label": "E-Spin",
+        "descriptionHtml": "Drive from the <b>TURTLE BAY RESORT</b> to the <b>AULINAII RESORT</b>",
+        "vehicle": "Lotus Evija Pure Edition"
+      },
+      {
+        "key": "Clean E-nergy",
+        "label": "Clean E-nergy",
+        "descriptionHtml": "Drive from the <b>WAIMEA</b> wind turbines to the <b>WAIPIO FIELDS</b> south wind turbines <b>WITHOUT COLLISION</b>",
+        "vehicle": "Porsche Taycan Turbo S"
+      },
+      {
+        "key": "E-ruption",
+        "label": "E-ruption",
+        "descriptionHtml": "Visit the <b>MAUNA PELE NUNUI CRATER</b> top in <b>FREEDRIVE</b>",
+        "vehicle": "Volkswagen ID. Buggy"
+      }
+    ]
+  },
+  {
+    "playlist": "Dream Cars by Supercar Blondie",
+    "challenges": [
+      {
+        "key": "Super Racetrack",
+        "label": "Super Racetrack",
+        "descriptionHtml": "Visit the <b>HANAUMA RACETRACK</b>",
+        "vehicle": "Mercedes-Benz Vision EQ Silver Arrow"
+      },
+      {
+        "key": "Super Touristy",
+        "label": "Super Touristy",
+        "descriptionHtml": "Visit the <b>TURTLE BAY RESORT</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Mercedes-Benz Vision EQ Silver Arrow"
+      },
+      {
+        "key": "Super Day Off",
+        "label": "Super Day Off",
+        "descriptionHtml": "Visit the <b>AULINAII RESORT</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Mercedes-Benz Vision EQ Silver Arrow"
+      },
+      {
+        "key": "Super Ride",
+        "label": "Super Ride",
+        "descriptionHtml": "Drive from the <b>ROYAL LUAU</b> to <b>KANEOHE</b>",
+        "vehicle": "Lamborghini Egoista"
+      }
+    ]
+  },
+  {
+    "playlist": "Bike Lovers",
+    "challenges": [
+      {
+        "key": "Rider Stroll",
+        "label": "Rider Stroll",
+        "descriptionHtml": "Drive from <b>WAHIAWA</b> to <b>HALEIWA</b>",
+        "vehicle": "Honda CB1000R Neo Sports Café"
+      },
+      {
+        "key": "Rider Tourism",
+        "label": "Rider Tourism",
+        "descriptionHtml": "Drive from <b>HALEIWA</b> to <b>KANEOHE</b>",
+        "vehicle": "Honda CB1000R Neo Sports Café"
+      },
+      {
+        "key": "Rider Sightseing",
+        "label": "Rider Sightseing",
+        "descriptionHtml": "Drive from <b>KANEOHE</b> to <b>HONOLULU</b>",
+        "vehicle": "Harley-Davidson Iron 883"
+      },
+      {
+        "key": "Rider Cruise",
+        "label": "Rider Cruise",
+        "descriptionHtml": "Drive from <b>HONOLULU</b> to <b>WAHIAWA</b> in <b>FREEDRIVE</b>",
+        "vehicle": "KTM RC16 Red Bull Team"
+      },
+      {
+        "key": "Alpha Rider",
+        "label": "Alpha Rider",
+        "descriptionHtml": "Reach a <b>350 km/h</b> speed on the <b>HANAUMA RACETRACK</b> in <b>FREEDRIVE</b>",
+        "vehicle": "KTM RC16 Red Bull Team"
+      },
+      {
+        "key": "Rider Club",
+        "label": "Rider Club",
+        "descriptionHtml": "Visit the <b>MAUNA PELE OBSERVATORY</b> with an <b>ALL BIKE CREW</b> in <b>FREEDRIVE</b>",
+        "vehicle": "No Restriction"
+      }
+    ]
+  },
+  {
+    "playlist": "Liberty Walk: A signature",
+    "challenges": [
+      {
+        "key": "Liberty Run",
+        "label": "Liberty Run",
+        "descriptionHtml": "Drive from the <b>WAIKIKI PARKING LOT</b> to <b>BARBERS POINT HARBOR</b> in less than <b>3min</b>",
+        "vehicle": "BMW M4 Liberty Walk Edition"
+      },
+      {
+        "key": "Liberty Journey",
+        "label": "Liberty Journey",
+        "descriptionHtml": "Drive from <b>WAHIAWA</b> to <b>HALEIWA</b> without collision",
+        "vehicle": "BMW M4 Liberty Walk Edition"
+      }
+    ]
+  },
+
+  {
+    "playlist": "Ocean'N Sky",
+    "challenges": [
+      {
+        "key": "ONS Eruption",
+        "label": "ONS Eruption",
+        "descriptionHtml": "Perform a <b>TAKE OFF</b> from the <b>VOLCANO GATE</b>",
+        "vehicle": "Grumman F8F Bearcat"
+      },
+      {
+        "key": "ONS Fast Flight",
+        "label": "ONS Fast Flight",
+        "descriptionHtml": "Fly from <b>FORD ISLAND</b> to the <b>TURTLE BAY RESORT</b> in less than <b>5min</b>",
+        "vehicle": "North American P-51 Mustang"
+      },
+      {
+        "key": "ONS Cruiser",
+        "label": "ONS Cruiser",
+        "descriptionHtml": "Drive from <b>KANEOHE HARBOR</b> to <b>BARBERS POINT HARBOR</b>",
+        "vehicle": "Frauscher 1414 Demon"
+      },
+      {
+        "key": "ONS Wayfarer",
+        "label": "ONS Wayfarer",
+        "descriptionHtml": "Visit <b>LAIE</b>",
+        "vehicle": "Frauscher 1414 Demon"
+      }
+    ]
+  },
+  {
+    "playlist": "Gymkhana Grid Masters",
+    "challenges": [
+      {
+        "key": "Gymkhana Trick",
+        "label": "Gymkhana Trick",
+        "descriptionHtml": "Perform <b>GRIND</b> for <b>25sec</b> in the <b>GYMKHANA GRID PARK</b>",
+        "vehicle": "No Restriction"
+      },
+      {
+        "key": "Gymkhana Astra",
+        "label": "Gymkhana Astra",
+        "descriptionHtml": "Perform <b>2 NO GRAVITY</b> on the <b>BUSINESS PLAZA ROOFTOP</b>",
+        "vehicle": "No Restriction"
+      },
+      {
+        "key": "Gymkhana Skill",
+        "label": "Gymkhana Skill",
+        "descriptionHtml": "Perform <b>10 PRECISION</b> in the <b>GYMKHANA GRID PARK</b> in <b>FREEDRIVE</b>",
+        "vehicle": "No Restriction"
+      },
+      {
+        "key": "Gymkhana 360",
+        "label": "Gymkhana 360",
+        "descriptionHtml": "Perform <b>10 DONUT</b> at the <b>MAUNA PELE OBSERVATORY</b> in <b>FREEDRIVE</b>",
+        "vehicle": "No Restriction"
+      },
+      {
+        "key": "Gymkhana Tire Slayer",
+        "label": "Gymkhana Tire Slayer",
+        "descriptionHtml": "Perform <b>50 CLOSE DRIFT</b> in <b>HONOLULU</b>",
+        "vehicle": "No Restriction"
+      },
+      {
+        "key": "Gymkhana Demolition",
+        "label": "Gymkhana Demolition",
+        "descriptionHtml": "Perform <b>5 CLOSE DRIFT</b> around the <b>WRECKING BALL</b> in the <b>GYMKHANA GRID PARK</b>",
+        "vehicle": "No Restriction"
+      },
+      {
+        "key": "Gymkhana Jaunt",
+        "label": "Gymkhana Jaunt",
+        "descriptionHtml": "Drive from the <b>OAHU AIRPORT</b> to <b>GYMKHANA GRID PARK</b> in less than <b>5min</b>",
+        "vehicle": "Hoonigan Ford Hoonicorn Mustang"
+      },
+      {
+        "key": "Gymkhana Speed",
+        "label": "Gymkhana Speed",
+        "descriptionHtml": "Reach a speed of <b>350 km/h</b> in the <b>GYMKHANA GRID PARK</b>",
+        "vehicle": "Hoonigan Audi S1 e-tron quattro Hoonitron&#40Drift Edition&#41"
+      },
+      {
+        "key": "Gymkhana Airlines",
+        "label": "Gymkhana Airlines",
+        "descriptionHtml": "Perform <b>5 PERFECT LANDING</b> in the <b>GYMKHANA GRID PARK</b>",
+        "vehicle": "Hoonigan Ford Hoonicorn Mustang"
+      },
+      {
+        "key": "Gymkhana Addict",
+        "label": "Gymkhana Addict",
+        "descriptionHtml": "Spend <b>10min</b> in the <b>GYMKHANA GRID PARK</b>",
+        "vehicle": "Hoonigan Ford Hoonicorn Mustang"
+      }
+    ]
+  },
+
+  {
+    "playlist": "Hollywood Action!",
+    "challenges": [
+      {
+        "key": "Night Out Movie Award",
+        "label": "Night Out Movie Award",
+        "descriptionHtml": "Visit <b>COCONUT RESORT</b> by <b>NIGHT</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Mini Cooper S 1969"
+      },
+      {
+        "key": "Time Saver Movie Award",
+        "label": "Time Saver Movie Award",
+        "descriptionHtml": "Drive from <b>KANEOHE</b> to <b>WAIKIKI</b> in less than <b>5min</b>",
+        "vehicle": "Aston Martin DB5"
+      }
+    ]
+  },
+  {
+    "playlist": "Donk vs Lowrider",
+    "challenges": [
+      {
+        "key": "Dirty South N Da Place",
+        "label": "Dirty South N Da Place",
+        "descriptionHtml": "Visit the <b>LOWRIDER HQ</b> in <b>HALEIWA</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Chevrolet Caprice Weasel D. Customs Donk Edition"
+      },
+      {
+        "key": "West Side N Da Hood",
+        "label": "West Side N Da Hood",
+        "descriptionHtml": "Visit the <b>DONK HQ</b> in <b>WAHIAWA</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Buick GNX El Sereno Lowrider Edición"
+      }
+    ]
+  },
+
+  {
+    "playlist": "The Chase Squad",
+    "challenges": [
+      {
+        "key": "Code 10 - Cop Island",
+        "label": "Code 10 - Cop Island",
+        "descriptionHtml": "Drive from <b>CHASE SQUAD CONTAINER</b> to <b>HANA BEACH</b> in less than <b>5min</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Ivory-Tower Aezus Chase Squad Ed."
+      },
+      {
+        "key": "Code 10 - Maui Patrol",
+        "label": "Code 10 - Maui Patrol",
+        "descriptionHtml": "Drive from <b>HANA BEACH</b> to <b>LELE</b> in less than <b>10min</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Ivory-Tower Aezus Chase Squad Ed."
+      }
+    ]
+  },
+  {
+    "playlist": "Maui Expeditions",
+    "challenges": [
+      {
+        "key": "Valley Isle Fast Tourism",
+        "label": "Valley Isle Fast Tourism",
+        "descriptionHtml": "Drive from <b>OAHU AIRPORT</b> to <b>KAHULUI AIRPORT</b> with any <b>GROUND VEHICLE</b> in less than <b>8min</b>",
+        "vehicle": "Any Ground Vehicle"
+      },
+      {
+        "key": "Valley Isle Star Watcher",
+        "label": "Valley Isle Star Watcher",
+        "descriptionHtml": "Drive from <b>KAHULUI</b> to <b>HALEAKALA OBSERVATORY</b> with any <b>GROUND VEHICLE</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Any Ground Vehicle"
+      },
+      {
+        "key": "Valley Isle Monster Trip",
+        "label": "Valley Isle Monster Trip",
+        "descriptionHtml": "Drive from <b>HALEAKALA OBSERVATORY</b> to <b>WAILEA</b> with a <b>MONSTER TRUCK</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Any Monster Truck"
+      },
+      {
+        "key": "Valley Isle Maze",
+        "label": "Valley Isle Maze",
+        "descriptionHtml": "Drive from <b>WAILEA</b> to <b>KAPALUA LABYRINTH</b> with any <b>GROUND VEHICLE</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Any Ground Vehicle"
+      },
+      {
+        "key": "Valley Isle Jaunt",
+        "label": "Valley Isle Jaunt",
+        "descriptionHtml": "Drive from <b>KAPALUA LABYRINTH</b> to <b>KULA FIELDS</b> with any <b>GROUND VEHICLE</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Any Ground Vehicle"
+      },
+      {
+        "key": "Valley Isle Stroll",
+        "label": "Valley Isle Stroll",
+        "descriptionHtml": "Drive from <b>KULA FIELDS</b> to <b>KE'ANAE POINT</b> with any <b>GROUND VEHICLE</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Any Ground Vehicle"
+      },
+      {
+        "key": "Valley Isle Ascension",
+        "label": "Valley Isle Ascension",
+        "descriptionHtml": "Drive from <b>KE'ANAE POINT</b> to <b>RED HILL HALEAKALA</b> with a <b>RALLY RAID</b> vehicle in <b>FREEDRIVE</b>",
+        "vehicle": "Any Rally Raid Vehicle"
+      },
+      {
+        "key": "Valley Isle Descent",
+        "label": "Valley Isle Descent",
+        "descriptionHtml": "Drive from <b>RED HILL HALEAKALA</b> to <b>MOKULAU BEACH</b> with a <b>RALLY RAID</b> vehicle in <b>FREEDRIVE</b>",
+        "vehicle": "Any Rally Raid Vehicle"
+      },
+      {
+        "key": "Valley Isle Wayfarer",
+        "label": "Valley Isle Wayfarer",
+        "descriptionHtml": "Drive from <b>MOKULAU BEACH</b> to <b>LELE</b> with a <b>RALLY RAID VEHICLE</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Any Rally Raid Vehicle"
+      },
+      {
+        "key": "Valley Isle Sailor",
+        "label": "Valley Isle Sailor",
+        "descriptionHtml": "Sail from <b>KAHULUI BEACH</b> to <b>BLACK ROCK BEACH</b> with any <b>WATER VEHICLE</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Any Water Vehicle"
+      },
+      {
+        "key": "Valley Isle Black Rock Beach",
+        "label": "Valley Isle Black Rock Beach",
+        "descriptionHtml": "Sail from <b>BLACK ROCK BEACH</b> to <b>PAILOLO ISLETS</b> with any <b>WATER VEHICLE</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Any Water Vehicle"
+      },
+      {
+        "key": "Valley Isle Pailolo Islets",
+        "label": "Valley Isle Pailolo Islets",
+        "descriptionHtml": "Sail from <b>PAILOLO ISLETS</b> to <b>MOKULAU BEACH</b> with any <b>WATER VEHICLE</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Any Water Vehicle"
+      },
+      {
+        "key": "Valley Isle Mokulau Beach",
+        "label": "Valley Isle Mokulau Beach",
+        "descriptionHtml": "Sail from <b>MOKULAU BEACH</b> to <b>PEAHI BEACH</b> with any <b>WATER VEHICLE</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Any Water Vehicle"
+      },
+      {
+        "key": "Valley Isle Peahi Beach",
+        "label": "Valley Isle Peahi Beach",
+        "descriptionHtml": "Sail from <b>PEAHI BEACH</b> to <b>KAHULUI BEACH</b> with any <b>WATER VEHICLE</b> in <b>FREEDRIVE</b>",
+        "vehicle": "Any Water Vehicle"
+      },
+      {
+        "key": "Valley Isle Bamboos",
+        "label": "Valley Isle Bamboos",
+        "descriptionHtml": "Visit the <b>KO'OLAU BAMBOO FOREST</b>",
+        "vehicle": "No Restriction"
+      },
+      {
+        "key": "Valley Isle West Falls",
+        "label": "Valley Isle West Falls",
+        "descriptionHtml": "Visit the <b>KAHOMA FALLS</b>",
+        "vehicle": "No Restriction"
+      },
+      {
+        "key": "Valley Isle East Falls",
+        "label": "Valley Isle East Falls",
+        "descriptionHtml": "Visit the <b>WAIMOKU FALLS</b>",
+        "vehicle": "No Restriction"
+      }
+    ]
+  },
+  {
+    "playlist": "Red Bull Speed Clash",
+    "challenges": [
+      {
+        "key": "Apex Lightspeed",
+        "label": "Apex Lightspeed",
+        "descriptionHtml": "Reach a speed of <b>300 km/h</b> in <b>RED BULL PLAYGROUND</b> &#40Maui&#41 in <b>FREEDRIVE</b>",
+        "vehicle": "Ferrari 488 GT3 AF Corse"
+      },
+      {
+        "key": "Apex Paradise",
+        "label": "Apex Paradise",
+        "descriptionHtml": "Spend <b>30min</b> in <b>RED BULL PLAYGROUND</b> &#40Maui&#41 in <b>FREEDRIVE</b>",
+        "vehicle": "Ferrari 488 GT3 AF Corse"
+      },
+      {
+        "key": "Apex Tourism",
+        "label": "Apex Tourism",
+        "descriptionHtml": "Drive from <b>PU'UNIANIAU</b> to <b>RED BULL PLAYGROUND SMOKY TENT</b> &#40Maui&#41 in less than <b>1min 40sec</b> by <b>night</b>",
+        "vehicle": "Ferrari 488 GT3 AF Corse"
+      },
+      {
+        "key": "Apex Vertigo",
+        "label": "Apex Vertigo",
+        "descriptionHtml": "Perform <b>1 DONUT</b> on the <b>BUSINESS PLAZA HELIPAD</b> &#40Oahu&#41 in <b>FREEDRIVE</b>",
+        "vehicle": "Ferrari 488 GT3 AF Corse"
+      },
+      {
+        "key": "Apex Fast Trip",
+        "label": "Apex Fast Trip",
+        "descriptionHtml": "Drive from <b>HANA</b> to <b>LELE</b> via <b>WAILEA</b> &#40Maui&#41 in less than <b>5min</b>",
+        "vehicle": "Ferrari 488 GT3 AF Corse"
+      },
+      {
+        "key": "Apex Explorer",
+        "label": "Apex Explorer",
+        "descriptionHtml": "Drive from the <b>CARMEET BIG WHEEL</b> &#40Oahu&#41 to the <b>HALEAKALA OBSERVATORY</b> &#40Maui&#41 in less than <b>9min</b>",
+        "vehicle": "BMW M Performance M4 Racing"
+      },
+      {
+        "key": "Apex Cruising",
+        "label": "Apex Cruising",
+        "descriptionHtml": "Drive from <b>HALEIWA ISLAND</b> &#40Oahu&#41 to <b>KE'ANAE POINT</b> &#40Maui&#41",
+        "vehicle": "BMW M Performance M4 Racing"
+      }
+    ]
+  },
+  {
+    "playlist": "Red Bull Wild Ride",
+    "challenges": [
+      {
+        "key": "Bold Shot",
+        "label": "Bold Shot",
+        "descriptionHtml": "Use the <b>RED BULL CANNON</b> in <b>REDBULL PLAYGROUND</b> &#40Maui&#41 in <b>FREEDRIVE</b>",
+        "vehicle": "KTM 450 EXC Robbie Maddison Ed."
+      },
+      {
+        "key": "Bold Rush",
+        "label": "Bold Rush",
+        "descriptionHtml": "Drive from <b>RED BULL PLAYGROUND SMOKY TENT</b> to <b>KAHO'OLAWE</b> &#40Maui&#41 in less than <b>3min</b>",
+        "vehicle": "KTM 450 EXC Robbie Maddison Ed."
+      },
+      {
+        "key": "Bold and Dirty",
+        "label": "Bold and Dirty",
+        "descriptionHtml": "Drive from <b>HALEAKALA OBSERVATORY</b> to the <b>LITTLE ISLAND</b> near <b>MOKULAU BEACH</b> &#40Maui&#41 without touching <b>ASPHALT</b>",
+        "vehicle": "KTM 450 EXC Robbie Maddison Ed."
+      },
+      {
+        "key": "Bold Tourism",
+        "label": "Bold Tourism",
+        "descriptionHtml": "Visit the <b>MAUI ARBORETUM</b> &#40Maui&#41 in <b>FREEDRIVE</b>",
+        "vehicle": "KTM 450 EXC Robbie Maddison Ed."
+      },
+      {
+        "key": "Bold Surfin'",
+        "label": "Bold Surfin'",
+        "descriptionHtml": "Perform <b>5 WHEELIE</b> in <b>IAO LAKE</b> &#40Maui&#41 in <b>FREEDRIVE</b>",
+        "vehicle": "KTM 450 EXC Robbie Maddison Ed."
+      },
+      {
+        "key": "Bold Search",
+        "label": "Bold Search",
+        "descriptionHtml": "Find the <b>UBISOFT LOGO</b> in <b>MAUI</b>",
+        "vehicle": "Audi RS Q e-tron"
+      },
+      {
+        "key": "Bold Stunts",
+        "label": "Bold Stunts",
+        "descriptionHtml": "Perform <b>5 GROUND SPIN</b> in the <b>RED BULL PLAYGROUND</b> &#40Maui&#41 in <b>FREEDRIVE</b>",
+        "vehicle": "Audi RS Q e-tron"
+      },
+      {
+        "key": "Bold Expedition",
+        "label": "Bold Expedition",
+        "descriptionHtml": "Visit <b>PU'U KOA'E TOP</b> &#40Maui&#41 in <b>FREEDRIVE</b>",
+        "vehicle": "Audi RS Q e-tron"
+      },
+      {
+        "key": "Bold Move",
+        "label": "Bold Move",
+        "descriptionHtml": "Perform a <b>DONUT</b> on the <b>MAUI COUNTY MAYOR HELIPAD</b> &#40Maui&#41 in <b>FREEDRIVE</b>",
+        "vehicle": "Red Bull RB14 Disruption Edition"
+      },
+      {
+        "key": "Bold Loop",
+        "label": "Bold Loop",
+        "descriptionHtml": "Drive in the <b>CARMEET LOOPING</b> &#40Oahu&#41",
+        "vehicle": "Red Bull RB14 Disruption Edition"
+      },
+      {
+        "key": "Bold Spin",
+        "label": "Bold Spin",
+        "descriptionHtml": "Drive from <b>KAOHIKAIPU ISLAND</b> to <b>CHINAMAN'S HAT</b> &#40Oahu&#41 in less than <b>4min</b>",
+        "vehicle": "KTM 450 EXC Robbie Maddison Ed."
+      }
+    ]
+  },
+  {
+    "playlist": "Ferrari Supercars",
+    "challenges": [
+      {
+        "key": "Supercar Essenza",
+        "label": "Supercar Essenza",
+        "descriptionHtml": "Drive <b>10min</b> inside the <b>HANAUMA RACETRACK</b> &#40Oahu&#41",
+        "vehicle": "Ferrari GTO"
+      },
+      {
+        "key": "Velocita Supercar",
+        "label": "Velocità Supercar",
+        "descriptionHtml": "Reach <b>300 km/h</b> speed in <b>KAIWI ISLETS</b> &#40Maui&#41",
+        "vehicle": "Ferrari F50"
+      },
+      {
+        "key": "Supercar Exhibition",
+        "label": "Supercar Exhibition",
+        "descriptionHtml": "Spend <b>3min</b> inside the <b>MUSEO ENZO FERRARI</b> &#40Maui&#41",
+        "vehicle": "Ferrari GTO"
+      },
+      {
+        "key": "Strada di Supercar",
+        "label": "Strada di Supercar",
+        "descriptionHtml": "Interact with all <b>VEHICLES EXPOSED</b> in the <b>FERRARI MUSEUM</b>",
+        "vehicle": "Ferrari GTO"
+      },
+      {
+        "key": "Supercar Ride",
+        "label": "Supercar Ride",
+        "descriptionHtml": "Drive from the <b>CAR MEET</b> to the <b>MUSEO ENZO FERRARI</b> &#40Maui&#41 in less than <b>8min</b>",
+        "vehicle": "Ferrari GTO"
+      },
+      {
+        "key": "Supercar Cruising",
+        "label": "Supercar Cruising",
+        "descriptionHtml": "Drive from <b>LAIE</b> to <b>KANEOHE</b> &#40Oahu&#41",
+        "vehicle": "Ferrari F50"
+      },
+      {
+        "key": "Supercar Journey",
+        "label": "Supercar Journey",
+        "descriptionHtml": "Drive from <b>HANA</b> to <b>PAIA</b> &#40Maui&#41",
+        "vehicle": "Ferrari F50"
+      },
+      {
+        "key": "Supercar Pace",
+        "label": "Supercar Pace",
+        "descriptionHtml": "Drive from <b>KANEOHE</b> &#40Oahu&#41 to <b>HANA</b> &#40Maui&#41 in less than <b>7min 40sec</b>",
+        "vehicle": "Ferrari F50"
+      },
+      {
+        "key": "Supercar Quick Stroll",
+        "label": "Supercar Quick Stroll",
+        "descriptionHtml": "Drive from <b>BLACK ROCK</b> to <b>WAIKAPU</b> &#40Maui&#41 in less than <b>3min</b>",
+        "vehicle": "Ferrari F12berlinetta"
+      },
+      {
+        "key": "Supercar Dolce Vita",
+        "label": "Supercar Dolce Vita",
+        "descriptionHtml": "Reach <b>HALEIWA ISLAND RESORT</b> &#40Oahu&#41",
+        "vehicle": "Ferrari F12berlinetta"
+      }
+    ]
+  },
+  {
+    "playlist": "Nascar Motorfert Tour",
+    "challenges": [
+      {
+        "key": "Nascar Kaho`olawe Tour",
+        "label": "Nascar Kaho`olawe Tour",
+        "descriptionHtml": "Starting from the <b>TUNNEL</b> coming from <b>OAHU</b>, drive all around <b>KAHO'OLAWE</b> in an <b>ANTI-CLOCKWISE</b> direction <b>WITHOUT TOUCHING OFF-ROAD</b> in <b>FREEDRIVE</b>. (P.s. start from tunnel and go right)",
+        "vehicle": "NASCAR - Next Gen Ford Mustang Dark Horse"
+      },
+      {
+        "key": "Nascar Stroll",
+        "label": "Nascar Stroll",
+        "descriptionHtml": "Drive from <b>HANAUMA RACETRACK</b> (Oahu) to the <b>PU'UKAHUA COASTER PARK</b> via the <b>RED BULL PLAYGROUND</b> (Maui) in <b>FREEDRIVE</b>.",
+        "vehicle": "Proto Henson Custom"
+      },
+      {
+        "key": "Nascar Caretaker",
+        "label": "Nascar Caretaker",
+        "descriptionHtml": "Drive from <b>HANAUMA RACETRACK</b> (Oahu) to the <b>RED BULL PLAYGROUND</b> (Maui) <b>WITHOUT COLLISIONS</b> in <b>FREEDRIVE</b>.",
+        "vehicle": "Proto Henson Custom"
+      },
+      {
+        "key": "Nascar Sprint",
+        "label": "Nascar Sprint",
+        "descriptionHtml": "Drive from the <b>RED BULL PLAYGROUND</b> (Maui) to the <b>KAHO'OLAWE SPEEDWAY</b> (Kaho) in less than <b>7min 30sec</b> in <b>FREEDRIVE</b>.",
+        "vehicle": "Proto Henson Custom"
+      }
+    ]
+  },
+  {
+    "playlist": "BMW",
+    "challenges": [
+      {
+        "key": "Bavarian Marathon",
+        "label": "Bavarian Marathon",
+        "descriptionHtml": "Drive from <b>HANAUMA RACETRACK</b> (O'ahu) to <b>MANAWAINUI GULCH</b> (Maui) in less than <b>6min</b>.",
+        "vehicle": "BMW M3.0 CSL"
+      },
+      {
+        "key": "Bavarian Sprint",
+        "label": "Bavarian Sprint",
+        "descriptionHtml": "Drive from <b>Kealia Pond</b> to <b>Lipoa Point</b> in less than <b>3min</b>.",
+        "vehicle": "BMW M3.0 CSL"
+      },
+      {
+        "key": "Bavarian Perfection",
+        "label": "Bavarian Perfection",
+        "descriptionHtml": "Drive from <b>HANA VILLAGE</b> to the <b>RED BULL PLAYGROUND</b> (Maui) while driving on <b>ASPHALT WITHOUT COLLISION</b> in <b>FREEDRIVE</b>.",
+        "vehicle": "BMW M3.0 CSL"
+      }
+    ]
+  },
+  {
+    "playlist": "Street Riders",
+    "challenges": []
+  }
+]

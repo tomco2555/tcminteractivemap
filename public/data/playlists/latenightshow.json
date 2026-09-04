@@ -1,0 +1,335 @@
+{
+"id": "latenightshow",
+"name": "Late Night Show",
+"description": "Broadcasting from Hawaii, comedian and car journalist Casey Rollins hosts the new trending TV show: the Motorfest Late Show. Replacing its official driver Lucky Star, become the star of the program through a series of episodes and segments. Each episode will cover a specific theme with a special guest from the Motorfest. Are you ready to go on air?",
+"imgFolder": "LateNightShow",
+"reward": [
+    "BMW 507",
+    "75,000 Bucks"
+],
+"container": {
+    "lat": 2016.13821,
+    "lng": 4846.156325
+},
+"events": [
+    {
+        "lat": 898.6875,
+        "lng": 5803.875,
+        "name": "ALPINE STAYS FROSTY",
+        "description": "Alpine makes its grand entrance to the Motorfest Late Show! The occasion to showcase and discuss two iconic vehicles from the French brand's lineup with Casey's special guest.",
+        "number": "1/12",
+        "type": "RACE",
+        "weather": "Afternoon",
+        "car": "ALPINE A110 R ULTIME, ALPINE ALPENGLOW Hy6 Concept ",
+        "category": "STREET TIER 2",
+        "xp": "10.000",
+        "bucks": "18,750"
+    },
+    {
+        "lat": 457.8125,
+        "lng": 6077.75,
+        "name": "BEWARE OF THE WOLF",
+        "description": "It's up to Dubai-based W Motors' second Hypercar, the Fenyr SuperSport, to be put to the test. Time for some choreographed shots in front of the Motorfest Late Show's cameras.",
+        "number": "2/12",
+        "type": "VIDEO LANE",
+        "weather": "Midday",
+        "car": "FENYR SUPERSPORT",
+        "category": "HYPERCAR",
+        "xp": "8.000",
+        "bucks": "15,000"
+    },
+    {
+        "lat": 947.788252,
+        "lng": 4749.371084,
+        "name": "THE JAPANESE FALCON",
+        "description": "Strap on your wearable camera and learn about the fascinating history of the legendary, ultrafast Japanese motorcycle, the Suzuki Hayabusa, in the company of Casey and the Archivist.",
+        "number": "3/12",
+        "type": "RACE",
+        "weather": "Dawn",
+        "car": "HAYABUSA",
+        "category": "STREET TIER 2",
+        "xp": "9,000",
+        "bucks": "16.875"
+    },
+    {
+        "lat": 1497.0625,
+        "lng": 3272.25,
+        "name": "DELAGE'S RENAISSANCE",
+        "description": "The Fenomeno represents a new design manifesto for Lamborghini. It celebrates the brand's DNA, renowned reputation for performance, and the 20th anniversary of its design department: the Centro Stile.",
+        "number": "4/12",
+        "type": "RACE",
+        "weather": "Midday",
+        "car": "DELAGE D12",
+        "category": "HYPERCAR",
+        "xp": "10.000",
+        "bucks": "18.750"
+    },
+    {
+        "lat": 1112.190621,
+        "lng": 5616.97783,
+        "name": "THE NEW PHENOMENON",
+        "description": "The Fenomeno represents a new design manifesto for Lamborghini. It celebrates the brand's DNA, renowned reputation for performance, and the 20th anniversary of its design department: the Centro Stile.",
+        "number": "5/12",
+        "type": "RACE",
+        "weather": "Sunset",
+        "car": "Lamborghini FENOMENO",
+        "category": "HYPERCAR",
+        "xp": "8.000",
+        "bucks": "15,000"
+    },
+    {
+        "lat": 1284.282691,
+        "lng": 5492.098369,
+        "name": "",
+        "description": "Are you up for some steering madness? Pace the obstacle lap race conceived by Casey's teams using your beloved Fiat 500. Thrills guaranteed!",
+        "number": "6/12",
+        "type": "",
+        "weather": "",
+        "car": "",
+        "category": "",
+        "xp": "",
+        "bucks": ""
+    },
+    {
+        "lat": 1283.222031,
+        "lng": 5621.852464,
+        "name": "SPACCA TUTTO",
+        "description": "Ever dreamed of stealing your dad's car to break stuff on camera? That's exactly what Casey's teams have planned for this segment. Get ready for the ultimate wreck!",
+        "number": "7/12",
+        "type": "RACE",
+        "weather": "Morning",
+        "car": "DELTA HF INTEGRALE",
+        "category": "STREET TIER 1",
+        "xp": "8.000",
+        "bucks": "15.000"
+    },
+    {
+        "lat": 1741.780779,
+        "lng": 4870.551509,
+        "name": "ITALIAN COACHWORK",
+        "description": "Coachwork in Italy is nothing less than the stuff of legend. Follow Casey's explanations on this exceptional art and its craftsmanship while driving a small array of splendid vehicles.",
+        "number": "",
+        "type": "RACE",
+        "weather": "Midday",
+        "car": "Maserati GranTurismo S, ",
+        "category": "STREET TIER 2",
+        "xp": "12.000",
+        "bucks": "22.500"
+    },
+    {
+        "lat": 480.677413,
+        "lng": 5104.241241,
+        "name": "AMERICAN CRUISING",
+        "description": "Casey and his guest revisit the incredible story of a legendary BMW 507 that belonged to a famous rockstar before falling into oblivion, and its miraculous resurrection. Let's cruise!",
+        "number": "9/12",
+        "type": "DELIVERY",
+        "weather": "SUNSET",
+        "car": "BMW 507",
+        "category": "ST1",
+        "xp": "12000",
+        "bucks": "22500"
+    },
+    {
+        "lat": 806.75,
+        "lng": 6045.5,
+        "name": "KAI'S FEVER DREAM",
+        "description": "Kai has a curious story to share with Casey... about a very rare Toyota 2000GT. Let's recreate it for the show!",
+        "number": "10/12",
+        "type": "RACE",
+        "weather": "NIGHT",
+        "car": "2000GT",
+        "category": "ST1",
+        "xp": "8000",
+        "bucks": "15000"
+    },
+    {
+        "lat": 401.20875,
+        "lng": 5643.085062,
+        "name": "THE RESTOMOD BROS",
+        "description": "Discover the Wisconsin-based Ringbrothers• workshop's radical work of restoration and modification with the unique Enyo, with comments from Kai and Casey.",
+        "number": "11/12",
+        "type": "RACE",
+        "weather": "AFTERNOON",
+        "car": "Chevrolet Loadmaster \"ENYO\"",
+        "category": "ST2",
+        "xp": "6000",
+        "bucks": "11250"
+    },
+    {
+        "lat": 1110.290229,
+        "lng": 5683.459142,
+        "name": "SEASON FINALE",
+        "description": "In this final segment of the season, Casey indulges himself by showing us some of his personal favorite car models from the 50s to the 90s, always in the company of Kai. A retrospective of true legends.",
+        "number": "12/12",
+        "type": "race",
+        "weather": "sunset",
+        "car": "MULTI VEHICLE",
+        "category": "ST1",
+        "xp": "10000",
+        "bucks": "18750"
+    }
+],
+"feats": [
+    {
+        "lat": 1155.766034,
+        "lng": 5762.920267,
+        "type": "speedtrap",
+        "location": "Prime Time Feats - HAIPUNENA HIGHWAY",
+        "featType": "Speedtrap",
+        "objective": "Reach 220.0 km/h",
+        "xp": "800",
+        "bucks": "1,500"
+    },
+    {
+        "lat": 1323.350341,
+        "lng": 5297.290451,
+        "type": "escape",
+        "location": "Prime Time Feats - CENTRAL CROSSROADS",
+        "featType": "Escape",
+        "objective": "Drive a distance of 1650 m",
+        "xp": "2,400",
+        "bucks": "4,500"
+    },
+    {
+        "lat": 699.75,
+        "lng": 5826,
+        "type": "jump",
+        "location": "Prime Time Feats - PU'U NAUE",
+        "featType": "Jump",
+        "objective": "Jump a distance of 200 m",
+        "xp": "1,600",
+        "bucks": "3,000"
+    },
+    {
+        "lat": 1570.050694,
+        "lng": 5141.091009,
+        "type": "slalom",
+        "location": "Prime Time Feats - PITU KUKUI",
+        "featType": "Slalom",
+        "objective": "4,730 PTS",
+        "xp": "2,400",
+        "bucks": "4,500"
+    },
+    {
+        "lat": 1354.463039,
+        "lng": 4705.795629,
+        "type": "jump",
+        "location": "Prime Time Feats - LAHAINA",
+        "featType": "Jump",
+        "objective": "Jump a distance of 150 m",
+        "xp": "1,600",
+        "bucks": "3,000"
+    },
+    {
+        "lat": 1016.465998,
+        "lng": 5404.063575,
+        "type": "escape",
+        "location": "Prime Time Feats - KULA",
+        "featType": "Escape",
+        "objective": "Drive a distance of 560 m",
+        "xp": "2,400",
+        "bucks": "4,500"
+    },
+    {
+        "lat": 1199.253101,
+        "lng": 5152.687115,
+        "type": "speedtrap",
+        "location": "Prime Time Feats - KEALIA POND",
+        "featType": "Speedtrap",
+        "objective": "Reach 240.0 km/h",
+        "xp": "800",
+        "bucks": "1,500"
+    },
+    {
+        "lat": 573.817153,
+        "lng": 6023.842669,
+        "type": "speedtrap",
+        "location": "Prime Time Feats - HANA HIGHWAY",
+        "featType": "Speedtrap",
+        "objective": "Reach 250.0 km/h",
+        "xp": "800",
+        "bucks": "1,500"
+    },
+    {
+        "lat": 737.25,
+        "lng": 5063.375,
+        "type": "slalom",
+        "location": "Prime Time Feats - POLIPOLI SPRING STATE",
+        "featType": "Slalom",
+        "objective": "Get 8,090 PTS",
+        "xp": "2,400",
+        "bucks": "4,500"
+    }
+],
+"photoOps": [
+    {
+        "lat": 0,
+        "lng": 0,
+        "name": "Prime Time Views - Late Show Studio",
+        "requirements": [
+            "Take a picture of The Motorfest Late Show Studio with a Hypercar at Night."
+        ],
+        "xp": "8,000",
+        "bucks": "15,000"
+    },
+    {
+        "lat": 0,
+        "lng": 0,
+        "name": "Prime Time Views - Waterfall",
+        "requirements": [
+            "Take a picture of Wailua Waterfall in the North of Hana Bay with a Classic vehicle at Night."
+        ],
+        "xp": "8,000",
+        "bucks": "15,000"
+    },
+    {
+        "lat": 0,
+        "lng": 0,
+        "name": "Prime Time Views - Volcano",
+        "requirements": [
+            "Take a picture of Pu•u Naue Volcano with a Rally vehicle at Sunrise."
+        ],
+        "xp": "8,000",
+        "bucks": "15,000"
+    }
+],
+"collectibles": [
+    {
+        "key": "Prime Time Stroll",
+        "label": "Prime Time Stroll",
+        "descriptionHtml": "",
+        "vehicle": ""
+    },
+    {
+        "key": "Prime Time Asphalt",
+        "label": "Prime Time Asphalt",
+        "descriptionHtml": "",
+        "vehicle": ""
+    },
+    {
+        "lat": 1431.9375,
+        "lng": 1578.25,
+        "challenge": "Find all the DIAMOND COLLECTIBLES located near LUXURY HOTELS."
+    },
+    {
+        "lat": 1267.5625,
+        "lng": 2812.0625,
+        "challenge": "Find all the DIAMOND COLLECTIBLES located near LUXURY HOTELS."
+    },
+    {
+        "lat": 1309.6875,
+        "lng": 2878.75,
+        "challenge": "Find all the DIAMOND COLLECTIBLES located near LUXURY HOTELS."
+    },
+    {
+        "lat": 3301.125,
+        "lng": 2271.5,
+        "challenge": "Find all the DIAMOND COLLECTIBLES located near LUXURY HOTELS."
+    },
+    {
+        "lat": 2937.3125,
+        "lng": 1778.375,
+        "challenge": "Find all the DIAMOND COLLECTIBLES located near LUXURY HOTELS."
+    }
+]
+}

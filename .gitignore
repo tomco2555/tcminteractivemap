@@ -1,3 +1,5 @@
+node_modules/
+dist/
 *.psd
 tcm_map1.png
 screnshotter_tcm.py

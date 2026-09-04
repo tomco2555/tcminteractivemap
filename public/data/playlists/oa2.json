@@ -1,0 +1,43 @@
+{
+  "id": "oa2",
+  "name": "Off-roading Addict Vol.2",
+  "imgFolder": "OffAdd2",
+  "container": { "lat": 2807.95944, "lng": 1561.114996 },
+  "events": [
+    { "lat": 2588.767026, "lng": 1776.782564, "name": "Life Of Pierce", "number": "1/9", "type": "Race", "weather": "Sunrise", "car": "Ivory Tower IVT Falcon S-1000 Adventure Edition", "category": "Rally Raid", "xp": "7,200", "bucks": "13,500" },
+    { "lat": 2601.636706, "lng": 1556.375, "name": "Jungle Bruise", "number": "2/9", "type": "Race", "weather": "Afternoon", "car": "Land Rover Defender Works V8 Pierce Edition", "category": "Rally Raid", "xp": "8,400", "bucks": "15,750" },
+    { "lat": 3017.257106, "lng": 2630.967556, "name": "Blue Rush", "number": "3/9", "type": "Time Attack", "weather": "Afternoon", "car": "Peugeot 3008 DKR Maxi", "category": "Rally Raid", "xp": "9,600", "bucks": "18,000" },
+    { "lat": 2840.080852, "lng": 1891.176038, "name": "Wetter World", "number": "4/9", "type": "Race", "weather": "Sunset", "car": "Jeep Wrangler Unlimited Rubicon 392", "category": "Rally Raid", "xp": "8,400", "bucks": "15,750" },
+    { "lat": 2151.913295, "lng": 2789.285288, "name": "Boyz N The Mud", "number": "5/9", "type": "Race", "weather": "Afternoon", "car": "KTM 450 EXC Nighthawk Edition", "category": "Motocross", "xp": "9,600", "bucks": "18,000" },
+    { "lat": 1920.731605, "lng": 3545.769664, "name": "The Goats And The Darkness", "number": "6/9", "type": "Race", "weather": "Night", "car": "Jeep Gladiator", "category": "Rally Raid", "xp": "12,000", "bucks": "22,500" },
+    { "lat": 1647.970517, "lng": 3094.316913, "name": "The KTM Strikes Back... Again", "number": "7/9", "type": "Time Attack", "weather": "Sunrise", "car": "KTM 450 EXC", "category": "Motocross", "xp": "9,600", "bucks": "18,000" },
+    { "lat": 1810.832538, "lng": 1589.189113, "name": "Big Trouble In Little Mauna", "number": "8/9", "type": "Race", "weather": "Morning", "car": "Hummer HX Concept", "category": "Rally Raid", "xp": "7,200", "bucks": "13,500" },
+    { "lat": 3029.195075, "lng": 2235.114773, "name": "Green Planet", "number": "9/9", "type": "Live Event", "weather": "Midday", "car": "Audi S1 EKS RX Quattro", "category": "Rally", "xp": "9,600", "bucks": "18,000" }
+  ],
+  "feats": [
+    { "lat": 3060.389239, "lng": 2131.462189, "type": "escape", "location": "Waimea", "featType": "Escape", "objective": "390 m", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 2604.320591, "lng": 2416.007095, "type": "escape", "location": "Wahiawa Edge", "featType": "Escape", "objective": "520 m", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 2536.249135, "lng": 2792.629844, "type": "speedtrap", "location": "Hindu Monastery", "featType": "Speedtrap", "objective": "150.0 km/h", "xp": "960", "bucks": "1,800" },
+    { "lat": 1585.388867, "lng": 3206.198923, "type": "slalom", "location": "Waimanalo Road", "featType": "Slalom", "objective": "4,850 PTS", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 1609.227326, "lng": 2032.446636, "type": "speedtrap", "location": "Mililani Waipio", "featType": "Speedtrap", "objective": "140.0 km/h", "xp": "960", "bucks": "1,800" },
+    { "lat": 2656.053782, "lng": 1324.25, "type": "slalom", "location": "Kuaokala Meadows", "featType": "Slalom", "objective": "4,960 PTS", "xp": "1,920", "bucks": "3,600" }
+  ],
+  "photoOps": [
+    { "lat": 1549.515679, "lng": 3538.75, "name": "Wilder Views - Kuapa River Gorge", "requirements": ["Jeep Wrangler 392 Unlimited Edition", "Drift", "Sunset", "Kuapa River Gorge"] },
+    { "lat": 2723.428237, "lng": 1411.11997, "name": "Wilder Views - Makaleha River Gorge", "requirements": ["Rally Raid vehicle", "Dusk", "Makaleha River Gorge"] },
+    { "lat": 2599.50581, "lng": 1644.730373, "name": "Wilder Views - Peacock River Gorge", "requirements": ["Rally vehicle", "Burnout", "Morning", "Peacock River Gorge"] },
+    { "lat": 1613.651084, "lng": 1844.0, "name": "Wilder Views - Makakilo River Gorge", "requirements": ["Motocross", "Wheelie", "Makakilo River Gorge"] },
+    { "lat": 1651.68331, "lng": 1706.602216, "name": "Wilder Views - Nanakuli River Gorge", "requirements": ["Motocross", "Burnout", "Nanakuli River Gorge"] },
+    { "lat": 1772.58624, "lng": 2923.35621, "name": "Wilder Views - Manoa Canyon", "requirements": ["Rally Raid vehicle", "Midday", "Manoa Canyon"] }
+  ],
+  "collectibles": [
+    { "lat": 1504.262163, "lng": 3533.375, "challenge": "Wilder Fauna" },
+    { "lat": 2900.37726, "lng": 2301.279019, "challenge": "Wilder Fauna" },
+    { "lat": 2354.185594, "lng": 1730.46707, "challenge": "Wilder Fauna" },
+    { "lat": 2175.317806, "lng": 1413.152902, "challenge": "Wilder Fauna" },
+    { "lat": 2029.525241, "lng": 3566.75, "challenge": "Wilder Supply Shortages" },
+    { "lat": 3127.374445, "lng": 2382.596299, "challenge": "Wilder Supply Shortages" },
+    { "lat": 3174.874508, "lng": 2187.75, "challenge": "Wilder Supply Shortages" },
+    { "lat": 2638.148448, "lng": 1504.25, "challenge": "Wilder Supply Shortages" }
+  ]
+}

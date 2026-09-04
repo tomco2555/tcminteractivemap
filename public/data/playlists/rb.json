@@ -1,0 +1,40 @@
+{
+  "id": "rb",
+  "name": "Red Bull Speed Clash",
+  "imgFolder": "RedBull_SC",
+  "container": { "lat": 738.41363, "lng": 5319.917868 },
+  "events": [
+    { "lat": 697.144878, "lng": 5475.625, "name": "Rally Blast", "number": "1/7", "type": "Race", "weather": "Morning", "car": "Ford Puma Hybrid Rally1", "category": "Rally", "xp": "10,000", "bucks": "18,750" },
+    { "lat": 744.328628, "lng": 5374.011537, "name": "The Dirt Clash", "number": "2/7", "type": "Choose Your Ride", "weather": "Sunset", "car": "Multi Vehicle", "category": "Multi Category", "xp": "9,000", "bucks": "16,875" },
+    { "lat": 643.37391, "lng": 5460.625, "name": "Moto Rush", "number": "3/7", "type": "Time Attack", "weather": "Afternoon", "car": "KTM RC16 Red Bull Team", "category": "Racing", "xp": "10,000", "bucks": "18,750" },
+    { "lat": 631.00239, "lng": 5460.625, "name": "The Asphalt Clash", "number": "4/7", "type": "Race", "weather": "Sunrise", "car": "Multi Vehicle", "category": "Multi Category", "xp": "10,000", "bucks": "18,750" },
+    { "lat": 666.255554, "lng": 5495.5625, "name": "Alpha Nitro", "number": "5/7", "type": "Street Versus", "weather": "Afternoon", "car": "Red Bull RB20", "category": "Alpha GP", "xp": "9,000", "bucks": "16,875" },
+    { "lat": 678.189697, "lng": 5497.8125, "name": "The High Clash", "number": "6/7", "type": "Choose Your Ride", "weather": "Night", "car": "Multi Vehicle", "category": "Multi Category", "xp": "10,000", "bucks": "18,750" },
+    { "lat": 712.007417, "lng": 5402.5, "name": "Speed War", "number": "7/7", "type": "Choose Your Ride", "weather": "TBD", "car": "Multi Vehicle", "category": "Multi Category", "xp": "10,000", "bucks": "18,750" }
+  ],
+  "feats": [
+    { "lat": 750.436013, "lng": 5254.864044, "type": "long_jump", "location": "Observatory", "featType": "Long Jump", "objective": "360 m", "xp": "1,600", "bucks": "3,000" },
+    { "lat": 701.104427, "lng": 5495.633903, "type": "long_jump", "location": "Red Hill", "featType": "Long Jump", "objective": "270 m", "xp": "1,600", "bucks": "3,000" },
+    { "lat": 594.891512, "lng": 5460.455341, "type": "long_jump", "location": "Caldera", "featType": "Long Jump", "objective": "390 m", "xp": "1,600", "bucks": "3,000" },
+    { "lat": 674.234668, "lng": 5485.380855, "type": "escape", "location": "Motorfest Gate", "featType": "Escape", "objective": "820 m", "xp": "2,400", "bucks": "4,500" },
+    { "lat": 638.448573, "lng": 5453.56105, "type": "slalom", "location": "Paddocks", "featType": "Slalom", "objective": "5,600 PTS", "xp": "2,400", "bucks": "4,500" }
+  ],
+  "photoOps": [
+    { "lat": 510.415884, "lng": 5446.5, "name": "Apex Views - Glass Turn", "requirements": ["Ford Puma Hybrid Rally1", "Nitro", "Red Bull glass turn"] },
+    { "lat": 688.383913, "lng": 5451.97006, "name": "Apex Views - RB Cannon", "requirements": ["Ferrari 488 GT3 AF Corse", "Jumping from the Red Bull cannon", "Red Bull playground"] },
+    { "lat": 725.850033, "lng": 5393.280197, "name": "Apex Views - RB Drift", "requirements": ["Ford Puma Hybrid Rally1", "Drifting", "Red Bull playground"] },
+    { "lat": 697.92717, "lng": 5413.43274, "name": "Apex Views - RB Speed", "requirements": ["Red Bull vehicle", "High Speed", "Red Bull playground"] }
+  ],
+  "collectibles": [
+    { "lat": 715.599868, "lng": 5358.985518, "challenge": "Apex Pylons" },
+    { "lat": 730.621114, "lng": 5394.16408, "challenge": "Apex Pylons" },
+    { "lat": 688.893139, "lng": 5412.75, "challenge": "Apex Pylons" },
+    { "lat": 702.696959, "lng": 5461.162448, "challenge": "Apex Pylons" },
+    { "lat": 716.835117, "lng": 5487.413787, "challenge": "Apex Pylons" },
+    { "lat": 593.391382, "lng": 5431.75, "challenge": "Apex Pylons" },
+    { "lat": 641.820585, "lng": 5458.6875, "challenge": "Apex Pylons" },
+    { "lat": 616.642106, "lng": 5432.347846, "challenge": "Apex Shelters" },
+    { "lat": 543.442807, "lng": 5434.734332, "challenge": "Apex Shelters" },
+    { "lat": 750.495989, "lng": 5335.739382, "challenge": "Apex Shelters" }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "bl",
+  "name": "Bike Lovers",
+  "imgFolder": "BikeLovers",
+  "container": { "lat": 2498.001828, "lng": 2199.5 },
+  "events": [
+    {
+      "lat": 2852.877637,
+      "lng": 2047,
+      "name": "GP Glory",
+      "number": "1/8",
+      "type": "Race",
+      "weather": "Morning",
+      "car": "KTM RC16 Red Bull Team",
+      "category": "Racing",
+      "xp": "21,600",
+      "bucks": "40,500"
+    },
+    {
+      "lat": 2583.942175,
+      "lng": 1523.8125,
+      "name": "Riveround Rumble",
+      "number": "2/8",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Ducatti Hypermotard",
+      "category": "Rally Raid",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 2964.130613,
+      "lng": 2029.48485,
+      "name": "Haleiwa Heyday",
+      "number": "3/8",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Honda CB1000R Neo Sports Café",
+      "category": "Street Tier 2",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 2739.636777,
+      "lng": 2836,
+      "name": "Beach Bonanza",
+      "number": "4/8",
+      "type": "Race",
+      "weather": "Morning",
+      "car": "KTM 450 EXC Red Bull Edition",
+      "category": "Motocross",
+      "xp": "8,400",
+      "bucks": "15,750"
+    },
+    {
+      "lat": 2550.483363,
+      "lng": 3008.739354,
+      "name": "Roadie Rumble",
+      "number": "5/8",
+      "type": "Race",
+      "weather": "Sunset",
+      "car": "Harley Davidson Iron 883",
+      "category": "Street Tier 1",
+      "xp": "18,000",
+      "bucks": "33,750"
+    },
+    {
+      "lat": 1238.46428,
+      "lng": 3409.580511,
+      "name": "Hectic Hanauma",
+      "number": "6/8",
+      "type": "Race",
+      "weather": "Afternoon",
+      "car": "Suzuki GSX-RR",
+      "category": "Racing",
+      "xp": "18,000",
+      "bucks": "33,750"
+    },
+    {
+      "lat": 1301.727741,
+      "lng": 2716.439088,
+      "name": "Midnight Magic",
+      "number": "7/8",
+      "type": "Race",
+      "weather": "Dusk",
+      "car": "Ducatti Panigale R",
+      "category": "Street Tier 2",
+      "xp": "10,800",
+      "bucks": "20,250"
+    },
+    {
+      "lat": 1295.717905,
+      "lng": 2556.014237,
+      "name": "Airtime Advantage",
+      "number": "8/8",
+      "type": "Race",
+      "weather": "Afternoon",
+      "car": "Suzuki RM-Z450",
+      "category": "Motocross",
+      "xp": "12,000",
+      "bucks": "22,500"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 1684.026155,
+      "lng": 3525,
+      "type": "slalom",
+      "location": "Waimanalo",
+      "featType": "Slalom",
+      "objective": "4,010 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 2673.45594,
+      "lng": 2656.95373,
+      "type": "slalom",
+      "location": "Hau'ula Forest",
+      "featType": "Slalom",
+      "objective": "5,250 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 2680.776928,
+      "lng": 2366.5,
+      "type": "speedtrap",
+      "location": "Wahiawa Forest",
+      "featType": "Speedtrap",
+      "objective": "160.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 2665.647637,
+      "lng": 2195.920109,
+      "type": "speedtrap",
+      "location": "Wahiawa Field",
+      "featType": "Speedtrap",
+      "objective": "210.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 2710.559358,
+      "lng": 1941.715221,
+      "type": "escape",
+      "location": "Hale'au'au Gulch",
+      "featType": "Escape",
+      "objective": "690 m",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 2745.196156,
+      "lng": 1898.935261,
+      "type": "slalom",
+      "location": "Peacock Road",
+      "featType": "Slalom",
+      "objective": "4,320 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 1652.028412,
+      "lng": 3668.823534,
+      "name": "Rider Views - Urbex Ride",
+      "requirements": [
+        "Bike",
+        "Jump",
+        "ruins of the Coconut Resort"
+      ]
+    },
+    {
+      "lat": 2730.162307,
+      "lng": 2832.227824,
+      "name": "Rider Views - Giant Tiki",
+      "requirements": [
+        "Motocross Bike",
+        "Giant Tiki",
+        "Ma'akua Black Beach"
+      ]
+    },
+    {
+      "lat": 1343.269359,
+      "lng": 2379.106183,
+      "name": "Rider Views - Control Tower",
+      "requirements": [
+        "Bike",
+        "Wheelie",
+        "Oahu Airport control tower in the background"
+      ]
+    },
+    {
+      "lat": 2441.933422,
+      "lng": 2223.3125,
+      "name": "Rider Views - Gas Station",
+      "requirements": [
+        "KTM RC16 Red Bull Team",
+        "Burn",
+        "Gas station",
+        "Wahiawa"
+      ]
+    },
+    {
+      "lat": 1452.98536,
+      "lng": 3362.646298,
+      "name": "Rider Views - Loops",
+      "requirements": [
+        "Bike",
+        "The top of the double loop",
+        "Motorfest Grounds"
+      ]
+    }
+  ],
+  "collectibles": [
+    { "lat": 2824.630203, "lng": 2045.625, "challenge": "Rider Helmets" },
+    { "lat": 2978.377496, "lng": 2015.625, "challenge": "Rider Helmets" },
+    { "lat": 2580.010476, "lng": 1541.125, "challenge": "Rider Helmets" },
+    { "lat": 2573.896882, "lng": 3008.099397, "challenge": "Rider Helmets" },
+    { "lat": 2754.504675, "lng": 2842, "challenge": "Rider Helmets" },
+    { "lat": 1234.083655, "lng": 3414.144558, "challenge": "Rider Helmets" },
+    { "lat": 1286.438844, "lng": 2696.993652, "challenge": "Rider Helmets" },
+    { "lat": 1310.128909, "lng": 2585.005615, "challenge": "Rider Helmets" }
+  ]
+}

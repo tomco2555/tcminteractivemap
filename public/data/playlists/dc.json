@@ -1,0 +1,204 @@
+{
+  "id": "dc",
+  "name": "Dream Cars",
+  "imgFolder": "DreamCars",
+  "container": { "lat": 1349.381937, "lng": 2044.952811 },
+  "events": [
+    {
+      "lat": 1381.110271,
+      "lng": 1787.212389,
+      "name": "Dream Bulls",
+      "number": "1/7",
+      "type": "Outrun",
+      "weather": "Sunrise",
+      "car": "Lamborghini Egoista 2013, TERZO MILLENNIO",
+      "category": "Hypercar",
+      "xp": "12,400",
+      "bucks": "22,500"
+    },
+    {
+      "lat": 2901.045399,
+      "lng": 2033.813092,
+      "name": "Dream Duel: Egoista vs Terzo Millennio",
+      "number": "2/7",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Lamborghini Egoista 2013, TERZO MILLENNIO",
+      "category": "Hypercar",
+      "xp": "10,850",
+      "bucks": "19,688"
+    },
+    {
+      "lat": 2248.531242,
+      "lng": 3039.630317,
+      "name": "Dream Bugattis",
+      "number": "3/7",
+      "type": "Outrun",
+      "weather": "Morning",
+      "car": "Bugatti La Voiture Noire 2019, Bugatti Veyron Barchetta 2015",
+      "category": "Hypercar",
+      "xp": "12,400",
+      "bucks": "22,500"
+    },
+    {
+      "lat": 1970.030236,
+      "lng": 3417.855574,
+      "name": "Dream Duel: Veyron vs Noire",
+      "number": "4/7",
+      "type": "Race",
+      "weather": "Sunset",
+      "car": "Bugatti La Voiture Noire 2019, Bugatti Veyron Barchetta 2015",
+      "category": "Hypercar",
+      "xp": "12,400",
+      "bucks": "22,500"
+    },
+    {
+      "lat": 1228.979947,
+      "lng": 3314.394555,
+      "name": "French Dreams",
+      "number": "5/7",
+      "type": "Outrun",
+      "weather": "Morning",
+      "car": "Citroen GT 2008, Renault Trezor Concept 2016",
+      "category": "Hypercar",
+      "xp": "6,200",
+      "bucks": "11,250"
+    },
+    {
+      "lat": 1552.774971,
+      "lng": 2367.438745,
+      "name": "Dream Duel: Trezor vs Citroen GT",
+      "number": "6/7",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Citroen GT 2008, Renault Trezor Concept 2016",
+      "category": "Hypercar",
+      "xp": "12,400",
+      "bucks": "22,500"
+    },
+    {
+      "lat": 2601.687074,
+      "lng": 1462.278799,
+      "name": "Supercar Festival",
+      "number": "7/7",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Mercedes-Benz Vision EQ Silver Arrow",
+      "category": "Hypercar",
+      "xp": "23,250",
+      "bucks": "42,188"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 2432.662665,
+      "lng": 1805.420389,
+      "type": "slalom",
+      "location": "Ka'ala",
+      "featType": "Slalom",
+      "objective": "5,480 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1320.130067,
+      "lng": 1851.470718,
+      "type": "speedtrap",
+      "location": "Barbers Point",
+      "featType": "Speedtrap",
+      "objective": "150.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 1906.535787,
+      "lng": 2174.25,
+      "type": "speedtrap",
+      "location": "Kunia",
+      "featType": "Speedtrap",
+      "objective": "200.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 2924.094072,
+      "lng": 2143.063877,
+      "type": "slalom",
+      "location": "East Haleiwa",
+      "featType": "Slalom",
+      "objective": "4,970 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1505.38297,
+      "lng": 3560.724585,
+      "type": "escape",
+      "location": "Kuapa River",
+      "featType": "Escape",
+      "objective": "1340 m",
+      "xp": "2,880",
+      "bucks": "5,400"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 2135.320435,
+      "lng": 1691.929751,
+      "name": "Super Views - Sulphur Chimneys",
+      "requirements": [
+        "Lamborghini Egoista",
+        "easternmost Sulphur Chimney",
+        "Mauna Pele Sulphur Banks"
+      ]
+    },
+    {
+      "lat": 1437.315506,
+      "lng": 1595.75,
+      "name": "Super Views - Aulinaii Resort",
+      "requirements": [
+        "Lamborghini Egoista",
+        "Aulinaii Resort",
+        "near Kohola Lagoon Beach"
+      ]
+    },
+    {
+      "lat": 1291.514167,
+      "lng": 2805.875,
+      "name": "Super Views - Royal Luau",
+      "requirements": [
+        "Lamborghini Egoista",
+        "Royal Luau",
+        "Honolulu"
+      ]
+    },
+    {
+      "lat": 1325.857014,
+      "lng": 2674.984953,
+      "name": "Super Views - Fast Fashion",
+      "requirements": [
+        "Lamborghini Egoista",
+        "high speed",
+        "going through Moana Center"
+      ]
+    },
+    {
+      "lat": 2534.472369,
+      "lng": 1756.75,
+      "name": "Super Views - Fire Ball",
+      "requirements": [
+        "Lamborghini Egoista",
+        "hairpin turns",
+        "Peacock area",
+        "volcano in the background"
+      ]
+    }
+  ],
+  "collectibles": [
+    { "lat": 1428.405643, "lng": 1576.848122, "challenge": "Super Shinny" },
+    { "lat": 1267.397991, "lng": 2812.875, "challenge": "Super Shinny" },
+    { "lat": 1307.513745, "lng": 2879.875, "challenge": "Super Shinny" },
+    { "lat": 3303.501933, "lng": 2272.25, "challenge": "Super Shinny" },
+    { "lat": 2937.506539, "lng": 1777, "challenge": "Super Shinny" }
+  ]
+}

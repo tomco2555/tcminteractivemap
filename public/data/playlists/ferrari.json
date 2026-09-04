@@ -1,0 +1,191 @@
+{
+  "id": "ferrari",
+  "name": "Ferrari Supercars",
+  "imgFolder": "Ferrari",
+  "container": { "lat": 555.888675, "lng": 5072.625 },
+  "events": [
+    {
+      "lat": 543.767085,
+      "lng": 5080.375,
+      "name": "Gran Turismo Omologato",
+      "number": "1/7",
+      "type": "Race",
+      "weather": "Midday",
+      "car": "Ferrari GTO",
+      "category": "Street Tier 2",
+      "xp": "9,000",
+      "bucks": "16,875"
+    },
+    {
+      "lat": 1374.47272,
+      "lng": 4706.5,
+      "name": "Generazione F",
+      "number": "2/7",
+      "type": "Race",
+      "weather": "Midday",
+      "car": "Multi Vehicle",
+      "category": "Street Tier 2",
+      "xp": "8,000",
+      "bucks": "15,000"
+    },
+    {
+      "lat": 891.800551,
+      "lng": 4999.5,
+      "name": "Timeless Red",
+      "number": "3/7",
+      "type": "Outrun",
+      "weather": "Sunset",
+      "car": "Ferrari 512 TR",
+      "category": "Street Tier 2",
+      "xp": "8,000",
+      "bucks": "15,000"
+    },
+    {
+      "lat": 1093.760898,
+      "lng": 3599.25,
+      "name": "Racing DNA",
+      "number": "4/7",
+      "type": "Race",
+      "weather": "Morning",
+      "car": "Multi Vehicle",
+      "category": "Racing",
+      "xp": "15,000",
+      "bucks": "28,125"
+    },
+    {
+      "lat": 494.90085,
+      "lng": 5011.619312,
+      "name": "Celebrating Enzo",
+      "number": "5/7",
+      "type": "Race",
+      "weather": "Afternoon",
+      "car": "Ferrari Enzo Ferrari",
+      "category": "Hypercar",
+      "xp": "9,000",
+      "bucks": "16,875"
+    },
+    {
+      "lat": 1875.759467,
+      "lng": 4744.686502,
+      "name": "\"La\" Ferrari",
+      "number": "6/7",
+      "type": "Race",
+      "weather": "Sunset",
+      "car": "Ferrari LaFerrari",
+      "category": "Hypercar",
+      "xp": "9,000",
+      "bucks": "16,875"
+    },
+    {
+      "lat": 465.017999,
+      "lng": 5034.75,
+      "name": "The Prancing Horse",
+      "number": "7/7",
+      "type": "Time Attack",
+      "weather": "Morning",
+      "car": "Ferrari F80",
+      "category": "Hypercar",
+      "xp": "15,000",
+      "bucks": "28,125"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 1054.474654,
+      "lng": 4568.25,
+      "type": "slalom",
+      "location": "Kaiwi",
+      "featType": "Slalom",
+      "objective": "4,760 PTS",
+      "xp": "2,400",
+      "bucks": "4,500"
+    },
+    {
+      "lat": 1250.829091,
+      "lng": 4973.612322,
+      "type": "slalom",
+      "location": "Lighthouse",
+      "featType": "Slalom",
+      "objective": "4,830 PTS",
+      "xp": "2,400",
+      "bucks": "4,500"
+    },
+    {
+      "lat": 555.999332,
+      "lng": 5128.3125,
+      "type": "speedtrap",
+      "location": "Museum",
+      "featType": "Speedtrap",
+      "objective": "190.0 km/h",
+      "xp": "800",
+      "bucks": "1,500"
+    },
+    {
+      "lat": 1647.447796,
+      "lng": 4771.75,
+      "type": "speedtrap",
+      "location": "West Highway",
+      "featType": "Speedtrap",
+      "objective": "180.0 km/h",
+      "xp": "800",
+      "bucks": "1,500"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 1150.655667,
+      "lng": 3605.360701,
+      "name": "Supercar Views - Hanauma Racetrack",
+      "requirements": [
+        "Ferrari F50",
+        "Hanauma Racetrack"
+      ]
+    },
+    {
+      "lat": 1082.254272,
+      "lng": 4023.084032,
+      "name": "Supercar Views - Speedway",
+      "requirements": [
+        "Ferrari Hypercar",
+        "High Speed",
+        "Speedway connecting Maui to Oahu"
+      ]
+    },
+    {
+      "lat": 1327.997399,
+      "lng": 5278.125,
+      "name": "Supercar Views - Lavender Fields",
+      "requirements": [
+        "Ferrari GTO",
+        "in front of a Lavender field in Kealaloloa Fields"
+      ]
+    },
+    {
+      "lat": 583.911769,
+      "lng": 4957.348866,
+      "name": "Supercar Views - Wailea Resort",
+      "requirements": [
+        "Ferrari",
+        "Wailea Resort in Kihei",
+        "near the stairs located by the fountains"
+      ]
+    },
+    {
+      "lat": 564.990101,
+      "lng": 5071.723388,
+      "name": "Supercar Views - Museum",
+      "requirements": [
+        "Ferrari F50",
+        "Museo Enzo Ferrari"
+      ]
+    }
+  ],
+  "collectibles": [
+    { "lat": 543.782863, "lng": 5074.993757, "challenge": "Supercar Stallion" },
+    { "lat": 534.856957, "lng": 4991.289992, "challenge": "Supercar Stallion" },
+    { "lat": 502.019581, "lng": 4961.375, "challenge": "Supercar Stallion" },
+    { "lat": 589.263605, "lng": 4983, "challenge": "Supercar Stallion" },
+    { "lat": 650.183244, "lng": 4933.660789, "challenge": "Supercar Stallion" },
+    { "lat": 712.75153, "lng": 4941.527352, "challenge": "Supercar Stallion" }
+  ]
+}

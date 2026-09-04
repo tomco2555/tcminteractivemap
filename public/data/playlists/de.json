@@ -1,0 +1,280 @@
+{
+  "id": "de",
+  "name": "Drift Experience",
+  "imgFolder": "Drift",
+  "container": { "lat": 1613.32165, "lng": 2627.255819 },
+  "events": [
+    {
+      "lat": 1349.55225,
+      "lng": 3377.672317,
+      "name": "Initial Drill",
+      "number": "1/8",
+      "type": "Drift Trial",
+      "weather": "Sunrise",
+      "car": "Nissan 370Z Nismo",
+      "category": "Drift",
+      "xp": "7,200",
+      "bucks": "13,500"
+    },
+    {
+      "lat": 1782.497856,
+      "lng": 2362.25,
+      "name": "Wind Slider",
+      "number": "2/8",
+      "type": "Drift Trial",
+      "weather": "Sunset",
+      "car": "BMW M5",
+      "category": "Drift",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1750.124613,
+      "lng": 1456.625,
+      "name": "Dream Spiral",
+      "number": "3/8",
+      "type": "Drift Trial",
+      "weather": "Morning",
+      "car": "Creators DeLorean DMC-12 Outadrift",
+      "category": "Drift",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 2650.859392,
+      "lng": 1825.375,
+      "name": "Silver Shadow",
+      "number": "4/8",
+      "type": "Drift Race",
+      "weather": "Dusk",
+      "car": "Shelby GT 500",
+      "category": "Drift",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 2350.133578,
+      "lng": 1535.5,
+      "name": "Hawai'i Red Sun",
+      "number": "5/8",
+      "type": "Drift Race",
+      "weather": "Afternoon",
+      "car": "Toyota GR Supra",
+      "category": "Drift",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1398.016607,
+      "lng": 1673.544974,
+      "name": "Diffracted Blue",
+      "number": "6/8",
+      "type": "Race",
+      "weather": "Night",
+      "car": "Lamborghini Aventador LP 700-4",
+      "category": "Drift",
+      "xp": "10,800",
+      "bucks": "20,250"
+    },
+    {
+      "lat": 2150.000703,
+      "lng": 2676.75,
+      "name": "Skyline Juku",
+      "number": "7/8",
+      "type": "Race",
+      "weather": "Dusk",
+      "car": "Nissan Skyline GT-R (R34)",
+      "category": "Drift",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 2841.523695,
+      "lng": 2175.060459,
+      "name": "Drift Emperor",
+      "number": "8/8",
+      "type": "Race",
+      "weather": "Night",
+      "car": "Mazda RX7",
+      "category": "Drift",
+      "xp": "9,600",
+      "bucks": "18,000"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 2712.665913,
+      "lng": 2273.525078,
+      "type": "bullseye",
+      "location": "Koolauloa",
+      "featType": "Bullseye",
+      "objective": "7,740 PTS",
+      "xp": "3,840",
+      "bucks": "7,200"
+    },
+    {
+      "lat": 2590.010019,
+      "lng": 1435.5,
+      "type": "bullseye",
+      "location": "Kuaokala",
+      "featType": "Bullseye",
+      "objective": "6,850 PTS",
+      "xp": "3,840",
+      "bucks": "7,200"
+    },
+    {
+      "lat": 2447.695047,
+      "lng": 1536.896589,
+      "type": "slalom",
+      "location": "Mauna Pele North Road",
+      "featType": "Slalom",
+      "objective": "6,490 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 2079.176896,
+      "lng": 1276.690982,
+      "type": "escape",
+      "location": "Kaimu Black Beach",
+      "featType": "Escape",
+      "objective": "550 m",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1903.124549,
+      "lng": 1316.632827,
+      "type": "buoy_smashing",
+      "location": "Kaimu Waters",
+      "featType": "Buoy Smashing",
+      "objective": "19,820 PTS",
+      "xp": "5,760",
+      "bucks": "10,800"
+    },
+    {
+      "lat": 1410.258349,
+      "lng": 1767.125,
+      "type": "slalom",
+      "location": "Kalaeloa Fields",
+      "featType": "Slalom",
+      "objective": "8,250 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1993.554474,
+      "lng": 2423.078162,
+      "type": "escape",
+      "location": "Mililani Heritage",
+      "featType": "Escape",
+      "objective": "720 m",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1525.543362,
+      "lng": 2666.202352,
+      "type": "escape",
+      "location": "Nuuanu Punchbowl",
+      "featType": "Escape",
+      "objective": "600 m",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1381.809175,
+      "lng": 3120.904167,
+      "type": "slalom",
+      "location": "Kaimuki",
+      "featType": "Slalom",
+      "objective": "7,710 PTS",
+      "xp": "3,840",
+      "bucks": "7,200"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 1615.004851,
+      "lng": 2863.25,
+      "name": "Burning Views - HNL Mountain Roads",
+      "requirements": [
+        "Nissan 370Z Nismo Drift",
+        "Manoa mountain roads north of Honolulu"
+      ]
+    },
+    {
+      "lat": 1415.281933,
+      "lng": 2103.712607,
+      "name": "Burning Views - Ewa Shopping Mall",
+      "requirements": [
+        "Mitsubishi Lancer Evolution X Drift",
+        "Night",
+        "Ewa Mall parking lot"
+      ]
+    },
+    {
+      "lat": 1748.276925,
+      "lng": 2109.058818,
+      "name": "Burning Views - Central Industrial Zone",
+      "requirements": [
+        "Mitsubishi Lancer Evolution X Drift",
+        "Central Industrial Zone in the Mililani Waipio area",
+        "west of Honouliuli Gulch"
+      ]
+    },
+    {
+      "lat": 1855.0412,
+      "lng": 1427.5,
+      "name": "Burning Views - Southern Volcano Roads",
+      "requirements": [
+        "Drift car",
+        "winding road south of the Mauna Pele volcano"
+      ]
+    },
+    {
+      "lat": 2513.416305,
+      "lng": 1287.287895,
+      "name": "Burning Views - Northern Volcano Roads",
+      "requirements": [
+        "Nissan 370Z Nismo Drift",
+        "winding roads north of the Mauna Pele volcano"
+      ]
+    },
+    {
+      "lat": 2410.385511,
+      "lng": 2326,
+      "name": "Burning Views - Wahiawa Shopping Mall",
+      "requirements": [
+        "Drift car",
+        "Night",
+        "Wahiawa Mall parking lot"
+      ]
+    },
+    {
+      "lat": 1929.544153,
+      "lng": 2302.75,
+      "name": "Burning Views - Honouliuli 7 Days Market",
+      "requirements": [
+        "Mitsubishi Lancer Evolution X Drift",
+        "Night",
+        "Honouliuli 7 Days Market parking lot"
+      ]
+    }
+  ],
+  "collectibles": [
+    { "lat": 1326.64219, "lng": 1598, "challenge": "Burning Rubber" },
+    { "lat": 1573.139132, "lng": 2403.125, "challenge": "Burning Rubber" },
+    { "lat": 1286.014976, "lng": 2825.375, "challenge": "Burning Rubber" },
+    { "lat": 1290.135898, "lng": 2808.875, "challenge": "Burning Rubber" },
+    { "lat": 1186.26821, "lng": 3173.375, "challenge": "Burning Rubber" },
+    { "lat": 1225.514659, "lng": 3340.75, "challenge": "Burning Rubber" },
+    { "lat": 1475.439996, "lng": 3338.6875, "challenge": "Burning Rubber" },
+    { "lat": 2910.618075, "lng": 2524.25, "challenge": "Burning Rubber" },
+    { "lat": 2970.625018, "lng": 2559.0625, "challenge": "Burning Rubber" },
+    { "lat": 3284.268585, "lng": 2287.225272, "challenge": "Burning Rubber" },
+    { "lat": 2828.274256, "lng": 2029.125, "challenge": "Burning Rubber" },
+    { "lat": 2942.041406, "lng": 1800.117088, "challenge": "Burning Rubber" },
+    { "lat": 1437.771115, "lng": 1597.402457, "challenge": "Burning Rubber" }
+  ]
+}

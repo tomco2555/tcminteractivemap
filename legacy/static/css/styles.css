@@ -1,0 +1,472 @@
+@font-face {
+    font-family: 'Motorfest';
+    src: url('../fonts/Motorfest.otf');
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: rgb(70, 70, 70);
+}
+
+#left_sidebar {
+  height: 100%;
+  width: 30%;
+  position: absolute;
+}
+
+@media only screen and (max-width: 500px) {
+  #left_sidebar {
+    height: 100%;
+    width: 85%;
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  #left_sidebar {
+    height: 100%;
+    width: 60%;
+    position: absolute;
+  }
+}
+
+#filters_sidebar {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  background-color: #0a0a0a;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #222;
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.6);
+}
+
+#filters_sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+#filters_sidebar::-webkit-scrollbar-track {
+  background: #111;
+}
+
+#filters_sidebar::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 3px;
+}
+
+#filters_sidebar::-webkit-scrollbar-thumb:hover {
+  background: #cc0000;
+}
+
+#filters_sidebar.close_filters {
+  transform: translateX(-100%);
+}
+
+#filters_sidebar input[type="checkbox"] {
+  accent-color: red;
+}
+
+#logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo img {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#logo p {
+  white-space: nowrap;
+  margin: 0;
+  overflow: hidden;
+}
+
+.web_logo {
+  color: yellow;
+  font-family: "Motorfest";
+  margin: 0;
+}
+
+.map_settings {
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.map_settings:last-child {
+  border-bottom: none;
+}
+
+.map_settings .map_settings_text {
+  margin-right: 8px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.hide_btn {
+  background: rgb(70, 70, 70);
+  border-radius: 6px;
+  font-size: 14px;
+  color: white;
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: 1px solid #555;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.hide_btn:hover {
+  background: rgb(100, 100, 100);
+  border-color: #cc0000;
+}
+
+.events {
+  width: 100%;
+}
+
+.header {
+  font-size: 20px;
+  background-color: rgb(70, 70, 70);
+  border: 0;
+  color: white;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.header_hover {
+  transition: color 0.15s ease;
+}
+
+.header_hover:hover {
+  color: #cc0000;
+  cursor: pointer;
+}
+
+.event_header {
+  display: flex;
+  background-color: rgb(70, 70, 70);
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.event_header input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.event_filters {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 5px;
+}
+
+.event_filters span {
+  text-align: left;
+  margin-top: 5px;
+  overflow: hidden;
+  white-space: normal;
+}
+
+.event_filters input[type="checkbox"] {
+  margin-top: 7px;
+  margin-right: 5px;
+}
+
+.event_filters .filter_option:nth-of-type(even) .filter_marker_count {
+  padding-right: 5px;
+}
+
+#close {
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  z-index: 9999;
+  transition: all 0.5s ease;
+}
+
+#close.move_button {
+  left: 0%;
+}
+
+#close_btn {
+  width: 30px;
+  height: 80px;
+  font-size: 24px;
+  background-color: #0a0a0a;
+  color: #aaa;
+  border: 1px solid #333;
+  border-left: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+#close_btn:hover {
+  background-color: #1a1a1a;
+  color: white;
+  border-color: #cc0000;
+}
+
+.filter_option {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.filter_marker_count {
+  margin-left: auto;
+  align-self: center;
+  font-size: 12px;
+  color: silver;
+}
+
+.filter_option span:nth-child(even) {
+  flex: 1 1 0;
+}
+
+.hstPopup .leaflet-popup-content-wrapper,
+.hstPopup .leaflet-popup-tip {
+  background-color: rgb(70, 70, 70);
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.hstPopup .leaflet-popup-close-button span {
+  color: white;
+}
+
+.popup_logo {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.popup_logo_sth {
+  transform: scale(3);
+  transform-origin: bottom;
+  max-width: 500px;
+  max-height: 320px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+  color: white;
+}
+
+.links {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  background-color: rgb(70, 70, 70);
+  width: calc(100% - 10px);
+}
+
+a.custom_link:link {
+  color: red;
+  text-decoration: none;
+}
+
+a.custom_link:visited {
+  color: red;
+  text-decoration: none;
+}
+
+a.custom_link:hover {
+  color: red;
+  text-decoration: none;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 27px;
+    margin-right: 10px;
+  }
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #444;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 21px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #cc0000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 0 2px rgba(204, 0, 0, 0.4);
+}
+
+input:checked + .slider:before {
+  transform: translateX(21px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Styling for accordion menu */
+.accordion_item {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.accordion_menu {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 0;
+  background-color: inherit;
+  color: white;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 100%;
+  transition: color 0.15s ease;
+}
+
+.accordion_menu:hover {
+  color: #cc0000;
+}
+
+.accordion_menu::after {
+  content: "▼";
+  position: absolute;
+  right: 5px;
+  font-size: 13px;
+  transition: transform 0.25s ease;
+  color: #888;
+}
+
+.accordion_menu.active::after {
+  transform: rotate(180deg);
+  color: #cc0000;
+}
+
+.accordion_submenu {
+  font-size: 15px;
+  border: 0;
+  background-color: inherit;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: 0px;
+}
+
+.accordion_submenu:hover {
+  color: #cc0000;
+}
+
+.accordion_submenu_active {
+  color: #cc0000;
+}
+
+.accordion_submenu_active:hover {
+  color: #ff4444;
+}
+
+.challenges_submenu {
+  text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.challenges_submenu_item {
+  background-color: inherit;
+  margin-left: 10px;
+}
+
+.challenge_details {
+  text-align: left;
+  font-size: 12px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.click_to_hide {
+  font-size: 10px;
+  color: gray;
+}
+
+.label_checkbox {
+  width: 100%;
+  margin: 2px;
+  padding: 5px;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.label_checkbox:hover {
+  background-color: rgba(204, 0, 0, 0.12);
+  border-color: #cc0000;
+}

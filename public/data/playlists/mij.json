@@ -1,0 +1,37 @@
+{
+  "id": "mij",
+  "name": "Made in Japan",
+  "imgFolder": "MIJ",
+  "container": { "lat": 2068.023957, "lng": 3166.9375 },
+  "events": [
+    { "lat": 2027.499086, "lng": 2980.375, "name": "Kyusha Spirit", "number": "1/7", "type": "Race", "weather": "Dawn", "car": "Honda NSX", "category": "Street Tier 2", "xp": "8,400", "bucks": "15,750" },
+    { "lat": 1944.360157, "lng": 3300.644348, "name": "Wangan Spirit", "number": "2/7", "type": "Race", "weather": "Dusk", "car": "Nissan Skyline GT-R (R34)", "category": "Street Tier 2", "xp": "9,600", "bucks": "18,000" },
+    { "lat": 1611.040678, "lng": 3395.880317, "name": "Touge Spirit", "number": "3/7", "type": "Race", "weather": "Dawn", "car": "Mazda RX7", "category": "Street Tier 2", "xp": "10,800", "bucks": "20,250" },
+    { "lat": 1370.337828, "lng": 2455.875, "name": "Ebisu Style", "number": "4/7", "type": "Drift Trial", "weather": "Night", "car": "Mazda RX7", "category": "Drift", "xp": "7,200", "bucks": "13,500" },
+    { "lat": 1252.95271, "lng": 2435.010589, "name": "Zeroyon Style", "number": "5/7", "type": "Drag Race", "weather": "Night", "car": "Nissan Skyline GT-R (R34)", "category": "Dragster", "xp": "4,800", "bucks": "9,000" },
+    { "lat": 1335.321535, "lng": 2795.75, "name": "Kanjo Style", "number": "6/7", "type": "Race", "weather": "Night", "car": "Mitsubishi Lancer Evolution X Black Knight Edition", "category": "Street Tier 2", "xp": "10,800", "bucks": "20,250" },
+    { "lat": 1331.817808, "lng": 2828.25, "name": "Shinjuku Style", "number": "7/7", "type": "Race", "weather": "Night", "car": "Toyota Supra Ryūjin Edition", "category": "Street Tier 2", "xp": "14,400", "bucks": "27,000" }
+  ],
+  "feats": [
+    { "lat": 1278.404716, "lng": 2365.481603, "type": "speedtrap", "location": "Oahu Airport", "featType": "Speedtrap", "objective": "210.0 km/h", "xp": "960", "bucks": "1,800" },
+    { "lat": 1355.323626, "lng": 2685.3125, "type": "speedtrap", "location": "Moana Center", "featType": "Speedtrap", "objective": "210.0 km/h", "xp": "960", "bucks": "1,800" },
+    { "lat": 1561.628761, "lng": 2955.0, "type": "slalom", "location": "Manoa Laces", "featType": "Slalom", "objective": "4,040 PTS", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 1273.885634, "lng": 3700.0625, "type": "slalom", "location": "Hanauma Bay", "featType": "Slalom", "objective": "5,640 PTS", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 1791.830564, "lng": 2923.444598, "type": "escape", "location": "Manoa Canyon", "featType": "Escape", "objective": "880 m", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 1999.438203, "lng": 3165.125, "type": "speedtrap", "location": "Kaneohe", "featType": "Speedtrap", "objective": "130.0 km/h", "xp": "960", "bucks": "1,800" }
+  ],
+  "photoOps": [
+    { "lat": 1995.670028, "lng": 2952.701142, "name": "Nihon No Views - Temple", "requirements": ["Street Tier 2", "Night", "Japanese Temple"] },
+    { "lat": 1420.570814, "lng": 2413.5, "name": "Nihon No Views - Street Art", "requirements": ["Street Tier 2", "Dawn", "Dragon Wave graffiti", "Container area of Kaka'ako"] },
+    { "lat": 1316.00689, "lng": 2855.75, "name": "Nihon No Views - Waikiki Market", "requirements": ["Street Tier 2", "Night", "Waikiki Market"] },
+    { "lat": 2177.393413, "lng": 1998.902482, "name": "Nihon No Views - Ryūjin", "requirements": ["Toyota Supra Ryūjin Edition", "Night", "Japanese Jodo near Schofield Barracks"] },
+    { "lat": 2851.806436, "lng": 2018.25, "name": "Nihon No Views - Shrimp", "requirements": ["Street Tier 2", "Dusk", "Big Shrimp of Haleiwa"] }
+  ],
+  "collectibles": [
+    { "lat": 1579.645407, "lng": 3218.1875, "challenge": "Nihon No Fire" },
+    { "lat": 1364.890222, "lng": 1761.4375, "challenge": "Nihon No Fire" },
+    { "lat": 1979.37449, "lng": 2956.5625, "challenge": "Nihon No Fire" },
+    { "lat": 2399.315649, "lng": 2256.112574, "challenge": "Nihon No Fire" },
+    { "lat": 2180.443722, "lng": 2011.3125, "challenge": "Nihon No Fire" }
+  ]
+}

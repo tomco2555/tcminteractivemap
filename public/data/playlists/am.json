@@ -1,0 +1,263 @@
+{
+  "id": "am",
+  "name": "American Muscle",
+  "imgFolder": "AM",
+  "container": { "lat": 1562.268069, "lng": 2303 },
+  "events": [
+    {
+      "lat": 2442.904726,
+      "lng": 2235.606477,
+      "name": "Jackson V8",
+      "number": "1/9",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Ford Mustang GT Fastback",
+      "category": "Street Tier 2",
+      "xp": "8,400",
+      "bucks": "15,750",
+      "checkpoints": [
+        { "lat": 2442.904726, "lng": 2235.606477 },
+        { "lat": 2460.5, "lng": 2223.25 },
+        { "lat": 2476.5, "lng": 2207.75 },
+        { "lat": 2491.5, "lng": 2189.25 }
+      ]
+    },
+    {
+      "lat": 2092.382066,
+      "lng": 2226.3125,
+      "name": "Vegas Strip",
+      "number": "2/9",
+      "type": "Drag Race",
+      "weather": "Dawn",
+      "car": "Ford Mustang GT",
+      "category": "Dragster",
+      "xp": "4,800",
+      "bucks": "9,000"
+    },
+    {
+      "lat": 2193.478998,
+      "lng": 1982.197084,
+      "name": "Denver RWD",
+      "number": "3/9",
+      "type": "Outrun",
+      "weather": "Afternoon",
+      "car": "Ford Mustang GT Fastback Stunt Edition",
+      "category": "Street Tier 2",
+      "xp": "10,800",
+      "bucks": "20,250"
+    },
+    {
+      "lat": 2741.391554,
+      "lng": 2814.196601,
+      "name": "Orlando Smackdown",
+      "number": "4/9",
+      "type": "Race",
+      "weather": "Night",
+      "car": "Ford Mustang GT",
+      "category": "Monster",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 3138.434459,
+      "lng": 2431.25,
+      "name": "Tallahassee Melee",
+      "number": "5/9",
+      "type": "Race",
+      "weather": "Morning",
+      "car": "Ford Mustang GT",
+      "category": "Rally Raid",
+      "xp": "10,800",
+      "bucks": "20,250"
+    },
+    {
+      "lat": 3219.114911,
+      "lng": 2214.625,
+      "name": "Palm Springs Riot",
+      "number": "6/9",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Ford Mustang Shelby GT500",
+      "category": "Street Tier 2",
+      "xp": "12,000",
+      "bucks": "22,500"
+    },
+    {
+      "lat": 2268.005818,
+      "lng": 1768.375,
+      "name": "Phoenix Rumble",
+      "number": "7/9",
+      "type": "Race",
+      "weather": "Sunset",
+      "car": "Ford Mustang GT",
+      "category": "Rally Raid",
+      "xp": "14,400",
+      "bucks": "27,000"
+    },
+    {
+      "lat": 2129.92626,
+      "lng": 1965.84524,
+      "name": "Reno Roar",
+      "number": "8/9",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Ford Mustang Shelby GT500 Tribute Edition",
+      "category": "Street Tier 2",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1418.857813,
+      "lng": 2118.84547,
+      "name": "Detroit Finisher",
+      "number": "9/9",
+      "type": "Race",
+      "weather": "Dawn",
+      "car": "Ford Mustang Boss 429",
+      "category": "Street Tier 1",
+      "xp": "14,400",
+      "bucks": "27,000"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 1550.695041,
+      "lng": 1833.6875,
+      "type": "escape",
+      "location": "Makakilo River",
+      "featType": "Escape",
+      "objective": "690 m",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 2055.316933,
+      "lng": 2183.28243,
+      "type": "slalom",
+      "location": "Kunia",
+      "featType": "Slalom",
+      "objective": "5,510 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 2243.328411,
+      "lng": 2097.278713,
+      "type": "speedtrap",
+      "location": "Schofield",
+      "featType": "Speedtrap",
+      "objective": "250.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 2645.845217,
+      "lng": 1814.612777,
+      "type": "escape",
+      "location": "Peacock Flats",
+      "featType": "Escape",
+      "objective": "440 m",
+      "xp": "1,440",
+      "bucks": "2,700"
+    },
+    {
+      "lat": 3249.991633,
+      "lng": 2322.5,
+      "type": "speedtrap",
+      "location": "Turtle Bay Resort",
+      "featType": "Speedtrap",
+      "objective": "200.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 2882.130379,
+      "lng": 2602.5,
+      "type": "slalom",
+      "location": "Cultural Center",
+      "featType": "Slalom",
+      "objective": "5,660 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 2314.893948,
+      "lng": 2785.875,
+      "type": "escape",
+      "location": "Waiahole Forest",
+      "featType": "Escape",
+      "objective": "960 m",
+      "xp": "2,880",
+      "bucks": "5,400"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 1400.536982,
+      "lng": 2153.25,
+      "name": "American Views - Bunkers",
+      "requirements": [
+        "Ford Mustang Shelby GT500 Tribute Edition",
+        "Ewa military camp",
+        "Bunkers",
+        "Hawaiian flag"
+      ]
+    },
+    {
+      "lat": 2435.926708,
+      "lng": 2268.125,
+      "name": "American Views - American Flag",
+      "requirements": [
+        "Ford",
+        "American flag",
+        "Afternoon",
+        "Wahiawa police station"
+      ]
+    },
+    {
+      "lat": 3182.191082,
+      "lng": 2184.25,
+      "name": "American Views - Waimea Arch",
+      "requirements": [
+        "Street Tier 2",
+        "Top of natural arch",
+        "Waimea Bay",
+        "Sunrise"
+      ]
+    },
+    {
+      "lat": 2475.664365,
+      "lng": 1835,
+      "name": "American Views - Airtime",
+      "requirements": [
+        "Street Tier 2",
+        "Jump over the hillock",
+        "Peacock Flats belvedere"
+      ]
+    },
+    {
+      "lat": 1391.698683,
+      "lng": 2257.858359,
+      "name": "American Views - Battleship",
+      "requirements": [
+        "Ford",
+        "Donut",
+        "USS Ship Museum",
+        "in Pearl Harbor"
+      ]
+    }
+  ],
+  "collectibles": [
+    { "lat": 1567.011337, "lng": 2303.0625, "challenge": "American Stars" },
+    { "lat": 1403.998602, "lng": 2167.282284, "challenge": "American Stars" },
+    { "lat": 1264.26494, "lng": 2360.5, "challenge": "American Stars" },
+    { "lat": 1340.318722, "lng": 1801.125, "challenge": "American Stars" },
+    { "lat": 1681.320304, "lng": 2649.125, "challenge": "American Stars" },
+    { "lat": 2823.853284, "lng": 1548.387074, "challenge": "American Stars" },
+    { "lat": 1976.871239, "lng": 3223.0625, "challenge": "American Stars" },
+    { "lat": 2910.630238, "lng": 2528.8125, "challenge": "American Stars" },
+    { "lat": 2727.568388, "lng": 2152, "challenge": "American Stars" },
+    { "lat": 2308.515468, "lng": 2083.1875, "challenge": "American Stars" },
+    { "lat": 1112.919048, "lng": 3239.375, "challenge": "American Stars" }
+  ]
+}

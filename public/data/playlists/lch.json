@@ -1,0 +1,361 @@
+{
+  "id": "lch",
+  "name": "Luxury Chronicles: Europe",
+  "imgFolder": "LuxuryChronicles",
+  "container": {
+    "lat": 1125.060654,
+    "lng": 5164.25
+  },
+  "events": [
+    {
+      "lat": 592.763779,
+      "lng": 5965.152806,
+      "name": "France: Genty Automobile",
+      "number": "1/13",
+      "type": "Time Attack",
+      "weather": "Midday",
+      "car": "Genty Akylone",
+      "category": "Hypercar",
+      "xp": "10,000",
+      "bucks": "18,750"
+    },
+    {
+      "lat": 1024.038458,
+      "lng": 5164.0,
+      "name": "France: Citroën",
+      "number": "2/13",
+      "type": "Race",
+      "weather": "Sunset",
+      "car": "Citroën GT",
+      "category": "Hypercar",
+      "xp": "9,000",
+      "bucks": "16,875"
+    },
+    {
+      "lat": 318.62796,
+      "lng": 5809.128106,
+      "name": "France: Bugatti Part 1",
+      "number": "3/13",
+      "type": "Time Attack",
+      "weather": "Morning",
+      "car": "Multi Vehicle",
+      "category": "Multi Category",
+      "xp": "12,000",
+      "bucks": "22,500"
+    },
+    {
+      "lat": 1062.595185,
+      "lng": 4570.866197,
+      "name": "France: Bugatti Part 2",
+      "number": "4/13",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Bugatti Vision GT",
+      "category": "Racing",
+      "xp": "10,000",
+      "bucks": "18,750"
+    },
+    {
+      "lat": 1899.243673,
+      "lng": 4821.054034,
+      "name": "Germany: Porsche",
+      "number": "5/13",
+      "type": "Race",
+      "weather": "Night",
+      "car": "Porsche Carrera GT",
+      "category": "Hypercar",
+      "xp": "8,000",
+      "bucks": "15,000"
+    },
+    {
+      "lat": 1185.632699,
+      "lng": 5160.125,
+      "name": "TBD",
+      "number": "6/13",
+      "type": "",
+      "weather": "",
+      "car": "",
+      "category": "",
+      "xp": "",
+      "bucks": ""
+    },
+    {
+      "lat": 1200.50943,
+      "lng": 5240.721909,
+      "name": "TBD",
+      "number": "7/13",
+      "type": "",
+      "weather": "",
+      "car": "",
+      "category": "",
+      "xp": "",
+      "bucks": ""
+    },
+    {
+      "lat": 1255.380449,
+      "lng": 5247.875,
+      "name": "TBD",
+      "number": "8/13",
+      "type": "",
+      "weather": "",
+      "car": "",
+      "category": "",
+      "xp": "",
+      "bucks": ""
+    },
+    {
+      "lat": 967.383525,
+      "lng": 5579.072504,
+      "name": "TBD",
+      "number": "9/13",
+      "type": "",
+      "weather": "",
+      "car": "",
+      "category": "",
+      "xp": "",
+      "bucks": ""
+    },
+    {
+      "lat": 878.276752,
+      "lng": 5730.75,
+      "name": "TBD",
+      "number": "10/13",
+      "type": "",
+      "weather": "",
+      "car": "",
+      "category": "",
+      "xp": "",
+      "bucks": ""
+    },
+    {
+      "lat": 856.061449,
+      "lng": 6015.75,
+      "name": "TBD",
+      "number": "11/13",
+      "type": "",
+      "weather": "",
+      "car": "",
+      "category": "",
+      "xp": "",
+      "bucks": ""
+    },
+    {
+      "lat": 421.586474,
+      "lng": 5959.012447,
+      "name": "TBD",
+      "number": "12/13",
+      "type": "",
+      "weather": "",
+      "car": "",
+      "category": "",
+      "xp": "",
+      "bucks": ""
+    },
+    {
+      "lat": 1413.098598,
+      "lng": 4721.449548,
+      "name": "TBD",
+      "number": "13/13",
+      "type": "",
+      "weather": "",
+      "car": "",
+      "category": "",
+      "xp": "",
+      "bucks": ""
+    }
+  ],
+  "feats": [
+    {
+      "lat": 322.858776,
+      "lng": 5362.874605,
+      "type": "speedtrap",
+      "location": "Manawainui",
+      "featType": "Slalom",
+      "objective": "200.0 km/h",
+      "xp": "800",
+      "bucks": "1,500"
+    },
+    {
+      "lat": 1674.939501,
+      "lng": 4720.821648,
+      "type": "slalom",
+      "location": "Napili",
+      "featType": "Slalom",
+      "objective": "5,900 PTS",
+      "xp": "2,400",
+      "bucks": "4,500"
+    },
+    {
+      "lat": 441.032096,
+      "lng": 5776.875,
+      "type": "speedtrap",
+      "location": "Pipiwai Bayan Tree",
+      "featType": "Speedtrap",
+      "objective": "190.0 km/h",
+      "xp": "800",
+      "bucks": "1,500"
+    },
+    {
+      "lat": 2783.856926,
+      "lng": 1950.554056,
+      "type": "long_jump",
+      "location": "College Stadium",
+      "featType": "Long Jump",
+      "objective": "230 m",
+      "xp": "1,600",
+      "bucks": "3,000"
+    },
+    {
+      "lat": 2725.883218,
+      "lng": 1478.560279,
+      "type": "long_jump",
+      "location": "Makaleha River",
+      "featType": "Long Jump",
+      "objective": "180 m",
+      "xp": "1,600",
+      "bucks": "3,000"
+    },
+    {
+      "lat": 572.795619,
+      "lng": 5943.055719,
+      "type": "speedtrap",
+      "location": "Lyon's Hill",
+      "featType": "Speedtrap",
+      "objective": "210.0 km/h",
+      "xp": "800",
+      "bucks": "1,500"
+    },
+    {
+      "lat": 1125.020881,
+      "lng": 5277.0,
+      "type": "escape",
+      "location": "Central",
+      "featType": "Escape",
+      "objective": "1360 m",
+      "xp": "2,400",
+      "bucks": "4,500"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 890.637432,
+      "lng": 4801.078268,
+      "name": "Luxury Views - French Jewel",
+      "requirements": ["French car", "under a clear sky"]
+    },
+    {
+      "lat": 556.376697,
+      "lng": 5033.185494,
+      "name": "Luxury Views - Kihei Golf Club",
+      "requirements": ["French car", "Kihei Golf Club"]
+    },
+    {
+      "lat": 782.807596,
+      "lng": 5811.625,
+      "name": "Luxury Views - Pu'unianiau Crater",
+      "requirements": ["French car", "Pu'unianiau Crater"]
+    },
+    {
+      "lat": 633.160783,
+      "lng": 4650.998073,
+      "name": "Luxury Views - Kalohi Islets Resort Island",
+      "requirements": ["French car", "Kalohi Islets Resort Island"]
+    },
+    {
+      "lat": 1017.191251,
+      "lng": 5877.118012,
+      "name": "Luxury Views - Arboretum",
+      "requirements": ["German car", "Maui Arboretum"]
+    },
+    {
+      "lat": 1281.526137,
+      "lng": 4848.60873,
+      "name": "Luxury Views - Kamanawai Gulch",
+      "requirements": ["European car", "Kamanawai Gulch"]
+    },
+    {
+      "lat": 1669.832664,
+      "lng": 4887.875625,
+      "name": "Luxury Views - Kahoma Fals",
+      "requirements": ["European car", "Kahoma Fals"]
+    },
+    {
+      "lat": 1660.727736,
+      "lng": 4629.583299,
+      "name": "Luxury Views - Black Rock Resort",
+      "requirements": ["European car", "Black Rock Resort"]
+    },
+    {
+      "lat": 1285.310171,
+      "lng": 5653.767048,
+      "name": "Luxury Views - Paia",
+      "requirements": ["European car", "Paia"]
+    },
+    {
+      "lat": 1119.638499,
+      "lng": 5163.834595,
+      "name": "Luxury Views - British Jewel",
+      "requirements": ["British car", "Luxury Chronicles"]
+    },
+    {
+      "lat": 1117.260085,
+      "lng": 5164.131897,
+      "name": "Luxury Views - German Jewel",
+      "requirements": ["German car", "Luxury Chronicles"]
+    },
+    {
+      "lat": 1122.314215,
+      "lng": 5165.023802,
+      "name": "Luxury Views - Luxuri Domain",
+      "requirements": ["European car", "Luxury Chronicles"]
+    },
+    {
+      "lat": 1788,
+      "lng": 4873.5,
+      "name": "Honokahua Bridge",
+      "requirements": ["European car", "Honokahua Bridge"]
+    }
+  ],
+  "collectibles": [
+    {
+      "lat": 625.664759,
+      "lng": 5019.5,
+      "challenge": "Luxury Swing"
+    },
+    {
+      "lat": 697.896092,
+      "lng": 4997.0,
+      "challenge": "Luxury Swing"
+    },
+    {
+      "lat": 1371.498524,
+      "lng": 1962.875,
+      "challenge": "Luxury Swing"
+    },
+    {
+      "lat": 2299.126547,
+      "lng": 2334.375,
+      "challenge": "Luxury Swing"
+    },
+    {
+      "lat": 2955.543236,
+      "lng": 1812.75,
+      "challenge": "Luxury Swing"
+    },
+    {
+      "lat": 2398.079597,
+      "lng": 2386.927328,
+      "challenge": "Luxury Bleu Blanc Rouge"
+    },
+    {
+      "lat": 2801.887761,
+      "lng": 1482.875,
+      "challenge": "Luxury B&B"
+    },
+    {
+      "lat": 658.016874,
+      "lng": 4947.324575,
+      "challenge": "Luxury Stay"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": "hawaigrandtour",
+    "name": "Hawaii Grand Tour",
+    "imgFolder": "HawaiiGrandTour",
+    "container": {
+        "lat": 499.394164,
+        "lng": 3821.116657
+    },
+    "events": [
+        {
+            "lat": 1511.794298,
+            "lng": 3275.937329,
+            "name": "Hawaii Grand Tour",
+            "number": "1/1",
+            "type": "Race",
+            "weather": "Sun",
+            "car": "Ferrari 250 GTO",
+            "category": "Street Tier 1",
+            "xp": "0",
+            "bucks": "-2,000,000",
+            "checkpoints": [
+                {
+                    "lat": 1512,
+                    "lng": 3276.8125
+                },
+                {
+                    "lat": 1414.920669,
+                    "lng": 5383.203925
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "mij2",
+  "name": "Made in Japan Vol.2",
+  "imgFolder": "MIJ2",
+  "container": { "lat": 2084.289429, "lng": 3377.849094 },
+  "events": [
+    { "lat": 1821.16393, "lng": 3469.242645, "name": "Wangan Style", "number": "1/7", "type": "Race", "weather": "Sunset", "car": "Toyota Supra Ryūjin Edition", "category": "Street Tier 2", "xp": "12,000", "bucks": "22,500" },
+    { "lat": 1714.692334, "lng": 5206.75, "name": "K-Car Style", "number": "2/7", "type": "Race", "weather": "Night", "car": "Mazda RX-7 Turbo 10th Aniversary", "category": "Street Tier 1", "xp": "9,600", "bucks": "18,000" },
+    { "lat": 1662.860549, "lng": 5328.579926, "name": "Hashiriya Style", "number": "3/7", "type": "Race", "weather": "Night", "car": "Toyota GR86", "category": "Street Tier 1", "xp": "9,600", "bucks": "18,000" },
+    { "lat": 1476.385564, "lng": 5435.0625, "name": "Tsuchiya Style", "number": "4/7", "type": "Drift Trial", "weather": "Night", "car": "Mitsubishi Lancer Evolution VI GSR", "category": "Drift", "xp": "7,200", "bucks": "13,500" },
+    { "lat": 1289.643157, "lng": 5599.6875, "name": "Bosozoku Style", "number": "5/7", "type": "Race", "weather": "Night", "car": "Mitsubishi 3000GT VR4", "category": "Street Tier 2", "xp": "12,000", "bucks": "22,500" },
+    { "lat": 707.63588, "lng": 5311.25, "name": "Touge Style", "number": "6/7", "type": "Race", "weather": "Night", "car": "Nissan Skyline GT-R (R32)", "category": "Street Tier 2", "xp": "9,600", "bucks": "18,000" },
+    { "lat": 541.573345, "lng": 6069.0625, "name": "Wangan Soul", "number": "7/7", "type": "Race", "weather": "Night", "car": "Liberty Walk Honda NSX", "category": "Street Tier 2", "xp": "10,800", "bucks": "20,250" }
+  ],
+  "feats": [
+    { "lat": 683.589913, "lng": 5969.395447, "type": "slalom", "location": "Hana", "featType": "Slalom", "objective": "5,250 PTS", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 653.874578, "lng": 5570.125, "type": "slalom", "location": "Caldera", "featType": "Slalom", "objective": "6,720 PTS", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 961.092236, "lng": 5937.875, "type": "slalom", "location": "Bamboo Forest", "featType": "Slalom", "objective": "4,640 PTS", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 1297.005853, "lng": 5570.0625, "type": "speedtrap", "location": "Kanaha Pond", "featType": "Speedtrap", "objective": "200.0 km/h", "xp": "960", "bucks": "1,800" },
+    { "lat": 1567.558571, "lng": 5409.278488, "type": "speedtrap", "location": "Kahului", "featType": "Speedtrap", "objective": "200.0 km/h", "xp": "960", "bucks": "1,800" },
+    { "lat": 1682.104857, "lng": 5049.5, "type": "escape", "location": "Iao", "featType": "Escape", "objective": "940 m", "xp": "2,880", "bucks": "5,400" }
+  ],
+  "photoOps": [
+    { "lat": 1475.921853, "lng": 5394.871187, "name": "Sekai No Views - Airport", "requirements": ["Drifting in fron of a plane", "Kahului Airport"] },
+    { "lat": 924.647604, "lng": 5943.875, "name": "Sekai No Views - Bamboo Forest", "requirements": ["Street Tier 2", "Drift", "Pipawai Bamboo Forest"] },
+    { "lat": 1621.871098, "lng": 4678.625, "name": "Sekai No Views - Jodo Mission", "requirements": ["Street Tier 2", "Jodo Mission of Napili", "Night"] },
+    { "lat": 1612.367547, "lng": 5244.375, "name": "Sekai No Views - Kuikahi Stairs", "requirements": ["Street Tier 1", "Kuikahi Stairs", "west of Kahului"] },
+    { "lat": 1707.627918, "lng": 5065.4375, "name": "Sekai No Views - Kepaniwai Park", "requirements": ["Any vehicle", "Kepaniwai Park"] },
+    { "lat": 430.048785, "lng": 6053.364377, "name": "Sekai No Views - Hana Tree", "requirements": ["Street Tier 2 car", "Purple tree", "Hana"] }
+  ],
+  "collectibles": [
+    { "lat": 1618.809459, "lng": 4679.75, "challenge": "Sekai No Ryūjin" },
+    { "lat": 1697.755695, "lng": 5063.875, "challenge": "Sekai No Ryūjin" }
+  ]
+}

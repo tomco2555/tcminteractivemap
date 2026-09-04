@@ -1,0 +1,254 @@
+{
+  "id": "lbwk",
+  "name": "Liberty Walk",
+  "imgFolder": "LBWK",
+  "container": { "lat": 1786.76132, "lng": 3465.5 },
+  "events": [
+    { "lat": 1666.598792, "lng": 3527.755731, "name": "Ground Works", "number": "1/10", "type": "Race", "weather": "Sunrise", "car": "BMW M4 Competition Coupé", "category": "Street Tier 2", "xp": "14,400", "bucks": "27,000" },
+    { "lat": 1436.34481, "lng": 2109.122752, "name": "Art Works", "number": "2/10", "type": "Race", "weather": "Morning", "car": "BMW M4 Liberty Walk Edition", "category": "Street Tier 2", "xp": "14,400", "bucks": "27,000" },
+    { "lat": 1660.259105, "lng": 2658.125, "name": "Master Works", "number": "3/10", "type": "Race", "weather": "Morning", "car": "Nissan GT-R", "category": "Street Tier 2", "xp": "14,400", "bucks": "27,000" },
+    { "lat": 1603.25689, "lng": 2249.125, "name": "Custom Nation", "number": "4/10", "type": "Race", "weather": "Morning", "car": "Chrysler 300 SRT8", "category": "Street Tier 2", "xp": "8,400", "bucks": "15,750" },
+    {
+      "lat": 2846.115887,
+      "lng": 1695.465285,
+      "name": "Global Nation",
+      "number": "5/10",
+      "type": "Race",
+      "weather": "Midday",
+      "car": "Mini Cooper S",
+      "category": "Street Tier 1",
+      "xp": "14,400",
+      "bucks": "27,000"
+    },
+    {
+      "lat": 2820.574464,
+      "lng": 1938.091299,
+      "name": "Elite Nation",
+      "number": "6/10",
+      "type": "Race",
+      "weather": "Afternoon",
+      "car": "Mercedes-Benz C 63 S Coupé",
+      "category": "Street Tier 2",
+      "xp": "18,000",
+      "bucks": "33,750"
+    },
+    {
+      "lat": 2899.762991,
+      "lng": 2006.680657,
+      "name": "Peak Performance",
+      "number": "7/10",
+      "type": "Race",
+      "weather": "Afternoon",
+      "car": "Acura NSX",
+      "category": "Street Tier 2",
+      "xp": "10,800",
+      "bucks": "20,250"
+    },
+    {
+      "lat": 1176.843532,
+      "lng": 3230.682495,
+      "name": "Punk Performance",
+      "number": "8/10",
+      "type": "Race",
+      "weather": "Afternoon",
+      "car": "Lamborghini Aventador LP 700-4",
+      "category": "Hypercar",
+      "xp": "14,400",
+      "bucks": "27,000"
+    },
+    {
+      "lat": 2441.740104,
+      "lng": 2281.1875,
+      "name": "Pure Performance",
+      "number": "9/10",
+      "type": "Race",
+      "weather": "Sunset",
+      "car": "Lamborghini Huracán Performante",
+      "category": "Hypercar",
+      "xp": "14,400",
+      "bucks": "27,000"
+    },
+    {
+      "lat": 1434.127883,
+      "lng": 3671.5,
+      "name": "Liberty Territory",
+      "number": "10/10",
+      "type": "Race",
+      "weather": "Morning",
+      "car": "Multi Vehicle",
+      "category": "Street Tier 1",
+      "xp": "40,080",
+      "bucks": "75,150"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 1874.025733,
+      "lng": 3121.0,
+      "type": "speedtrap",
+      "location": "Kamo'oali'i",
+      "featType": "Speedtrap",
+      "objective": "250.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 2205.765362,
+      "lng": 2431.375,
+      "type": "escape",
+      "location": "Mililani Mauka",
+      "featType": "Escape",
+      "objective": "920 m",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 3170.248805,
+      "lng": 2425.5,
+      "type": "escape",
+      "location": "Koolauloa",
+      "featType": "Escape",
+      "objective": "790 m",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 2821.382769,
+      "lng": 1846.375,
+      "type": "slalom",
+      "location": "Haleiwa",
+      "featType": "Slalom",
+      "objective": "6,000 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1156.446674,
+      "lng": 3018.207658,
+      "type": "slalom",
+      "location": "Waikiki Shell",
+      "featType": "Slalom",
+      "objective": "4,290 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 1997.968473,
+      "lng": 2140.854168,
+      "name": "Liberty Views - Industrial Park",
+      "requirements": [
+        "Drift Nissan",
+        "containers",
+        "Kunia Fields's industrial park"
+      ]
+    },
+    {
+      "lat": 1282.662361,
+      "lng": 1825.270781,
+      "name": "Liberty Views - Docks",
+      "requirements": [
+        "Mazda",
+        "containers inside the container terminal",
+        "Barbers Point Harbor"
+      ]
+    },
+    {
+      "lat": 2006.499086,
+      "lng": 3503.0,
+      "name": "Liberty Views - Island",
+      "requirements": [
+        "Ford",
+        "island to the southeast in the background",
+        "belvedere of Mokapu"
+      ]
+    },
+    {
+      "lat": 2706.755062,
+      "lng": 1124.25,
+      "name": "Liberty Views - Antenna",
+      "requirements": [
+        "BMW",
+        "deep space antenna",
+        "Kaena Point"
+      ]
+    },
+    {
+      "lat": 2143.817996,
+      "lng": 2887.647318,
+      "name": "Liberty Views - Gorilla Head",
+      "requirements": [
+        "Lamborghini",
+        "gorilla head",
+        "north of the Japanese Temple in Kaneohe"
+      ]
+    },
+    {
+      "lat": 2521.500879,
+      "lng": 2234.25,
+      "name": "Liberty Views - Maze",
+      "requirements": [
+        "Porsche",
+        "Pineapple Garden"
+      ]
+    },
+    {
+      "lat": 1354.34814,
+      "lng": 2134.401819,
+      "name": "Liberty Views - The Golf Course",
+      "requirements": [
+        "Lamborghini hypercar",
+        "next to the golf flag and pond",
+        "Ewa golf course"
+      ]
+    },
+    {
+      "lat": 1167.133683,
+      "lng": 3507.125,
+      "name": "Liberty Views - Tunnel",
+      "requirements": [
+        "Hypercar",
+        "Nitro",
+        "Hanauma Racetrack undergroud tunnel"
+      ]
+    },
+    {
+      "lat": 1235.639202,
+      "lng": 2295.75,
+      "name": "Liberty Views - Airport",
+      "requirements": [
+        "Hypercar",
+        "Oahu Airline plane",
+        "on the runway at Oahu Airport"
+      ]
+    }
+  ],
+  "collectibles": [
+    {
+      "lat": 1430.815787,
+      "lng": 2397.625,
+      "challenge": "Liberty Quest"
+    },
+    {
+      "lat": 1297.57171,
+      "lng": 1816.5,
+      "challenge": "Liberty Quest"
+    },
+    {
+      "lat": 1996.728326,
+      "lng": 2131.485004,
+      "challenge": "Liberty Quest"
+    },
+    {
+      "lat": 2186.25058,
+      "lng": 2204.5625,
+      "challenge": "Liberty Quest"
+    },
+    {
+      "lat": 3159.194574,
+      "lng": 2406.814706,
+      "challenge": "Liberty Quest"
+    }
+  ]
+}

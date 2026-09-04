@@ -1,0 +1,48 @@
+{
+  "id": "mauiex",
+  "name": "Maui Expeditions",
+  "imgFolder": "MauiEx",
+  "container": { "lat": 645.944847, "lng": 4975.9375 },
+  "events": [
+    { "lat": 585.850198, "lng": 5174.519036, "name": "The Maui Big Tour", "number": "1/1", "type": "Time Attack", "weather": "Midday", "car": "Porsche 178 Spyder Fitted Edition", "category": "Street Tier 2", "xp": "40,080", "bucks": "75,150" }
+  ],
+  "feats": [
+    { "lat": 979.356414, "lng": 5426.514216, "type": "escape", "location": "Kula Reserve", "featType": "Escape", "objective": "710 m", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 1781.728186, "lng": 4719.849376, "type": "escape", "location": "Kahana Beach", "featType": "Escape", "objective": "900 m", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 1938.227677, "lng": 4989.375, "type": "speedtrap", "location": "Honokohau", "featType": "Speedtrap", "objective": "140.0 km/h", "xp": "960", "bucks": "1,800" },
+    { "lat": 657.350849, "lng": 4936.482406, "type": "speedtrap", "location": "Kihei", "featType": "Speedtrap", "objective": "160.0 km/h", "xp": "960", "bucks": "1,800" },
+    { "lat": 332.208693, "lng": 5896.534829, "type": "speedtrap", "location": "Ohe'o Gulch", "featType": "Speedtrap", "objective": "150.0 km/h", "xp": "960", "bucks": "1,800" }
+  ],
+  "photoOps": [
+    { "lat": 742.835808, "lng": 5282.794762, "name": "Valley Isle Views - Haleakala Observatory", "requirements": ["Street Tier 2", "beside Haleakala Observatory", "Night"] },
+    { "lat": 1623.428856, "lng": 4987.312516, "name": "Valley Isle Views - Iao Lake Dam", "requirements": ["Hypercar", "Iao Lake Dam", "Midday"] },
+    { "lat": 228.798162, "lng": 5638.292696, "name": "Valley Isle Views - Kalepa Sunset", "requirements": ["Street Tier 1", "Kalepa Sunset Rocks", "Midday"] },
+    { "lat": 1881.516443, "lng": 4726.03656, "name": "Valley Isle Views - Kapalua Labyrinth", "requirements": ["Street Tier 1", "Kapalua Labyrinth", "Dusk"] },
+    { "lat": 570.988531, "lng": 6124.248592, "name": "Valley Isle Views - Wai'anapanapa Sea Arch", "requirements": ["Motocross", "Wai'anapanapa Sea Arch", "Sunset"] },
+    { "lat": 897.863997, "lng": 6056.929138, "name": "Valley Isle Views - Honomanu Beach", "requirements": ["Rally Raid", "Honomanu Beach", "Midday"] },
+    { "lat": 371.915941, "lng": 5858.945773, "name": "Valley Isle Views - Seven Sacred Pool", "requirements": ["Hypercar", "on the bridge in front of Seven Sacred Pools", "Midday"] },
+    { "lat": 1288.141545, "lng": 5847.593672, "name": "Valley Isle Views - Twin Falls", "requirements": ["Street Tier 2", "Twin Falls", "Sunrise"] },
+    { "lat": 1953.596959, "lng": 5190.748459, "name": "Valley Isle Views - Pu'u Koa'e Aech", "requirements": ["Motocross", "Pu'u Koa'e Aech", "Afternoon"] },
+    { "lat": 772.836601, "lng": 5815.668745, "name": "Valley Isle Views - Pu'Unianiau Crater", "requirements": ["Monster Truck", "Pu'Unianiau Crater", "Sunset"] }
+  ],
+  "collectibles": [
+    { "lat": 1245.38748, "lng": 4919.125, "challenge": "Valley Isle Lighthouses" },
+    { "lat": 1505.255484, "lng": 4609.4375, "challenge": "Valley Isle Lighthouses" },
+    { "lat": 2037.799246, "lng": 4977.943351, "challenge": "Valley Isle Lighthouses" },
+    { "lat": 1821.145741, "lng": 5364.75, "challenge": "Valley Isle Lighthouses" },
+    { "lat": 830.918693, "lng": 6151.577726, "challenge": "Valley Isle Lighthouses" },
+    { "lat": 156.964988, "lng": 5440.074246, "challenge": "Valley Isle Lighthouses" },
+    { "lat": 472.53487, "lng": 6077.936338, "challenge": "Valley Isle Fun Hook" },
+    { "lat": 591.631363, "lng": 4938.0, "challenge": "Valley Isle Fun Dolphins" },
+    { "lat": 1651.230841, "lng": 5296.0, "challenge": "Valley Isle Street Lava" },
+    { "lat": 1686.785031, "lng": 5354.831266, "challenge": "Valley Isle Cowboys" },
+    { "lat": 491.709747, "lng": 6089.338435, "challenge": "Valley Isle Jaws" },
+    { "lat": 1357.195323, "lng": 4799.752442, "challenge": "Valley Isle Sea Turbines" },
+    { "lat": 1770.029752, "lng": 4944.267391, "challenge": "Valley Isle Mountain Tiki" },
+    { "lat": 1578.727361, "lng": 5161.375, "challenge": "Valley Isle City Tiki" },
+    { "lat": 879.995272, "lng": 5670.0625, "challenge": "Valley Isle Tree Tiki" },
+    { "lat": 779.745254, "lng": 5306.25, "challenge": "Valley Isle Volcano Tiki" },
+    { "lat": 665.759421, "lng": 5350.875, "challenge": "Valley Isle Sky Tiki" },
+    { "lat": 605.753921, "lng": 4995.115836, "challenge": "Valley Isle Wonders" }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "clawblades": [
+    {
+      "lat": 1391.263754,
+      "lng": 2405.25,
+      "name": "Flash",
+      "gang": "Clawblades",
+      "rivalCar": "Chevrolet Camaro ZL1",
+      "chaseRestriction": "Any Chase Squad Street Tier 2",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    },
+    {
+      "lat": 818.482583,
+      "lng": 4693.598037,
+      "name": "Leapfrog",
+      "gang": "Clawblades",
+      "rivalCar": "Dodge Challenger SRT Demon",
+      "chaseRestriction": "Any Chase Squad Hypercar",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    },
+    {
+      "lat": 1620.428947,
+      "lng": 5368.266294,
+      "name": "Hunter-Killer",
+      "gang": "Clawblades",
+      "rivalCar": "Dodge Charger SRT Hellcat Redeye Widebody",
+      "chaseRestriction": "Any Chase Squad Hypercar",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    },
+    {
+      "lat": 318.747224,
+      "lng": 5308.780936,
+      "name": "Killjoy",
+      "gang": "Clawblades",
+      "rivalCar": "Ford Mustang Shelby GT500",
+      "chaseRestriction": "Any Chase Squad Street Tier 2",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    }
+  ],
+  "diamond_fangs": [
+    {
+      "lat": 1251.415734,
+      "lng": 1758.221011,
+      "name": "Catseye",
+      "gang": "Diamond Fangs",
+      "rivalCar": "BMW M2 Beehive Edition",
+      "chaseRestriction": "Any Chase Squad Hypercar",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    },
+    {
+      "lat": 2389.600859,
+      "lng": 2244.375,
+      "name": "Blaze",
+      "gang": "Diamond Fangs",
+      "rivalCar": "Porsche Cayman GT4",
+      "chaseRestriction": "Any Chase Squad Street Tier 2",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    },
+    {
+      "lat": 1272.249014,
+      "lng": 5488.209282,
+      "name": "Daydream",
+      "gang": "Diamond Fangs",
+      "rivalCar": "Porsche 911 Turbo 3.6",
+      "chaseRestriction": "Any Chase Squad Hypercar",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    },
+    {
+      "lat": 462.506338,
+      "lng": 6032.875,
+      "name": "Stalker",
+      "gang": "Diamond Fangs",
+      "rivalCar": "Volkswagen Golf GTI Dash Edition",
+      "chaseRestriction": "Any Chase Squad Street Tier 2",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    }
+  ],
+  "quickwhiskers": [
+    {
+      "lat": 1622.004254,
+      "lng": 4988.75,
+      "name": "Cinnamon",
+      "gang": "Quickwhiskers",
+      "rivalCar": "Saleen S1",
+      "chaseRestriction": "Any Chase Squad Hypercar",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    },
+    {
+      "lat": 671.141382,
+      "lng": 5502.875,
+      "name": "Silver",
+      "gang": "Quickwhiskers",
+      "rivalCar": "Dodge Viper SRT-10 GTS",
+      "chaseRestriction": "Any Chase Squad Hypercar",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    },
+    {
+      "lat": 1239.915469,
+      "lng": 2973.384015,
+      "name": "Paws",
+      "gang": "Quickwhiskers",
+      "rivalCar": "Ford GT 2005",
+      "chaseRestriction": "Any Chase Squad Street Tier 2",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    },
+    {
+      "lat": 3172.427862,
+      "lng": 2465.327793,
+      "name": "Catnip",
+      "gang": "Quickwhiskers",
+      "rivalCar": "Pontiac Firebird 1982",
+      "chaseRestriction": "Any Chase Squad Street Tier 2",
+      "raceRestriction": "Any Street Tier 1 vehicle"
+    }
+  ],
+  "nightstalkers": [
+    {
+      "lat": 1436.261601,
+      "lng": 2647.5,
+      "name": "Furrball",
+      "gang": "Nightstalkers",
+      "rivalCar": "Abarth 500",
+      "chaseRestriction": "Any Chase Squad Street Tier 2",
+      "raceRestriction": "Any Street Tier 1 vehicle"
+    },
+    {
+      "lat": 1469.204985,
+      "lng": 3349.741599,
+      "name": "Devilcat",
+      "gang": "Nightstalkers",
+      "rivalCar": "Abarth 500",
+      "chaseRestriction": "Any Chase Squad Street Tier 2",
+      "raceRestriction": "Any Street Tier 1 vehicle"
+    },
+    {
+      "lat": 1951.378164,
+      "lng": 4912.375,
+      "name": "Pretty-Boi",
+      "gang": "Nightstalkers",
+      "rivalCar": "Abarth 500",
+      "chaseRestriction": "Any Chase Squad Street Tier 2",
+      "raceRestriction": "Any Street Tier 1 vehicle"
+    },
+    {
+      "lat": 598.767788,
+      "lng": 4986.375,
+      "name": "Blue-eyes",
+      "gang": "Nightstalkers",
+      "rivalCar": "Abarth 500",
+      "chaseRestriction": "Any Chase Squad Street Tier 2",
+      "raceRestriction": "Any Street Tier 1 vehicle"
+    }
+  ],
+  "chiefs": [
+    {
+      "lat": 2829.629113,
+      "lng": 1854.9375,
+      "name": "The Lion",
+      "gang": "Clawblades",
+      "rivalCar": "Pontiac GTO Rival Ed.",
+      "chaseRestriction": "Any Chase Squad Street Tier 2",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    },
+    {
+      "lat": 1762.647066,
+      "lng": 5364.553984,
+      "name": "The Tank",
+      "gang": "Diamond Fangs",
+      "rivalCar": "BMW M5 CS Rival Ed.",
+      "chaseRestriction": "Any Chase Hypercar",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    },
+    {
+      "lat": 2016.388499,
+      "lng": 3104.875,
+      "name": "Speedbolt",
+      "gang": "Quickwhiskers",
+      "rivalCar": "DeLorean DMC-12 Rival Ed.",
+      "chaseRestriction": "Any Chase Street Tier 2",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    },
+    {
+      "lat": 2319.885617,
+      "lng": 1734.0,
+      "name": "Shade",
+      "gang": "Nightstalkers",
+      "rivalCar": "Alfa Romeo Giulia GTAm Rival Ed.",
+      "chaseRestriction": "Any Chase Hypercar",
+      "raceRestriction": "Any Street Tier 2 vehicle"
+    }
+  ],
+  "mysterious_driver": [
+    {
+      "lat": 1458.04875,
+      "lng": 5387.25,
+      "name": "Sam",
+      "gang": "The Chase Squad",
+      "rivalCar": "Creators Tempesta Rival Ed.",
+      "chaseRestriction": "Any Chase Squad Hypercar",
+      "raceRestriction": "Hypercars"
+    }
+  ]
+}

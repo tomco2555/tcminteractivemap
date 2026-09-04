@@ -1,0 +1,281 @@
+{
+    "id": "rcfrenzy",
+    "name": "RC Frenzy",
+    "description": "Motorfest invites your to take part in a remote-control vehicule experience. Smaller size, bigger possibilities...",
+    "imgFolder": "RCFrenzy",
+    "reward": [
+        "PHAZR RC RUST BUCKET"
+    ],
+    "container": {
+        "lat": 499.394164,
+        "lng": 3821.116657
+    },
+    "events": [
+        {
+            "lat": 437,
+            "lng": 3761.5,
+            "name": "TRICKY COASTER",
+            "description": "Learn how to handle your RC on Motorfest's homemade roller-coaster track.",
+            "number": "1/10",
+            "type": "Time Attack",
+            "weather": "Night",
+            "car": "TRICKSHOT",
+            "category": "ST1",
+            "xp": "8,000",
+            "bucks": "15,000"
+        },
+        {
+            "lat": 1309.75,
+            "lng": 2150.5,
+            "name": "RUSTY BOAT",
+            "description": "There's something on the cargo ship...",
+            "number": "2/10",
+            "type": "Time Attack",
+            "weather": "Midday",
+            "car": "RUST BUCKET",
+            "category": "ST1",
+            "xp": "8,000",
+            "bucks": "15,000"
+        },
+        {
+            "lat": 1310.75,
+            "lng": 2190,
+            "name": "MONSTER COMET",
+            "description": "Monster Trucks and RCs put on a show near Honolulu.",
+            "number": "3/10",
+            "type": "Time Attack",
+            "weather": "Morning",
+            "car": "KOMBI High School Edition",
+            "category": "Monster",
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "lat": 2284.75,
+            "lng": 2228,
+            "name": "TRICK LOOP",
+            "description": "Your car moves, you don't. That's remote controlling.",
+            "number": "4/10",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "TRICKSHOT",
+            "category": "ST1",
+            "xp": "4,000",
+            "bucks": "7,500"
+        },
+        {
+            "lat": 2379.237542,
+            "lng": 2788.829145,
+            "name": "COYOTE'S TERRITORY",
+            "description": "RCs going on a wild adventure.",
+            "number": "5/10",
+            "type": "Race",
+            "weather": "Afternoon",
+            "car": "COYOTE",
+            "category": "Rally Raid",
+            "xp": "15,000",
+            "bucks": "28,125"
+        },
+        {
+            "lat": 1237.613644,
+            "lng": 5417.14742,
+            "name": "COMET CYCLE",
+            "description": "Racing on a jelly-bean shapped RC track... Tougher than it seems.",
+            "number": "6/10",
+            "type": "Race",
+            "weather": "Morning",
+            "car": "COMET",
+            "category": "ST1",
+            "xp": "6,000",
+            "bucks": "11,250"
+        },
+        {
+            "lat": 1303.021021,
+            "lng": 5673.824812,
+            "name": "RUST BUCKET LIST",
+            "description": "An action list to complete... with an RC, which means in any way you want.",
+            "number": "7/10",
+            "type": "Action List",
+            "weather": "Morning",
+            "car": "RUST BUCKET",
+            "category": "ST1",
+            "xp": "10,000",
+            "bucks": "18,750"
+        },
+        {
+            "lat": 1299.485487,
+            "lng": 5712.362132,
+            "name": "GENERAL'S 8",
+            "description": "Ride infinity with The General.",
+            "number": "8/10",
+            "type": "Race",
+            "weather": "Night",
+            "car": "GENERAL",
+            "category": "Rally Raid",
+            "xp": "6,000",
+            "bucks": "11,250"
+        },
+        {
+            "lat": 769.119702,
+            "lng": 5894.899669,
+            "name": "COYOTE'S BAMBOO GROVE",
+            "description": "The Coyote faces the elements.",
+            "number": "9/10",
+            "type": "Time Attack",
+            "weather": "Sunset",
+            "car": "COYOTE",
+            "category": "Rally Raid",
+            "xp": "9,000",
+            "bucks": "16,875"
+        },
+        {
+            "lat": 696.578202,
+            "lng": 4969.102421,
+            "name": "TRICKSHOTS HOOD",
+            "description": "RC mayhem in the neighborhood.",
+            "number": "10/10",
+            "type": "Race",
+            "weather": "Midday",
+            "car": "TRICKSHOTS",
+            "category": "ST1",
+            "xp": "8,000",
+            "bucks": "15,000"
+        }
+    ],
+    "feats": [
+        {
+            "lat": 633.847392,
+            "lng": 4153.900453,
+            "type": "speedtrap",
+            "location": "RC Feats - KAULANA",
+            "featType": "Speedtrap",
+            "objective": "Reach 150.0 km/h",
+            "xp": "800",
+            "bucks": "1,500"
+        },
+        {
+            "lat": 1086.935303,
+            "lng": 4157.468074,
+            "type": "escape",
+            "location": "RC Feats - PAILOLO",
+            "featType": "Escape",
+            "objective": "Drive a distance of 550 m",
+            "xp": "2,400",
+            "bucks": "4,500"
+        },
+        {
+            "lat": 1238.55921,
+            "lng": 3346.428822,
+            "type": "jump",
+            "location": "RC Feats - HANAUMA",
+            "featType": "Jump",
+            "objective": "Jump a distance of 150 m",
+            "xp": "1,600",
+            "bucks": "3,000"
+        },
+        {
+            "lat": 1711.959989,
+            "lng": 3432.749391,
+            "type": "jump",
+            "location": "RC Feats - KAILUA",
+            "featType": "Jump",
+            "objective": "Jump a distance of 400 m",
+            "xp": "1,600",
+            "bucks": "3,000"
+        },
+        {
+            "lat": 1270.875,
+            "lng": 1825.25,
+            "type": "bullseye",
+            "location": "RC Feats - BARBERS POINT",
+            "featType": "Bullseye",
+            "objective": "Get 7,500 PTS",
+            "xp": "4,000",
+            "bucks": "7,500"
+        },
+        {
+            "lat": 2728.375,
+            "lng": 3009.75,
+            "type": "escape",
+            "location": "RC Feats - KAHANA",
+            "featType": "Escape",
+            "objective": "Drive a distance of 650 m",
+            "xp": "2,400",
+            "bucks": "4,500"
+        },
+        {
+            "lat": 1722.863808,
+            "lng": 5184.943021,
+            "type": "slalom",
+            "location": "RC Feats - IAO VALLEY",
+            "featType": "Slalom",
+            "objective": "_Get 6,000 PTS",
+            "xp": "2,400",
+            "bucks": "4,500"
+        },
+        {
+            "lat": 1586.327966,
+            "lng": 5183.159211,
+            "type": "slalom",
+            "location": "RC Feats - KUIKAHI",
+            "featType": "Slalom",
+            "objective": "Get 6,000 PTS",
+            "xp": "2,400",
+            "bucks": "4,500"
+        }
+    ],
+    "photoOps": [
+        {
+            "lat": 0,
+            "lng": 0,
+            "name": "RC Views - Volcano tent",
+            "requirements": [
+                "Take a picture of an RC car under the volcano tent located near Awalua Beach while performing a jump."
+            ],
+            "xp": "12,000",
+            "bucks": "22,500"
+        },
+        {
+            "lat": 0,
+            "lng": 0,
+            "name": "RC Views - Garage",
+            "requirements": [
+                "Take a picture of an RC car inside any garage in Paia."
+            ],
+            "xp": "12,000",
+            "bucks": "22,500"
+        }
+    ],
+    "collectibles": [
+        {
+            "lat": 300.873935,
+            "lng": 3734.230911,
+            "challenge": "RC Collector"
+        },
+        {
+            "lat": 377.595021,
+            "lng": 3748.373047,
+            "challenge": "RC Collector"
+        },
+        {
+            "lat": 375.827254,
+            "lng": 3801.052502,
+            "challenge": "RC Collector"
+        },
+        {
+            "lat": 395.272691,
+            "lng": 3654.327845,
+            "challenge": "RC Collector"
+        },
+        {
+            "lat": 481.186165,
+            "lng": 3743.069746,
+            "challenge": ""
+        },
+        {
+            "lat": 455.73032,
+            "lng": 3597.052196,
+            "challenge": "RC Collector"
+        }
+    ]
+}

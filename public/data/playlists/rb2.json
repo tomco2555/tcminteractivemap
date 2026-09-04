@@ -1,0 +1,37 @@
+{
+  "id": "rb2",
+  "name": "Red Bull Wild Ride",
+  "imgFolder": "RedBull_WR",
+  "container": { "lat": 721.719568, "lng": 5313.834672 },
+  "events": [
+    { "lat": 747.247696, "lng": 5331.913945, "name": "Dealing The Cards", "number": "1/7", "type": "Race", "weather": "Sunset", "car": "Audi RS Q e-tron", "category": "Rally Raid", "xp": "8,000", "bucks": "15,000" },
+    { "lat": 1270.661615, "lng": 5179.294288, "name": "The Queen", "number": "2/7", "type": "Action List", "weather": "Sunrise", "car": "Ford Fiesta Red Bull Ed.", "category": "Rally", "xp": "20,000", "bucks": "37,500" },
+    { "lat": 843.436605, "lng": 4667.816001, "name": "Straight Rush", "number": "3/7", "type": "Outrun", "weather": "Sunset", "car": "Proto WR1", "category": "Powerboat", "xp": "10,000", "bucks": "18,750" },
+    { "lat": 1568.124051, "lng": 5459.0, "name": "The Joker", "number": "4/7", "type": "Action List", "weather": "Midday", "car": "KTM 450 EXC Robbie Maddison Ed.", "category": "Motocross", "xp": "9,000", "bucks": "16,875" },
+    { "lat": 1448.698193, "lng": 5263.702879, "name": "M4 Of A Kind", "number": "5/7", "type": "Outrun", "weather": "Afternoon", "car": "BMW M4 Red Bull Driftbrothers", "category": "Drift", "xp": "9,000", "bucks": "16,875" },
+    { "lat": 374.270518, "lng": 5235.065055, "name": "The Ace", "number": "6/7", "type": "Action List", "weather": "Morning", "car": "Red Bull RB18", "category": "Alpha GP", "xp": "9,000", "bucks": "16,875" },
+    { "lat": 578.79315, "lng": 4946.565488, "name": "Full House", "number": "7/7", "type": "Action List", "weather": "Afternoon", "car": "Multi Vehicle", "category": "Motocross", "xp": "10,000", "bucks": "18,750" }
+  ],
+  "feats": [
+    { "lat": 621.574632, "lng": 4932.069799, "type": "bullseye", "location": "Wailea", "featType": "Bullseye", "objective": "4,690 PTS", "xp": "4,000", "bucks": "7,500" },
+    { "lat": 708.025873, "lng": 4616.0, "type": "slalom", "location": "Kalohi Islets", "featType": "Slalom", "objective": "4,150 PTS", "xp": "2,400", "bucks": "4,500" },
+    { "lat": 1663.105654, "lng": 4918.281217, "type": "long_jump", "location": "Kahoma Falls", "featType": "Long Jump", "objective": "380 m", "xp": "1,600", "bucks": "3,000" },
+    { "lat": 617.278967, "lng": 5471.75, "type": "low_altitude", "location": "RB Playground", "featType": "Low Altitude", "objective": "4,380 PTS", "xp": "2,400", "bucks": "4,500" },
+    { "lat": 1327.252039, "lng": 5343.0, "type": "long_jump", "location": "Chase Squad HQ", "featType": "Long Jump", "objective": "310 m", "xp": "1,600", "bucks": "3,000" }
+  ],
+  "photoOps": [
+    { "lat": 846.443805, "lng": 4971.314225, "name": "Bold Views - Maui Big Hands", "requirements": ["Audi RS Q e-tron", "Maui Big Hands", "north of Kihei Beach"] },
+    { "lat": 1603.256539, "lng": 4966.75, "name": "Bold Views - Maui Big Pyramid", "requirements": ["KTM 450 EXC Robbie Maddison Ed.", "Maui Big Pyramid", "Iao Lake"] },
+    { "lat": 257.53642, "lng": 5280.25, "name": "Bold Views - Maui Big Whales", "requirements": ["Audi RS Q e-tron", "Maui Big Whales", "Ahihi Kinau"] }
+  ],
+  "collectibles": [
+    { "lat": 402.75518, "lng": 4681.400445, "challenge": "Bold Explorer" },
+    { "lat": 176.856041, "lng": 5690.088268, "challenge": "Bold Explorer" },
+    { "lat": 260.59126, "lng": 5096.5, "challenge": "Bold Explorer" },
+    { "lat": 1199.592774, "lng": 6036.795365, "challenge": "Bold Explorer" },
+    { "lat": 1366.060703, "lng": 5972.046341, "challenge": "Bold Explorer" },
+    { "lat": 1406.44868, "lng": 5664.698701, "challenge": "Bold Explorer" },
+    { "lat": 1884.888846, "lng": 5260.160371, "challenge": "Bold Explorer" },
+    { "lat": 2036.723719, "lng": 4709.019925, "challenge": "Bold Explorer" }
+  ]
+}

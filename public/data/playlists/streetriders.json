@@ -1,0 +1,223 @@
+{
+  "id": "streetriders",
+  "name": "Street Riders",
+  "imgFolder": "StreetRiders",
+  "container": {
+    "lat": 1853.335699,
+    "lng": 5200.103432
+  },
+  "events": [
+    {
+      "lat": 1588.03288,
+      "lng": 5459.099528,
+      "name": "Street Food",
+      "number": "1/8",
+      "type": "Race",
+      "weather": "Morning",
+      "car": "Street Bike",
+      "category": "Street Bikes",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1710.13775,
+      "lng": 5441.717011,
+      "name": "Downtown Disoeder",
+      "number": "2/8",
+      "type": "Race",
+      "weather": "Morning",
+      "car": "Street Bike",
+      "category": "Street Bikes",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1696.75,
+      "lng": 5123.5,
+      "name": "Free Kahului",
+      "number": "3/8",
+      "type": "Race",
+      "weather": "Midday",
+      "car": "Street Bike",
+      "category": "Street Bikes",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 715.077289,
+      "lng": 4951.303205,
+      "name": "Suburbs Invasion",
+      "number": "4/8",
+      "type": "Race",
+      "weather": "Midday",
+      "car": "Street Bike",
+      "category": "Street Bikes",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 347,
+      "lng": 5260.125,
+      "name": "Free Kihei",
+      "number": "5/8",
+      "type": "Race",
+      "weather": "Dawn",
+      "car": "Street Bike",
+      "category": "Street Bikes",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1360.29667,
+      "lng": 4700.492328,
+      "name": "Street Connection",
+      "number": "6/8",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Street Bike",
+      "category": "Street Bikes",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1415.875,
+      "lng": 2234.875,
+      "name": "Pineapple Pandemonium",
+      "number": "7/8",
+      "type": "Race",
+      "weather": "Sunset",
+      "car": "Street Bike",
+      "category": "Street Bikes",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1357.628573,
+      "lng": 3121.520026,
+      "name": "Free Honolulu",
+      "number": "8/8",
+      "type": "Race",
+      "weather": "Night",
+      "car": "Street Bike",
+      "category": "Street Bikes",
+      "xp": "12,000",
+      "bucks": "22,500"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 2847.75,
+      "lng": 2161.75,
+      "type": "longjump",
+      "location": "East Haleiwa",
+      "featType": "Long Jump",
+      "objective": "200 m",
+      "xp": "1,600",
+      "bucks": "3,000"
+    },
+    {
+      "lat": 2233.03366,
+      "lng": 1765.823915,
+      "type": "longjump",
+      "location": "Manua Pele",
+      "featType": "Long Jump",
+      "objective": "250 m",
+      "xp": "1,600",
+      "bucks": "3,000"
+    },
+    {
+      "lat": 1274.8125,
+      "lng": 3697.625,
+      "type": "slalom",
+      "location": "Hanauma Bay",
+      "featType": "Slalom",
+      "objective": "7,000 PTS",
+      "xp": "3,840",
+      "bucks": "7,200"
+    },
+    {
+      "lat": 1712.48555,
+      "lng": 5166.467575,
+      "type": "longjump",
+      "location": "Kahului Kanal",
+      "featType": "Long Jump",
+      "objective": "300 m",
+      "xp": "1,600",
+      "bucks": "3,000"
+    },
+    {
+      "lat": 909.892094,
+      "lng": 5144.955932,
+      "type": "longjump",
+      "location": "Auwahi",
+      "featType": "Long Jump",
+      "objective": "280 m",
+      "xp": "1,600",
+      "bucks": "3,000"
+    },
+    {
+      "lat": 1106.40857,
+      "lng": 5678.909927,
+      "type": "speedtrap",
+      "location": "Pukalani",
+      "featType": "Speedtrap",
+      "objective": "240.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 838.05839,
+      "lng": 5743.742964,
+      "type": "slalom",
+      "location": "Pu`unianiau",
+      "featType": "Slalom",
+      "objective": "8,000 PTS",
+      "xp": "3,840",
+      "bucks": "7,200"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 1851.744358,
+      "lng": 5200.848106,
+      "name": "Monkeys' Views - Monkeys' Kitchen",
+      "requirements": [
+         "BMW M3 (2000)",
+         "Lifting platform",
+         "Monkeys' Kitchen workshop"
+      ]
+    },
+    {
+      "lat": 1582.505522,
+      "lng": 5380.374164,
+      "name": "Monkeys' Views - Kahului Mural",
+      "requirements": [
+         "Street Tier 2 car",
+         "Dogs and Cats mural in Kahului",
+         "Afternoon"
+      ]
+    }
+  ],
+  "collectibles": [
+    {
+      "lat": 2854.5,
+      "lng": 2005.5,
+      "challenge": "Monkeys Kitchen Grafities"
+    },
+    {
+      "lat": 2433.554226,
+      "lng": 2226.483483,
+      "challenge": "Monkeys Kitchen Grafities"
+    },
+    {
+      "lat": 696,
+      "lng": 4945.5,
+      "challenge": "Monkeys Kitchen Grafities"
+    },
+    {
+      "lat": 1294.712516,
+      "lng": 5652.965162,
+      "challenge": "Monkeys Kitchen Grafities"
+    }
+  ]
+}

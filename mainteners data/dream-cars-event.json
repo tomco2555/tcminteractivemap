@@ -1,0 +1,86 @@
+[
+  {
+    "lat": 1370.3125,
+    "lng": 1779.8125,
+    "name": "DREAM BULLS",
+    "number": "1/7",
+    "type": "OUTRUN",
+    "weather": "Sunrise",
+    "car": "LAMBORGHINI EGOISTA 2013, TERZO MILLENNIO",
+    "category": "Hypercar",
+    "xp": "12,400",
+    "bucks": "22,500"
+  },
+  {
+    "lat": 2902.0625,
+    "lng": 2035.25,
+    "name": "Dream Duel: EGOISTA VS TERZO MILLENNIO",
+    "number": "2/7",
+    "type": "RACE",
+    "weather": "Sunrise",
+    "car": "LAMBORGHINI EGOISTA 2013, TERZO MILLENNIO",
+    "category": "Hypercar",
+    "xp": "10,850",
+    "bucks": "19,688"
+  },
+  {
+    "lat": 2248.5,
+    "lng": 3039.5,
+    "name": "DREAM BUGGATTIS",
+    "number": "3/7",
+    "type": "OUTRUN",
+    "weather": "Morning",
+    "car": "BUGATTI LA VOITURE NOIRE 2019, BUGGATI VEYRON BARCHETTA 2015 ",
+    "category": "Hypercar",
+    "xp": "12,400",
+    "bucks": "22,500"
+  },
+  {
+    "lat": 1970.875,
+    "lng": 3418.75,
+    "name": "Dream Duel: VEYRON VS NOIRE",
+    "number": "4/7",
+    "type": "RACE",
+    "weather": "Sunset",
+    "car": "BUGATTI LA VOITURE NOIRE 2019, BUGGATI VEYRON BARCHETTA 2015 ",
+    "category": "Hypercar",
+    "xp": "12,400",
+    "bucks": "22,500"
+  },
+  {
+    "lat": 1230.125,
+    "lng": 3313.8125,
+    "name": "FRENCH DREAM",
+    "number": "5/7",
+    "type": "OUTRUN",
+    "weather": "Morning",
+    "car": "CITROEN GT 2008, RENAULT TREZOR CONCEPT 2016",
+    "category": "Hypercar",
+    "xp": "6,200",
+    "bucks": "11,250"
+  },
+  {
+    "lat": 1554,
+    "lng": 2368.25,
+    "name": "DREAM DUEL: TREZOR VS CITROEN GT",
+    "number": "6/7",
+    "type": "RACE",
+    "weather": "Sunrise",
+    "car": "CITROEN GT 2008, RENAULT TREZOR CONCEPT 2016",
+    "category": "Hypercar",
+    "xp": "12,400",
+    "bucks": "22,500"
+  },
+  {
+    "lat": 2603.0625,
+    "lng": 1461.75,
+    "name": "SUPERCAR FESTIVAL",
+    "number": "7/7",
+    "type": "RACE",
+    "weather": "Sunrise",
+    "car": "MERCEDEZ-BENZ Vision EQ Silver Arrow ",
+    "category": "Hypercar",
+    "xp": "23,250",
+    "bucks": "42,188"
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "id": "bmw",
+  "name": "Bavariand",
+  "imgFolder": "BMW",
+  "container": {
+    "lat": 1436.487426,
+    "lng": 3707.714407
+  },
+  "events": [
+    {
+      "lat": 1298.125,
+      "lng": 3735.125,
+      "name": "Racing Through Time",
+      "number": "1/7",
+      "type": "Race",
+      "weather": "Morning",
+      "car": "BMW M4 (G82)",
+      "category": "Street Tier 2",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1317.75,
+      "lng": 4656.625,
+      "name": "E30: The First M3",
+      "number": "2/7",
+      "type": "Race",
+      "weather": "Afternoon",
+      "car": "BMW M3 (E30)",
+      "category": "Street Tier 1",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1940.191408,
+      "lng": 4835.613431,
+      "name": "Z4: Expression Of Freedom",
+      "number": "3/7",
+      "type": "Race",
+      "weather": "Sunset",
+      "car": "BMW Z4 M40i",
+      "category": "Street Tier 2",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1630.875,
+      "lng": 4965.25,
+      "name": "GS: Made for Adventure",
+      "number": "4/7",
+      "type": "Race",
+      "weather": "Overcast",
+      "car": "BMW R 1250 GS Motorrad Edition",
+      "category": "Street Bikes",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1220.721104,
+      "lng": 5700.761608,
+      "name": "M: United by Performance",
+      "number": "5/7",
+      "type": "Race",
+      "weather": "Dusk",
+      "car": "BMW M5 (F90)",
+      "category": "Street Tier 2",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 668.037097,
+      "lng": 5584.813914,
+      "name": "I8: instant Classic",
+      "number": "6/7",
+      "type": "Race",
+      "weather": "Night",
+      "car": "BMW i8 Roadster",
+      "category": "Street Tier 2",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 592.225143,
+      "lng": 5581.246292,
+      "name": "Driving Ultimate Machines",
+      "number": "7/7",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "BMW M8 Competition Coupe",
+      "category": "Street Tier 2",
+      "xp": "12,000",
+      "bucks": "22,500"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 1285.608517,
+      "lng": 3017.401412,
+      "type": "longjump",
+      "location": "Waikiki Canal",
+      "featType": "Long Jump",
+      "objective": "250 m",
+      "xp": "1,920",
+      "bucks": "3,600"
+    },
+    {
+      "lat": 1773.702412,
+      "lng": 4871.586947,
+      "type": "escape",
+      "location": "Honokanua",
+      "featType": "Escape",
+      "objective": "1,200 m",
+      "xp": "1,920",
+      "bucks": "3,600"
+    },
+    {
+      "lat": 845.311121,
+      "lng": 5659.022651,
+      "type": "longjump",
+      "location": "Makawao",
+      "featType": "Long Jump",
+      "objective": "280 m",
+      "xp": "1,920",
+      "bucks": "3,600"
+    },
+    {
+      "lat": 448.305699,
+      "lng": 5435.176274,
+      "type": "longjump",
+      "location": "Kahikinui Turbines",
+      "featType": "Long Jump",
+      "objective": "300 m",
+      "xp": "1,920",
+      "bucks": "3,600"
+    },
+    {
+      "lat": 545.325788,
+      "lng": 5925.150125,
+      "type": "speedtrap",
+      "location": "Hana",
+      "featType": "Speedtrap",
+      "objective": "240.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    }
+  ],
+  "photoOps": [],
+  "collectibles": []
+}

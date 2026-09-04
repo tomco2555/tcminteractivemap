@@ -1,0 +1,248 @@
+{
+  "id": "de2",
+  "name": "Drift Experience Vol.2",
+  "imgFolder": "Drift2",
+  "container": { "lat": 2810.380379, "lng": 1631.125 },
+  "events": [
+    {
+      "lat": 3046.326482,
+      "lng": 2039.561122,
+      "name": "Speed Of Light",
+      "number": "1/7",
+      "type": "Drift Trial",
+      "weather": "Sunset",
+      "car": "Toyota GR Supra",
+      "category": "Drift",
+      "xp": "7,200",
+      "bucks": "13,500"
+    },
+    {
+      "lat": 2470.936762,
+      "lng": 2960.625,
+      "name": "Arch-Drifter",
+      "number": "2/7",
+      "type": "Drift Trial",
+      "weather": "Afternoon",
+      "car": "Nissan Skyline GT-R (R34)",
+      "category": "Drift",
+      "xp": "7,200",
+      "bucks": "13,500"
+    },
+    {
+      "lat": 1669.138921,
+      "lng": 2764.1875,
+      "name": "Nature vs Nurture",
+      "number": "3/7",
+      "type": "Drift Trial",
+      "weather": "Midday",
+      "car": "BMW Z4 sDrive35is",
+      "category": "Drift",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1462.536314,
+      "lng": 2682.625,
+      "name": "Night Glider",
+      "number": "4/7",
+      "type": "Drift Trial",
+      "weather": "Dusk",
+      "car": "Lamborghini Murciélago LP640",
+      "category": "Drift",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1422.082819,
+      "lng": 2346.6875,
+      "name": "The Hard Yards",
+      "number": "5/7",
+      "type": "Drift Trial",
+      "weather": "Afternoon",
+      "car": "McLaren 12C",
+      "category": "Drift",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1417.796506,
+      "lng": 1615.827383,
+      "name": "No Rest For The Drifter",
+      "number": "6/7",
+      "type": "Drift Trial",
+      "weather": "Dusk",
+      "car": "Chevrolet Camaro SS",
+      "category": "Drift",
+      "xp": "10,800",
+      "bucks": "20,250"
+    },
+    {
+      "lat": 2000.642319,
+      "lng": 1485.969078,
+      "name": "Smoke In The Eye",
+      "number": "7/7",
+      "type": "Drift Trial",
+      "weather": "Dawn",
+      "car": "Mazda MX-5",
+      "category": "Drift",
+      "xp": "14,400",
+      "bucks": "27,000"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 1896.230377,
+      "lng": 1417.660708,
+      "type": "speedtrap",
+      "location": "Kapolei",
+      "featType": "Speedtrap",
+      "objective": "250.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 1241.271807,
+      "lng": 1962.221318,
+      "type": "slalom",
+      "location": "Barber Point Waters",
+      "featType": "Slalom",
+      "objective": "5,320 PTS",
+      "xp": "3,840",
+      "bucks": "7,200"
+    },
+    {
+      "lat": 1419.022459,
+      "lng": 2460.024492,
+      "type": "slalom",
+      "location": "Chinatown",
+      "featType": "Slalom",
+      "objective": "8,210 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1593.153221,
+      "lng": 2921.76522,
+      "type": "speedtrap",
+      "location": "Manoa",
+      "featType": "Speedtrap",
+      "objective": "220.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 1979.260089,
+      "lng": 3087.25,
+      "type": "escape",
+      "location": "Kaneohe Bay",
+      "featType": "Escape",
+      "objective": "760 m",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 2668.386109,
+      "lng": 2560.625,
+      "type": "slalom",
+      "location": "Kualoa Racetrack",
+      "featType": "Slalom",
+      "objective": "8,290 PTS",
+      "xp": "3,840",
+      "bucks": "7,200"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 3278.959756,
+      "lng": 2283.723613,
+      "name": "Blazing Views - Turtle Bay Resort",
+      "requirements": [
+        "Toyota GR Supra Drift",
+        "Drift",
+        "Night",
+        "Turtle Bay Resort parking lot"
+      ]
+    },
+    {
+      "lat": 2149.37975,
+      "lng": 3041.843149,
+      "name": "Blazing Views - Kaneohe",
+      "requirements": [
+        "Nissan 370Z Nismo Drift",
+        "Nitro",
+        "Parking lot of the Kaneohe harbor"
+      ]
+    },
+    {
+      "lat": 2890.851983,
+      "lng": 2557.796671,
+      "name": "Blazing Views - Polynesian Cultural Center",
+      "requirements": [
+        "Drift car",
+        "Drift",
+        "Night",
+        "Polynesian Cultural Center parking lot"
+      ]
+    },
+    {
+      "lat": 1339.958977,
+      "lng": 3607.459783,
+      "name": "Blazing Views - Hanauma Racetrack",
+      "requirements": [
+        "Drift car",
+        "Burn",
+        "Hanauma Racetrack parking lot"
+      ]
+    },
+    {
+      "lat": 1387.219884,
+      "lng": 2856.772792,
+      "name": "Blazing Views - Convention Center",
+      "requirements": [
+        "Toyota GR Supra Drift",
+        "Nitro",
+        "Night",
+        "Convention Center parking lot"
+      ]
+    },
+    {
+      "lat": 1320.035451,
+      "lng": 2658.621156,
+      "name": "Blazing Views - Moana Center",
+      "requirements": [
+        "Mitsubishi Lancer Evo X Drift",
+        "Jump",
+        "Night",
+        "Moana Center parking lot"
+      ]
+    },
+    {
+      "lat": 1340.243695,
+      "lng": 2440.253,
+      "name": "Blazing Views - Oahu Airport",
+      "requirements": [
+        "Toyota GR Supra Drift",
+        "Control tower",
+        "Night",
+        "east-side parking lot of Oahu Airport"
+      ]
+    },
+    {
+      "lat": 2298.207887,
+      "lng": 2213.029141,
+      "name": "Blazing Views - Schofield Barracks",
+      "requirements": [
+        "Drift car",
+        "Drift",
+        "parking lot of the main building of Schofield Barracks"
+      ]
+    }
+  ],
+  "collectibles": [
+    { "lat": 1306.19766, "lng": 2787.125, "challenge": "Blazing Rubber" },
+    { "lat": 1461.072692, "lng": 2768.323048, "challenge": "Blazing Rubber" },
+    { "lat": 1407.503761, "lng": 2554.9375, "challenge": "Blazing Rubber" },
+    { "lat": 1374.208373, "lng": 2424.315599, "challenge": "Blazing Rubber" },
+    { "lat": 1223.139554, "lng": 2920.25, "challenge": "Blazing Rubber" }
+  ]
+}

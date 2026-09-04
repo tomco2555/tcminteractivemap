@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /c/Users/sanek/Documents/GitHub/tcminteractivemap/static/js/*.js)",
+      "Bash(mkdir -p legacy)",
+      "Bash(cp -r static lib img legacy/)",
+      "Bash(cp index.html legacy/index.html)",
+      "Bash(rm -f index.html)",
+      "Bash(rm -rf static lib)",
+      "Bash(mkdir -p public)",
+      "Bash(mv img:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(python -c \"import sys,json; [print\\(json.loads\\(l\\).get\\(''''type'''',''''''''\\) + '''' | '''' + str\\(json.loads\\(l\\).get\\(''''message'''',{}\\).get\\(''''role'''',''''''''\\) or json.loads\\(l\\).get\\(''''data'''',{}\\).get\\(''''type'''',''''''''\\)\\)\\) for l in sys.stdin if l.strip\\(\\)]\")",
+      "Bash(node -e \":*)",
+      "Bash(find c:/Users/sanek/Documents/GitHub/tcminteractivemap/legacy -name *.png -o -name *.jpg -o -name *.webp)",
+      "Bash(find c:/Users/sanek/Documents/GitHub/tcminteractivemap/legacy -name *.png -o -name *.jpg -o -name *.webp -o -name *.svg)",
+      "Bash(for dir:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/sanek/Documents/GitHub/tcminteractivemap/public/img/**)",
+      "Bash(done)",
+      "Bash(node -e \"const m = require\\(''''./public/data/challengesMeta.json''''\\); m.forEach\\(g => console.log\\(g.playlist\\)\\)\")",
+      "Bash(node -e \"const d=require\\(''''fs''''\\).readFileSync\\(''''/dev/stdin'''',''''utf8''''\\); JSON.parse\\(d\\).forEach\\(g=>console.log\\(g.playlist\\)\\)\")",
+      "Bash(node -e \"const m=require\\(''./src/data/challengesMeta.json''\\); m.forEach\\(g=>console.log\\(g.playlist\\)\\)\")",
+      "Bash(wc -l /c/Users/sanek/Documents/GitHub/tcminteractivemap/src/styles/*.css)",
+      "Bash(node -e \"const d=require\\('./public/data/playlists/al.json'\\); console.log\\(JSON.stringify\\(d, null, 2\\).slice\\(0,2500\\)\\)\")"
+    ]
+  }
+}

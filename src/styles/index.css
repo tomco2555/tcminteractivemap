@@ -1,0 +1,466 @@
+@font-face {
+  font-family: 'Motorfest';
+  src: url('/fonts/Motorfest.otf');
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+  color: white;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #C9DCD8;
+}
+
+#left_sidebar {
+  height: 100%;
+  width: 30%;
+  position: absolute;
+  z-index: 500;
+}
+
+@media only screen and (max-width: 500px) {
+  #left_sidebar {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  #left_sidebar {
+    width: 60%;
+  }
+}
+
+#filters_sidebar {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  background-color: #0a0a0a;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #222;
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.6);
+}
+
+#filters_sidebar::-webkit-scrollbar { width: 6px; }
+#filters_sidebar::-webkit-scrollbar-track { background: #111; }
+#filters_sidebar::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+#filters_sidebar::-webkit-scrollbar-thumb:hover { background: #cc0000; }
+
+#filters_sidebar.close_filters {
+  transform: translateX(-100%);
+}
+
+#filters_sidebar input[type="checkbox"] {
+  accent-color: red;
+}
+
+#logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0;
+}
+
+#logo img {
+  width: 50%;
+  overflow: hidden;
+}
+
+#logo p {
+  white-space: nowrap;
+  margin: 0;
+  overflow: hidden;
+}
+
+.web_logo {
+  color: yellow;
+  font-family: "Motorfest";
+  margin: 0;
+}
+
+.map_settings {
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.map_settings:last-child { border-bottom: none; }
+
+.map_settings_text {
+  margin-right: 8px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.hide_btn {
+  background: rgb(70, 70, 70);
+  border-radius: 6px;
+  font-size: 14px;
+  color: white;
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: 1px solid #555;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.hide_btn:hover {
+  background: rgb(100, 100, 100);
+  border-color: #cc0000;
+}
+
+.events { width: 100%; }
+
+.header {
+  font-size: 20px;
+  background-color: rgb(70, 70, 70);
+  border: 0;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: color 0.15s ease;
+  width: 100%;
+}
+.header:hover { color: #cc0000; }
+
+.event_header {
+  display: flex;
+  background-color: rgb(70, 70, 70);
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.event_header input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.event_filters {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.event_filters input[type="checkbox"] {
+  margin-top: 7px;
+  margin-right: 5px;
+}
+.event_filters .filter_option:nth-of-type(even) .filter_marker_count {
+  padding-right: 5px;
+}
+
+#close {
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  z-index: 9999;
+  transition: all 0.5s ease;
+}
+#close.move_button { left: 0%; }
+
+#close_btn {
+  width: 30px;
+  height: 80px;
+  font-size: 24px;
+  background-color: #0a0a0a;
+  color: #aaa;
+  border: 1px solid #333;
+  border-left: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+#close_btn:hover {
+  background-color: #1a1a1a;
+  color: white;
+  border-color: #cc0000;
+}
+
+.filter_option {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+.filter_marker_count {
+  margin-left: auto;
+  align-self: center;
+  font-size: 12px;
+  color: silver;
+}
+.filter_option span:nth-child(even) { flex: 1 1 0; }
+
+.hstPopup .leaflet-popup-content-wrapper,
+.hstPopup .leaflet-popup-tip {
+  background-color: rgb(70, 70, 70);
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+.hstPopup .leaflet-popup-close-button span { color: white; }
+
+.links {
+  margin-top: 10px;
+  padding: 10px 0 20px 10px;
+  background-color: rgb(70, 70, 70);
+  width: calc(100% - 10px);
+}
+a.custom_link:link,
+a.custom_link:visited,
+a.custom_link:hover {
+  color: red;
+  text-decoration: none;
+}
+
+/* Toggle switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 27px;
+  margin-right: 10px;
+}
+.switch input { opacity: 0; width: 0; height: 0; }
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #444;
+  transition: 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 21px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+}
+input:checked + .slider { background-color: #cc0000; }
+input:focus + .slider { box-shadow: 0 0 0 2px rgba(204,0,0,0.4); }
+input:checked + .slider:before { transform: translateX(21px); }
+.slider.round { border-radius: 34px; }
+.slider.round:before { border-radius: 50%; }
+
+/* Challenges accordion */
+.accordion_item {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.accordion_menu {
+  font-size: 15px;
+  margin: 5px 0;
+  border: 0;
+  background-color: inherit;
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 100%;
+  transition: color 0.15s ease;
+  position: relative;
+  padding: 0 24px 0 0;
+}
+.accordion_menu:hover { color: #cc0000; }
+.accordion_menu::after {
+  content: "▼";
+  position: absolute;
+  right: 5px;
+  font-size: 13px;
+  transition: transform 0.25s ease;
+  color: #888;
+}
+.accordion_menu.active::after {
+  transform: rotate(180deg);
+  color: #cc0000;
+}
+
+.accordion_submenu {
+  font-size: 15px;
+  border: 0;
+  background-color: inherit;
+  color: white;
+  white-space: nowrap;
+  padding-left: 0;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+.accordion_submenu:hover { color: #cc0000; }
+.accordion_submenu_active { color: #cc0000; }
+.accordion_submenu_active:hover { color: #ff4444; }
+
+.challenges_submenu {
+  text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.challenges_submenu_item {
+  background-color: inherit;
+  margin-left: 10px;
+}
+.challenge_details {
+  text-align: left;
+  font-size: 12px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.click_to_hide { font-size: 10px; color: gray; }
+
+.label_checkbox {
+  width: 100%;
+  margin: 2px;
+  padding: 5px;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.15s ease, border-color 0.15s ease;
+  box-sizing: border-box;
+}
+.label_checkbox:hover {
+  background-color: rgba(204, 0, 0, 0.12);
+  border-color: #cc0000;
+}
+
+/* ── Toggle-all button ───────────────────────────────────────── */
+.toggle-all-btn {
+  width: calc(100% - 10px);
+  padding: 7px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #555;
+  letter-spacing: 0.4px;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.toggle-all-hide {
+  background: #2a0000;
+  color: #ff6b6b;
+  border-color: #cc0000;
+}
+.toggle-all-hide:hover {
+  background: #3a0000;
+  border-color: #ff4444;
+}
+.toggle-all-show {
+  background: #002a00;
+  color: #6bff6b;
+  border-color: #00aa00;
+}
+.toggle-all-show:hover {
+  background: #003a00;
+  border-color: #00dd00;
+}
+
+/* ── Marker hover tooltips ───────────────────────────────────── */
+.map-tooltip {
+  background: rgba(13,13,15,0.92) !important;
+  border: 1px solid #2a2a35 !important;
+  color: #e8e8f0 !important;
+  font-size: 11px !important;
+  font-family: Arial, sans-serif !important;
+  padding: 4px 9px !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6) !important;
+  white-space: nowrap;
+}
+.map-tooltip::before {
+  border-top-color: #2a2a35 !important;
+}
+
+/* ── Region name labels ───────────────────────────────────────── */
+.region-label {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  pointer-events: none;
+}
+.region-label span {
+  display: block;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000;
+  white-space: nowrap;
+  user-select: none;
+}
+
+/* ── Dev-mode coordinate picker pins ──────────────────────────── */
+.dev-pin {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.dev-pin-dot {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  cursor: grab;
+}
+.dev-pin-dot.dev-pin-checkpoint {
+  width: 16px;
+  height: 16px;
+  font-size: 9px;
+  border-width: 1.5px;
+}
+
+/* ── CSS-based challenge map markers ─────────────────────────── */
+.chal-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+.chal-icon:hover { transform: scale(1.2); }
+.chal-start    { background: #27ae60; }
+.chal-finish   { background: #e74c3c; }
+.chal-challenge { background: #f39c12; }

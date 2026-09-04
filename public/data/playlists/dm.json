@@ -1,0 +1,265 @@
+{
+  "id": "dm",
+  "name": "Rule the Streets",
+  "imgFolder": "Donut_Media",
+  "container": { "lat": 1405.025416, "lng": 2956.375 },
+  "events": [
+    {
+      "lat": 1455.767718,
+      "lng": 2920.875,
+      "name": "Legendary x Rivalry",
+      "number": "1/7",
+      "type": "Race",
+      "weather": "Afternoon",
+      "car": "Multi Vehicle",
+      "category": "Street Tier 2",
+      "xp": "8,400",
+      "bucks": "15,750"
+    },
+    {
+      "lat": 1402.353388,
+      "lng": 3062.965193,
+      "name": "American x Wrestle",
+      "number": "2/7",
+      "type": "Race",
+      "weather": "Morning",
+      "car": "Multi Vehicle",
+      "category": "Street Tier 2",
+      "xp": "10,800",
+      "bucks": "20,250"
+    },
+    {
+      "lat": 1348.383156,
+      "lng": 2679.4375,
+      "name": "Hi x Low",
+      "number": "3/7",
+      "type": "Time Attack",
+      "weather": "Midday",
+      "car": "Nissan 370Z Nismo",
+      "category": "Street Tier 2",
+      "xp": "8,400",
+      "bucks": "15,750"
+    },
+    {
+      "lat": 1448.98755,
+      "lng": 2481.237695,
+      "name": "Mo x Powa",
+      "number": "4/7",
+      "type": "Race",
+      "weather": "Sunrise",
+      "car": "Multi Vehicle",
+      "category": "Hypercar",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1185.508033,
+      "lng": 3184.875,
+      "name": "Screw x Drifter",
+      "number": "5/7",
+      "type": "Drift Trial",
+      "weather": "Sunrise",
+      "car": "Mitsubishi Lancer Evolution X",
+      "category": "Drift",
+      "xp": "4,800",
+      "bucks": "9,000"
+    },
+    {
+      "lat": 1324.972186,
+      "lng": 2452.953424,
+      "name": "Raptor x Delicacy",
+      "number": "6/7",
+      "type": "Speed Parkour",
+      "weather": "Afternoon",
+      "car": "Ford F-150 SVT Raptor",
+      "category": "Street Tier 1",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1460.190084,
+      "lng": 2826.4375,
+      "name": "German x Qualität",
+      "number": "7/7",
+      "type": "Race",
+      "weather": "Midday",
+      "car": "Multi Vehicle",
+      "category": "Street Tier 2",
+      "xp": "10,800",
+      "bucks": "20,250"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 1405.798946,
+      "lng": 2959.416231,
+      "type": "speedtrap",
+      "location": "Moiliili Heights",
+      "featType": "Speedtrap",
+      "objective": "210.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 1105.534267,
+      "lng": 3231.373033,
+      "type": "speedtrap",
+      "location": "Diamond Head",
+      "featType": "Speedtrap",
+      "objective": "120.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 1370.299809,
+      "lng": 2507.9375,
+      "type": "slalom",
+      "location": "Chinatown",
+      "featType": "Slalom",
+      "objective": "5,130 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1403.24939,
+      "lng": 2851.718662,
+      "type": "bullseye",
+      "location": "Convention Center",
+      "featType": "Bullseye",
+      "objective": "5,870 PTS",
+      "xp": "4,800",
+      "bucks": "9,000"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 1384.696373,
+      "lng": 2886.205668,
+      "name": "Donut x Views - Swimming Pool",
+      "requirements": [
+        "Boat",
+        "Swimming Pool",
+        "High School near Convention Center of Honolulu"
+      ]
+    },
+    {
+      "lat": 1338.322456,
+      "lng": 2611.256955,
+      "name": "Donut x Views - Roadworks",
+      "requirements": [
+        "Donut",
+        "Near the barrier ring of construction site",
+        "Honolulu's Waterfront Plaza"
+      ]
+    },
+    {
+      "lat": 1385.130642,
+      "lng": 2901.8125,
+      "name": "Donut x Views - Football Field",
+      "requirements": [
+        "Modern Vehicle",
+        "Burn",
+        "Football Field",
+        "High School near Convention Center of Honolulu"
+      ]
+    },
+    {
+      "lat": 1331.083361,
+      "lng": 2708.395749,
+      "name": "Donut x Views - Artsy Shopping Mall",
+      "requirements": [
+        "Moana Center",
+        "Graffiti Mural",
+        "Jump from roof to roof"
+      ]
+    },
+    {
+      "lat": 1179.317024,
+      "lng": 3128.765337,
+      "name": "Donut x Views - Street Art",
+      "requirements": [
+        "Street Tier 2",
+        "Turbo graffiti",
+        "Inside the Diamond Head tunnel"
+      ]
+    }
+  ],
+  "collectibles": [
+    { "lat": 1208.525404, "lng": 2903.615322, "challenge": "Donut x Lifeguard" },
+    { "lat": 1237.116803, "lng": 2684.707671, "challenge": "Donut x Lifeguard" },
+    { "lat": 1295.365619, "lng": 2246.036302, "challenge": "Donut x Lifeguard" },
+    { "lat": 1396.466226, "lng": 1541.152905, "challenge": "Donut x Lifeguard" },
+    { "lat": 1302.632803, "lng": 1572.959035, "challenge": "Donut x Lifeguard" },
+    { "lat": 2382.943142, "lng": 1334.125, "challenge": "Donut x Lifeguard" },
+    { "lat": 2918.445058, "lng": 1795.125, "challenge": "Donut x Lifeguard" },
+    { "lat": 2965.185183, "lng": 1853.857204, "challenge": "Donut x Lifeguard" },
+    { "lat": 2950.194074, "lng": 2001, "challenge": "Donut x Lifeguard" },
+    { "lat": 3134.247293, "lng": 2109.5, "challenge": "Donut x Lifeguard" },
+    { "lat": 3233.535873, "lng": 2228.648459, "challenge": "Donut x Lifeguard" },
+    { "lat": 3332.124824, "lng": 2260.4375, "challenge": "Donut x Lifeguard" },
+    { "lat": 2938.029972, "lng": 2601.313061, "challenge": "Donut x Lifeguard" },
+    { "lat": 2521.012005, "lng": 2992.25, "challenge": "Donut x Lifeguard" },
+    { "lat": 2279.81932, "lng": 3050.375, "challenge": "Donut x Lifeguard" },
+    { "lat": 2073.93161, "lng": 3184.790061, "challenge": "Donut x Lifeguard" },
+    { "lat": 2038.067685, "lng": 3358.875, "challenge": "Donut x Lifeguard" },
+    { "lat": 1813.023202, "lng": 3479.25, "challenge": "Donut x Lifeguard" },
+    { "lat": 1398.641768, "lng": 2956.0625, "challenge": "Donut x Drone" },
+    { "lat": 1284.206407, "lng": 2873.421692, "challenge": "Donut x Drone" },
+    { "lat": 1282.269089, "lng": 2767, "challenge": "Donut x Drone" },
+    { "lat": 1327.383331, "lng": 2698.0625, "challenge": "Donut x Drone" },
+    { "lat": 1401.715395, "lng": 2594.37478, "challenge": "Donut x Drone" },
+    { "lat": 1310.126424, "lng": 2928.747899, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1459.62224, "lng": 2752.4375, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1475.147394, "lng": 2658.191167, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1412.654471, "lng": 2692.574234, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1328.44722, "lng": 2712.3125, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1388.065576, "lng": 2069.5625, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1518.868479, "lng": 2163.375, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1620.716192, "lng": 2228.623798, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1601.993572, "lng": 2541.341772, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1755.857948, "lng": 2792.629844, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1234.819162, "lng": 1702.25, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1285.199393, "lng": 1735.063264, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1310.36472, "lng": 1768.128004, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1304.890222, "lng": 1771.375, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1299.506468, "lng": 1774.5, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1232.708299, "lng": 1809.1327, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1359.771163, "lng": 3243.625, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2490.466084, "lng": 2143.682596, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1985.267788, "lng": 2121.375, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2831.933282, "lng": 1582.1875, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2243.528194, "lng": 2186.875, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1925.8183, "lng": 2319, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2394.719827, "lng": 2269.017272, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2266.195181, "lng": 2347.9375, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2375.686621, "lng": 2108.5, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2687.630836, "lng": 2425.3125, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2876.187377, "lng": 2014.1875, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2780.644457, "lng": 2133.959877, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2687.944003, "lng": 1163.5, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2704.367122, "lng": 1117.236, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2648.770111, "lng": 1072.769375, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2395.135968, "lng": 1347, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1754.186897, "lng": 3762.073241, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1747.134597, "lng": 3763.25, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1765.755203, "lng": 3697.75, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1762.683016, "lng": 3700.996893, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1649.363164, "lng": 3679.606913, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1652.271795, "lng": 3660.25, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1678.115016, "lng": 3642.625, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1665.289895, "lng": 3679.076583, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2352.246906, "lng": 2829.75, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1751.581581, "lng": 3429.114335, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1937.324919, "lng": 3452.006917, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1925.070269, "lng": 3308.9375, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1872.364927, "lng": 3129.566225, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1871.380572, "lng": 2944.375, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1965.820058, "lng": 3126.625, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1998.563115, "lng": 3117.3125, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1727.590804, "lng": 3198.597525, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1773.519194, "lng": 3049.25, "challenge": "Donut x Jasper Wong" },
+    { "lat": 2276.659697, "lng": 2842.375, "challenge": "Donut x Jasper Wong" },
+    { "lat": 3218.122996, "lng": 2440.25, "challenge": "Donut x Jasper Wong" },
+    { "lat": 1523.940928, "lng": 1783.6875, "challenge": "Donut x Jasper Wong" }
+  ]
+}

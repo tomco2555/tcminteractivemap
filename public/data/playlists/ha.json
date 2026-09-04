@@ -1,0 +1,220 @@
+{
+  "id": "ha",
+  "name": "Hollywood Action!",
+  "imgFolder": "HA",
+  "container": { "lat": 2151.373031, "lng": 2998.375 },
+  "events": [
+    {
+      "lat": 2041.533985,
+      "lng": 3005.027043,
+      "name": "Scene 1: The Driver",
+      "number": "1/9",
+      "type": "Video Lane",
+      "weather": "Midday",
+      "car": "Mini Cooper S",
+      "category": "Street Tier 1",
+      "xp": "7,200",
+      "bucks": "13,500"
+    },
+    {
+      "lat": 1616.83916,
+      "lng": 2700.175632,
+      "name": "Scene 2: The Test",
+      "number": "2/9",
+      "type": "Race",
+      "weather": "Afternoon",
+      "car": "Dodge Challenger R/T",
+      "category": "Street Tier 1",
+      "xp": "10,800",
+      "bucks": "20,250"
+    },
+    {
+      "lat": 1307.177338,
+      "lng": 2540.59235,
+      "name": "Scene 3: The First Job",
+      "number": "3/9",
+      "type": "Video Lane",
+      "weather": "Midday",
+      "car": "Multi Vehicle",
+      "category": "Motocross",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1335.508402,
+      "lng": 2101.625,
+      "name": "Scene 4: The Ascent",
+      "number": "4/9",
+      "type": "Navigation",
+      "weather": "Sunset",
+      "car": "Ferrari 308 GTS",
+      "category": "Street Tier 1",
+      "xp": "18,000",
+      "bucks": "33,750"
+    },
+    {
+      "lat": 1432.128972,
+      "lng": 1969.5,
+      "name": "Scene 5: The Race",
+      "number": "5/9",
+      "type": "Race",
+      "weather": "Sunset",
+      "car": "Ariel Nomad",
+      "category": "Rally Raid",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1365.884527,
+      "lng": 1673.625,
+      "name": "Scene 6: The Heist",
+      "number": "6/9",
+      "type": "Video Lane",
+      "weather": "Dawn",
+      "car": "Shelby GT 500",
+      "category": "Street Tier 1",
+      "xp": "12,000",
+      "bucks": "22,500"
+    },
+    {
+      "lat": 2273.717298,
+      "lng": 1933.406716,
+      "name": "Scene 7: The Love Story",
+      "number": "7/9",
+      "type": "Navigation",
+      "weather": "Dusk",
+      "car": "Porsche 550 Spyder",
+      "category": "Street Tier 1",
+      "xp": "14,400",
+      "bucks": "27,000"
+    },
+    {
+      "lat": 1545.934554,
+      "lng": 2644.66775,
+      "name": "Scene 8: The Getaway",
+      "number": "8/9",
+      "type": "Time Attack",
+      "weather": "Midday",
+      "car": "Multi Vehicle",
+      "category": "Street Tier 2",
+      "xp": "14,400",
+      "bucks": "27,000"
+    },
+    {
+      "lat": 2010.106052,
+      "lng": 2464.75,
+      "name": "The Premiere",
+      "number": "9/9",
+      "type": "Time Attack",
+      "weather": "Night",
+      "car": "Ivory Tower Aezus",
+      "category": "Hypercar",
+      "xp": "9,600",
+      "bucks": "18,000"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 2108.551126,
+      "lng": 3088.370878,
+      "type": "bullseye",
+      "location": "Kaneohe",
+      "featType": "Bullseye",
+      "objective": "6,320 PTS",
+      "xp": "4,800",
+      "bucks": "9,000"
+    },
+    {
+      "lat": 2100.859569,
+      "lng": 3536.594566,
+      "type": "slalom",
+      "location": "Mokapu",
+      "featType": "Slalom",
+      "objective": "4,970 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1374.20612,
+      "lng": 3083.356931,
+      "type": "escape",
+      "location": "Makiki",
+      "featType": "Escape",
+      "objective": "1270 m",
+      "xp": "1,440",
+      "bucks": "2,700"
+    },
+    {
+      "lat": 1487.784616,
+      "lng": 2364.034746,
+      "type": "speedtrap",
+      "location": "Kaka'ako",
+      "featType": "Speedtrap",
+      "objective": "200.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 1433.64205,
+      "lng": 2765.75,
+      "name": "Movie Award Views - Rooftop",
+      "requirements": [
+        "Mini Cooper S 1969",
+        "Edge of the Kakaako Center Rooftop"
+      ]
+    },
+    {
+      "lat": 2004.844021,
+      "lng": 3053.463858,
+      "name": "Movie Award Views - Canals",
+      "requirements": [
+        "Motocross Bike",
+        "Kaneohe Canals"
+      ]
+    },
+    {
+      "lat": 1591.516101,
+      "lng": 1841,
+      "name": "Movie Award Views - High Point",
+      "requirements": [
+        "Chevrolet Impala",
+        "Jump from the highest cliff",
+        "Afternoon",
+        "Makakilo River"
+      ]
+    },
+    {
+      "lat": 1415.396387,
+      "lng": 3819.141294,
+      "name": "Movie Award Views - Koko Crater",
+      "requirements": [
+        "Street Tier 1 vehicle",
+        "House",
+        "Dusk",
+        "Entrance of Koko Crater"
+      ]
+    },
+    {
+      "lat": 1234.869905,
+      "lng": 3010.329161,
+      "name": "Movie Award Views - Waikiki Shell",
+      "requirements": [
+        "Aston Martin DB5",
+        "Movie Poster",
+        "parking lot side of the Waikiki Shell"
+      ]
+    }
+  ],
+  "collectibles": [
+    { "lat": 1839.512339, "lng": 3000.5, "challenge": "Focus Puller Movie Award" },
+    { "lat": 1657.00675, "lng": 3657, "challenge": "Focus Puller Movie Award" },
+    { "lat": 1410.762409, "lng": 3002.625, "challenge": "Focus Puller Movie Award" },
+    { "lat": 1337.701923, "lng": 1765.380468, "challenge": "Focus Puller Movie Award" },
+    { "lat": 1337.138499, "lng": 1623.625, "challenge": "Focus Puller Movie Award" },
+    { "lat": 1433.261249, "lng": 1587.375, "challenge": "Focus Puller Movie Award" },
+    { "lat": 1902.145436, "lng": 1979.137941, "challenge": "Focus Puller Movie Award" },
+    { "lat": 2391.501476, "lng": 2092.875, "challenge": "Focus Puller Movie Award" }
+  ]
+}

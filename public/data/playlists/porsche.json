@@ -1,0 +1,38 @@
+{
+  "id": "porsche",
+  "name": "911 Legacy",
+  "imgFolder": "Porsche",
+  "container": { "lat": 1437.003357, "lng": 2245.25 },
+  "events": [
+    { "lat": 1272.477611, "lng": 1797.995768, "name": "911 Arrival", "number": "1/6", "type": "Race", "weather": "Morning", "car": "Porsche 911", "category": "Street Tier 1", "xp": "10,800", "bucks": "20,250" },
+    { "lat": 1647.486228, "lng": 1889.566096, "name": "911 Rally", "number": "2/6", "type": "Race", "weather": "Afternoon", "car": "Porsche 959 Raid", "category": "Rally Raid", "xp": "8,400", "bucks": "15,750" },
+    { "lat": 2144.542128, "lng": 1691.5, "name": "911 Legends", "number": "3/6", "type": "Race", "weather": "Afternoon", "car": "Porsche 911 Turbo 3.6", "category": "Street Tier 2", "xp": "10,800", "bucks": "20,250" },
+    { "lat": 1594.814293, "lng": 2413.625, "name": "911 Freeway", "number": "4/6", "type": "Race", "weather": "Morning", "car": "Porsche 911 GT1 Strassenversion (993)", "category": "Hypercar", "xp": "9,600", "bucks": "18,000" },
+    { "lat": 1350.976705, "lng": 2850.08227, "name": "911 Grand Prix", "number": "5/6", "type": "Race", "weather": "Night", "car": "Porsche 911 GT3 Cup", "category": "Racing", "xp": "8,400", "bucks": "15,750" },
+    { "lat": 1185.378902, "lng": 3202.75, "name": "911 Challenge", "number": "6/6", "type": "Race", "weather": "Sunset", "car": "Porsche 911 Carrera 4S (992)", "category": "Street Tier 2", "xp": "10,800", "bucks": "20,250" }
+  ],
+  "feats": [
+    { "lat": 1268.412791, "lng": 2943.066812, "type": "speedtrap", "location": "Waikiki", "featType": "Speedtrap", "objective": "170.0 km/h", "xp": "960", "bucks": "1,800" },
+    { "lat": 1426.628058, "lng": 2144.5, "type": "escape", "location": "Ewa", "featType": "Escape", "objective": "1100 m", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 1440.502493, "lng": 1974.860852, "type": "speedtrap", "location": "Kapolei", "featType": "Speedtrap", "objective": "170.0 km/h", "xp": "960", "bucks": "1,800" },
+    { "lat": 2303.24711, "lng": 1440.730067, "type": "escape", "location": "Waianae", "featType": "Escape", "objective": "1380 m", "xp": "2,880", "bucks": "5,400" }
+  ],
+  "photoOps": [
+    { "lat": 2275.704, "lng": 1578.615889, "name": "911 Views - Volcano", "requirements": ["Porsche 959 Raid", "Mauna Pele Nunui Crater in the background"] },
+    { "lat": 1232.405268, "lng": 1700.125, "name": "911 Views - Rainbow Silo", "requirements": ["Street Tier 2", "Rainbow smiley silo located near the lighthouse", "Kalaeloa Barbers Point Harbor"] },
+    { "lat": 1222.398834, "lng": 3011.625, "name": "911 Views - Waikiki Shell", "requirements": ["Porsche 911 Turbo 3.6", "Waikiki Shell", "in Honolulu"] },
+    { "lat": 1280.282185, "lng": 3281.152241, "name": "911 Views - Close Shot", "requirements": ["Porsche", "Freedrive", "Near Miss"] },
+    { "lat": 1433.189609, "lng": 2244.375, "name": "911 Views - Carrera 4S", "requirements": ["Porsche 911 Carrera 4S Timeless Edition", "Porsche container", "Ford Island"] }
+  ],
+  "collectibles": [
+    { "lat": 1275.877426, "lng": 1744.875, "challenge": "911 Collection" },
+    { "lat": 1454.013007, "lng": 2164.125, "challenge": "911 Collection" },
+    { "lat": 1429.510001, "lng": 2244.5625, "challenge": "911 Collection" },
+    { "lat": 1377.133243, "lng": 2316.835369, "challenge": "911 Collection" },
+    { "lat": 1257.284758, "lng": 2750.291825, "challenge": "911 Collection" },
+    { "lat": 1135.147358, "lng": 3038.875, "challenge": "911 Collection" },
+    { "lat": 1063.521303, "lng": 3541.25, "challenge": "911 Collection" },
+    { "lat": 2150.697969, "lng": 3046.216013, "challenge": "911 Collection" },
+    { "lat": 2916.840113, "lng": 2009.243919, "challenge": "911 Collection" }
+  ]
+}

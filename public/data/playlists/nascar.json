@@ -1,0 +1,297 @@
+{
+  "id": "nascar",
+  "name": "Nascar Motorfert Tour",
+  "imgFolder": "Nascar",
+  "container": {
+    "lat": 435.398455,
+    "lng": 3920.221255
+  },
+  "events": [
+    {
+      "lat": 473.601734,
+      "lng": 3916.05903,
+      "name": "The speedway",
+      "number": "1/10",
+      "type": "Race",
+      "weather": "Sunny",
+      "car": "Nascar Cup Car",
+      "category": "Racing",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1324.212714,
+      "lng": 1741.762622,
+      "name": "Coach Roy Henson",
+      "number": "2/10",
+      "type": "Race",
+      "weather": "Sunny",
+      "car": "Nascar Cup Car",
+      "category": "Racing",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1323.172158,
+      "lng": 1714.70816,
+      "name": "Brawl League",
+      "number": "3/10",
+      "type": "Race",
+      "weather": "Sunny",
+      "car": "Nascar Cup Car",
+      "category": "Racing",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1233.194226,
+      "lng": 2691.601963,
+      "name": "Golden Ticket",
+      "number": "4/10",
+      "type": "Race",
+      "weather": "Sunny",
+      "car": "Nascar Cup Car",
+      "category": "Racing",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 824.25,
+      "lng": 3576,
+      "name": "Iowa Jim",
+      "number": "5/10",
+      "type": "Race",
+      "weather": "Sunny",
+      "car": "Nascar Cup Car",
+      "category": "Racing",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 489.358728,
+      "lng": 3905.356166,
+      "name": "Nascar Motorfest Tour",
+      "number": "6/10",
+      "type": "Race",
+      "weather": "Sunny",
+      "car": "Nascar Cup Car",
+      "category": "Racing",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 525.034941,
+      "lng": 3897.626319,
+      "name": "Semifinal",
+      "number": "7/10",
+      "type": "Race",
+      "weather": "Sunny",
+      "car": "Nascar Cup Car",
+      "category": "Racing",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 467.655698,
+      "lng": 3811.408804,
+      "name": "Show night",
+      "number": "8/10",
+      "type": "Race",
+      "weather": "Sunny",
+      "car": "Nascar Cup Car",
+      "category": "Racing",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 511.953663,
+      "lng": 3887.815361,
+      "name": "Big One at Kaho`olawe",
+      "number": "9/10",
+      "type": "Race",
+      "weather": "Sunny",
+      "car": "Nascar Cup Car",
+      "category": "Racing",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 476.27745,
+      "lng": 3791.489584,
+      "name": "Bonus Ride: Kaho Unleashed",
+      "number": "10/10",
+      "type": "Race",
+      "weather": "Sunny",
+      "car": "Nascar Cup Car",
+      "category": "Racing",
+      "xp": "12,000",
+      "bucks": "22,500"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 438.406204,
+      "lng": 3664.934447,
+      "type": "slalom",
+      "location": "Kaho'olawe",
+      "featType": "Slalom",
+      "objective": "6,000 PTS",
+      "xp": "3,840",
+      "bucks": "7,200"
+    },
+    {
+      "lat": 524.673232,
+      "lng": 3769.586251,
+      "type": "longjump",
+      "location": "Kaho'olawe",
+      "featType": "Long Jump",
+      "objective": "200 m",
+      "xp": "1,600",
+      "bucks": "3,000"
+    },
+    {
+      "lat": 516.541504,
+      "lng": 3774.535998,
+      "type": "escape",
+      "location": "Kaho'olawe",
+      "featType": "Escape",
+      "objective": "1,000 m",
+      "xp": "1,920",
+      "bucks": "3,600"
+    },
+    {
+      "lat": 491.439213,
+      "lng": 3795.395648,
+      "type": "longjump",
+      "location": "Kaho'olawe",
+      "featType": "Long Jump",
+      "objective": "250 m",
+      "xp": "1,600",
+      "bucks": "3,000"
+    },
+    {
+      "lat": 478.357737,
+      "lng": 3869.288307,
+      "type": "speedtrap",
+      "location": "Speedway",
+      "featType": "Speedtrap",
+      "objective": "250.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 476.943524,
+      "lng": 3919.846442,
+      "type": "slalom",
+      "location": "Speedway",
+      "featType": "Slalom",
+      "objective": "7,000 PTS",
+      "xp": "3,840",
+      "bucks": "7,200"
+    },
+    {
+      "lat": 511.238203,
+      "lng": 3894.037044,
+      "type": "bullseye",
+      "location": "Speedway",
+      "featType": "Bullseye",
+      "objective": "5,000 PTS",
+      "xp": "4,800",
+      "bucks": "9,000"
+    },
+    {
+      "lat": 1276.681293,
+      "lng": 1748.67507,
+      "type": "speedtrap",
+      "location": "Forest",
+      "featType": "Speedtrap",
+      "objective": "230.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 1414.920669,
+      "lng": 1645.083926,
+      "type": "escape",
+      "location": "Mountains",
+      "featType": "Escape",
+      "objective": "1,200 m",
+      "xp": "1,920",
+      "bucks": "3,600"
+    },
+    {
+      "lat": 543.616302,
+      "lng": 3957.681279,
+      "type": "speedtrap",
+      "location": "Coast",
+      "featType": "Speedtrap",
+      "objective": "240.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 487.815291,
+      "lng": 3873.707724,
+      "name": "Nascar Views - Pit",
+      "requirements": [
+        "Nascar Cup Car",
+        "Pitlane",
+        "Hanauma Speedway"
+      ]
+    },
+    {
+      "lat": 487.426266,
+      "lng": 3859.720343,
+      "name": "Nascar Views - Grandstands",
+      "requirements": [
+        "Nascar Cup Car",
+        "Grandstands",
+        "High Speed"
+      ]
+    },
+    {
+      "lat": 456.060929,
+      "lng": 3738.569868,
+      "name": "Nascar Views - A'AMoana Tunnel",
+      "requirements": [
+        "Nascar Cup Car",
+        "A'A Moana tunnel",
+        "Kaho'olawe"
+      ]
+    }
+  ],
+  "collectibles": [
+    {
+      "lat": 494.5,
+      "lng": 3838,
+      "challenge": "Nascar Collectible"
+    },
+    {
+      "lat": 474.625,
+      "lng": 3908.875,
+      "challenge": "Nascar Collectible"
+    },
+    {
+      "lat": 491.083507,
+      "lng": 3962.303909,
+      "challenge": "Nascar Collectible"
+    },
+    {
+      "lat": 495.077764,
+      "lng": 3950.110911,
+      "challenge": "Nascar Collectible"
+    },
+    {
+      "lat": 441.470618,
+      "lng": 3910.378555,
+      "challenge": "Nascar Collectible"
+    },
+    {
+      "lat": 543.00886,
+      "lng": 3909.11721,
+      "challenge": "Nascar Collectible"
+    }
+  ]
+}

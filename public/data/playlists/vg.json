@@ -1,0 +1,59 @@
+{
+  "id": "vg",
+  "name": "Vintage Garage",
+  "imgFolder": "VG",
+  "container": { "lat": 1891.44214, "lng": 3393.9375 },
+  "events": [
+    { "lat": 2089.439627, "lng": 3600.625, "name": "Back in Time", "number": "1/8", "type": "Navigation", "weather": "Morning", "car": "Cadillac Eldorado Brougham", "category": "Street Tier 1", "xp": "16,320", "bucks": "27,000" },
+    { "lat": 2618.6144, "lng": 2752.043743, "name": "Stock Around the Clock", "number": "2/8", "type": "Race", "weather": "Morning", "car": "Cadillac Eldorado Brougham", "category": "Street Tier 1", "xp": "8,160", "bucks": "13,500" },
+    { "lat": 2357.850939, "lng": 3022.917501, "name": "Kiss Me Kombi", "number": "3/8", "type": "Race", "weather": "Afternoon", "car": "Volkswagen Kombi 21 Window Bus", "category": "Street Tier 1", "xp": "11,700", "bucks": "20,250" },
+    { "lat": 3275.749051, "lng": 2297.0625, "name": "Mustang Sally", "number": "4/8", "type": "Navigation", "weather": "Midday", "car": "Ford Mustang Boss 429", "category": "Street Tier 1", "xp": "13,000", "bucks": "22,500" },
+    { "lat": 2267.298192, "lng": 2351.0, "name": "Get Dirt on It", "number": "5/8", "type": "Time Attack", "weather": "Sunrise", "car": "Nissan Fairlady Z 432 (PS30)", "category": "Rally", "xp": "10,160", "bucks": "18,000" },
+    { "lat": 1591.46467, "lng": 1544.409598, "name": "Stayin' Ahead", "number": "6/8", "type": "Race", "weather": "Sunset", "car": "Ferrari 365 GTB4 Competizione", "category": "Racing", "xp": "10,160", "bucks": "18,000" },
+    { "lat": 2840.48506, "lng": 1730.3125, "name": "Drive This Way", "number": "7/8", "type": "Navigation", "weather": "Night", "car": "Pontiac Firebird T/A", "category": "Street Tier 1", "xp": "12,000", "bucks": "22,500" },
+    { "lat": 2031.429169, "lng": 2314.75, "name": "Vintage Showdown", "number": "8/8", "type": "Race", "weather": "Afternoon", "car": "Ferrari F40", "category": "Street Tier 2", "xp": "8,400", "bucks": "15,750" }
+  ],
+  "feats": [
+    { "lat": 2271.804224, "lng": 2230.038011, "type": "slalom", "location": "Schofield Barracks", "featType": "Slalom", "objective": "6,430 PTS", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 2617.1974, "lng": 3010.949063, "type": "slalom", "location": "Kualoa Beach", "featType": "Slalom", "objective": "5,760 PTS", "xp": "2,880", "bucks": "5,400" },
+    { "lat": 3104.998734, "lng": 2618.125, "type": "speedtrap", "location": "Kahuku Black Beach", "featType": "Speedtrap", "objective": "210.0 km/h", "xp": "960", "bucks": "1,800" },
+    { "lat": 1496.137972, "lng": 1685.625, "type": "slalom", "location": "Kahuku Black Beach", "featType": "Slalom", "objective": "4,420 PTS", "xp": "2,880", "bucks": "5,400" }
+  ],
+  "photoOps": [
+    { "lat": 2640.621455, "lng": 2702.385341, "name": "Retro Views - Hau'ula Forest", "requirements": ["Classic Car", "Drifting", "Kualoa Racetrack", "near Hau'ula Forest"] },
+    { "lat": 2931.23455, "lng": 2568.4375, "name": "Retro Views - Gas Station", "requirements": ["Classic Car", "Gas Station", "Laie"] },
+    { "lat": 3285.355894, "lng": 2288.8125, "name": "Retro Views - Resort", "requirements": ["Classic Car", "Turtle Bay Resort"] },
+    { "lat": 2429.80046, "lng": 2232.75, "name": "Retro Views - Theater", "requirements": ["Classic Car", "Night", "Theater", "Wahiawa"] },
+    { "lat": 2722.599042, "lng": 989.271669, "name": "Retro Views - Kaena Point", "requirements": ["Volkswagen Kombi 21 Window Bus", "Sunset", "Kaena Point"] },
+    { "lat": 2845.167954, "lng": 1741.125, "name": "Retro Views - Motel", "requirements": ["Classic Car", "Motel Sign", "Night", "between the Mokuleia Park Airport and Haleiwa"] }
+  ],
+  "collectibles": [
+    { "lat": 2933.057121, "lng": 2569.5, "challenge": "Retro Texas" },
+    { "lat": 2889.56475, "lng": 2012.5625, "challenge": "Retro Texas" },
+    { "lat": 2852.196165, "lng": 2023.6875, "challenge": "Retro Texas" },
+    { "lat": 2843.380062, "lng": 1880.5625, "challenge": "Retro Texas" },
+    { "lat": 2447.326192, "lng": 2227.875, "challenge": "Retro Texas" },
+    { "lat": 2412.69541, "lng": 2327.375, "challenge": "Retro Texas" },
+    { "lat": 2352.074171, "lng": 2292.125, "challenge": "Retro Texas" },
+    { "lat": 2372.187869, "lng": 2206.75, "challenge": "Retro Texas" },
+    { "lat": 2369.069162, "lng": 2117.25, "challenge": "Retro Texas" },
+    { "lat": 2380.563027, "lng": 1355.4375, "challenge": "Retro Texas" },
+    { "lat": 2046.31584, "lng": 2040.4375, "challenge": "Retro Texas" },
+    { "lat": 2026.067052, "lng": 2310.75, "challenge": "Retro Texas" },
+    { "lat": 1933.379218, "lng": 2320.625, "challenge": "Retro Texas" },
+    { "lat": 2034.566051, "lng": 3087.375, "challenge": "Retro Texas" },
+    { "lat": 1968.697343, "lng": 3109.1875, "challenge": "Retro Texas" },
+    { "lat": 1920.072783, "lng": 3318.9375, "challenge": "Retro Texas" },
+    { "lat": 1367.198714, "lng": 3016.8125, "challenge": "Retro Texas" },
+    { "lat": 1403.065681, "lng": 3048.125, "challenge": "Retro Texas" },
+    { "lat": 1326.083012, "lng": 2790.625, "challenge": "Retro Texas" },
+    { "lat": 1478.376723, "lng": 2810.75, "challenge": "Retro Texas" },
+    { "lat": 1508.44084, "lng": 2670.5625, "challenge": "Retro Texas" },
+    { "lat": 1448.441859, "lng": 2532.5625, "challenge": "Retro Texas" },
+    { "lat": 1379.755168, "lng": 2469.5625, "challenge": "Retro Texas" },
+    { "lat": 1471.505994, "lng": 2407.0, "challenge": "Retro Texas" },
+    { "lat": 1600.813941, "lng": 2384.3125, "challenge": "Retro Texas" },
+    { "lat": 1397.563221, "lng": 2053.4375, "challenge": "Retro Texas" },
+    { "lat": 1345.607543, "lng": 1787.60127, "challenge": "Retro Texas" }
+  ]
+}

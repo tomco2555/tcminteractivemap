@@ -1,0 +1,259 @@
+{
+  "id": "tcs",
+  "name": "The Chase Squad",
+  "imgFolder": "ChaseSquad",
+  "container": {
+    "lat": 1400.43992,
+    "lng": 5347.495033
+  },
+  "events": [
+    {
+      "lat": 1385.940402,
+      "lng": 5378.519343,
+      "name": "Day One",
+      "number": "1/9",
+      "type": "Target Smash",
+      "weather": "Afternoon",
+      "car": "Audi RS 6 Avant Chase Squad Ed.",
+      "category": "Street Tier 2",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1346.165273,
+      "lng": 5375.867692,
+      "name": "Training Beasts",
+      "number": "2/9",
+      "type": "Target Smash",
+      "weather": "Afternoon",
+      "car": "Audi RS 6 Avant Chase Squad Ed.",
+      "category": "Street Tier 2",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1490.234129,
+      "lng": 4609.010388,
+      "name": "Dog Eat Dog",
+      "number": "3/9",
+      "type": "Pursuit",
+      "weather": "Dawn",
+      "car": "Ford Mustang Dark Horse Chase Squad Ed.",
+      "category": "Street Tier 2",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1493.240948,
+      "lng": 5344.047887,
+      "name": "First Night Out",
+      "number": "4/9",
+      "type": "Navigation",
+      "weather": "Dawn",
+      "car": "Ivory Tower Ogmios Chase Squad Ed.",
+      "category": "Street Tier 2",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1508.614803,
+      "lng": 5430.049749,
+      "name": "Encounter",
+      "number": "5/9",
+      "type": "Time Attack",
+      "weather": "Night",
+      "car": "Ivory Tower Ogmios Chase Squad Ed.",
+      "category": "Street Tier 2",
+      "xp": "10,800",
+      "bucks": "20,250"
+    },
+    {
+      "lat": 206.63594,
+      "lng": 5517.475061,
+      "name": "Chase Squad Assemble",
+      "number": "6/9",
+      "type": "Pursuit",
+      "weather": "Dawn",
+      "car": "Ivory Tower Aezus Chase Squad Ed.",
+      "category": "Hypercar",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 734.939713,
+      "lng": 5740.904939,
+      "name": "Night Off?",
+      "number": "7/9",
+      "type": "Time Attack / Pursuit",
+      "weather": "Dawn",
+      "car": "Multi Vehicle",
+      "category": "Rally Raid",
+      "xp": "18,000",
+      "bucks": "33,750"
+    },
+    {
+      "lat": 832.158753,
+      "lng": 5982.24221,
+      "name": "Dogged Mindset",
+      "number": "8/9",
+      "type": "Pursuit",
+      "weather": "Night",
+      "car": "Porsche 911 GT3 RS Chase Squad Ed.",
+      "category": "Hypercar",
+      "xp": "9,600",
+      "bucks": "18,000"
+    },
+    {
+      "lat": 1664.340936,
+      "lng": 5077.5,
+      "name": "Dogs V Cats",
+      "number": "9/9",
+      "type": "Time Attack / Pursuit",
+      "weather": "Dawn",
+      "car": "Multi Vehicle",
+      "category": "Helicopter",
+      "xp": "28,800",
+      "bucks": "54,000"
+    }
+  ],
+  "feats": [
+    {
+      "lat": 1326.022428,
+      "lng": 5065.75,
+      "type": "slalom",
+      "location": "Kealaloloa",
+      "featType": "Slalom",
+      "objective": "5,440 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 414.756358,
+      "lng": 5368.354683,
+      "type": "slalom",
+      "location": "Kahikinui",
+      "featType": "Slalom",
+      "objective": "5,060 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 768.657436,
+      "lng": 4463.96511,
+      "type": "slalom",
+      "location": "Hanawi",
+      "featType": "Slalom",
+      "objective": "5,110 PTS",
+      "xp": "2,880",
+      "bucks": "5,400"
+    },
+    {
+      "lat": 1334.692785,
+      "lng": 4995.355856,
+      "type": "speedtrap",
+      "location": "Olowalu",
+      "featType": "Speedtrap",
+      "objective": "200.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 1747.451653,
+      "lng": 5367.647576,
+      "type": "speedtrap",
+      "location": "Waiehu",
+      "featType": "Speedtrap",
+      "objective": "200.0 km/h",
+      "xp": "960",
+      "bucks": "1,800"
+    },
+    {
+      "lat": 951.785067,
+      "lng": 5102.65931,
+      "type": "escape",
+      "location": "Auwahi",
+      "featType": "Escape",
+      "objective": "960 m",
+      "xp": "2,880",
+      "bucks": "5,400"
+    }
+  ],
+  "photoOps": [
+    {
+      "lat": 1645.618085,
+      "lng": 5282.441209,
+      "name": "Code 10 Views - Maui County Mayor",
+      "requirements": [
+        "Street Tier 2 chase vehicle",
+        "Maui County Mayor building"
+      ]
+    },
+    {
+      "lat": 537.256714,
+      "lng": 6081.875,
+      "name": "Code 10 Views - Hana Police Station",
+      "requirements": [
+        "Street Tier 2 chase vehicle",
+        "Hana Police Station"
+      ]
+    },
+    {
+      "lat": 1686.781799,
+      "lng": 5354.212547,
+      "name": "Code 10 Views - Maui Paniolos Mural",
+      "requirements": [
+        "Hypercar chase vehicle",
+        "Maui Paniolos Mural in Kahului"
+      ]
+    },
+    {
+      "lat": 1366.859382,
+      "lng": 5353.682217,
+      "name": "Code 10 Views - Chase Squad HQ",
+      "requirements": [
+        "Hypercar chase vehicle",
+        "Chase Squad HQ"
+      ]
+    },
+    {
+      "lat": 1651.964993,
+      "lng": 5368.177906,
+      "name": "Code 10 Views - Queen Ka'ahumanu Center",
+      "requirements": [
+        "Street Tier 2 chase vehicle",
+        "Queen Ka'ahumanu Center"
+      ]
+    },
+    {
+      "lat": 1213.432324,
+      "lng": 5255.924705,
+      "name": "Code 10 Views - Chase Speed",
+      "requirements": [
+        "Hypercar chase vehicle",
+        "High Speed"
+      ]
+    }
+  ],
+  "collectibles": [
+    {
+      "lat": 1772.544324,
+      "lng": 5377.193518,
+      "challenge": "Code 10 - Gordon"
+    },
+    {
+      "lat": 1691.085142,
+      "lng": 5376.309634,
+      "challenge": "Code 10 - Gordon"
+    },
+    {
+      "lat": 1538.012433,
+      "lng": 5323.983732,
+      "challenge": "Code 10 - Gordon"
+    },
+    {
+      "lat": 1592.273781,
+      "lng": 5212.437638,
+      "challenge": "Code 10 - Gordon"
+    }
+  ]
+}
